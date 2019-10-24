@@ -92,8 +92,8 @@ const card = (data) => html`<div class="card box">
     <div class="content"> <h2>${data.name}</h2>
       ${data.distance_mi && html`<p class="distance-away">${data.distance_mi.toFixed(1)} miles away</p>`}
       <p>${data.description || null}</p>
-      <p><a href="${data.url}">Website</a></p>
-      <address>${data.address} - <a href="https://www.google.com/maps/?q=${data.latitude},${data.longitude}">map</a></address>
+      <p><a href="${data.url}">Website</a>${data.wikipedia_url && html` | <a href="${data.wikipedia_url}">Wikipedia</a>`}</p>
+      <address>${data.address} - <a href="https://www.google.com/maps/?q=${data.latitude},${data.longitude}">Map</a></address>
     </div>
   </div>
 </div>`;

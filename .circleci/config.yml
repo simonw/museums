@@ -14,6 +14,7 @@ jobs:
               --alias=www.niche-museums.com \
               --name=niche-museums \
               --install=datasette-haversine \
+              --install=datasette-pretty-json \
               --metadata=metadata.json \
               --template-dir=templates
 

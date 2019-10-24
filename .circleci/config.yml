@@ -15,6 +15,7 @@ jobs:
               --name=niche-museums \
               --install=datasette-haversine \
               --install=datasette-pretty-json \
+              --install=datasette-cluster-map \
               --metadata=metadata.json \
               --template-dir=templates
 

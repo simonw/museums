@@ -1,0 +1,115 @@
+-
+  id: 1
+  name: Musée Mécanique
+  url: http://museemecaniquesf.com/
+  address: Pier 45, Fishermans Wharf, San Francisco, CA 94133
+  wikipedia_url: https://en.wikipedia.org/wiki/Mus%C3%A9e_M%C3%A9canique
+  latitude: 37.8094
+  longitude: -122.4162
+-
+  id: 2
+  name: Bigfoot Discovery Museum
+  address: 5497 Highway 9, Felton, CA 95018
+  latitude: 37.0414
+  longitude: -122.0725
+-
+  id: 3
+  name: Burlingame Museum of PEZ Memorabilia
+  address: 214 California Drive, Burlingame, CA 94010
+  latitude: 37.5793
+  longitude: -122.3442
+  permanently_closed: true
+-
+  id: 4
+  name: Hyde Street Pier
+  url: https://www.nps.gov/safr/learn/historyculture/historic-vessels.htm
+  address: 2905 Hyde Street, San Francisco, CA 94109
+  latitude: 37.8077
+  longitude: -122.4209
+-
+  id: 5
+  name: Museum of Russian Culture
+  url: http://mrcsf.org/
+  address: 2450 Sutter Street, San Francisco, California 94115
+  latitude: 37.7852
+  longitude: -122.4409
+-
+  id: 6
+  name: Hiller Aviation Museum
+  url: https://www.hiller.org/
+  address: 601 Skyway Road, San Carlos, CA 94070
+  latitude: 37.5126
+  longitude: -122.253
+-
+  id: 7
+  name: Santa Cruz Surfing Museum
+  url: http://www.santacruzsurfingmuseum.org/
+  address: 701 West Cliff Drive, Santa Cruz, CA 95060
+  wikipedia_url: https://en.wikipedia.org/wiki/Santa_Cruz_Surfing_Museum
+  latitude: 36.9514
+  longitude: -122.0266
+-
+  id: 8
+  name: Jehning Lock Museum
+  url: http://www.jehninglockmuseum.com/
+  description: Locks, keys, locksmithing tools, safes and more.
+  address: 175 Castro Street, Mountain View, CA 94041
+  latitude: 37.394
+  longitude: -122.0786
+  hours:
+    Wednesday: [1200, 1700]
+    Thursday: [1800, 2000]
+    Sunday: [1000, 1500]
+-
+  id: 9
+  name: The Bay Model
+  url: https://www.spn.usace.army.mil/Missions/Recreation/Bay-Model-Visitor-Center/
+  description: A working hydraulic model of the San Francisco Bay and Sacramento - San Joaquin River Delta System built by the U.S. Army Corps of Engineers
+  address: 2100 Bridgeway, Sausalito, CA 94965
+  latitude: 37.8635
+  longitude: -122.4948
+  hours:
+    Tuesday: [900, 1600]
+    Wednesday: [900, 1600]
+    Thursday: [900, 1600]
+    Friday: [900, 1600]
+    Saturday: [900, 1600]
+-
+  id: 10
+  name: Rosicrucian Egyptian Museum
+  url: https://egyptianmuseum.org/
+  address: 1660 Park Avenue, San Jose, CA 95126
+  latitude: 37.3334
+  longitude: -121.9231
+  hours:
+    Wednesday: [900, 1700]
+    Thursday: [900, 1700]
+    Friday: [900, 1700]
+    Saturday: [1000, 1800]
+    Sunday: [1000, 1800]
+-
+  id: 11
+  name: Nike Missile Site SF-88
+  url: https://www.nps.gov/goga/nike-missile-site.htm
+  address: Field Road, Sausalito, CA 94965
+  wikipedia_url: https://en.wikipedia.org/wiki/Nike_Missile_Site_SF-88
+  description: The only fully restored Cold War era Nike missile site in the country. Surface-to-air nuclear missiles!
+  latitude: 37.8271
+  longitude: -122.5275
+  hours:
+    Saturday: [1230, 1530]
+-
+  id: 12
+  name: The American Bookbinders Museum
+  url: https://bookbindersmuseum.org/
+  address: 355 Clementina Street, San Francisco, CA 94103
+  wikipedia_url: https://en.wikipedia.org/wiki/American_Bookbinders_Museum
+  description: The New York Times described it as, "a small, obsessive collection of machinery and ephemera."
+  latitude: 37.7813
+  longitude: -122.4030
+  hours:
+    Tuesday: [1000, 1600]
+    Wednesday: [1000, 1600]
+    Thursday: [1000, 1600]
+    Friday: [1000, 1600]
+    Saturday: [1000, 1600]

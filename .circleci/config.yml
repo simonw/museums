@@ -1,0 +1,22 @@
+version: 2
+jobs:
+  build_and_deploy:
+    docker:
+      - image: circleci/python:3.6.6-node
+    steps:
+      - checkout
+      - run:
+          command: |
+            sudo npm install -g now
+            sudo pip install datasette yaml-to-sqlite
+            yaml-to-sqlite museums.db museums.yaml --pk=id
+            datasette publish now --token=$NOW_TOKEN \
+              --alias=www.niche-museums.com \
+              --name=niche-museums \
+              --install=datasette-haversine
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build_and_deploy

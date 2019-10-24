@@ -50,8 +50,10 @@ const card = (data) => html`<div class="card box">
 const cards = (museums) => html`${museums.map(card)}`;
 async function loadMuseums(latitude, longitude) {
     let section = document.getElementById("cards");
-    let url = "/museums/museums.json?_shape=array";
+    // Default: most recently added museums
+    let url = "/museums/museums.json?_shape=array&_sort_desc=id";
     if (latitude && longitude) {
+        // Closest museums
         url = `/museums/nearby.json?_shape=array&latitude=${latitude}&longitude=${longitude}`;
     }
     var museums = await (await fetch(url)).json();

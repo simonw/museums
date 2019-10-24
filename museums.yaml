@@ -10,12 +10,14 @@
   id: 2
   name: Bigfoot Discovery Museum
   address: 5497 Highway 9, Felton, CA 95018
+  wikipedia_url: https://en.wikipedia.org/wiki/Bigfoot_Discovery_Museum
   latitude: 37.0414
   longitude: -122.0725
 -
   id: 3
   name: Burlingame Museum of PEZ Memorabilia
   address: 214 California Drive, Burlingame, CA 94010
+  wikipedia_url: https://en.wikipedia.org/wiki/Burlingame_Museum_of_Pez_Memorabilia
   latitude: 37.5793
   longitude: -122.3442
   permanently_closed: true
@@ -24,6 +26,7 @@
   name: Hyde Street Pier
   url: https://www.nps.gov/safr/learn/historyculture/historic-vessels.htm
   address: 2905 Hyde Street, San Francisco, CA 94109
+  wikipedia_url: https://en.wikipedia.org/wiki/Hyde_Street_Pier
   latitude: 37.8077
   longitude: -122.4209
 -
@@ -37,6 +40,7 @@
   id: 6
   name: Hiller Aviation Museum
   url: https://www.hiller.org/
+  wikipedia_url: https://en.wikipedia.org/wiki/Hiller_Aviation_Museum
   address: 601 Skyway Road, San Carlos, CA 94070
   latitude: 37.5126
   longitude: -122.253
@@ -66,6 +70,7 @@
   url: https://www.spn.usace.army.mil/Missions/Recreation/Bay-Model-Visitor-Center/
   description: A working hydraulic model of the San Francisco Bay and Sacramento - San Joaquin River Delta System built by the U.S. Army Corps of Engineers
   address: 2100 Bridgeway, Sausalito, CA 94965
+  wikipedia_url: https://en.wikipedia.org/wiki/U.S._Army_Corps_of_Engineers_Bay_Model
   latitude: 37.8635
   longitude: -122.4948
   hours:
@@ -79,6 +84,7 @@
   name: Rosicrucian Egyptian Museum
   url: https://egyptianmuseum.org/
   address: 1660 Park Avenue, San Jose, CA 95126
+  wikipedia_url: https://en.wikipedia.org/wiki/Rosicrucian_Egyptian_Museum
   latitude: 37.3334
   longitude: -121.9231
   hours:

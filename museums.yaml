@@ -81,7 +81,11 @@
   id: 9
   name: The Bay Model
   url: https://www.spn.usace.army.mil/Missions/Recreation/Bay-Model-Visitor-Center/
-  description: A working hydraulic model of the San Francisco Bay and Sacramento - San Joaquin River Delta System built by the U.S. Army Corps of Engineers
+  description: |-
+    A working hydraulic model of the San Francisco Bay and Sacramento to San Joaquin
+    River Delta System, approximately the size of two football fields. Built by the
+    U.S. Army Corps of Engineers in the 1950s to study the impact of proposed changes
+    to the delta.
   address: 2100 Bridgeway, Sausalito, CA 94965
   wikipedia_url: https://en.wikipedia.org/wiki/U.S._Army_Corps_of_Engineers_Bay_Model
   latitude: 37.8635
@@ -98,6 +102,11 @@
   url: https://egyptianmuseum.org/
   address: 1660 Park Avenue, San Jose, CA 95126
   wikipedia_url: https://en.wikipedia.org/wiki/Rosicrucian_Egyptian_Museum
+  description: |-
+    The Rosicrucians are "a community of mystics who study and practice the metaphysical
+    laws governing the universe." Their Egyptian museum hosts the largest collection of
+    ancient Egyptian antiquities in the Western United States, mostly collected from
+    Egypt in the 1920s.
   latitude: 37.3334
   longitude: -121.9231
   hours:
@@ -112,7 +121,10 @@
   url: https://www.nps.gov/goga/nike-missile-site.htm
   address: Field Road, Sausalito, CA 94965
   wikipedia_url: https://en.wikipedia.org/wiki/Nike_Missile_Site_SF-88
-  description: The only fully restored Cold War era Nike missile site in the country. Surface-to-air nuclear missiles!
+  description: |-
+    The only fully restored Cold War era Nike missile site in the country,
+    hosting surface-to-air nuclear missiles for shooting down incoming Russian
+    bomber planes!
   latitude: 37.8271
   longitude: -122.5275
   hours:
@@ -123,7 +135,9 @@
   url: https://bookbindersmuseum.org/
   address: 355 Clementina Street, San Francisco, CA 94103
   wikipedia_url: https://en.wikipedia.org/wiki/American_Bookbinders_Museum
-  description: The New York Times described it as, "a small, obsessive collection of machinery and ephemera."
+  description: |-
+    Showcasing the artistry, history, and craft of bookbinding. The New York Times
+    described it as "a small, obsessive collection of machinery and ephemera."
   latitude: 37.7813
   longitude: -122.4030
   hours:

@@ -9,7 +9,7 @@ jobs:
           command: |
             sudo npm install -g now
             sudo pip install datasette yaml-to-sqlite
-            yaml-to-sqlite museums.db museums.yaml --pk=id
+            yaml-to-sqlite museums.db museums museums.yaml --pk=id
             datasette publish now --token=$NOW_TOKEN \
               --alias=www.niche-museums.com \
               --name=niche-museums \

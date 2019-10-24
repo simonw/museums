@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "alias": [
+        "niche-museums.com"
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "status": 301,
+            "headers": {
+                "Location": "https://www.niche-museums.com/$1"
+            }
+        }
+    ]
+}

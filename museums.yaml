@@ -18,6 +18,7 @@
       url: https://roadtrippers.com/magazine/bigfoot-discovery-museum-santa-cruz/
       title: Searching for Bigfoot: If the elusive creature exists, he’s probably hiding deep in the Santa Cruz Mountains
       publication: Explore Magazine
+      author: Shoshi Parks
       date: 20-06-2019
 -
   id: 3
@@ -27,6 +28,13 @@
   latitude: 37.5793
   longitude: -122.3442
   permanently_closed: true
+  press:
+    -
+      url: https://www.sfchronicle.com/bayarea/article/Bay-Area-museum-has-every-Pez-dispenser-model-12181246.php
+      title: A paradise of Pez: It’s all in the dispenser at unique museum
+      publication: San Francisco Chronicle
+      author: Steve Rubenstein
+      date: 07-09-2017
 -
   id: 4
   name: Hyde Street Pier

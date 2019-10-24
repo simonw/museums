@@ -13,7 +13,8 @@ jobs:
             datasette publish now museums.db --token=$NOW_TOKEN \
               --alias=www.niche-museums.com \
               --name=niche-museums \
-              --install=datasette-haversine
+              --install=datasette-haversine \
+              --metadata=metadata.json
 
 workflows:
   version: 2

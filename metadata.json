@@ -1,0 +1,10 @@
+{
+    "title": "niche-museums.com",
+    "databases": {
+        "museums": {
+            "queries": {
+                "nearby": "select *, haversine(latitude, longitude, cast(:latitude as real), cast(:longitude as real), 'mi') as distance_mi\nfrom museums order by distance_mi"
+            }
+        }
+    }
+}

@@ -15,8 +15,7 @@
   latitude: 37.0414
   longitude: -122.0725
   press:
-  -
-    url: https://roadtrippers.com/magazine/bigfoot-discovery-museum-santa-cruz/
+  - url: https://roadtrippers.com/magazine/bigfoot-discovery-museum-santa-cruz/
     title: Searching for Bigfoot: If the elusive creature exists, he’s probably hiding deep in the Santa Cruz Mountains
     publication: Explore Magazine
     author: Shoshi Parks
@@ -30,8 +29,7 @@
   longitude: -122.3442
   permanently_closed: true
   press:
-  -
-    url: https://www.sfchronicle.com/bayarea/article/Bay-Area-museum-has-every-Pez-dispenser-model-12181246.php
+  - url: https://www.sfchronicle.com/bayarea/article/Bay-Area-museum-has-every-Pez-dispenser-model-12181246.php
     title: A paradise of Pez: It’s all in the dispenser at unique museum
     publication: San Francisco Chronicle
     author: Steve Rubenstein

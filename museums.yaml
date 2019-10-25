@@ -210,4 +210,17 @@
     Friday: [1000, 1700]
     Saturday: [1000, 1700]
     Sunday: [1000, 1700]
+-
+  id: 14
+  name: The Gregangelo Museum
+  url: https://www.gregangelomuseum.com/
+  address: 225 San Leandro Way, San Francisco, CA 94127
+  wikipedia_url: https://en.wikipedia.org/wiki/Gregangelo_Museum
+  description: |-
+    Incredibly varied installation art located in a 1920s Mediterranean-style house. Visits by appointment only.
+  photo_url: https://niche-museums.imgix.net/IMG_3817.jpeg
+  photo_alt: A weird alien bed
+  latitude: 37.7326
+  longitude: -122.4686
 
+  

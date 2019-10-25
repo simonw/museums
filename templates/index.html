@@ -4,66 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Niche Museums</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <style>
-    /*! CSS Used from: https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css */
-.button{-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
-.box:not(:last-child),.subtitle:not(:last-child),.title:not(:last-child){margin-bottom:1.5rem;}
-.button{-moz-appearance:none;-webkit-appearance:none;align-items:center;border:1px solid transparent;border-radius:4px;box-shadow:none;display:inline-flex;font-size:1rem;height:2.5em;justify-content:flex-start;line-height:1.5;padding-bottom:calc(.5em - 1px);padding-left:calc(.75em - 1px);padding-right:calc(.75em - 1px);padding-top:calc(.5em - 1px);position:relative;vertical-align:top;}
-.button:active,.button:focus{outline:0;}
-body,h1,h2,p{margin:0;padding:0;}
-h1,h2{font-size:100%;font-weight:400;}
-button{margin:0;}
-*,::after,::before{box-sizing:inherit;}
-section{display:block;}
-body,button{font-family:BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;}
-body{color:#4a4a4a;font-size:1em;font-weight:400;line-height:1.5;}
-a{color:#3273dc;cursor:pointer;text-decoration:none;}
-a:hover{color:#363636;}
-.box{background-color:#fff;border-radius:6px;box-shadow:0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);color:#4a4a4a;display:block;padding:1.25rem;}
-.button{background-color:#fff;border-color:#dbdbdb;border-width:1px;color:#363636;cursor:pointer;justify-content:center;padding-bottom:calc(.5em - 1px);padding-left:1em;padding-right:1em;padding-top:calc(.5em - 1px);text-align:center;white-space:nowrap;}
-.button:hover{border-color:#b5b5b5;color:#363636;}
-.button:focus{border-color:#3273dc;color:#363636;}
-.button:active{border-color:#4a4a4a;color:#363636;}
-.button.is-link{background-color:#3273dc;border-color:transparent;color:#fff;}
-.button.is-link:hover{background-color:#276cda;border-color:transparent;color:#fff;}
-.button.is-link:focus{border-color:transparent;color:#fff;}
-.button.is-link:active{background-color:#2366d1;border-color:transparent;color:#fff;}
-.buttons{align-items:center;display:flex;flex-wrap:wrap;justify-content:flex-start;}
-.buttons .button{margin-bottom:.5rem;}
-.buttons:last-child{margin-bottom:-.5rem;}
-.container{flex-grow:1;margin:0 auto;position:relative;width:auto;}
-@media screen and (min-width:1024px){
-.container{max-width:960px;}
-}
-@media screen and (min-width:1216px){
-.container{max-width:1152px;}
-}
-@media screen and (min-width:1408px){
-.container{max-width:1344px;}
-}
-.content p:not(:last-child){margin-bottom:1em;}
-.content h2{color:#363636;font-weight:600;line-height:1.125;}
-.content h2{font-size:1.75em;margin-bottom:.5714em;}
-.subtitle,.title{word-break:break-word;}
-.title{color:#363636;font-size:2rem;font-weight:600;line-height:1.125;}
-.title:not(.is-spaced)+.subtitle{margin-top:-1.25rem;}
-.subtitle{color:#4a4a4a;font-size:1.25rem;font-weight:400;line-height:1.25;}
-.card{background-color:#fff;box-shadow:0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);color:#4a4a4a;max-width:100%;position:relative;}
-.card-content{background-color:transparent;padding:1.5rem;}
-.hero{align-items:stretch;display:flex;flex-direction:column;justify-content:space-between;}
-.hero.is-dark{background-color:#363636;color:#fff;}
-.hero.is-dark .title{color:#fff;}
-.hero.is-dark .subtitle{color:rgba(255,255,255,.9);}
-.hero.is-dark.is-bold{background-image:linear-gradient(141deg,#1f191a 0,#363636 71%,#46403f 100%);}
-.hero-body{flex-grow:1;flex-shrink:0;padding:3rem 1.5rem;}
-.section{padding:3rem 1.5rem;}
-body{max-width:600px;}
+    body{max-width:600px;}
     .distance-away {
         font-size: 0.8em;
         font-weight: bold;
     }
     span.permanently-closed {
         display: inline-block;
+        background-color: #fff;
         border: 2px solid red;
         padding: 3px 8px;
         border-radius: 6px;
@@ -80,26 +30,27 @@ body{max-width:600px;}
     <section class="hero is-dark is-bold">
     <div class="hero-body">
         <div class="container">
-        <h1 class="title">
-            Niche Museums
-        </h1>
-        <h2 class="subtitle">
-            Find tiny museums near you
-        </h2>
-        <div class="buttons" style="display: none" id="buttons">
-            <button class="button is-link">Use my location</button>
-        </div>
+          <h1 class="title">
+              Niche Museums
+          </h1>
+          <h2 class="subtitle">
+              Find tiny museums near you
+          </h2>
+          <div class="buttons" style="display: none" id="buttons">
+              <button class="button is-link">Use my location</button>
+          </div>
+      </div>
     </div>
     </section>
     <section class="section" id="cards"></section>
 <script type="module">
 import {html, render} from 'https://unpkg.com/lit-html@0.7.1/lit-html.js';
 const card = (data) => html`<div class="card box">
-  <!-- <div class="card-image">
+  ${data.photo_url && html`<div class="card-image">
     <figure class="image is-4by2">
-      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+      <img src="${data.photo_url}?w=800&h=400&fit=crop" alt="${data.photo_alt}">
     </figure>
-  </div> -->
+  </div>`}
   <div class="card-content">
     <div class="content">
       ${data.permanently_closed && html`<span class="permanently-closed">Permanently closed</span>`}

@@ -14,6 +14,8 @@
   id: 2
   name: Bigfoot Discovery Museum
   url: https://www.bigfootdiscoveryproject.com/
+  photo_url: https://niche-museums.imgix.net/IMG_4921.jpeg
+  photo_alt: Proprietor Michael behind his desk, covered in Bigfoot paraphernalia
   address: 5497 Highway 9, Felton, CA 95018
   wikipedia_url: https://en.wikipedia.org/wiki/Bigfoot_Discovery_Museum
   description: |-
@@ -36,6 +38,8 @@
   description: |-
     One of every Pez dispenser ever sold - over 1000 unique dispensers. Also home to a classic toy museum and a banned
     toy museum, including the Atomic Energy Laboratory and Lawn Darts.
+  photo_url: https://niche-museums.imgix.net/IMG_4248.jpeg
+  photo_alt: Six antique Pez dispensers on display
   latitude: 37.5793
   longitude: -122.3442
   permanently_closed: true
@@ -56,6 +60,8 @@
     (the Balclutha), a 1907 steam tugboat (the Hercules) and Eureka, a side-wheel paddle steamboat built in 1890
     which is now the largest existing wooden ship in the world. The museum is run by the National Park Service
     so if you have their annual pass you can get in for free.
+  photo_url: https://niche-museums.imgix.net/IMG_0353.jpeg
+  photo_alt: Looking down the pier at the Eureka
   latitude: 37.8077
   longitude: -122.4209
 -
@@ -114,6 +120,8 @@
     to the delta.
   address: 2100 Bridgeway, Sausalito, CA 94965
   wikipedia_url: https://en.wikipedia.org/wiki/U.S._Army_Corps_of_Engineers_Bay_Model
+  photo_url: https://niche-museums.imgix.net/IMG_1799.jpeg
+  photo_alt: A portion of the Bay Model
   latitude: 37.8635
   longitude: -122.4948
   hours:
@@ -133,6 +141,8 @@
     laws governing the universe." Their Egyptian museum hosts the largest collection of
     ancient Egyptian antiquities in the Western United States, mostly collected from
     Egypt in the 1920s.
+  photo_url: https://niche-museums.imgix.net/IMG_0859.jpeg
+  photo_alt: The architecture of the museum has an ancient Egyptian flavor
   latitude: 37.3334
   longitude: -121.9231
   hours:
@@ -151,6 +161,8 @@
     The only fully restored Cold War era Nike missile site in the country,
     hosting surface-to-air nuclear missiles for shooting down incoming Russian
     bomber planes!
+  photo_url: https://niche-museums.imgix.net/IMG_1254.jpeg
+  photo_alt: A nuclear missile inside the bunker
   latitude: 37.8271
   longitude: -122.5275
   hours:

@@ -3,6 +3,10 @@
   name: Musée Mécanique
   url: http://museemecaniquesf.com/
   address: Pier 45, Fishermans Wharf, San Francisco, CA 94133
+  description: |-
+    Unique collection of antique coin-operated arcade games, orchestrions and other artefacts, some of them over 100
+    years old. This type of machine breaks constantly so they are usually held in private collections, but Musée
+    Mécanique has its own maintenance workshop allowing it to continue running them interactively for the public.
   wikipedia_url: https://en.wikipedia.org/wiki/Mus%C3%A9e_M%C3%A9canique
   latitude: 37.8094
   longitude: -122.4162
@@ -12,6 +16,9 @@
   url: https://www.bigfootdiscoveryproject.com/
   address: 5497 Highway 9, Felton, CA 95018
   wikipedia_url: https://en.wikipedia.org/wiki/Bigfoot_Discovery_Museum
+  description: |-
+    Founder Michael Rugg has been collecting evidence of Bigfoot for decades, and will happily take you through all
+    of it and answer any of your Sasquatch questions.
   latitude: 37.0414
   longitude: -122.0725
   press:
@@ -26,6 +33,9 @@
   url: http://www.burlingamepezmuseum.com/
   address: 214 California Drive, Burlingame, CA 94010
   wikipedia_url: https://en.wikipedia.org/wiki/Burlingame_Museum_of_Pez_Memorabilia
+  description: |-
+    One of every Pez dispenser ever sold - over 1000 unique dispensers. Also home to a classic toy museum and a banned
+    toy museum, including the Atomic Energy Laboratory and Lawn Darts.
   latitude: 37.5793
   longitude: -122.3442
   permanently_closed: true
@@ -41,6 +51,11 @@
   url: https://www.nps.gov/safr/learn/historyculture/historic-vessels.htm
   address: 2905 Hyde Street, San Francisco, CA 94109
   wikipedia_url: https://en.wikipedia.org/wiki/Hyde_Street_Pier
+  description: |-
+    This historic ferry pier now hosts a collection of ships, including an 1886 square rigged sailing ship
+    (the Balclutha), a 1907 steam tugboat (the Hercules) and Eureka, a side-wheel paddle steamboat built in 1890
+    which is now the largest existing wooden ship in the world. The museum is run by the National Park Service
+    so if you have their annual pass you can get in for free.
   latitude: 37.8077
   longitude: -122.4209
 -

@@ -48,7 +48,7 @@ import {html, render} from 'https://unpkg.com/lit-html@0.7.1/lit-html.js';
 const card = (data) => html`<div class="card box">
   ${data.photo_url && html`<div class="card-image">
     <figure class="image is-4by2">
-      <img src="${data.photo_url}?w=800&h=400&fit=crop" alt="${data.photo_alt}">
+      <img src="${data.photo_url}?w=800&h=400&fit=crop&auto=compress" alt="${data.photo_alt}">
     </figure>
   </div>`}
   <div class="card-content">

@@ -188,3 +188,26 @@
     Thursday: [1000, 1600]
     Friday: [1000, 1600]
     Saturday: [1000, 1600]
+-
+  id: 13
+  name: California State Railroad Museum
+  url: https://www.californiarailroad.museum/
+  address: 111 I Street, Sacramento, CA 95814
+  wikipedia_url: https://en.wikipedia.org/wiki/California_State_Railroad_Museum
+  description: |-
+    So many trains, some dating all the way back to 1862! Everyone loves trains. They also have historic carriages,
+    including restored Pullman dining cars you can explore. One of the carriages is mounted on a motion simulator
+    providing a delightfully mild rocking sensation.
+  photo_url: https://niche-museums.imgix.net/IMG_4205.jpeg
+  photo_alt: A lovely old timey train
+  latitude: 38.5849
+  longitude: -121.5046
+  hours:
+    Monday: [1000, 1700] 
+    Tuesday: [1000, 1700]
+    Wednesday: [1000, 1700]
+    Thursday: [1000, 1700]
+    Friday: [1000, 1700]
+    Saturday: [1000, 1700]
+    Sunday: [1000, 1700]
+

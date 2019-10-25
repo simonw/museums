@@ -62,6 +62,18 @@ body{max-width:600px;}
         font-size: 0.8em;
         font-weight: bold;
     }
+    span.permanently-closed {
+        display: inline-block;
+        border: 2px solid red;
+        padding: 3px 8px;
+        border-radius: 6px;
+        font-family: courier;
+        font-weight: bold;
+        transform: rotate(3deg);
+        position: absolute;
+        top: 12px;
+        right: 12px;
+    }
     </style>
   </head>
   <body>
@@ -89,7 +101,9 @@ const card = (data) => html`<div class="card box">
     </figure>
   </div> -->
   <div class="card-content">
-    <div class="content"> <h2>${data.name}</h2>
+    <div class="content">
+      ${data.permanently_closed && html`<span class="permanently-closed">Permanently closed</span>`}
+      <h2>${data.name}</h2>
       ${data.distance_mi && html`<p class="distance-away">${data.distance_mi.toFixed(1)} miles away</p>`}
       <p>${data.description || null}</p>
       <p><a href="${data.url}">Website</a>${data.wikipedia_url && html` | <a href="${data.wikipedia_url}">Wikipedia</a>`}</p>

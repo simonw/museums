@@ -222,5 +222,17 @@
   photo_alt: A weird alien bed
   latitude: 37.7326
   longitude: -122.4686
-
-  
+-
+  id: 15
+  name: The Salt and Pepper Shaker Museum
+  url: http://thesaltandpeppershakermuseum.com/
+  address: 461 Brookside Village Way, Gatlinburg, TN 37738
+  wikipedia_url: https://en.m.wikipedia.org/wiki/Museum_of_Salt_and_Pepper_Shakers
+  description: |-
+    More than 20,000 sets of salt and pepper shakers from around the world. Everything you can imagine has been
+    captured in the form of a shaker. Highlights include NASA salt and pepper shakers and branded salt and
+    pepper shakers from different airline first class flights.
+  photo_url: https://niche-museums.imgix.net/salt-pepper.jpeg
+  photo_alt: Shelves full of salt and pepper shakers
+  latitude: 35.7162331
+  longitude: -83.5025032

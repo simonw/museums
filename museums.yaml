@@ -236,3 +236,17 @@
   photo_alt: Shelves full of salt and pepper shakers
   latitude: 35.7162331
   longitude: -83.5025032
+-
+  id: 16
+  name: International Art Museum of America
+  url: https://www.iamasf.org/
+  address: 1023 Market Street, San Francisco, CA 94103
+  wikipedia_url: https://en.m.wikipedia.org/wiki/International_Art_Museum_of_America
+  description: |-
+    Founded in 2011 by H. H. Dorje Chang Buddha III, who claims to be a reincarnation of Buddha and is
+    responsible for most of the art in the museum. Each piece is accompanied by a  plaque which explains
+    its artistic merit in effervescent terms.
+  photo_url: https://niche-museums.imgix.net/iama.jpeg
+  photo_alt: A plaque with an effervescent caption.
+  latitude: 37.7816
+  longitude: -122.4108

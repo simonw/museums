@@ -252,3 +252,18 @@
   photo_alt: A plaque with an effervescent caption.
   latitude: 37.7816
   longitude: -122.4108
+-
+  id: 17
+  name: Novelty Automation
+  url: http://www.novelty-automation.com/
+  address: 1a Princeton Street, London, WC1R 4AX
+  wikipedia_url: https://en.m.wikipedia.org/wiki/Novelty_Automation
+  description: |-
+    London's best kept secret: a gallery of hand made satirical coin operated arcade machines built by
+    Tim Hunkin. Enjoy a micro break holiday, launder money through the credit crisis, operate a
+    personal nuclear reactor and spy on celebrities with a drone. Delightful.
+  photo_url: https://niche-museums.imgix.net/novelty-automation.jpeg
+  photo_alt: The microbreak holiday simulator.
+  latitude: 51.5197
+  longitude: -0.1169
+

@@ -266,4 +266,21 @@
   photo_alt: The microbreak holiday simulator.
   latitude: 51.5197
   longitude: -0.1169
-
+-
+  id: 18
+  name: Pirates Museum
+  url: https://pirates-museum.business.site
+  address: 103, Rue de Liège, Tsaralalàna, PRIORI travels, 4th floor, Boîte Post BP-273, Antananarivo, 101, Madagascar
+  description: |-
+    Tiny museum dedicated to Madagascar's pirate history. The exhibits are in French but an English
+    translated handout is available, which makes copious use of the word "booty".
+  photo_url: https://niche-museums.imgix.net/madagascar-pirates.jpeg
+  photo_alt: Pirate paraphernalia.
+  latitude: -18.907
+  longitude: 47.5183
+  hours:
+    Monday: [800, 1700] 
+    Tuesday: [800, 1700]
+    Wednesday: [800, 1700]
+    Thursday: [800, 1700]
+    Friday: [800, 1700]

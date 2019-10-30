@@ -284,3 +284,14 @@
     Wednesday: [800, 1700]
     Thursday: [800, 1700]
     Friday: [800, 1700]
+-
+  id: 19
+  name: David Rumsey Map Center
+  url: https://library.stanford.edu/rumsey
+  address: Bing Wing, Green Library, 459 Lasuen Mall, Stanford, CA 94305
+  description: |-
+    Opened April 19th 2016 to provide access to historic cartographic information in both paper and digital forms. An incredible collection of beautiful old maps.
+  photo_url: https://niche-museums.imgix.net/david-rumsey-map-center.heic
+  photo_alt: A room full of maps.
+  latitude: 37.4269
+  longitude: -122.1679

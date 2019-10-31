@@ -295,3 +295,15 @@
   photo_alt: A room full of maps.
   latitude: 37.4269
   longitude: -122.1679
+-
+  id: 20
+  name: Galerie de Paléontologie et d’Anatomie comparée
+  url: https://www.jardindesplantesdeparis.fr/fr/programme/galeries-jardins-zoo-bibliotheques/galerie-paleontologie-danatomie-comparee-2770
+  address: 2 Rue Buffon, 75005 Paris, France
+  description: |-
+    So you want to see a vast number of animal bones? This collection was established in 1898 but includes exhibits that date back even earlier, including the skeleton of Louis XV's rhino which died at the hand of a revolutionary in 1793.
+  wikipedia_url: https://en.m.wikipedia.org/wiki/Gallery_of_Paleontology_and_Comparative_Anatomy
+  photo_url: https://niche-museums.imgix.net/galerie-de-anatomie.heic
+  photo_alt: It really does have a lot of skeletons.
+  latitude: 48.8433
+  longitude: 2.3634

@@ -307,3 +307,15 @@
   photo_alt: It really does have a lot of skeletons.
   latitude: 48.8433
   longitude: 2.3634
+-
+  id: 21
+  name: DEVIL-ish Little Things
+  url: https://www.facebook.com/DEVILishLittleThingsMuseum/
+  address: 3409 L Street, Vancouver, Washington
+  description: |-
+    Marion Held has been collecting devils for twenty years. Her collection is now available to see
+    in her home - a converted church - by appointment only.
+  photo_url: https://niche-museums.imgix.net/devilish.heic
+  photo_alt: A trio of devilish mugs.
+  latitude: 45.6461
+  longitude: -122.6596

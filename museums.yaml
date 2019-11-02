@@ -332,3 +332,14 @@
   photo_alt: An artist working on a piece for a float
   latitude: 29.9346
   longitude: -90.0618
+-
+  id; 23
+  name: Environmental Volunteers EcoCenter
+  url: https://www.evols.org/visit-the-ecocenter/
+  address: 2560 Embarcadero Road, Palo Alto, CA 94303
+  description: |-
+    This boat-shaped building was built in 1941 as a base for the Sea Scouts. It now houses the headquarters for the Environmental Volunteers and incorporates an event space and a tiny collection of taxidermy birds.
+  photo_url: https://niche-museums.imgix.net/ecocenter.heic
+  photo_alt: Some taxidermy birds.
+  latitude: 37.4564
+  longitude: -122.1084

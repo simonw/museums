@@ -319,3 +319,16 @@
   photo_alt: A trio of devilish mugs.
   latitude: 45.6461
   longitude: -122.6596
+-
+  id: 22
+  name: Mardi Gras World
+  url: https://www.mardigrasworld.com/
+  address: 1380 Port of New Orleans Place, New Orleans, LA 70130
+  description: |-
+    A 300,000 square foot working warehouse where you can see sculptors and artists making floats for parades in New Orleans and other cities, and
+    explore a vast collection of floats from previous years.
+  wikipedia_url: https://en.m.wikipedia.org/wiki/Mardi_Gras_World
+  photo_url: https://niche-museums.imgix.net/mardi-gras-world.heic
+  photo_alt: An artist working on a piece for a float
+  latitude: 29.9346
+  longitude: -90.0618

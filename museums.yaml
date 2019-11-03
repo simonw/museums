@@ -343,3 +343,14 @@
   photo_alt: Some taxidermy birds.
   latitude: 37.4564
   longitude: -122.1084
+-
+  id: 23
+  name: Evergreen Aviation & Space Museum
+  url: https://www.evergreenmuseum.org/
+  address: 500 Northeast Captain Michael King Smith Way, McMinnville, OR 97128
+  description: |-
+    They have the Spruce Goose! Howard Hughes' incredible wooden flying boat, which held the record for largest wingspan of any aircraft from its first (and only) flight in November 1947 until finally being beaten in April 2019. You can tour the plane and if you pay to have your photo taken they will let you sit in the cockpit. The museum also hosts an SR-71A Blackbird, Titan II and Titan IV ICBMs, a Mercury Space Capsule and dozens of other historic aircraft.
+  photo_url: https://niche-museums.imgix.net/spruce-goose.heic
+  photo_alt: The Spruce Goose.
+  latitude: 45.2041
+  longitude: -123.1453

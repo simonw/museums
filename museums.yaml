@@ -355,3 +355,14 @@
   photo_alt: The Spruce Goose.
   latitude: 45.2041
   longitude: -123.1453
+-
+  id: 25
+  name: Autoservicio Condorito
+  url: https://www.airbnb.ie/things-to-do/places/2924076
+  address: Avenue Arístides Villanueva 644, M5500 Mendoza, Argentina
+  description: |-
+    This convenience store hosts a stunning taxidermy collection, nested among and occasionally overwhelming the other items that it sells.
+  photo_url: https://niche-museums.imgix.net/autoservicio.heic
+  photo_alt: Much taxidermy.
+  latitude: -32.8916
+  longitude: -68.8595

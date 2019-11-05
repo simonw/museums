@@ -366,3 +366,14 @@
   photo_alt: Much taxidermy.
   latitude: -32.8916
   longitude: -68.8595
+-
+  id: 26
+  name: Dingles Fairground Heritage Centre
+  url: https://www.fairground-heritage.org.uk/
+  address: The Fairground Heritage Centre, Milford, Lifton, Devon, PL16 0AT, UK
+  description: |-
+    Home of the National Fairground Collection, Dingles has over 45,000 indoor square feet of  vintage fairground rides... and you can go on them! Highlights include the last complete surviving and operational Moonrocket from 1939, Brett's Ghost Train from 1947 and Edwards’ Dodgems, a 96 foot track with cars dating back to 1932.
+  photo_url: https://niche-museums.imgix.net/dodgems.heic
+  photo_alt: Dodgems at Dingles
+  latitude: 50.6558
+  longitude: -4.251

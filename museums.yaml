@@ -377,3 +377,14 @@
   photo_alt: Dodgems at Dingles
   latitude: 50.6558
   longitude: -4.251
+-
+  id: 27
+  name: Ilfracombe Museum
+  url: http://www.ilfracombemuseum.co.uk/
+  address: Wilder Road, Ilfracombe, EX34 8AF, United Kingdom
+  description: |-
+    "A cross between an Edwardian collector’s study and your Granny’s attic". Delightfully eccentric collection of items. Don't miss the cupboard full of bats, or the intriguing collection of one hundred year old wedding cake samples.
+  photo_url: https://niche-museums.imgix.net/wedding-cake.jpeg
+  photo_alt: Old wedding cakes
+  latitude: 51.2101
+  longitude: -4.1236

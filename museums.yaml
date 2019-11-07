@@ -388,3 +388,16 @@
   photo_alt: Old wedding cakes
   latitude: 51.2101
   longitude: -4.1236
+-
+  id: 28
+  name: Barometer World
+  url: http://www.barometerworld.co.uk/
+  address: Quicksilver Barn, Merton, Okehampton, Devon EX20 3DS
+  description: |-
+    Everything you coukd want to learn about barometers. They even have one that is powered by a leach! Opening times are restricted due to pending retirement so make an appointment for your visit soon.
+  wikipedia_url: https://en.m.wikipedia.org/wiki/Barometer_World
+  photo_url: https://niche-museums.imgix.net/barometer.jpg
+  photo_alt: A barometer
+  latitude: 50.8911
+  longitude: 4.0924
+

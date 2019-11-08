@@ -400,4 +400,14 @@
   photo_alt: A barometer
   latitude: 50.8911
   longitude: 4.0924
-
+-
+  id: 29
+  name: La Galcante
+  url: https://www.lagalcante.com/
+  address: 52 rue de l'Arbre Sec, 75001 Paris, France
+  description: |-
+    Used bookstore specializing in old newspapers, magazines, photos and posters. An amazingly varied collection to browse and explore.
+  photo_url: https://niche-museums.imgix.net/la-galcante.jpg
+  photo_alt: Stacks of old magazines
+  latitude: 48.8609
+  longitude: 2.3428

@@ -411,3 +411,15 @@
   photo_alt: Stacks of old magazines
   latitude: 48.8609
   longitude: 2.3428
+-
+  id: 30
+  name: Musée des Arts et Métiers
+  url: https://www.arts-et-metiers.net/
+  address: 60 Rue Réaumur, 75003 Paris, France
+  description: |-
+    Established in 1794 during the French revolution to preserve scientific instruments and inventions - including the laboratory of "father of modern chemistry" Antoine Lavoisier who met his fate at the guillotine. The collection today represents three centuries of French craft and invention, including Foucault’s pendulum, the original model of the Statue Liberty, mechanical looms and a delightful gallery of automata including one that belonged to Marie Antoinette.
+  wikipedia_url: https://en.m.wikipedia.org/wiki/Musée_des_Arts_et_Métiers
+  photo_url: https://niche-museums.imgix.net/laboratoire-lavoisier.jpg
+  photo_alt: Laboratoire de Lavoisier.
+  latitude: 48.866
+  longitude: 2.3554

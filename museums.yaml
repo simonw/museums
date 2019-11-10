@@ -423,3 +423,15 @@
   photo_alt: Laboratoire de Lavoisier.
   latitude: 48.866
   longitude: 2.3554
+-
+  id: 31
+  name: International Women's Air & Space Museum
+  url: http://iwasm.org/
+  address: Burke Lakefront Airport, Room 165, 1501 North Marginal Road, Cleveland, Ohio
+  description: |-
+    Artifacts and displays relating to the history of women in aviation and space. The museum tells the story of pioneering aviators such as Harriet Quimby, the first American woman to earn her pilot's license and the first woman to fly across the English channel (in 1912). Also home to the first soft drink dispenser used in space!
+  wikipedia_url: https://en.m.wikipedia.org/wiki/International_Women%27s_Air_%26_Space_Museum
+  photo_url: https://niche-museums.imgix.net/women-in-space.jpg
+  photo_alt: Photos of female astronauts.
+  latitude: 41.5114
+  longitude: -81.69

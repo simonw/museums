@@ -443,7 +443,7 @@
   description: |-
     Volunteer run museum covering the history of the oil industry in thr local area. They have the world's only surviving wooden oil derrick, a photo exhibit covering the 1910 Lakeview Gusher oil spill and a wonderfully eclectic collection of both indoor and outdoor exhibits.
   photo_url: https://niche-museums.imgix.net/west-kern-oil.heic
-  photo_url: An old truck and some historic oil equipment.
+  photo_alt: An old truck and some historic oil equipment.
   latitude: 35.1325
   longitude: -119.4476
   

@@ -446,4 +446,15 @@
   photo_alt: An old truck and some historic oil equipment.
   latitude: 35.1325
   longitude: -119.4476
-  
+-
+  id: 33
+  name: California State Capitol Dioramas
+  url: http://www.capitolmuseum.ca.gov/
+  address: State Capitol, Room B-27, 1315 10th Street, Sacramento, CA 95814
+  description: |-
+    The California State Capitol proudly displays a diorama for every one of California's 58 counties. The dioramas are of varying quality. The process by which they are created and updated over the years is entirely uncoordinated, and appears to be driven by occasional outcries of shame from local county media.
+  wikipedia_url: https://en.m.wikipedia.org/wiki/California_State_Capitol_Museum
+  photo_url: https://niche-museums.imgix.net/shasta-county-diorama.jpg
+  photo_alt: Shasta County diorama
+  latitude: 38.5769
+  longitude: -121.4931

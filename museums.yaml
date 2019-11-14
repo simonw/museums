@@ -470,3 +470,16 @@
   photo_alt: Engine nacelle of the LZ 127 Graf Zeppelin
   latitude: 47.6509
   longitude: 9.4832
+
+-
+  id: 35
+  name: Dai Loy Museum, Locke
+  url: http://www.locketown.com/museum.htm
+  address: 13952 Main Street, Walnut Grove, CA 95690
+  description: |-
+    The tiny town of Locke in the Sacramento delta is a National Historic Landmark, so designated because it represents a unique example of a historic Chinese American rural community. The town's website states that "Locke is no tourist trap, nor is it a ghost town. Its unusual, out-of-the-way charm is genuine." The Dai Loy Museum was a former gambling house, closed down in the 1950s but now restored and open to visitors.
+  wikipedia_url: https://en.m.wikipedia.org/wiki/Locke,_California
+  photo_url: https://niche-museums.imgix.net/locke.jpg
+  photo_qlt: Inside the gambling house.
+  latitude: 38.2504
+  longitude: -121.5095

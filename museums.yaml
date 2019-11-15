@@ -480,6 +480,18 @@
     The tiny town of Locke in the Sacramento delta is a National Historic Landmark, so designated because it represents a unique example of a historic Chinese American rural community. The town's website states that "Locke is no tourist trap, nor is it a ghost town. Its unusual, out-of-the-way charm is genuine." The Dai Loy Museum was a former gambling house, closed down in the 1950s but now restored and open to visitors.
   wikipedia_url: https://en.m.wikipedia.org/wiki/Locke,_California
   photo_url: https://niche-museums.imgix.net/locke.jpg
-  photo_qlt: Inside the gambling house.
+  photo_alt: Inside the gambling house.
   latitude: 38.2504
   longitude: -121.5095
+-
+  id: 36
+  name: Wallace Collection
+  url: http://www.wallacecollection.org/
+  address: Hertford House, Manchester Square, London, W1U 3BN, UK
+  description: |-
+    Bequeathed to the nation by the widow of the illegitimate son of The 4th Marquess of Hertford in 1897 on the condition that no object should ever leave the collection, even for loan exhibitions. The collection includes a vast array of French 18th century decorative arts purchased during the revolutionary sales following the French revolution. this includes the Laughing Cavalier and a lot of very shiny decorative weapons and armour.
+  wikipedia_url: https://en.wikipedia.org/wiki/Wallace_Collection
+  photo_url: https://niche-museums.imgix.net/wallace.jpg
+  photo_alt: Shiny knights on horses.
+  latitude: 51.5173
+  longitude: -0.153

@@ -495,3 +495,14 @@
   photo_alt: Shiny knights on horses.
   latitude: 51.5173
   longitude: -0.153
+-
+  id: 37
+  name: Cookin'
+  url: https://m.sfgate.com/entertainment/article/Judy-Kaminsky-of-Cookin-shop-an-acquired-taste-2332940.php
+  address: 339 Divisadero Street, San Francisco, CA 94117
+  description: |-
+    Judy Kaminsky has been selling high-end vintage cookware (mostly French) to the residents and chefs of San Francisco since 1981. Go with intent to buy something - cake stands and antique cocktail glasses are a good target. Don't bring your coffee!
+  photo_url: https://niche-museums.imgix.net/cookin.jpg
+  photo_alt: Inside Cookin'
+  latitude: 37.7728
+  longitude: -122.4375

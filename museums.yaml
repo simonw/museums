@@ -506,3 +506,16 @@
   photo_alt: Inside Cookin'
   latitude: 37.7728
   longitude: -122.4375
+-
+  id: 38
+  name: Ramen Museum
+  url: http://www.raumen.co.jp/english/
+  address: 2 Chome-14-21 Shinyokohama, Kohoku Ward, Yokohama, Kanagawa 222-0033, Japan
+  description: |-
+    Travel back in time to a street-scape replica of Tokyo in 1958, the year instant noodles were invented, and sample Ramen from nine different restaurants representing regional varieties of the dish. Easily accessible via bullet train from central Tokyo.
+  wikipedia_url: https://en.m.wikipedia.org/wiki/Shin-Yokohama_Rāmen_Museum
+  photo_url: https://niche-museums.imgix.net/ramen-museum.jpg
+  photo_alt: The main square
+  latitude: 35.5098
+  longitude: 139.6146
+

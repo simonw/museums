@@ -16,7 +16,7 @@ jobs:
               --install=datasette-haversine \
               --install=datasette-pretty-json \
               --install=datasette-json-html \
-              --install=datasette-cluster-map \
+              --install=datasette-cluster-map~=0.8 \
               --metadata=metadata.json \
               --template-dir=templates
 

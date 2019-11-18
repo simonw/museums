@@ -518,4 +518,15 @@
   photo_alt: The main square
   latitude: 35.5098
   longitude: 139.6146
-
+-
+  id: 39
+  name: San Francisco Cable Car Museum
+  url: http://www.cablecarmuseum.org/
+  address: 1201 Mason Street, San Francisco, CA 94108
+  description: |-
+    Housed in a historic cable car barn and powerhouse, this free museum tells the story of San Francisco's unique under-road cable pulled street cars. In addition to vintage cars and other exhibits illustrating the history of the system visitors can descend below the street to see the cables running, or watch the engines that power the cars from a viewing platform.
+  wikipedia_url: https://en.wikipedia.org/wiki/San_Francisco_Cable_Car_Museum
+  photo_url: https://niche-museums.imgix.net/cable-car-museum.jpg
+  photo_alt: Technicians replacing a cable.
+  latitude: 37.7946
+  longitude: -122.4116

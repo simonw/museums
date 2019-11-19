@@ -530,3 +530,15 @@
   photo_alt: Technicians replacing a cable.
   latitude: 37.7946
   longitude: -122.4116
+-
+  id: 40
+  name: Audium
+  url: http://www.audium.org/
+  address: 1616 Bush Street, San Francisco, CA 94109
+  description: |-
+    Describing itself as "Perhaps one of San Francisco's least known eclectic treasures", Audium is a unique sound art event presented weekly since 1967 in pitch darkness in a custom theater with 176 speakers. Founder and composer Stan Shaff still presents his compositions in person every week and will enthusiastically answer your questions after the show.
+  wikipedia_url: https://en.m.wikipedia.org/wiki/Audium_(theater)
+  photo_url: https://niche-museums.imgix.net/audium.jpg
+  photo_alt: Outside Audium
+  latitude: 37.7883
+  longitude: -122.424

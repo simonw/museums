@@ -542,3 +542,15 @@
   photo_alt: Outside Audium
   latitude: 37.7883
   longitude: -122.424
+-
+  id: 41
+  name: House of Broel Dollhouse Museum
+  url: http://www.houseofbroel.com/
+  address: 2220 St Charles Avenue, New Orleans, Louisiana 70130
+  description: |-
+    The House of Broel is a 1850 Victorian mansion in New Orleans which now serves as a wedding venue and museum exhibiting Bonnie Broel's impressive collection of dollhouses. Tours by appointment only.
+  wikipedia_url: https://en.m.wikipedia.org/wiki/Bonnie_Broel
+  photo_url: https://niche-museums.imgix.net/new-orleans-dolls.jpg
+  photo_alt: Dolls houses in the hall.
+  latitude: 29.9335
+  longitude: -90.0809

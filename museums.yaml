@@ -554,3 +554,15 @@
   photo_alt: Dolls houses in the hall.
   latitude: 29.9335
   longitude: -90.0809
+-
+  id: 42
+  name: Arizona Cactus Garden
+  url: https://lbre.stanford.edu/bgm/what-we-do/grounds-services/horticulture-and-landscape/points-interest/arizona-garden
+  address: Stanford, CA 94305
+  description: |-
+    First planted between 1880 and 1883 for Jane and Leland Stanford, then restored from 1997 onwards. The 30,000 square foot garden now features over 500 cacti and succulents, 10-15% of which are historical plants still in their original locations.
+  wikipedia_url: https://en.m.wikipedia.org/wiki/Arizona_Cactus_Garden
+  photo_url: https://niche-museums.imgix.net/arizona-cactus-garden.jpg
+  photo_alt: The cactus garden.
+  latitude: 37.4359
+  longitude: -122.1711

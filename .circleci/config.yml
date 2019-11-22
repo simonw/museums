@@ -18,7 +18,8 @@ jobs:
               --install=datasette-json-html \
               --install=datasette-cluster-map~=0.8 \
               --metadata=metadata.json \
-              --template-dir=templates
+              --template-dir=templates \
+              --branch=master
 
 workflows:
   version: 2

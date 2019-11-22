@@ -8,7 +8,7 @@ jobs:
       - run:
           command: |
             sudo npm install -g now
-            sudo pip install datasette yaml-to-sqlite requests
+            sudo pip install datasette yaml-to-sqlite requests tqdm 
             yaml-to-sqlite museums.db museums museums.yaml --pk=id
             python nominatum_annotate.py museums.db
             datasette publish now museums.db --token=$NOW_TOKEN \

@@ -566,3 +566,15 @@
   photo_alt: The cactus garden.
   latitude: 37.4359
   longitude: -122.1711
+-
+  id: 43
+  name: Neptune Society Columbarium
+  url: https://www.neptune-society.com/cremation-articles/why-the-san-francisco-columbarium-is-worth-a-visit/
+  address: One Loraine Court, San Francisco, CA 94118
+  description: |-
+    San Francisco has few cemeteries: most of them were relocated to the nearby city of Colma in the 1920s. This Columbarium (a repository for human ashes), built in 1898, is now the only non-denominational place in the city that still accepts new burials. Interments include FORTRAN creator John Backus, politician Harvey Milk and Harry August Jansen, aka Dante the Magician - the last representative of the Golden Age of Magic.  Many of the urns are accompanied by small dioramas representing details from the life of the person interred there.
+  wikipedia_url: https://en.m.wikipedia.org/wiki/San_Francisco_Columbarium_%26_Funeral_Home
+  photo_url: https://niche-museums.imgix.net/sf-columbarium.jpg
+  photo_alt: Inside the Columbarium.
+  latitude: 37.7806
+  longitude: -122.4571

@@ -578,3 +578,21 @@
   photo_alt: Inside the Columbarium.
   latitude: 37.7806
   longitude: -122.4571
+-
+  id: 44
+  name: Recoleta Cemetery
+  url: https://turismo.buenosaires.gob.ar/es/atractivo/cementerio-de-la-recoleta
+  address: Junín 1760, C1113 CABA, Argentina
+  description: |-
+    Widely considered one of the most beautiful cemeteries in the world, the Recoleta cemetery hosts 4691 above ground vaults, 94 of which have been declared national historic monuments. The cemetery is laid out like a small city with a complex network of streets dividing tombs representing nearly two hundred years of architectural styles. The residents tell the story of the nation, including presidents, writers, generals, Nobel laureates and Argentinian first lady Eva Perón.
+  wikipedia_url: https://en.m.wikipedia.org/wiki/La_Recoleta_Cemetery
+  photo_url: https://niche-museums.timgix.net/Recoleta-Cemetery.jpg
+  photo_alt: Inside the cemetery.
+  latitude: -34.5876
+  longitude: -58.3924
+  press:
+  - url: https://www.nytimes.com/1999/01/10/travel/cemetery-for-the-elite-of-argentina.html
+    title: "Cemetery For the Elite Of Argentina"
+    publication: NY Times
+    author: Barbara Cansino
+    date: 10-01-1999

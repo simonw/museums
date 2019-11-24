@@ -596,3 +596,15 @@
     publication: NY Times
     author: Barbara Cansino
     date: 10-01-1999
+-
+  id: 45
+  name: NASA Glenn Visitor Center
+  url: http://greatscience.com/explore/exhibits/nasa-glenn-visitor-center
+  address: Great Lakes Science Center, 601 Erieside Avenue, Cleveland, OH 44114
+  description: |-
+    Relocated from NASA Glenn Research Center to a new home inside the Great Lakes Science Center in 2010, this is one of just eleven NASA visitor centers in the USA. See inside the Apollo Command Module used in the 1973 Skylab 3 mission and celebrate Ohio's status as the fourth-largest producer of astronauts in the United States (25 astronauts so far).
+  wikipedia_url: https://en.m.wikipedia.org/wiki/Great_Lakes_Science_Center
+  photo_url: https://niche-museums.imgix.net/nasa-glenn-visitor-center.jpg
+  photo_alt: 1973 Skylab 3 Apollo Command Module.
+  latitude: 41.5074
+  longitude: -81.6966

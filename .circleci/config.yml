@@ -10,8 +10,9 @@ jobs:
             sudo npm install -g now
             sudo pip install datasette yaml-to-sqlite requests tqdm 
             yaml-to-sqlite browse.db museums museums.yaml --pk=id
+            sqlite3 about.db ""
             python nominatum_annotate.py browse.db
-            datasette publish now browse.db --token=$NOW_TOKEN \
+            datasette publish now browse.db about.db --token=$NOW_TOKEN \
               --alias=www.niche-museums.com \
               --name=niche-museums \
               --install=datasette-haversine \

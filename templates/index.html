@@ -43,9 +43,15 @@
           <h2 class="subtitle">
               Find tiny museums near you
           </h2>
-          <div class="buttons" style="display: none" id="buttons">
-              <button class="button is-link">Use my location</button>
-          </div>
+          {% if is_distance_page %}
+            <div class="buttons">
+                <a href="/" class="button is-link">Browse all museums</a>
+            </div>
+          {% else %}
+            <div class="buttons" style="display: none" id="buttons">
+                <button class="button is-link">Use my location</button>
+            </div>
+          {% endif %}
       </div>
     </div>
     </section>
@@ -62,6 +68,18 @@
       {% endif %}
     </section>
 <script>
+{% if is_distance_page %}
+// Reverse geocode their lat/lon and show text on page
+let geocodeUrl = `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat={{ latitude }}&lon={{ longitude }}&zoom=16`;
+fetch(geocodeUrl).then(r => r.json()).then(o => {
+    let displayName = o.display_name;
+    let section = document.getElementById("cards");
+    let h2 = document.createElement("h2");
+    h2.innerHTML = `Museums near ${displayName}`;
+    h2.className = 'title box is-4';
+    section.insertBefore(h2, section.firstChild);
+});
+{% else %}
 if (navigator.geolocation) {
     let buttons = document.getElementById("buttons");
     buttons.style.display = "block";
@@ -71,6 +89,7 @@ if (navigator.geolocation) {
         });
     }
 }
+{% endif %}
 </script>
   </body>
 </html>

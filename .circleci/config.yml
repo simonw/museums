@@ -7,6 +7,7 @@ jobs:
       - checkout
       - run:
           command: |
+            sudo apt-get install sqlite3
             sudo npm install -g now
             sudo pip install datasette yaml-to-sqlite requests tqdm 
             yaml-to-sqlite browse.db museums museums.yaml --pk=id

@@ -608,3 +608,15 @@
   photo_alt: 1973 Skylab 3 Apollo Command Module.
   latitude: 41.5074
   longitude: -81.6966
+-
+  id: 46
+  name: Conservatory of Flowers
+  url: http://conservatoryofflowers.org/
+  address: 100 John F Kennedy Drive, San Francisco, CA 94118
+  description: |-
+    A building of unknown origins. The conservatory was bought as a kit by James Lick for his estate in San Jose, then purchased as a gift for the city of San Francisco after his death in 1876. it was assembled as the first formal structure in Golden Gate Park in 1879. The origin of the kit itself is unknown, though it is thought to have come from somewhere in Europe. Today it hosts over 1,700 plant species, including some rare tropical plants that are over 100 years old. Their Corpse Flowers attract a substantial crowd when they bloom for 2-3 days every 7-10 years.
+  wikipedia_url: https://en.m.wikipedia.org/wiki/Conservatory_of_Flowers
+  photo_url: https://niche-museums.imgix.net/conservatory-of-flowers.jpg
+  photo_alt: Inside the conservatory.
+  latitude: 37.772
+  longitude: -122.4602

@@ -2,7 +2,7 @@
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
 -
   id: 1
-  name: Musée Mécanique
+  name: Musée Mécanique - this should not deploy
   url: http://museemecaniquesf.com/
   address: Pier 45, Fishermans Wharf, San Francisco, CA 94133
   description: |-

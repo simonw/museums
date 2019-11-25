@@ -9,17 +9,19 @@ jobs:
           command: |
             sudo npm install -g now
             sudo pip install datasette yaml-to-sqlite requests tqdm 
-            yaml-to-sqlite museums.db museums museums.yaml --pk=id
-            python nominatum_annotate.py museums.db
-            datasette publish now museums.db --token=$NOW_TOKEN \
+            yaml-to-sqlite browse.db museums museums.yaml --pk=id
+            python nominatum_annotate.py browse.db
+            datasette publish now browse.db --token=$NOW_TOKEN \
               --alias=www.niche-museums.com \
               --name=niche-museums \
               --install=datasette-haversine \
               --install=datasette-pretty-json \
+              --install=datasette-template-sql \
               --install=datasette-json-html \
               --install=datasette-cluster-map~=0.8 \
               --metadata=metadata.json \
               --template-dir=templates \
+              --plugins-dir=plugins \
               --branch=master
 
 workflows:

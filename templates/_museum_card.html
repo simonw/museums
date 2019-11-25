@@ -1,0 +1,23 @@
+<div class="card box">
+    {% if museum.photo_url %}
+        <div class="card-image">
+            <figure class="image is-4by2">
+                <img src="{{ museum.photo_url }}?w=800&h=400&fit=crop&auto=compress" alt="{{ museum.photo_alt }}">
+            </figure>
+        </div>
+    {% endif %}
+    <div class="card-content">
+        <div class="content">
+        {% if museum.permanently_closed %}<span class="permanently-closed">Permanently closed</span>{% endif %}
+        {% if show_links %}
+            <h2><a href="/browse/museums/{{ museum.id }}">{{ museum.name }}</a></h2>
+        {% else %}
+            <h2>{{ museum.name }}</h2>
+        {% endif %}
+        {% if museum.distance_mi %}<p class="distance-away">{{ museum.distance_mi|round(2) }} miles away</p>{% endif %}
+        <p>{{ museum.description }}</p>
+        <p><a href="{{ museum.url }}">Website</a>{% if museum.wikipedia_url %} | <a href="{{ museum.wikipedia_url }}">Wikipedia</a>{% endif %}</p>
+        <address>{{ museum.address }} - <a href="https://www.google.com/maps/?q={{ museum.latitude }},{{ museum.longitude }}">Map</a></address>
+        </div>
+    </div>
+</div>

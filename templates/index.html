@@ -49,49 +49,28 @@
       </div>
     </div>
     </section>
-    <section class="section" id="cards"></section>
-<script type="module">
-import {html, render} from 'https://unpkg.com/lit-html@0.7.1/lit-html.js';
-const card = (data) => html`<div class="card box">
-  ${data.photo_url && html`<div class="card-image">
-    <figure class="image is-4by2">
-      <img src="${data.photo_url}?w=800&h=400&fit=crop&auto=compress" alt="${data.photo_alt}">
-    </figure>
-  </div>`}
-  <div class="card-content">
-    <div class="content">
-      ${data.permanently_closed && html`<span class="permanently-closed">Permanently closed</span>`}
-      <h2>${data.name}</h2>
-      ${data.distance_mi && html`<p class="distance-away">${data.distance_mi.toFixed(1)} miles away</p>`}
-      <p>${data.description || null}</p>
-      <p><a href="${data.url}">Website</a>${data.wikipedia_url && html` | <a href="${data.wikipedia_url}">Wikipedia</a>`}</p>
-      <address>${data.address} - <a href="https://www.google.com/maps/?q=${data.latitude},${data.longitude}">Map</a></address>
-    </div>
-  </div>
-</div>`;
-const cards = (museums) => html`${museums.map(card)}`;
-async function loadMuseums(latitude, longitude) {
-    let section = document.getElementById("cards");
-    // Default: most recently added museums
-    let url = "/museums/museums.json?_shape=array&_sort_desc=id";
-    if (latitude && longitude) {
-        // Closest museums
-        url = `/museums/nearby.json?_shape=array&latitude=${latitude}&longitude=${longitude}`;
-    }
-    var museums = await (await fetch(url)).json();
-    render(cards(museums), section);
-}
+    <section class="section" id="cards">
+      {% set show_links = 1 %}
+      {% for museum in sql(query) %}
+        {% include "_museum_card.html" %}
+      {% endfor %}
+      {% if not is_distance_page and sql(should_next_query)[0][0] %}
+        <a class="button is-pulled-right is-link is-outlined" href="/?next={{ sql(next_query)[0][0] }}">Next page</a>
+      {% endif %}
+      {% if is_distance_page %}
+        <a class="button is-link is-outlined" href="/">Browse all museums</a>
+      {% endif %}
+    </section>
+<script>
 if (navigator.geolocation) {
     let buttons = document.getElementById("buttons");
     buttons.style.display = "block";
     buttons.getElementsByTagName("button")[0].onclick = () => {
         window.navigator.geolocation.getCurrentPosition((position) => {
-            loadMuseums(position.coords.latitude.toFixed(3), position.coords.longitude.toFixed(3));
+            window.location = `/?latitude=${position.coords.latitude.toFixed(3)}&longitude=${position.coords.longitude.toFixed(3)}`;
         });
     }
 }
-loadMuseums();
 </script>
-
   </body>
 </html>

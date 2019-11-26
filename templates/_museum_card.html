@@ -6,8 +6,7 @@
             </figure>
         </div>
     {% endif %}
-    <div class="card-content">
-        <div class="content">
+    <div class="content">
         {% if museum.permanently_closed %}<span class="permanently-closed">Permanently closed</span>{% endif %}
         {% if show_links %}
             <h2><a href="/browse/museums/{{ museum.id }}">{{ museum.name }}</a></h2>
@@ -18,6 +17,5 @@
         <p>{{ museum.description }}</p>
         <p><a href="{{ museum.url }}">Website</a>{% if museum.wikipedia_url %} | <a href="{{ museum.wikipedia_url }}">Wikipedia</a>{% endif %}</p>
         <address>{{ museum.address }} - <a href="https://www.google.com/maps/?q={{ museum.latitude }},{{ museum.longitude }}">Map</a></address>
-        </div>
     </div>
 </div>

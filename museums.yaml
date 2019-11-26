@@ -508,6 +508,17 @@
   photo_alt: Inside Cookin'
   latitude: 37.7728
   longitude: -122.4375
+  press:
+  - url: https://hoodline.com/2013/01/whats-cookin-at-cookin
+    title: "What's Cookin' at Cookin'"
+    publication: Hoodline
+    author: Judith Basler
+    date: 19-01-2013
+  - url: https://m.sfgate.com/entertainment/article/Judy-Kaminsky-of-Cookin-shop-an-acquired-taste-2332940.php
+    title: "Judy Kaminsky of Cookin' shop an acquired taste"
+    publication: SFGate
+    author: Nellie Bowles
+    date: 30-08-2011
 -
   id: 38
   name: Ramen Museum

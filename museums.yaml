@@ -591,6 +591,22 @@
   photo_alt: Inside the Columbarium.
   latitude: 37.7806
   longitude: -122.4571
+  press:
+  - url: https://www.theatlantic.com/video/index/544256/san-francisco-columbarium/
+    title: "R.I.P. in the Walls of San Francisco (video)"
+    publication: The Atlantic
+    author: Tyler Trumbo
+    date: 30-10-2017 
+  - url: https://m.sfgate.com/entertainment/article/Judy-Kaminsky-of-Cookin-shop-an-acquired-taste-2332940.php
+    title: "Death and life within the S.F. Columbarium"
+    publication: San Francisco Chronicle
+    author: Erin Brethauer
+    date: 22-11-2015
+  - url: https://hoodline.com/2014/06/the-neptune-society-columbarium
+    title: Inside The Neptune Society Columbarium
+    publication: Hoodline
+    author: Stephen Jackson
+    date: 20-06-2014
 -
   id: 44
   name: Recoleta Cemetery

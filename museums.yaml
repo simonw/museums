@@ -622,3 +622,30 @@
   photo_alt: Inside the conservatory.
   latitude: 37.772
   longitude: -122.4602
+-
+  id: 47
+  name: The Comic Rock Star’s Toilet Seat Museum
+  url: http://isotopecomics.com/index.php/tag/comic-rockstars-toiletseat-museum
+  address: 326 Fell Street, San Francisco, CA 94102
+  description: |-
+    Voted "Best Comic Store" in Best of the Bay for 17 years running (2002 - 2018), Isotope Comic Book Lounge plays host to a unique museum of toilet seats. The collection was founded by accident in 2002 when Brian Wood (DMZ and X-Men) vandalized their bathroom and owner James Sime kept the toilet seat. Over 100 comic artists have now contributed illustrated seats, and a subset of the collection can be seen lining the walls of the lounge.
+  photo_url: https://niche-museums.imgix.net/isotope.jpg
+  photo_alt: Painted toilet seats in Isotope.
+  latitude: 37.776
+  longitude: -122.4233
+  press:
+  - url: https://www.sacbee.com/entertainment/living/travel/sam-mcmanis/article23713138.html
+    title: "Discoveries: The (toilet) seat of power is found in San Francisco"
+    publication: The Sacramento Bee
+    author: Sam McManis
+    date: 12-06-2015
+  - url: https://hoodline.com/2013/10/meet-james-sime-of-isotope-comics
+    title: Meet James Sime of Isotope Comics
+    publication: Hoodline
+    author: Anna Mantzaris
+    date: 07-10-2013
+  - url: https://m.sfgate.com/entertainment/article/James-Sime-Isotope-comic-lounge-celebrate-niche-3167878.php
+    title: James Sime, Isotope comic lounge celebrate niche
+    publication: SFGate
+    author: Peter Hartlaub
+    date: 02-11-2010

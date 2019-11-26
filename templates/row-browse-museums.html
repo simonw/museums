@@ -5,39 +5,9 @@
     {% set museum = display_rows[0] %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ museum.name }}</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/museums.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="anonymous">
     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin="anonymous"></script>
-    <style>
-    body {
-        max-width: 800px;
-        margin: 0 auto;
-    }
-    .distance-away {
-        font-size: 0.8em;
-        font-weight: bold;
-    }
-    .card .content {
-        padding-top: 1em;
-    }
-    span.permanently-closed {
-        display: inline-block;
-        background-color: #fff;
-        border: 2px solid red;
-        padding: 3px 8px;
-        border-radius: 6px;
-        font-family: courier;
-        font-weight: bold;
-        transform: rotate(3deg);
-        position: absolute;
-        top: 12px;
-        right: 12px;
-    }
-    .hero-body {
-        padding-top: 1rem;
-        padding-bottom: 1.5rem;
-    }
-    </style>
   </head>
   <body>
     <nav class="navbar is-black" role="navigation" aria-label="main navigation">

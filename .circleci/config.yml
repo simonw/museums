@@ -24,6 +24,7 @@ jobs:
               --metadata=metadata.json \
               --template-dir=templates \
               --plugins-dir=plugins \
+              --static css:static/ \
               --branch=master
 
 workflows:

@@ -22,8 +22,18 @@
 </nav>
     <section class="section" id="cards">
         {% include "_museum_card.html" %}
-        <div id="themap"></div>
     </section>
+    {% if museum.press %}
+      <section class="section articles">
+        <div class="box content">
+        {% for article in json.loads(museum.press) %}
+          <h3 class="title is-5"><a href="{{ article.url }}">{{ article.title }}</a></h2>
+          <p>{{ article.author }}, {{ article.publication }}, {{ nicer_date(article.date) }}</p>
+        {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+    <section class="section map-section"><div id="themap"></div></section>
     <script>
 const latitude = {{ museum.latitude }};
 const longitude = {{ museum.longitude }};

@@ -1454,3 +1454,17 @@ span.permanently-closed {
   padding-top: 1rem;
   padding-bottom: 1.5rem;
 }
+
+#cards {
+    padding-bottom: 1.5rem;
+}
+.map-section {
+    padding-top: 1.5rem;
+}
+.articles {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.articles .title {
+    margin-bottom: 0.5rem;
+}

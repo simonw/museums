@@ -7,23 +7,31 @@ jobs:
       - checkout
       - run:
           command: |
+            sudo apt-get install sqlite3
             sudo npm install -g now
             sudo pip install datasette yaml-to-sqlite requests tqdm 
-            yaml-to-sqlite museums.db museums museums.yaml --pk=id
-            python nominatum_annotate.py museums.db
-            datasette publish now museums.db --token=$NOW_TOKEN \
+            yaml-to-sqlite browse.db museums museums.yaml --pk=id
+            sqlite3 about.db ""
+            python nominatum_annotate.py browse.db
+            datasette publish now browse.db about.db --token=$NOW_TOKEN \
               --alias=www.niche-museums.com \
               --name=niche-museums \
               --install=datasette-haversine \
               --install=datasette-pretty-json \
+              --install=datasette-template-sql \
               --install=datasette-json-html \
               --install=datasette-cluster-map~=0.8 \
               --metadata=metadata.json \
               --template-dir=templates \
+              --plugins-dir=plugins \
+              --static css:static/ \
               --branch=master
 
 workflows:
   version: 2
   build:
     jobs:
-      - build_and_deploy
+      - build_and_deploy:
+          filters:
+            branches:
+              only: master

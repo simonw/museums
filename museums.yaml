@@ -585,6 +585,17 @@
   photo_alt: The cactus garden.
   latitude: 37.4359
   longitude: -122.1711
+  press:
+  - url: https://www.paloaltoonline.com/news/2016/06/03/the-secret-garden
+    title: The secret garden
+    publication: Palo Alto Weekly
+    author: Avi Salem
+    date: 03-06-2016
+  - url: https://www.stanforddaily.com/2018/08/22/volunteers-maintain-historic-cactus-garden/
+    title: Volunteers maintain historic cactus garden
+    publication: The Stanford Daily
+    author: Gianella Ordonez
+    date: 23-08-2018
 -
   id: 43
   name: Neptune Society Columbarium

@@ -448,6 +448,12 @@
   photo_alt: An old truck and some historic oil equipment.
   latitude: 35.1325
   longitude: -119.4476
+  press:
+  - url: https://www.bakersfield.com/entertainment/west-kern-oil-museum-a-shining-example-of-how-to/article_8298d243-ab94-5014-99eb-4f34903d10a7.html
+    title: West Kern Oil Museum a shining example of how to preserve our history
+    publication: The Bakersfield Californian
+    author: Louis Medina
+    date: 27-02-2009
 -
   id: 33
   name: California State Capitol Dioramas

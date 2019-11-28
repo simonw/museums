@@ -413,6 +413,17 @@
   photo_alt: Stacks of old magazines
   latitude: 48.8609
   longitude: 2.3428
+  press:
+  - url: https://www.christies.com/features/Interview-with-La-Galcante-Documentaliste-Pierre-Aribaud-8035-1.aspx
+    title: Interview: La Galcante’s Documentaliste, Pierre Aribaud - The great paper trail
+    publication: Christie’s Magazine
+    author: Christian House
+    date: 18-01-2017
+  - url: http://www.nomadwomen.com/2016/10/04/la-galcante-paris-shop/
+    title: Losing Myself at La Galcante, My Favorite Paris Shop 
+    publication: Nomad Women
+    author: Donna Meyer
+    date: 04-10-2016
 -
   id: 30
   name: Musée des Arts et Métiers

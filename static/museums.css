@@ -1461,6 +1461,7 @@ span.permanently-closed {
 }
 .map-section {
     padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 .articles {
     padding-top: 0;
@@ -1468,4 +1469,19 @@ span.permanently-closed {
 }
 .articles .title {
     margin-bottom: 0.5rem;
+}
+
+.nearby-section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.nearby-section .card h2 {
+  margin-top: 0;
+}
+.nearby-section .card {
+  overflow: hidden;
+}
+.nearby-section .card img {
+  margin-left: 1.5rem;
+  clear: both;
 }

@@ -34,6 +34,24 @@
       </section>
     {% endif %}
     <section class="section map-section"><div id="themap"></div></section>
+    <section class="section nearby-section">
+      {% for museum in sql(
+          "select *, haversine(latitude, longitude, " ~ museum["latitude"] ~
+          ", " ~ museum["longitude"] ~ ", 'mi') as distance_mi " ~
+          "from museums where id != " ~ museum["id"] ~
+          " and permanently_closed is null order by distance_mi limit 3"
+      ) %}
+        <div class="card box">
+            <div class="content">
+                {% if museum.photo_url %}
+                    <a href="/browse/museums/{{ museum.id }}"><img width="200" height="100" class="is-pulled-right" src="{{ museum.photo_url }}?w=400&amp;h=200&amp;fit=crop&amp;auto=compress" alt="{{ museum.photo_alt }}"></a>
+                {% endif %}
+                <h2><a href="/browse/museums/{{ museum.id }}">{{ museum.name }}</a></h2>
+                <p class="distance-away">{{ museum.distance_mi|round(2) }} miles away</p>
+            </div>
+        </div>
+      {% endfor %}
+    </section>
     <script>
 const latitude = {{ museum.latitude }};
 const longitude = {{ museum.longitude }};

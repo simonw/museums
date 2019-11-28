@@ -13,11 +13,7 @@ def annotate(db):
         update = {"osm_{}".format(key): value for key, value in data["address"].items()}
         update["extratags"] = json.dumps(data["extratags"])
         update["namedetails"] = json.dumps(data["namedetails"])
-        db["museums"].update(
-            row["id"],
-            update,
-            alter=True,
-        )
+        db["museums"].update(row["id"], update, alter=True)
 
 
 if __name__ == "__main__":

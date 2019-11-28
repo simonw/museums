@@ -693,3 +693,26 @@
     publication: SFGate
     author: Peter Hartlaub
     date: 02-11-2010
+-
+  id: 48
+  name: Fabergé Museum, Baden-Baden
+  url: http://www.faberge-museum.de/index.php?lang=en
+  address: Sophienstraße 30, 76530, Baden-Baden, Deutschland
+  description: |-
+    Alexander Ivanov opened the Fabergé Museum in Baden-Baden in 2009 to host his collection of over 1,500 items made by Russian jewelry firm House of Fabergé. The firm was founded in 1842 and is most famous for making jewel-encrusted Fabergé eggs for the Russian Tsars. The museum holds at least one of those Imperial Easter Eggs - the Karelian Birch egg, which was ordered by the Tsar for Easter 1917 but was delivered after he had been deposed during the Russian revolution. The museum also holds one of two known versions of the Constellation Egg, which it claims is the finished original. This claim is disputed.
+  photo_url: https://niche-museums.imgix.net/baden-baden-faberge.jpg
+  photo_alt: The Karelian Birch egg.
+  wikipedia_url: https://en.wikipedia.org/wiki/Faberg%C3%A9_Museum
+  latitude: 48.7621
+  longitude: 8.2433
+  press:
+  - url: https://www.rferl.org/a/russia-faberge-eggs-century-later/28280309.html
+    title: A Century Later, Faberge Still Dazzles
+    publication: Radio Free Europe/Radio Liberty
+    author: Natalya Golitsina, Robert Coalson
+    date: 05-02-2017
+  - url: https://www.themoscowtimes.com/2014/12/12/british-tax-agents-raid-museum-in-search-of-putins-faberge-egg-report-says-a42232
+    title: British Tax Agents Raid Museum in Search of Putin's Faberge Egg, Report Says
+    publication: The Moscow Times
+    author: Anna Dolgov
+    date: 12-12-2014

@@ -321,6 +321,17 @@
   photo_alt: A trio of devilish mugs.
   latitude: 45.6461
   longitude: -122.6596
+  press:
+  - url: https://www.columbian.com/news/2018/dec/16/details-in-the-devils-in-vancouver-womans-museum-home/
+    title: "Detail’s in the devils in Vancouver woman’s museum-home"
+    publication: The Columbian
+    author: Andy Matarrese
+    date: 16-12-2018
+  - url: https://www.king5.com/article/entertainment/television/programs/evening/the-devil-gets-his-due-at-this-vancouver-museum/281-593970583
+    title: The devil gets his due at this Vancouver museum
+    publication: King 5 Evening
+    author: Saint Bryan
+    date: 13-09-2018
 -
   id: 22
   name: Mardi Gras World

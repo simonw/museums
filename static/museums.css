@@ -1484,4 +1484,10 @@ span.permanently-closed {
 .nearby-section .card img {
   margin-left: 1.5rem;
   clear: both;
+  max-width: 40%;
+}
+@media screen and (max-width:768px) {
+  .nearby-section .card h2 {
+    font-size: 1.25em;
+  }
 }

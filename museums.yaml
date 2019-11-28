@@ -754,3 +754,20 @@
     publication: The Moscow Times
     author: Anna Dolgov
     date: 12-12-2014
+-
+  id: 49
+  name: jAdis
+  url: http://www.jadisprops.com/
+  address: 2701 Main Street, Santa Monica, CA 90405
+  description: |-
+    jAdis is a shop, prop rental place and curiosity cabinet “dedicated to imagination and wonder”. Parke Meeke and Susan Lieberman opened Jadis on Main Street in the mid-1970s and began collecting and constructing objects along a theme that can best be described as a mad scientist laboratory. Items from jAdis have featured in movies such as The Artist, The Prestige, Batman and Robin, and Van Helsing along with many different TV shows.
+  photo_url: https://niche-museums.imgix.net/jadis.jpg
+  photo_alt: A steampunk airship in the window.
+  latitude: 34.001
+  longitude: -118.4823
+  press:
+  - url: https://laist.com/2018/11/01/how_a_santa_monica_prop_shop_thats_rarely_open_survives_in_hollywood.php
+    title: The Amazing Santa Monica Prop Shop That's Rarely Open
+    publication: LAist
+    author: Natalie Chudnovsky
+    date: 01-11-2018

@@ -488,6 +488,12 @@
   photo_alt: Shasta County diorama
   latitude: 38.5769
   longitude: -121.4931
+  press:
+  - url: https://www.montereycountyweekly.com/blogs/arts_culture_blog/every-california-county-is-represented-by-dioramas-in-the-basement/article_0bdace76-9081-11e4-8d80-b7a992357c73.html
+    title: "Every California county is represented by dioramas in the basement of the State Capitol building. But how well?"
+    publication: Monterey County Weekly
+    author: Walter Ryce
+    date: 30-12-2014
 -
   id: 34
   name: Zeppelin Museum Friedrichshafen

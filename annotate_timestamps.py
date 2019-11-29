@@ -37,8 +37,8 @@ if __name__ == "__main__":
             changed_ids = [
                 id
                 for id in current
-                if json.dumps(current[id], sort_keys=True)
-                != json.dumps(previous.get(id, {}), sort_keys=True)
+                if json.dumps(current[id], sort_keys=True, default=str)
+                != json.dumps(previous.get(id, {}), sort_keys=True, default=str)
             ]
             for id in changed_ids:
                 updated[id] = when.isoformat()
@@ -49,5 +49,3 @@ if __name__ == "__main__":
             "created": ts,
             "updated": updated[id]
         }, alter=True)
-    print(json.dumps(created, indent=2))
-    print(json.dumps(updated, indent=2))

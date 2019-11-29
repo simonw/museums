@@ -9,7 +9,7 @@ jobs:
           command: |
             sudo apt-get install sqlite3
             sudo npm install -g now
-            sudo pip install datasette yaml-to-sqlite requests tqdm GitPython
+            sudo pip install datasette yaml-to-sqlite~=0.3 requests tqdm GitPython
             yaml-to-sqlite browse.db museums museums.yaml --pk=id
             sqlite3 about.db ""
             python annotate_nominatum.py browse.db

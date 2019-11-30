@@ -23,7 +23,7 @@ jobs:
               --install=datasette-template-sql \
               --install=datasette-json-html \
               --install=datasette-cluster-map~=0.8 \
-              --install=datasette-atom~=0.2.1 \
+              --install=datasette-atom~=0.3 \
               --metadata=metadata.json \
               --template-dir=templates \
               --plugins-dir=plugins \

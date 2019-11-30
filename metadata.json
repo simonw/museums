@@ -4,7 +4,7 @@
         "browse": {
             "queries": {
                 "nearby": "select *, haversine(latitude, longitude, cast(:latitude as real), cast(:longitude as real), 'mi') as distance_mi\nfrom museums order by distance_mi",
-                "feed": "select\n  'tag:niche-museums.com,' || substr(created, 0, 11) || ':' || id as atom_id,\n  name as atom_title,\n  created as atom_updated,\n  'https://www.niche-museums.com/browse/museums/' || id as atom_link,\n  description as atom_content\nfrom\n  museums\norder by\n  created desc\nlimit\n  15",
+                "feed": "select\n  'tag:niche-museums.com,' || substr(created, 0, 11) || ':' || id as atom_id,\n  name as atom_title,\n  created as atom_updated,\n  'https://www.niche-museums.com/browse/museums/' || id as atom_link,\n  coalesce(\n    '<img src=\"' || photo_url || '?w=800&amp;h=400&amp;fit=crop&amp;auto=compress\">',\n    ''\n  ) || '<p>' || description || '</p>' as atom_content_html\nfrom\n  museums\norder by\n  created desc\nlimit\n  15",
                 "search": "select\n  museums_fts.rank,\n  museums.*\nfrom\n  museums\n  join museums_fts on museums.id = museums_fts.rowid\nwhere\n  museums_fts match case\n    :q\n    when '' then '*'\n    else :q\n  end\norder by\n  museums_fts.rank"
             }
         }

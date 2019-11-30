@@ -800,3 +800,30 @@
     publication: Simon Willison's Weblog
     author: Simon Willison
     date: 2018-09-18
+-
+  id: 51
+  name: Neon Works
+  url: http://www.neonwks.com/
+  address: 967 Grace Avenue, Oakland, CA 94608
+  description: |-
+    Neon Works is a neon sign fabrication and restoration business based in a 17,000-square-foot studio in North Oakland. Founder Jim Rizzo also collects historic neon signs, and displays them in the workshop. Any time he hears about a Neon sign being taken down anywhere in the Bay Area Jim will swoop in and see what can be salvaged. His collection has signs from throughout the previous century, including the 1500 pound 42 foot long Kilpatrick's Bakery sign rescued from 16th and Folsom street in San Francisco in the late 1990s. Neon Works carried out the $70,000 restoration of the Castro Theatre’s 85 foot tall sign for the production of “Milk” in 2008. The workshop is not open to the public, but occasionally hosts tours.
+  photo_url: https://niche-museums.imgix.net/neon-emeryville.jpg
+  photo_alt: An impressive collection of neon signs.
+  latitude: 37.8424
+  longitude: -122.2778
+  press:
+  - url: https://sf.eater.com/2019/9/3/20847393/tradr-sam-sf-bar-neon-sign-repair
+    title: "Trad’r Sam, Country’s Oldest Tiki Bar, Will Get a Facelift"
+    publication: Eater SF
+    author: Caleb Pershan
+    date: 2019-09-03
+  - url: https://m.sfgate.com/entertainment/article/Jim-Rizzo-neon-king-of-the-Bay-Area-2307995.php
+    title: "Jim Rizzo, neon king of the Bay Area"
+    publication: SFGate
+    author: Edward Guthmann
+    date: 2011-09-26
+  - url: https://www.eastbaytimes.com/2007/03/04/neon-keeps-bay-area-business-bright/
+    title: Neon keeps Bay Area business bright
+    publication: East Bay Times
+    author: Eve Mitchell
+    date: 2007-03-04

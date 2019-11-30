@@ -28,6 +28,9 @@
   user-select: none;
 }
 
+.button.button-about.is-white.is-outlined {
+  border-color: transparent
+}
 .button.button-atom,
 .button.button-atom:hover,
 .button.button-atom:active,

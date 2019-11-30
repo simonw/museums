@@ -28,6 +28,15 @@
   user-select: none;
 }
 
+.button.button-atom,
+.button.button-atom:hover,
+.button.button-atom:active,
+.button.button-atom:focus {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
+
 .block:not(:last-child),.box:not(:last-child),.content:not(:last-child),.subtitle:not(:last-child),.title:not(:last-child) {
   margin-bottom: 1.5rem;
 }

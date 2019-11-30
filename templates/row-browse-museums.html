@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let latlng = L.latLng(latitude, longitude);
     let map = L.map(el, {
         center: latlng,
-        zoom: 16
+        zoom: {{ museum.map_zoom or "16" }}
     });
     L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}@2x.png', {
         attribution: 'Wikimedia maps beta | &copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

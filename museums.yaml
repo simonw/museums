@@ -782,6 +782,7 @@
   wikipedia_url: https://en.wikipedia.org/wiki/Lundy
   latitude: 51.177
   longitude: -4.671
+  map_zoom: 9
   press:
   - url: https://www.theguardian.com/uk-news/2019/sep/26/very-special-place-lundy-future-secure-another-50-years
     title: "'A very special place': Lundy's future secure for another 50 years"
@@ -793,4 +794,3 @@
     publication: Simon Willison's Weblog
     author: Simon Willison
     date: 2018-09-18
-

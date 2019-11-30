@@ -1,8 +1,8 @@
 <div class="card box">
     {% if museum.photo_url %}
         <div class="card-image">
-            <figure class="image is-4by2">
-                <img src="{{ museum.photo_url }}?w=800&amp;h=400&amp;fit=crop&amp;auto=compress" alt="{{ museum.photo_alt }}">
+            <figure class="image is-4by2">{% if show_links %}<a href="/browse/museums/{{ museum.id }}">{% endif %}
+                <img src="{{ museum.photo_url }}?w=800&amp;h=400&amp;fit=crop&amp;auto=compress" alt="{{ museum.photo_alt }}">{% if show_links %}</a>{% endif %}
             </figure>
         </div>
     {% endif %}

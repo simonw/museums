@@ -49,15 +49,29 @@
                         </svg></a>
                     <a href="/about" class="button is-small is-outlined is-white is-pulled-right">About <span class="is-hidden-mobile">&nbsp;this site</span></a>
                 </h2>
-                {% if is_distance_page %}
-                <div class="buttons">
-                    <a href="/" class="button is-link">Browse all museums</a>
+                <div class="columns is-mobile">
+                    <div class="column">
+                        {% if is_distance_page %}
+                        <div class="buttons">
+                            <a href="/" class="button is-link is-small">Browse all museums</a>
+                        </div>
+                        {% else %}
+                        <div class="buttons" style="display: none" id="buttons">
+                            <button class="button is-link is-small">Use my location</button>
+                        </div>
+                        {% endif %}
+                    </div>
+                    <form action="/browse/search" class="column">
+                        <div class="field has-addons is-pulled-right">
+                            <div class="control">
+                                <input placeholder="Search" type="text" class="input is-small" name="q">
+                            </div>
+                            <div class="control">
+                                <input type="submit" value="🔍" class="button is-small is-info"> </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                {% else %}
-                <div class="buttons" style="display: none" id="buttons">
-                    <button class="button is-link">Use my location</button>
-                </div>
-                {% endif %}
             </div>
         </div>
     </section>

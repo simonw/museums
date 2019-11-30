@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Niche Museums: {{ q }}</title>
+    <link rel="stylesheet" href="/css/museums.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153631302-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-153631302-1');
+    </script>
+</head>
+
+<body class="search-results">
+    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <strong>Niche Museums</strong>
+            </a>
+            <a class="navbar-item" href="/about">
+                <span class="button is-small is-outlined is-white">About</span>
+            </a>
+        </div>
+    </nav>
+    <section class="section smaller-padding-bottom">
+        <div class="box content">
+            <h3 class="title is-3">{{ rows.__len__() }} result{% if rows.__len__() != 1 %}s{% endif %}</h3>
+            <form action="/browse/search">
+                <div class="field has-addons">
+                    <div class="control" style="width: 80%">
+                        <input placeholder="Search" type="text" class="input" name="q" value="{{ q }}">
+                    </div>
+                    <div class="control">
+                        <input type="submit" value="🔍" class="button is-info"> </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="section" id="cards">
+        {% set show_links = 1 %}
+        {% for row in rows %}
+        {% set museum = row %}
+        {% include "_museum_card.html" %}
+        {% endfor %}
+    </section>
+</body>
+
+</html>

@@ -5,6 +5,7 @@ PAGE_SIZE = 15
 
 @hookimpl
 def extra_template_vars(request, view_name):
+    vars = {"q": request.raw_args.get("q") or ""}
     if view_name == "index":
         # Custom template variables for the homepage
         args = request.raw_args
@@ -13,8 +14,6 @@ def extra_template_vars(request, view_name):
         where = ""
         next = None
         is_distance_page = False
-
-        vars = {}
 
         if args.get("latitude") and args.get("longitude"):
             select = f"*, haversine(latitude, longitude, cast({args['latitude']} as real), cast({args['longitude']} as real), 'mi') as distance_mi"
@@ -42,4 +41,4 @@ def extra_template_vars(request, view_name):
                 "is_distance_page": is_distance_page,
             }
         )
-        return vars
+    return vars

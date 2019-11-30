@@ -1465,7 +1465,7 @@ span.permanently-closed {
   padding-bottom: 1.5rem;
 }
 
-#cards {
+#cards, .smaller-padding-bottom {
     padding-bottom: 1.5rem;
 }
 .map-section {
@@ -1499,4 +1499,92 @@ span.permanently-closed {
   .nearby-section .card h2 {
     font-size: 1.25em;
   }
+}
+
+
+.columns.is-mobile {
+    display: flex;
+}
+.columns:last-child {
+    margin-bottom: -.75rem;
+}
+.columns {
+    margin-left: -.75rem;
+    margin-right: -.75rem;
+    margin-top: -.75rem;
+}
+.column {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: .75rem;
+}
+.field.has-addons {
+    display: flex;
+    justify-content: flex-start;
+}
+.field.has-addons .control:not(:last-child) {
+    margin-right: -1px;
+}
+.control {
+    box-sizing: border-box;
+    clear: both;
+    font-size: 1rem;
+    position: relative;
+    text-align: left;
+}
+.field.has-addons .control:first-child:not(:only-child) .button, .field.has-addons .control:first-child:not(:only-child) .input, .field.has-addons .control:first-child:not(:only-child) .select select {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.button.is-info {
+    background-color: #3298dc;
+    border-color: transparent;
+    color: #fff;
+}
+.is-small.input, .is-small.textarea {
+    border-radius: 2px;
+    font-size: .75rem;
+}
+.input, .textarea {
+    box-shadow: inset 0 .0625em .125em rgba(10,10,10,.05);
+    max-width: 100%;
+    width: 100%;
+}
+.input, .select select, .textarea {
+    background-color: #fff;
+    border-color:#dbdbdb;
+    border-radius: 4px;
+    color:#363636;
+}
+
+.button, .file-cta, .file-name, .input, .pagination-ellipsis, .pagination-link, .pagination-next, .pagination-previous, .select select, .textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(.5em - 1px);
+    padding-left: calc(.75em - 1px);
+    padding-right: calc(.75em - 1px);
+    padding-top: calc(.5em - 1px);
+    position: relative;=
+    vertical-align: top;
+}
+.search-results .input {
+  border: 1px solid #ccc;
+}
+.search-results .input::placeholder {
+  color: #333;
+}
+.field.has-addons .control:last-child:not(:only-child) .button, .field.has-addons .control:last-child:not(:only-child) .input, .field.has-addons .control:last-child:not(:only-child) .select select {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
 }

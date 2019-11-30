@@ -703,6 +703,12 @@
   photo_alt: Inside the conservatory.
   latitude: 37.772
   longitude: -122.4602
+  press:
+  - url: https://www.sfchronicle.com/chronicle_vault/amp/Saving-SF-s-Conservatory-of-Flowers-Golden-13530898.php
+    title: "Saving SF’s Conservatory of Flowers, Golden Gate Park’s grandest building"
+    publication: San Francisco Chronicle
+    author: Bill Van Niekerken
+    date: 2019-01-16
 -
   id: 47
   name: The Comic Rock Star’s Toilet Seat Museum

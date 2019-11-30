@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Niche Museums</title>
@@ -8,71 +9,94 @@
     <link rel="stylesheet" href="/css/museums.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153631302-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-153631302-1');
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-153631302-1');
     </script>
-  </head>
-  <body>
+</head>
+
+<body>
     <section class="hero is-dark is-bold">
-    <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
-              Niche Museums
-          </h1>
-          <h2 class="subtitle">
-              Find tiny museums <span class="is-hidden-mobile">near you</span>
-              <a class="button button-atom is-small is-pulled-right" href="/browse/feed.atom?_feed_title=Niche+Museums" title="Atom feed"><svg xmlns="http://www.w3.org/2000/svg" width="14px" height="14px" viewBox="0 0 256 256"><defs><linearGradient id="a" x1=".1" x2=".9" y1=".1" y2=".9"><stop offset="0" stop-color="#E3702D"/><stop offset=".1" stop-color="#EA7D31"/><stop offset=".4" stop-color="#F69537"/><stop offset=".5" stop-color="#FB9E3A"/><stop offset=".7" stop-color="#EA7C31"/><stop offset=".9" stop-color="#DE642B"/><stop offset="1" stop-color="#D95B29"/></linearGradient></defs><rect width="256" height="256" fill="#CC5D15" rx="55" ry="55"/><rect width="246" height="246" x="5" y="5" fill="#F49C52" rx="50" ry="50"/><rect width="236" height="236" x="10" y="10" fill="url(#a)" rx="47" ry="47"/><circle cx="68" cy="189" r="24" fill="#FFF"/><path fill="#FFF" d="M160 213h-34a82 82 0 0 0-82-82V97a116 116 0 0 1 116 116z"/><path fill="#FFF" d="M184 213A140 140 0 0 0 44 73V38a175 175 0 0 1 175 175z"/></svg></a>
-              <a href="/about" class="button is-small is-outlined is-white is-pulled-right">About <span class="is-hidden-mobile">&nbsp;this site</span></a>
-          </h2>
-          {% if is_distance_page %}
-            <div class="buttons">
-                <a href="/" class="button is-link">Browse all museums</a>
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Niche Museums
+                </h1>
+                <h2 class="subtitle">
+                    Find tiny museums <span class="is-hidden-mobile">near you</span>
+                    <a class="button button-atom is-small is-pulled-right" href="/browse/feed.atom?_feed_title=Niche+Museums" title="Atom feed"><svg xmlns="http://www.w3.org/2000/svg" width="14px" height="14px" viewBox="0 0 256 256">
+                            <defs>
+                                <linearGradient id="a" x1=".1" x2=".9" y1=".1" y2=".9">
+                                    <stop offset="0" stop-color="#E3702D" />
+                                    <stop offset=".1" stop-color="#EA7D31" />
+                                    <stop offset=".4" stop-color="#F69537" />
+                                    <stop offset=".5" stop-color="#FB9E3A" />
+                                    <stop offset=".7" stop-color="#EA7C31" />
+                                    <stop offset=".9" stop-color="#DE642B" />
+                                    <stop offset="1" stop-color="#D95B29" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="256" height="256" fill="#CC5D15" rx="55" ry="55" />
+                            <rect width="246" height="246" x="5" y="5" fill="#F49C52" rx="50" ry="50" />
+                            <rect width="236" height="236" x="10" y="10" fill="url(#a)" rx="47" ry="47" />
+                            <circle cx="68" cy="189" r="24" fill="#FFF" />
+                            <path fill="#FFF" d="M160 213h-34a82 82 0 0 0-82-82V97a116 116 0 0 1 116 116z" />
+                            <path fill="#FFF" d="M184 213A140 140 0 0 0 44 73V38a175 175 0 0 1 175 175z" />
+                        </svg></a>
+                    <a href="/about" class="button is-small is-outlined is-white is-pulled-right">About <span class="is-hidden-mobile">&nbsp;this site</span></a>
+                </h2>
+                {% if is_distance_page %}
+                <div class="buttons">
+                    <a href="/" class="button is-link">Browse all museums</a>
+                </div>
+                {% else %}
+                <div class="buttons" style="display: none" id="buttons">
+                    <button class="button is-link">Use my location</button>
+                </div>
+                {% endif %}
             </div>
-          {% else %}
-            <div class="buttons" style="display: none" id="buttons">
-                <button class="button is-link">Use my location</button>
-            </div>
-          {% endif %}
-      </div>
-    </div>
+        </div>
     </section>
     <section class="section" id="cards">
-      {% set show_links = 1 %}
-      {% for museum in sql(query) %}
+        {% set show_links = 1 %}
+        {% for museum in sql(query) %}
         {% include "_museum_card.html" %}
-      {% endfor %}
-      {% if not is_distance_page and sql(should_next_query)[0][0] %}
+        {% endfor %}
+        {% if not is_distance_page and sql(should_next_query)[0][0] %}
         <a class="button is-pulled-right is-link is-outlined" href="/?next={{ sql(next_query)[0][0] }}">Next page</a>
-      {% endif %}
-      {% if is_distance_page %}
+        {% endif %}
+        {% if is_distance_page %}
         <a class="button is-link is-outlined" href="/">Browse all museums</a>
-      {% endif %}
+        {% endif %}
     </section>
-<script>
-{% if is_distance_page %}
-// Reverse geocode their lat/lon and show text on page
-let geocodeUrl = `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat={{ latitude }}&lon={{ longitude }}&zoom=16`;
-fetch(geocodeUrl).then(r => r.json()).then(o => {
-    let displayName = o.display_name;
-    let section = document.getElementById("cards");
-    let h2 = document.createElement("h2");
-    h2.innerHTML = `Museums near ${displayName}`;
-    h2.className = 'title box is-4';
-    section.insertBefore(h2, section.firstChild);
-});
-{% else %}
-if (navigator.geolocation) {
-    let buttons = document.getElementById("buttons");
-    buttons.style.display = "block";
-    buttons.getElementsByTagName("button")[0].onclick = () => {
-        window.navigator.geolocation.getCurrentPosition((position) => {
-            window.location = `/?latitude=${position.coords.latitude.toFixed(3)}&longitude=${position.coords.longitude.toFixed(3)}`;
+    <script>
+        {% if is_distance_page %}
+        // Reverse geocode their lat/lon and show text on page
+        let geocodeUrl = `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat={{ latitude }}&lon={{ longitude }}&zoom=16`;
+        fetch(geocodeUrl).then(r => r.json()).then(o => {
+            let displayName = o.display_name;
+            let section = document.getElementById("cards");
+            let h2 = document.createElement("h2");
+            h2.innerHTML = `Museums near ${displayName}`;
+            h2.className = 'title box is-4';
+            section.insertBefore(h2, section.firstChild);
         });
-    }
-}
-{% endif %}
-</script>
-  </body>
+        {% else %}
+        if (navigator.geolocation) {
+            let buttons = document.getElementById("buttons");
+            buttons.style.display = "block";
+            buttons.getElementsByTagName("button")[0].onclick = () => {
+                window.navigator.geolocation.getCurrentPosition((position) => {
+                    window.location = `/?latitude=${position.coords.latitude.toFixed(3)}&longitude=${position.coords.longitude.toFixed(3)}`;
+                });
+            }
+        }
+        {% endif %}
+    </script>
+</body>
+
 </html>

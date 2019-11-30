@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     {% set museum = display_rows[0] %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,42 +23,48 @@
     <meta property="og:image:height" content="400">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153631302-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-153631302-1');
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-153631302-1');
     </script>
     <link rel="stylesheet" href="/css/museums.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="anonymous">
     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin="anonymous"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <nav class="navbar is-black" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="/">
-      <strong>Niche Museums</strong>
-    </a>
-    <a class="navbar-item" href="/about">
-        <span class="button is-small is-outlined is-white">About</span>
-    </a>
-  </div>
-</nav>
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <strong>Niche Museums</strong>
+            </a>
+            <a class="navbar-item" href="/about">
+                <span class="button is-small is-outlined is-white">About</span>
+            </a>
+        </div>
+    </nav>
     <section class="section" id="cards">
         {% include "_museum_card.html" %}
     </section>
     {% if museum.press %}
-      <section class="section articles">
+    <section class="section articles">
         <div class="box content">
-        {% for article in json.loads(museum.press) %}
-          <h3 class="title is-5"><a href="{{ article.url }}">{{ article.title }}</a></h2>
-          <p>{{ article.author }}, {{ article.publication }}, {{ nicer_date(article.date) }}</p>
-        {% endfor %}
+            {% for article in json.loads(museum.press) %}
+            <h3 class="title is-5"><a href="{{ article.url }}">{{ article.title }}</a></h2>
+                <p>{{ article.author }}, {{ article.publication }}, {{ nicer_date(article.date) }}</p>
+                {% endfor %}
         </div>
-      </section>
+    </section>
     {% endif %}
-    <section class="section map-section"><div id="themap"></div></section>
+    <section class="section map-section">
+        <div id="themap"></div>
+    </section>
     <section class="section nearby-section">
-      {% for museum in sql(
+        {% for museum in sql(
           "select *, haversine(latitude, longitude, " ~ museum["latitude"] ~
           ", " ~ museum["longitude"] ~ ", 'mi') as distance_mi " ~
           "from museums where id != " ~ museum["id"] ~
@@ -66,32 +73,33 @@
         <div class="card box">
             <div class="content">
                 {% if museum.photo_url %}
-                    <a href="/browse/museums/{{ museum.id }}"><img width="200" height="100" class="is-pulled-right" src="{{ museum.photo_url }}?w=400&amp;h=200&amp;fit=crop&amp;auto=compress" alt="{{ museum.photo_alt }}"></a>
+                <a href="/browse/museums/{{ museum.id }}"><img width="200" height="100" class="is-pulled-right" src="{{ museum.photo_url }}?w=400&amp;h=200&amp;fit=crop&amp;auto=compress" alt="{{ museum.photo_alt }}"></a>
                 {% endif %}
                 <h2><a href="/browse/museums/{{ museum.id }}">{{ museum.name }}</a></h2>
                 <p class="distance-away">{{ museum.distance_mi|round(2) }} miles away</p>
             </div>
         </div>
-      {% endfor %}
+        {% endfor %}
     </section>
     <script>
-const latitude = {{ museum.latitude }};
-const longitude = {{ museum.longitude }};
-document.addEventListener('DOMContentLoaded', () => {
-    let el = document.querySelector('#themap');
-    el.className = 'box';
-    el.style.width = '100%';
-    el.style.height = '500px';
-    let latlng = L.latLng(latitude, longitude);
-    let map = L.map(el, {
-        center: latlng,
-        zoom: {{ museum.map_zoom or "16" }}
-    });
-    L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}@2x.png', {
-        attribution: 'Wikimedia maps beta | &copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
-    L.marker(latlng).addTo(map);
-});
+        const latitude = {{ museum.latitude }};
+        const longitude = {{ museum.longitude }};
+        document.addEventListener('DOMContentLoaded', () => {
+            let el = document.querySelector('#themap');
+            el.className = 'box';
+            el.style.width = '100%';
+            el.style.height = '500px';
+            let latlng = L.latLng(latitude, longitude);
+            let map = L.map(el, {
+                center: latlng,
+                zoom: {{ museum.map_zoom or "16" }}
+            });
+            L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}@2x.png', {
+                attribution: 'Wikimedia maps beta | &copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+            L.marker(latlng).addTo(map);
+        });
     </script>
-  </body>
+</body>
+
 </html>

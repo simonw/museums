@@ -770,3 +770,26 @@
     publication: LAist
     author: Natalie Chudnovsky
     date: 2018-11-01
+-
+  id: 50
+  name: Lundy
+  url: https://www.landmarktrust.org.uk/lundyisland/
+  address: Lundy Island, Bideford EX39 2LY, United Kingdom
+  description: |-
+    Can an entire island be classified as a niche museum? In Lundy's case I'd say yes. Accessible only by a twelve mile, two hour boat ride from north Devon, Lundy is a spectacular island in the Bristol Channel with a fascinating history. The island has three light houses, a charming little village, a church, numerous ruins and a castle that was built in the 13th century by Henry III after he retook the island from the apparently traitorous William de Marisco. Thanks to the Landmark Trust you can stay in many of the buildings (including the castle). Lundy is also Britain's first Marine Conservation Zone, playing host wildlife that includes puffins and Atlantic grey seals. It also offers excellent letterboxing.
+  photo_url: https://niche-museums.imgix.net/lundy.jpg
+  photo_alt: Lundy has incredible landscapes.
+  latitude: 51.177
+  longitude: -4.671
+  press:
+  - url: https://www.theguardian.com/uk-news/2019/sep/26/very-special-place-lundy-future-secure-another-50-years
+    title: "'A very special place': Lundy's future secure for another 50 years"
+    publication: The Guardian
+    author: Steven Morris
+    date: 2019-09-26
+  - url: https://simonwillison.net/2018/Sep/18/letterboxing-lundy/
+    title: Letterboxing on Lundy
+    publication: Simon Willison's Weblog
+    author: Simon Willison
+    date: 2018-09-18
+

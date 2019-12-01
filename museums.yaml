@@ -827,3 +827,20 @@
     publication: East Bay Times
     author: Eve Mitchell
     date: 2007-03-04
+-
+  id: 52
+  name: Maison des Johnnies et de l’Oignon de Roscoff
+  url: https://www.roscoff.fr/-Maison-des-Johnnies-et-de-l-Oignon-.html
+  address: 48, rue Brizeux, 29680 Roscoff, France
+  description: |-
+    Starting in the 1820s, farmers from the area around Roscoff in Brittany started crossing the channel to sell onions in Wales and England. Known as Onion Johnnies, they became the stereotypical image of the French to the English, riding bicycles hung with onions and wearing berets and striped shirts. Their activity peaked in 1929 when over 9000 tonnes of onions were imported by nearly 1400 Johnnies. Their golden age was ended by Import restrictions following World War II, but the trading relationship between Brittany and the UK was a key factor in the founding of Brittany Ferries operating out of Roscoff in the 1970s. Today they are commemorated by the Onion Johnny museum Iin Roscoff, which hosts an annual Onion Festival (Fête de l'Oignon) every summer.
+  photo_url: https://niche-museums.imgix.net/onion-roscoff.jpg
+  photo_alt: A bicycle covered in onions.
+  latitude: 48.721
+  longitude: -3.985
+  press:
+  - url: https://www.thelocal.fr/20191126/so-why-do-we-think-the-french-all-wear-berets
+    title: "Why we think the French all wear berets and carry onions"
+    publication: The Local
+    author: Margo Lestz
+    date: 2019-11-26

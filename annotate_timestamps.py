@@ -24,7 +24,7 @@ if __name__ == "__main__":
     for when, hash, content in it:
         try:
             current = {m["id"]: m for m in yaml.safe_load(content)}
-        except yaml.scanner.ScannerError:
+        except (yaml.scanner.ScannerError, yaml.parser.ParserError):
             # This must have been invalid YAML - skip
             continue
         # First detect the new museums

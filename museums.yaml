@@ -844,3 +844,20 @@
     publication: The Local
     author: Margo Lestz
     date: 2019-11-26
+-
+  id: 53
+  name: Bourton-on-the-Water Model Village
+  url: http://www.themodelvillage.com/
+  address: The Old New Inn, Bourton-on-the-Water, Gloucestershire GL54 2AF
+  description: |-
+    Opened in 1937, this one-ninth scale replica of Bourton-on-the-Water features miniature bonsai-style trees and bridges you can cross. Stand close enough to the two churches to hear their choirs singing. Most satisfyingly, the model village includes a model of the model village, which itself includes a model of the model village.
+  photo_url: https://niche-museums.imgix.net/cotswold-village.jpg
+  photo_alt: Part of the model village. Natalie for scale.
+  latitude: 51.8835
+  longitude: -1.7553
+  press:
+  - url: https://www.bbc.com/news/uk-england-gloucestershire-43697763
+    title: "Grade II listed Cotswold model village on the market"
+    publication: BBC News
+    author: BBC Gloucestershire
+    date: 2018-04-09

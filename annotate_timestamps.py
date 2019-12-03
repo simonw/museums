@@ -4,7 +4,10 @@ import json
 import sqlite_utils
 
 
-IGNORE_CHANGES_IN_COMMITS = {"blah"}
+IGNORE_CHANGES_IN_COMMITS = {
+    # This commit updated all existing press dates to a new format
+    "78fa0ac54dcaa9c52e8962a44b574b082bc726d3"
+}
 
 
 def iterate_file_versions(repo_path, filepath, ref="master"):

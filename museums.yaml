@@ -866,3 +866,25 @@
     publication: xkcd
     author: Randall Munroe
     date: 2011-03-28
+-
+  id: 54
+  name: Lynton and Lynmouth Cliff Railway
+  url: https://www.cliffrailwaylynton.co.uk/
+  address: Lee Road, Lynton EX35 6HW, United Kingdom
+  description: |-
+    In continuous use since opening in 1890, this water-powered railway joins the two towns of Lynton (at the top) and Lynmouth (at the bottom). The 862 foot track covers an elevation of 500 feet making it highest and steepest of the three remaining water railways in the world - and the only one in the UK. The two carriages are joined by a cable and act as counter-weights to each other, with the carriage at the top of the line filling up with water sourced from the nearby Lyn Valley to power the railway. The railway won the bronze award in Devon's Large Attraction of the Year 2018.
+  photo_url: https://niche-museums.imgix.net/lynton-lynmouth-railway.jpg
+  photo_alt: The Cliff Railway.
+  latitude: 51.2312
+  longitude: -3.8354
+  press:
+  - url: https://www.northdevongazette.co.uk/news/cliff-railway-working-model-1-6178000
+    title: "School boy inspired to create working model of Lynton and Lynmouth Cliff Railway"
+    publication: North Devon Gazette
+    author: Tony Gussin
+    date: 2019-07-24
+  - url: https://www.devonlive.com/news/devon-news/watch-classic-cars-use-devon-1135036
+    title: "Watch classic cars use Devon cliff railway for first time in 50 years"
+    publication: Devon Live
+    author: Joe Bulmer
+    date: 2018-01-29

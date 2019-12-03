@@ -17,5 +17,6 @@
         <p>{{ museum.description }}</p>
         <p><a href="{{ museum.url }}">Website</a>{% if museum.wikipedia_url %} | <a href="{{ museum.wikipedia_url }}">Wikipedia</a>{% endif %}</p>
         <address>{{ museum.address }} - <a href="https://www.google.com/maps/?q={{ museum.latitude }},{{ museum.longitude }}">Map</a></address>
+        <p class="added-date">{{ nicer_date(museum.created) }}</p>
     </div>
 </div>

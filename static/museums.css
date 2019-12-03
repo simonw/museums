@@ -1591,3 +1591,10 @@ span.permanently-closed {
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
 }
+
+.added-date {
+  padding: 1em 0;
+  text-align: right;
+  font-size: 0.8em;
+  opacity: 0.8;
+}

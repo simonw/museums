@@ -889,3 +889,26 @@
     publication: Devon Live
     author: Joe Bulmer
     date: 2018-01-29
+-
+  id: 55
+  name: Clouds Hill
+  url: https://www.nationaltrust.org.uk/clouds-hill
+  address: Clouds Hill, King George V Road, Bovington BH20 7NQ, United Kingdom
+  description: |-
+    T. E. Lawrence earned international fame thanks to the 1962 film Lawrence of Arabia, a dramatization of his World War I activities during the Sinai and Palestine Campaign and the Arab Revolt against the Ottoman Empire. Clouds Hill is his cottage in Dorset, bought in 1925 for use as a holiday home. Lawrence was fatally injured in a motorcycle accident near Clouds Hill in 1935, just two months after retiring from the army. Today the cottage is managed as a museum by the National Trust.
+  wikipedia_url: https://en.wikipedia.org/wiki/Clouds_Hill
+  photo_url: https://niche-museums.imgix.net/clouds-hill.jpg
+  photo_alt: Clouds Hill cottage.
+  latitude: 50.718
+  longitude: -2.251
+  press:
+  - url: https://www.bournemouthecho.co.uk/news/17204204.row-erupts-as-new-telawrence-film-denied-access-to-his-former-home-cloud-hill/
+    title: "Row erupts as new T.E.Lawrence film denied access to his former home Cloud Hill"
+    publication: Bournemouth Echo
+    author: Katie Williams
+    date: 2018-11-06
+  - url: https://www.theguardian.com/world/2015/dec/15/te-lawrence-dorset-cottage-clouds-hill-listed-status
+    title: "TE Lawrence's Dorset cottage given extra protection"
+    publication: The Guardian
+    author: Maev Kennedy
+    date: 2015-12-14

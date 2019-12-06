@@ -912,3 +912,21 @@
     publication: The Guardian
     author: Maev Kennedy
     date: 2015-12-14
+-
+  id: 56
+  name: Pioneertown
+  url: https://visitpioneertown.com
+  address: Pioneertown, CA
+  description: |-
+    Founded in 1946 by actor Dick Curtis - famous for playing the villain in a host of early westerns - as an 1880s themed living movie set. Hundreds of television shows and movies have been filmed here since. The town has a population of 420 and it's occasionally possible to stay overnight (check Airbnb). Pappy & Harriet's Pioneertown Palace is a popular music venue on the edge of town that occasionally attracts surprise performances by big name stars.
+  wikipedia_url: https://en.wikipedia.org/wiki/Pioneertown,_California
+  photo_url: https://niche-museums.imgix.net/pioneertown.jpg
+  photo_alt: Pottery shop on Main Street.
+  latitude: 34.1562
+  longitude: -116.4963
+  press:
+  - url: https://www.nytimes.com/2016/05/19/fashion/pioneertown-hollywood-california-desert.html
+    title: "Pioneertown Wants to Be the New Old West"
+    publication: New York Times
+    author: Alyson Krueger
+    date: 2016-05-18

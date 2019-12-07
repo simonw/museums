@@ -930,3 +930,20 @@
     publication: New York Times
     author: Alyson Krueger
     date: 2016-05-18
+-
+  id: 57
+  name: Teddy Bear Kingdom
+  url: https://english.huistenbosch.co.jp/amusement/?mode=amuseview&Type=4&no=1253
+  address: 1-1 Huis Ten Bosch Machi, Sasebo, Nagasaki 859-3292, Japan
+  description: |-
+    One of five museums within Huis Ten Bosch, Japan’s 375 acre Netherlands-themed theme park near Nagasaki, Teddy Bear Kingdom celebrates the glamour of teddy bears. Over 700 bears from all over the world are on display, including a Steiff bear made by the company that first popularized the toy in the early 1900s. Did you know the teddy bear moniker was in honor President Theodore Roosevelt? He features in a sequence  of dioramas that tell the history of the teddy bear.
+  photo_url: https://niche-museums.imgix.net/teddy-bear-kingdom.jpg
+  photo_alt: Teddy Roosevelt in a diorama.
+  latitude: 33.089
+  longitude: 129.7907
+  press:
+  - url: https://spikejapan.wordpress.com/2011/01/23/huis-ten-bosch-only-miffy-can-save-us-now/
+    title: "Huis ten Bosch: Only Miffy can save us now"
+    publication: Spike Japan
+    author: Richard Hendy
+    date: 2011-01-23

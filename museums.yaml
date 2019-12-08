@@ -947,3 +947,26 @@
     publication: Spike Japan
     author: Richard Hendy
     date: 2011-01-23
+-
+  id: 58
+  name: The Centennial Light
+  url: https://www.centennialbulb.org
+  address: "Fire Station #6, 4550 East Avenue, Livermore, CA"
+  description: |-
+    Burning since 1901, this bulb holds the record for the longest burning lightbulb. The Livermore-Pleasanton Fire Department maintains the bulb in LPFD Station 6. The bulb was manufactured by the Shelby Electric Company in the late 1890s. The bulb has been moved at least three times, most recently in 1976 when it was offline for 22 minutes before being installed in its current location.
+  wikipedia_url: https://en.wikipedia.org/wiki/Centennial_Light
+  photo_url: https://niche-museums.imgix.net/hundred-bulb.jpg
+  photo_alt: The bulb hanging from the fire station ceiling.
+  latitude: 37.6802
+  longitude: -121.7394
+  press:
+  - url: https://spikejapan.wordpress.com/2011/01/23/huis-ten-bosch-only-miffy-can-save-us-now/
+    title: "What's better than a webcam dedicated to the world’s longest burning lightbulb? Its website"
+    publication: The Verge
+    author: Chris Plante
+    date: 2016-06-29
+  - url: https://www.mercurynews.com/2011/02/03/tests-shine-light-on-the-secret-of-the-livermore-light-bulb/
+    title: "Tests shine light on the secret of the Livermore light bulb"
+    publication: The Mercury News
+    author: Jeanine Benca
+    date: 2011-02-03

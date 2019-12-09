@@ -14,6 +14,7 @@ def annotate(db):
         update["extratags"] = json.dumps(data["extratags"])
         update["namedetails"] = json.dumps(data["namedetails"])
         db["museums"].update(row["id"], update, alter=True)
+        time.sleep(1)
 
 
 if __name__ == "__main__":

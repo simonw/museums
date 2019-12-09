@@ -993,3 +993,21 @@
     publication: New York Times
     author: Nicholas D. Kristof
     date: 1997-02-16
+-
+  id: 60
+  name: Museum of Dartmoor Life
+  url: http://www.dartmoorlife.org.uk/
+  address: 3 West Street, Okehampton, EX20 1HQ, United Kingdom
+  description: |-
+    Opened in 1981, this regional museum occupies three floors of a mill built in 1811 (with an attached waterwheel) and tells the story of 5,000 years of human habitation of the Dartmoor area. Exhibits include recreations of a Bronze Age hut and a Victorian kitchen, plus information on Dartmoor’s geology, industries and use by the military. The bottom floor hosts a rebuilt blacksmith's forge and and a collection of historic farming implements and vehicles. The museum also hosts an infestation of Dartmoor Piskies.
+  wikipedia_url: https://en.m.wikipedia.org/wiki/Museum_of_Dartmoor_Life
+  photo_url: https://niche-museums.imgix.net/museum-dartmoor-life.jpg
+  photo_alt: Farming implements.
+  latitude: 50.7387
+  longitude: -4.0036
+  press:
+  - url: https://www.legendarydartmoor.co.uk/museum-of-dartmoor-life-at-okehampton.htm
+    title: Museum of Dartmoor Life at Okehampton
+    publication: Legendary Dartmoor
+    author: Tim Sandles
+    date: 2016-09-28

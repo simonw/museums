@@ -14,7 +14,9 @@ jobs:
             sqlite3 about.db ""
             python annotate_nominatum.py browse.db
             python annotate_timestamps.py
-            sqlite-utils enable-fts browse.db museums name description osm_city osm_country
+            sqlite-utils add-column browse.db museums country
+            sqlite3 browse.db < set-country.sql
+            sqlite-utils enable-fts browse.db museums name description country osm_city
             datasette publish now browse.db about.db --token=$NOW_TOKEN \
               --alias=www.niche-museums.com \
               --name=niche-museums \

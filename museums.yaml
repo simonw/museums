@@ -970,3 +970,26 @@
     publication: The Mercury News
     author: Jeanine Benca
     date: 2011-02-03
+-
+  id: 59
+  name: Dejima
+  url: https://nagasakidejima.jp/en/
+  address: 6-1 Dejimamachi, Nagasaki, 850-0862, Japan
+  description: |-
+    For 220 years between 1633 and 1853 Japan adopted a strictly isolationist foreign policy, with severely limited trade between Japan and other countries. One of the only exceptions was trade with the Dutch through a trading post on the artificial island of Dejima, first built in 1634 to house Portuguese traders but then repurposed for trade with the Dutch East India Company in 1641. Isolation ended with the Treaty of Kanagawa in 1858 and Dejima merged into Nagasaki through land reclamation, but in 1922 it was designated a national historic site and intermittent efforts began to restore the island. Today Dejima serves as a museum: many historic buildings have been restored, and the island hosts a scale model illustrating how it was laid out during the Edo period.
+  wikipedia_url: https://en.wikipedia.org/wiki/Dejima
+  photo_url: https://niche-museums.imgix.net/dejima.jpg
+  photo_alt: The scale model of Dejima on Dejima.
+  latitude: 32.7436
+  longitude: 129.8723
+  press:
+  - url: https://web.archive.org/web/20041128102502/http://www.mercurynews.com/mld/mercurynews/news/special_packages/3822706.htm
+    title: Historic Port a Link to West
+    publication: Mercury News
+    author: Austin Ramzy
+    date: 2002-08-08
+  - url: https://www.nytimes.com/1997/02/16/travel/in-nagasaki-beauty-and-tragedy-entwined.html
+    title: In Nagasaki, Beauty And Tragedy Entwined
+    publication: New York Times
+    author: Nicholas D. Kristof
+    date: 1997-02-16

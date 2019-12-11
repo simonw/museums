@@ -1011,3 +1011,31 @@
     publication: Legendary Dartmoor
     author: Tim Sandles
     date: 2016-09-28
+-
+  id: 61
+  name: The Tonga Room
+  url: https://www.tongaroom.com/
+  address: 950 Mason Street, San Francisco, CA 94108
+  description: |-
+    A 75-year-old San Francisco institution, the Tonga Room & Hurricane Bar is a legendary tiki bar located in the basement of the Fairmont Hotel. It was designed in 1945 by Mel Melvin, a leading set designer for MGM on the site of the hotel's indoor swimming pool. The pool was converted into a "lagoon" in the center of the space, and most nights a band performs from a boat in the lagoon amidst periodic artificial rain and thunder. The dance floor and bar itself is constructed from wood salvaged from the S.S. Forester, a schooner that once sailed between San Francisco and the south Pacific. The Fairmont appear to be deeply embarassed by the continued presence of the Tonga Room but the city of San Francisco have labelled it a "historic resource", frustrating plans to replace it with something better suited to the hotel's upscale aesthetic.
+  wikipedia_url: https://en.wikipedia.org/wiki/Tonga_Room
+  photo_url: https://niche-museums.imgix.net/tonga-room.jpg
+  photo_alt: The lagoon.
+  latitude: 37.7921
+  longitude: -122.4102
+  press:
+  - url: https://www.sfgate.com/entertainment/article/The-untold-stories-of-the-Tonga-Room-pool-14817802.php
+    title: "Not even a $500 fine is keeping people from jumping into this SF bar's pool"
+    publication: SF Gate
+    author: Tessa McLean
+    date: 2019-11-12
+  - url: https://quarterly.camposanto.com/in-the-basement-of-the-king-ca671e40d7df
+    title: "In the Basement of the King"
+    publication: The Campo Santo Quarterly Review
+    author: Duncan Fyfe
+    date: 2015-07-24
+  - url: https://www.sfgate.com/business/article/Fairmont-preservationists-at-odds-over-Tonga-Room-3265405.php
+    title: "Fairmont, preservationists at odds over Tonga Room"
+    publication: SF Gate
+    author: Robert Selna
+    date: 2010-05-05

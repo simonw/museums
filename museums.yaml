@@ -1039,3 +1039,25 @@
     publication: SF Gate
     author: Robert Selna
     date: 2010-05-05
+-
+  id: 62
+  name: London Silver Vaults
+  address: 53-64 Chancery Lane, Holborn, London WC2A 1QS, United Kingdom
+  description: |-
+    Located five storeys beneath the streets of London, the London Silver Vaults represent the largest retail selection of antique and contemporary silver in the world. 30 shops are located within this subterranean market, most of which have been owned by the same families for more than fifty years. The complex opened as The Chancery Lane Safe Deposit in 1885, survived a direct bomb hit to the surface building during World War II and started trading in its current retail format in 1953. Rumored to be the inspiration for the Gringotts bank in Harry Potter, today the stores in the vaults sell a bewildering array of silver items from cutlery to condiment carrying table-top sailing ships. Entrance is free, you just need to know how to find them.
+  wikipedia_url: https://en.wikipedia.org/wiki/London_Silver_Vaults
+  photo_url: https://niche-museums.imgix.net/london-silver-vaults.jpg
+  photo_alt: The entrance to the vaults.    
+  latitude: 51.5171
+  longitude: -0.1127
+  press:
+  - url: https://www.ianvisits.co.uk/blog/2019/10/15/visit-the-subterranean-london-silver-vaults/
+    title: "Visit the subterranean London Silver Vaults"
+    publication: ianVisits 
+    author: Ian Mansfield
+    date: 2019-10-15
+  - url: https://londonist.com/2015/01/have-you-ever-explored-londons-silver-vaults
+    title: "Have You Ever Explored London's Silver Vaults?"
+    publication: Londonist 
+    author: Matt Brown
+    date: 2015-01-15

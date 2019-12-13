@@ -1062,3 +1062,21 @@
     publication: Londonist 
     author: Matt Brown
     date: 2015-01-15
+-
+  id: 63
+  name: Rosie the Riveter National Historical Park
+  url: https://www.nps.gov/rori/index.htm
+  address: "1414 Harbour Way South, Richmond, CA 94804"
+  description: |-
+    During World War II the city of Richmond grew from 24,000 to 100,000 people as the four Richmond shipyards ramped up production for the war effort. Workers produced 747 Victory and Liberty ships, more than any other US industrial location. Many of those workers were women and African-Americans entering the industrial workforce for the first time. Rosie the Riveter emerged as a cultural icon representing those women, and the Rosie the Riveter/World War II Home Front National Historical Park commemorates those workers and tells their stories. On many Fridays home front workers who worked in Richmond during WWII are available to answer your questions.
+  wikipedia_url: https://en.wikipedia.org/wiki/Rosie_the_Riveter/World_War_II_Home_Front_National_Historical_Park
+  photo_url: https://niche-museums.imgix.net/rosie-the-riveter.jpg
+  photo_alt: Rosie the Riveter posters in the museum.
+  latitude: 37.9095
+  longitude: -122.3574
+  press:
+  - url: https://www.mercurynews.com/2019/08/10/rosie-the-riveter-celebrated-at-richmond-festival/
+    title: "Rosie the Riveter celebrated at Richmond festival"
+    publication: The Mercury News 
+    author: David Debolt
+    date: 2019-08-10

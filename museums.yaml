@@ -1080,3 +1080,14 @@
     publication: The Mercury News 
     author: David Debolt
     date: 2019-08-10
+-
+  id: 64
+  name: LA Bureau of Street Lighting Museum
+  url: http://bsl.lacity.org/museum.html
+  address: "1149 South Broadway #200, Los Angeles, CA 90015"
+  description: |-
+    Los Angeles has one of the largest and most complex street lighting networks in the world. In 2015 the LA Bureau of Street Lighting opened a small museum in their head office dedicated to showcasing the history of street lights in the city. The museum has examples of lighting from multiple decades throughout the 20th and 21st centuries. It opens for 30 minutes once a month, by appointment only.
+  photo_url: https://niche-museums.imgix.net/la-bureau.jpg
+  photo_alt: Street lights in the museum.
+  latitude: 34.0386
+  longitude: -118.2603

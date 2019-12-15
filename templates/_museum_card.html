@@ -15,7 +15,9 @@
         {% endif %}
         {% if museum.distance_mi %}<p class="distance-away">{{ museum.distance_mi|round(2) }} miles away</p>{% endif %}
         <p>{{ museum.description }}</p>
-        <p><a href="{{ museum.url }}">Website</a>{% if museum.wikipedia_url %} | <a href="{{ museum.wikipedia_url }}">Wikipedia</a>{% endif %}</p>
+        {% if museum.url or museum.wikipedia_url %}
+            <p>{% if museum.url %}<a href="{{ museum.url }}">Website</a>{% endif %}{% if museum.url and museum.wikipedia_url %} | {% endif %}{% if museum.wikipedia_url %}<a href="{{ museum.wikipedia_url }}">Wikipedia</a>{% endif %}</p>
+        {% endif %}
         <address>{{ museum.address }} - <a href="https://www.google.com/maps/?q={{ museum.latitude }},{{ museum.longitude }}">Map</a></address>
         <p class="added-date">{{ nicer_date(museum.created) }}</p>
     </div>

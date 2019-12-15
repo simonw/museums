@@ -1077,7 +1077,7 @@
   press:
   - url: https://www.mercurynews.com/2019/08/10/rosie-the-riveter-celebrated-at-richmond-festival/
     title: "Rosie the Riveter celebrated at Richmond festival"
-    publication: The Mercury News 
+    publication: The Mercury News
     author: David Debolt
     date: 2019-08-10
 -
@@ -1091,3 +1091,20 @@
   photo_alt: Street lights in the museum.
   latitude: 34.0386
   longitude: -118.2603
+-
+  id: 65
+  name: Aye-Aye Island
+  address: "Aye-Aye Island, Mananara, Madgascar"
+  description: |-
+    The aye-aye is an endangered species of long-fingered lemur, and the world's largest nocturnal primate. Aye-ayes have really interesting fingers: their third finger is used for percussive foraging, where they tap on a trunk to find hollow points. Their long hooked fourth finger is then used to pull bugs out of those hollows. They are notoriously difficult to see in the wild due to their rarity, nocturnal habits and tendency to spend most of their time above in trees above the 70 meter mark. Aye-Aye Island is a small private wildlife reserve which is home to over a dozen aye-ayes, relocated from elsewhere on Madagascar to protect them from threats that sadly include killings based on superstition. Each night guides leave coconuts wedged in Trees, and bring small groups to the island to watch the Aye-ayes enthusiastically devouring them with their long fingers. Tours can be booked through local hotels - we got ours via the nearby Palmarium.
+  wikipedia_url: https://en.wikipedia.org/wiki/Aye-aye
+  photo_url: https://niche-museums.imgix.net/aye-aye-island.jpg
+  photo_alt: An aye-aye enjoying a coconut.
+  latitude: -18.6297
+  longitude: 49.2304
+  press:
+  - url: https://adventure.com/madagascar-lemur-ayeaye/
+    title: "Creepy, cute and elusive: In search of Madagascar’s strangest creature"
+    publication: Adventure.com
+    author: Mark Stratton
+    date: 2018-09-06

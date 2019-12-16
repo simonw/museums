@@ -24,6 +24,7 @@ jobs:
               --install=datasette-pretty-json \
               --install=datasette-template-sql \
               --install=datasette-json-html \
+              --install=datasette-render-markdown \
               --install=datasette-cluster-map~=0.8 \
               --install=datasette-atom~=0.3 \
               --metadata=metadata.json \

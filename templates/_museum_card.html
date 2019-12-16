@@ -14,7 +14,7 @@
         <h2>{{ museum.name }}</h2>
         {% endif %}
         {% if museum.distance_mi %}<p class="distance-away">{{ museum.distance_mi|round(2) }} miles away</p>{% endif %}
-        <p>{{ museum.description }}</p>
+        {{ render_markdown(museum.description) }}
         {% if museum.url or museum.wikipedia_url %}
             <p>{% if museum.url %}<a href="{{ museum.url }}">Website</a>{% endif %}{% if museum.url and museum.wikipedia_url %} | {% endif %}{% if museum.wikipedia_url %}<a href="{{ museum.wikipedia_url }}">Wikipedia</a>{% endif %}</p>
         {% endif %}

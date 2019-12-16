@@ -1215,13 +1215,18 @@
   latitude: 37.7692
   longitude: -122.4645
   press:
-  - url: https://www.nytimes.com/2005/03/27/arts/design/a-chapter-house-divided-and-rebuilt-a-few-centuries-later.html
-    title: "A Chapter House Divided (and Rebuilt, a Few Centuries Later)"
-    publication: The New York Times
-    author: Christopher Hall
-    date: 2005-03-27
   - url: https://medium.californiasun.co/monarch-bear-california-bab891a59746
     title: "The sad saga of the bear said to be depicted on California’s state flag"
     publication: "The California Sun"
     author: "Mike McPhate"
     date: 2018-05-02
+  - url: https://thebolditalic.com/paranoid-park-the-bold-italic-san-francisco-a6d2a1d95695
+    title: "Paranoid Park"
+    publication: The Bold Italic
+    author: Chris Roberts
+    date: 2010-07-23
+  - url: https://www.nytimes.com/2005/03/27/arts/design/a-chapter-house-divided-and-rebuilt-a-few-centuries-later.html
+    title: "A Chapter House Divided (and Rebuilt, a Few Centuries Later)"
+    publication: The New York Times
+    author: Christopher Hall
+    date: 2005-03-27

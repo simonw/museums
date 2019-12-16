@@ -1230,3 +1230,28 @@
     publication: The New York Times
     author: Christopher Hall
     date: 2005-03-27
+-
+  id: 67
+  name: Alverstone Mead Red Squirrel Hide
+  url: http://www.wightnaturefund.org.uk/Alverstone%20Mead
+  address: Burnt House Lane, Alverstone, Sandown, PO36 0HB, Isle of Wight
+  description: |-
+    Red squirrels are almost extinct in the United Kingdom, due to competition from the invasive North American eastern grays. The exceptions are some areas in Scotland and the Isle of Wight, an island just off the south coast of England.
+
+    We spent a while trying to find red squirrels and eventually got lucky at this small hide near the village of Alverstone. The squirrels here are bold, inquisitive and sinusoidal. They have tufty little ears and a delightfully squirrelly nature.
+  wikipedia_url: https://en.wikipedia.org/wiki/Alverstone_Mead
+  photo_url: https://niche-museums.imgix.net/alverstone-mead-1.jpg
+  photo_alt: A red squirrel.
+  latitude: 50.6634
+  longitude: -1.1798
+  press:
+  - url: https://www.countypress.co.uk/news/17556766.saying-grace-before-tucking-in-isle-of-wight-red-squirrel-is-truly-thankful/
+    title: "Saying Grace before tucking in? Isle of Wight red squirrel is truly thankful"
+    publication: "Isle of Wight County Press"
+    author: "Lori Little"
+    date: 2019-04-07
+  - url: https://www.theguardian.com/travel/2014/jun/14/isle-of-wight-search-red-squirrel-indigenous-endangered
+    title: "Riding the Red Squirell Trail"
+    publication: The Guardian
+    author: Chloe Scott-Moncrief
+    date: 2014-06-14

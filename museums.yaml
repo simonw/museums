@@ -1186,3 +1186,42 @@
     publication: Adventure.com
     author: Mark Stratton
     date: 2018-09-06
+-
+  id: 66
+  name: Monarch Bear Grove
+  url: http://www.monarchbear.org/groves/monarch_bear_grove.html
+  address: Golden Gate Park, San Francisco, California
+  description: |-
+    This somewhat hidden circle of stones in Golden Gate Park has a history that incorporates druids, press barons, Spanish monasteries and the grizzly bear on the California state flag.
+
+    William Randolph Hearst spent several decades building the largest newspaper and magazine chain in the world, starting in the 1880s.
+
+    In 1889, Hearst sponsored an expedition to capture one of the last remaining grizzly bears in California. The mission was successful, and a bear was brought back alive and put on display in the city. A bear pit was designed by architect William Polk and the bear - named the Monarch Bear - lived in captivity for 22 years, during which time it was used as the model for the bear on the 1911 version the California state flag.
+
+    Following the First World War Hearst and other American industrialists competed to snap up as many of Europe's antiquities as they could get their hands on, taking advantage of that continent's urgent need for cash.
+
+    Hearst went as far as buying parts of two ruined Spanish monasteries, which he arranged to have disassembled and shipped over to the United States.
+
+    Then the Great Depression struck, and Hearst found himself unable to afford the reconstruction of his Spanish monasteries. One of them - Santa María de Óvila - was sold to the city of San Francisco on the condition that it be re-assembled into a museum in Golden Gate Park.
+
+    World War II intervened with those plans, and the monastery stones ended up scattered around the park for several decades.
+
+    At some point, somebody arranged some of the stones into circles, on the location of the old Monarch bear pit. The site is now known as Monarch Bear Grove and is cared for by members of OBOD - the Order of Bards, Ovates and Druids.
+
+    Most of the monastery stones were moved up to northern California and used to construct a chapter house near Redding in 2005 - but the stone circles in Monarch Bear Grove remain.
+  wikipedia_url: https://en.m.wikipedia.org/wiki/Santa_Mar%C3%ADa_de_Óvila
+  photo_url: https://niche-museums.imgix.net/stolen-monastery.jpg
+  photo_alt: The stones.
+  latitude: 37.7692
+  longitude: -122.4645
+  press:
+  - url: https://www.nytimes.com/2005/03/27/arts/design/a-chapter-house-divided-and-rebuilt-a-few-centuries-later.html
+    title: "A Chapter House Divided (and Rebuilt, a Few Centuries Later)"
+    publication: The New York Times
+    author: Christopher Hall
+    date: 2005-03-27
+  - url: https://medium.californiasun.co/monarch-bear-california-bab891a59746
+    title: "The sad saga of the bear said to be depicted on California’s state flag"
+    publication: "The California Sun"
+    author: "Mike McPhate"
+    date: 2018-05-02

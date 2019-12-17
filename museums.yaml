@@ -1255,3 +1255,41 @@
     publication: The Guardian
     author: Chloe Scott-Moncrief
     date: 2014-06-14
+-
+  id: 68
+  name: Mail Rail
+  url: https://www.postalmuseum.org/discover/attractions/mail-rail-ride/
+  address: 15-20 Phoenix Place, London WC1X 0DL, United Kingdom
+  description: |-
+    The London Post Office Railway (rebranded Mail Rail in 1987) was conceived in 1911 in response to congestion on London’s road networks, and opened in 1927 as the world’s first electric railway with driverless trains.
+
+    At its peak the railway carried 4 million letters a day across 22 miles of narrow gauge underground track spanning a distance of 6.5 miles from Paddington in the west to Whitechapel in the east.
+
+    The railway stayed in operation for 76 years. It closed in May 2003 over cost concerns: the railway was 3-5 times more expensive than road transport for the same task.
+
+    Urban explorers published illicit photographs of the network in April 2011 showing it to be largely in good condition. In October 2013 the British Postal Museum & Archive announced plans to open parts of the network to the public, and on 5th September 2017 opened an attraction featuring new custom passenger rail cars running through the tunnels.
+
+    During its lifetime the railway was strictly for mail only. As a result the new passenger carriages are a very tight fit - bags need to be left in a locker, and if you’re claustrophobic you may have second thoughts! The ride lasts 15 minutes and includes numerous stops with well designed video presentations projected onto the walls outside the carriage.
+
+    The ride ends at the maintenance depot which exhibits historic rail cars and switching equipment. Tickets to Mail Rail also cover entrance to the nearby Postal Museum.
+  wikipedia_url: https://en.m.wikipedia.org/wiki/London_Post_Office_Railway
+  photo_url: https://niche-museums.imgix.net/mail-rail.jpg
+  photo_alt: A Mail Rail passenger train.
+  latitude: 51.5245
+  longitude: -0.1132
+  press:
+  - url: https://www.theguardian.com/uk-news/2017/sep/02/engineer-lends-voice-to-mail-rail-tours-as-secret-world-opens-to-public
+    title: "Engineer lends voice to Mail Rail tours as secret world opens to public"
+    publication: The Guardian
+    author: "Maev Kennedy"
+    date: 2017-09-02
+  - url: https://www.londonreconnections.com/2013/reopening-londons-mail-rail/
+    title: "Reopening London's Mail Rail"
+    publication: London Reconnections
+    author: John Bull
+    date: 2013-10-25
+  - url: http://www.placehacking.co.uk/2011/04/24/security-breach-london-mail-rail/
+    title: "Security Breach: The London Mail Rail"
+    publication: Place Hacking
+    author: Consolidation Crew
+    date: 2011-04-24

@@ -1293,3 +1293,26 @@
     publication: Place Hacking
     author: Consolidation Crew
     date: 2011-04-24
+-
+  id: 69
+  name: Museum of Funeral History
+  url: https://www.dignityfunerals.co.uk/funeral-directors/locations/england/london/clerkenwell/29---31-rosebery-avenue
+  address: "29-31 Rosebery Avenue, Clerkenwell, EC1R 4SL, London, United Kingdom"
+  description: |-
+    Tucked away in the basement of Thomas Treacy funeral directors in London Clerkenwell, this eclectic museum combines displays on the history of funerals in London with information about funeral traditions around the world.
+
+    The museum was opened in June 2017 by a local historian who works at the funeral home. Most of the exhibitions are text and photographs, but the written descriptions have a lot of personality and make for an entertaining half hour of exploration.
+
+    Did you know that Fred Baruch, creator of the Pringles tube, requested that some of his cremated remains should be buried in a Pringle's container? Or that the classic red telephone box was modeled after the mausoleum of John Soane in the St Pancras old churchyard?
+
+    This museum is just around the corner from the [Mail Rail](https://www.niche-museums.com/browse/museums/68) so we combined our visits.
+  photo_url: https://niche-museums.imgix.net/funeral-history.jpg
+  photo_alt: Displays inside the museum.
+  latitude: 51.524
+  longitude: -0.1113
+  press:
+  - url: https://www.ianvisits.co.uk/blog/2018/03/19/londons-museum-of-funeral-history/
+    title: "London’s Museum of Funeral History"
+    publication: ianVisits
+    author: Ian Mansfield
+    date: 2018-03-19

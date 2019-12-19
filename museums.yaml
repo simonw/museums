@@ -1316,3 +1316,27 @@
     publication: ianVisits
     author: Ian Mansfield
     date: 2018-03-19
+-
+  id: 70
+  name: London Mithraeum
+  url: https://www.londonmithraeum.com/
+  address: "12 Walbrook, London, EC4N 8AA, United Kingdom"
+  description: |-
+    This temple of Mithras was a sensation when it was discovered during post-WWII redevelopment in 1954, bringing widespread attention to London's Roman heritage.
+
+    The ruins were subsequently dismantled, stored in a builder's yard and then clumsily reconstructed in 1962 outdoors a hundred yards from their original site with, as the Guardian put it, "all the mystery of a suburban front garden".
+
+    In 2010 Bloomberg purchased the site that included the original location to use as their European headquarters. They decided to restore the Mithraeum to a new custom space seven metres below the surface, and attempted to recapture the atmosphere of the mystery cult of Mithras.
+
+    The Mithraeum is free to visit, and is presented with a short light and sound experience complete with Latin chants and shuffling feet. The way they recreate the original pillars using shadows is a very neat touch.
+  wikipedia_url: https://en.wikipedia.org/wiki/London_Mithraeum
+  photo_url: https://niche-museums.imgix.net/london-mithraeum.jpg
+  photo_alt: The Mithraeum, illuminated.
+  latitude: 51.5122
+  longitude: -0.0907
+  press:
+  - url: https://www.theguardian.com/science/2017/nov/08/reconstructed-roman-temple-mithras-opens-public-bloomberg-hq
+    title: "Reconstructed Roman Temple of Mithras opens to public in London"
+    publication: The Guardian
+    author: Maev Kennedy
+    date: 2017-11-08

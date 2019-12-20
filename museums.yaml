@@ -1340,3 +1340,17 @@
     publication: The Guardian
     author: Maev Kennedy
     date: 2017-11-08
+-
+  id: 71
+  name: Bank of England Museum
+  url: https://www.bankofengland.co.uk/museum/
+  address: "Bartholomew Lane, London, EC2R 8AH, United Kingdom"
+  description: |-
+    The Bank of England really wants you to understand quantitative easing. Their museum has multiple displays on the subject, plus two interactive games - one of which sees you attempting to sail a boat through stormy financial waters, applying quantitative easing in an attempt to keep inflation to the magic level of 2%.
+
+    More importantly though: they have a real gold bar in a cage, which you can both touch and pick up to see how heavy it is!
+  wikipedia_url: https://en.m.wikipedia.org/wiki/Bank_of_England_Museum
+  photo_url: https://niche-museums.imgix.net/gold-bar.jpg
+  photo_alt: A gold bar you can touch.
+  latitude: 51.5142
+  longitude: -0.0876

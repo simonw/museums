@@ -1354,3 +1354,25 @@
   photo_alt: A gold bar you can touch.
   latitude: 51.5142
   longitude: -0.0876
+-
+  id: 72
+  name: Reserva Cerro Ancón
+  url: https://www.visitpanama.com/destination/cerro-ancon-ancon-hill-panama-city/
+  address: Reserva Cerro Ancón, Panama City, Panama
+  description: |-
+    Where else can you take a jungle hike in the middle of a city and see a wild sloth in a tree?
+
+    Areas of Panama were placed under US jurisdiction as part of the Panama Canal Zone between 1903 and 1977. Ancon Hill is a 200m hill in the center of Panama City that was used as a US army post during that period. The area was largely undeveloped and became a reserve after being handed back to Panama - albeit with a very prominent Panamanian flag at the top of the hill.
+
+    It takes about half an hour to hike to the top - but in practice it takes longer because you will want to stop and admire the sloths. We saw sloths, toucans and coatis and apparently there are also nine-banded armadillos and Geoffroy's tamarin in the reserve as well.
+  wikipedia_url: https://en.wikipedia.org/wiki/Ancon_Hill
+  photo_url: https://niche-museums.imgix.net/panama-sloth.jpg
+  photo_alt: A sloth in a tree with Panama City in the background.
+  latitude: 8.958
+  longitude: -79.5493724
+  press:
+  - url: https://www.atlasobscura.com/places/ancon-hill-republica-de-panama
+    title: Ancon Hill, República de Panamá
+    publication: Atlas Obscura
+    author: JBHewlett
+    date: 2011-12-15

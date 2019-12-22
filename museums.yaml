@@ -1376,3 +1376,30 @@
     publication: Atlas Obscura
     author: JBHewlett
     date: 2011-12-15
+-
+  id: 73
+  name: Buckfast Abbey
+  url: https://www.buckfast.org.uk/
+  address: Buckfast Abbey, Buckfastleigh, TQ11 0EE, United Kingdom
+  description: |-
+    Buckfast has been home to an abbey since 1018, albeit with numerous changes in circumstance. The monastery was dissolved in 1539, then refounded by French Benedictine monks in 1882. Today’s church was completed in 1938.
+
+    The Abbey is self-supporting, most notoriously through the production of Buckfast Tonic Wine. Variously known as "Wreck the Hoose Juice", "Commotion Lotion”, "Cumbernauld Rocket Fuel” and more this fortified wine is highly caffeinated and has been widely associated with anti-social behaviour in Scotland.
+
+    The Abbey staff generally dislike questions about the wine’s violent reputation, but they do sell bottles of it in the Abbey gift shop.
+  wikipedia_url: https://en.wikipedia.org/wiki/Buckfast_Abbey
+  photo_url: https://niche-museums.imgix.net/buckfast.jpg
+  photo_alt: Buckfast Abbey.
+  latitude: 50.4926
+  longitude: -3.7765
+  press:
+  - url: https://www.thescottishsun.co.uk/fabulous/5081703/buckfast-wine-sales-record-tonic-wine/
+    title: "Buckfast sales rocket to £50 million as monks record biggest ever profits – but wine being stockpiled ahead of Brexit"
+    publication: The Scottish Sun
+    author: Stuart MacDonald
+    date: 2019-12-18
+  - url: https://www.atlasobscura.com/articles/buckfast-scotland
+    title: How a Tonic Wine Brewed by Monks Became the Scourge of Scotland
+    publication: Atlas Obscura
+    author: Natasha Frost
+    date: 2017-06-07

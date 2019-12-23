@@ -1403,3 +1403,31 @@
     publication: Atlas Obscura
     author: Natasha Frost
     date: 2017-06-07
+-
+  id: 74
+  name: Dennis Severs’ House
+  url: https://www.dennissevershouse.co.uk/
+  address: 18 Folgate Street, Spitalfields, London E1 6BX, United Kingdom
+  description: |-
+    A three-dimensional historical novel. American artist Dennis Severs moves to London in 1967 and bought this Georgian terraced house in 1979. He spent the next twenty years refurbishing the ten rooms in the house to tell the story of two hundred years of occupation by an imaginary family of Huguenot immigrants.
+
+    Each room is intended to give the impression that the occupants have just left, with hidden audio tracks, scents and half-eaten bread adding to the atmosphere.
+
+    Today the house is maintained by the Spitalfields Historic Buildings Trust, who open it to the public and also run occasional candle-lit evening tours.
+  wikipedia_url: https://en.wikipedia.org/wiki/Dennis_Severs%27_House
+  photo_url: https://niche-museums.imgix.net/dennis-severs-house.jpg
+  photo_alt: Outside Dennis Severs’ House
+  latitude: 51.5209
+  longitude: -0.0776932
+  press:
+  - url: https://www.standard.co.uk/go/london/attractions/secret-london-why-you-should-go-and-explore-dennis-severs-house-a3706256.html
+    title: "Secret London: Why you should go and explore Dennis Severs' House"
+    publication: Evening Standard
+    author: Luke Abrahams
+    date: 2017-12-04
+  - url: https://www.theguardian.com/news/2000/jan/10/guardianobituaries
+    title: "Dennis Severs, Obituary"
+    publication: The Guardian
+    author: Gavin Stamp
+    date: 2000-01-10
+  

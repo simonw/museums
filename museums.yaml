@@ -1430,4 +1430,22 @@
     publication: The Guardian
     author: Gavin Stamp
     date: 2000-01-10
-  
+-
+  id: 75
+  name: Jukebox London
+  url: http://www.jukeboxlondon.co.uk/
+  address: 16 Colebrooke Row, Islington, London, N1 8DB, United Kingdom
+  description: |-
+    David and Margaret Webb started restoring vintage Jukeboxes over twenty years ago. Their showroom in an Islington townhouse displays a dazzling array of Jukeboxes dating back to the 1940s, all of which are in working order.
+
+    Call them to book an appointment and they will show you around and demonstrate the Jukeboxes working for you. They sell about ten a year, but only to customers who can be trusted to look after them properly.
+  photo_url: https://niche-museums.imgix.net/jukebox-london.jpg
+  photo_alt: Details of a Jukebox.
+  latitude: 51.5327
+  longitude: -0.1031
+  press:
+  - url: https://www.islingtongazette.co.uk/news/heritage/meet-the-islington-couple-who-restore-vintage-1950s-jukeboxes-in-their-colebrooke-row-townhouse-1-4811906
+    title: Meet the Islington couple who restore vintage 1950s jukeboxes in their Colebrooke Row townhouse
+    publication: Islington Gazette
+    author: David Child
+    date: 2016-12-10

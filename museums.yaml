@@ -1449,3 +1449,27 @@
     publication: Islington Gazette
     author: David Child
     date: 2016-12-10
+-
+  id: 76
+  name: Stonehenge
+  url: https://www.english-heritage.org.uk/visit/places/stonehenge/
+  address: Amesbury, Wiltshire, SP4 7DE, United Kingdom
+  description: |-
+    England's most famous Neolithic monument. Constructed between 3000 and 2000 BC, and legally protected since the Ancient Monuments Protection Act of 1882. How it was built and what it was built for remain subject to debate.
+
+    Ask the guides up by the Henge about the rooks - if you are lucky they might be feeding them. We visited the day before the winter solstice and saw an entire bus load of druids and some Morris dancers.
+  photo_url: https://niche-museums.imgix.net/stonehenge.jpg
+  photo_alt: Stonehenge.
+  latitude: 51.1788
+  longitude: -1.8261
+  press:
+  - url: https://www.theguardian.com/uk-news/2019/dec/22/druids-and-dancers-gather-at-stonehenge-to-mark-winter-solstice
+    title: Druids and dancers gather at Stonehenge to mark winter solstice
+    publication: The Guardian
+    author: PA Media
+    date: 2019-12-22
+  - url: https://www.telegraph.co.uk/news/2019/05/07/missing-piece-stonehenge-found-60-years-archaeologist-stashed/
+    title: Missing piece of Stonehenge found 60 years after excavator stashed it away in his office
+    publication: The Telegraph
+    author: Phoebe Southworth
+    date: 2019-05-08

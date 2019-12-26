@@ -1480,3 +1480,29 @@
   - url: https://niche-museums.imgix.net/stonehenge-4.jpeg
   - url: https://niche-museums.imgix.net/stonehenge-5.jpeg
   - url: https://niche-museums.imgix.net/stonehenge-6.jpeg
+-
+  id: 77
+  name: Yolo Causeway Bat Colony
+  url: http://yolobasin.org/battalkandwalks/
+  address: 45211 County Road 32B, Davis, CA 95618, United States
+  description: |-
+    Every summer the Yolo Causeway between Davis and Sacramento plays host to enormous numbers of migratory Mexican free-tailed bats - the largest colony of these bats in California. The bats emerge together in spectacular long ribbons at dusk as they head out to hunt.
+
+    The current causeway was built in 1962, with expansion joints that turned out to be the perfect roosting spot for bats. Today the bat population peaks at around 250,000 individuals. They feed on insects in the nearby wetlands and give birth to baby bats in mid-June.
+
+    The Yolo Basin Foundation offers Bat Talk & Walks during bat season. This is by far the best way to see the bats as the ideal viewing spots for the flyouts are in areas of the wetlands that are not generally open to the public.
+  wikipedia_url: https://en.wikipedia.org/wiki/Yolo_Causeway
+  photo_url: https://niche-museums.imgix.net/yolo-causeway.jpg
+  photo_alt: A ribbon of bats emerging from the causeway.
+  latitude: 38.5709
+  longitude: -121.5903
+  press:
+  - url: https://www.sfchronicle.com/travel/article/Bats-nightly-fly-out-is-spectacle-to-14339225.php
+    title: "Bats’ nightly ‘fly out’ is spectacle to behold in Sacramento"
+    publication: San Francisco Chronicle
+    author: David Ferry
+    date: 2019-08-20
+  photos:
+  - url: https://niche-museums.imgix.net/yolo-causeway-1.jpg
+  - url: https://niche-museums.imgix.net/yolo-causeway-2.jpg
+  - url: https://niche-museums.imgix.net/yolo-causeway-3.jpg

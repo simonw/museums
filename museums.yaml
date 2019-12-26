@@ -1455,6 +1455,13 @@
     publication: Islington Gazette
     author: David Child
     date: 2016-12-10
+  photos:
+  - url: https://niche-museums.imgix.net/jukebox-london-1.jpg
+  - url: https://niche-museums.imgix.net/jukebox-london-2.jpg
+  - url: https://niche-museums.imgix.net/jukebox-london-3.jpg
+  - url: https://niche-museums.imgix.net/jukebox-london-4.jpg
+  - url: https://niche-museums.imgix.net/jukebox-london-5.jpg
+  - url: https://niche-museums.imgix.net/jukebox-london-6.jpg
 -
   id: 76
   name: Stonehenge

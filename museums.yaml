@@ -715,11 +715,12 @@
     publication: San Francisco Chronicle
     author: Bill Van Niekerken
     date: 2019-01-16
-  - photos:
-    - url: https://niche-museums.imgix.net/conservatory-flowers-1.jpg
-    - url: https://niche-museums.imgix.net/conservatory-flowers-2.jpg
-    - url: https://niche-museums.imgix.net/conservatory-flowers-3.jpg
-    - url: https://niche-museums.imgix.net/conservatory-flowers-4.jpg
+  photos:
+  - url: https://niche-museums.imgix.net/conservatory-of-flowers.jpg
+  - url: https://niche-museums.imgix.net/conservatory-flowers-1.jpg
+  - url: https://niche-museums.imgix.net/conservatory-flowers-2.jpg
+  - url: https://niche-museums.imgix.net/conservatory-flowers-3.jpg
+  - url: https://niche-museums.imgix.net/conservatory-flowers-4.jpg
 -
   id: 47
   name: The Comic Rock Star’s Toilet Seat Museum

@@ -51,6 +51,15 @@
     <section class="section" id="cards">
         {% include "_museum_card.html" %}
     </section>
+    {% if museum.photos %}
+        <section class="section photos">
+            <div class="masonry">
+            {% for photo in json.loads(museum.photos) %}
+                <a href="{{ photo.url }}?w=1200&auto=compress"><img src="{{ photo.url }}?w=400&auto=compress"{% if photo.alt %} alt="{{ photo.alt }}"{% endif %}></a>
+            {% endfor %}
+            </div>
+        </section>
+    {% endif %}
     {% if museum.press %}
     <section class="section articles">
         <div class="box content">

@@ -1439,7 +1439,6 @@ body {
   max-width: 800px;
   margin: 0 auto;
 }
-
 .distance-away {
   font-size: 0.8em;
   font-weight: bold;
@@ -1597,4 +1596,30 @@ span.permanently-closed {
   text-align: right;
   font-size: 0.8em;
   opacity: 0.8;
+}
+
+.photos {
+  padding-top: 0;
+  padding-bottom: 1.5rem;
+}
+.masonry {
+  column-gap: 10px;
+}
+.masonry a {
+  display: inline-block;
+  /* display: block here caused Safari to sometimes split the margin
+    across two columns, resulting in misalingment of the top item in
+    a column */
+  width: 100%;
+  padding-bottom: 6px;
+}
+@media (min-width: 400px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+@media (min-width: 600px) {
+  .masonry {
+    column-count: 3;
+  }
 }

@@ -412,6 +412,25 @@
   photo_alt: Old wedding cakes
   latitude: 51.2101
   longitude: -4.1236
+  photos:
+  - url: https://niche-museums.imgix.net/ilfracombe-1.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-2.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-3.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-4.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-5.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-6.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-7.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-8.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-9.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-10.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-11.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-12.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-13.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-14.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-15.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-16.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-17.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-18.jpeg
 -
   id: 28
   name: Barometer World

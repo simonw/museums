@@ -240,6 +240,17 @@
   photo_alt: Shelves full of salt and pepper shakers
   latitude: 35.7162331
   longitude: -83.5025032
+  press:
+  - url: https://www.theguardian.com/culture/2015/may/31/tennessee-salt-and-pepper-shaker-museum
+    title: "In Tennessee, the world's premier fantasyland of salt and pepper shakers"
+    publication: The Guardian
+    author: Susan Harlan
+    date: 2015-05-31
+  photos:
+  - url: https://niche-museums.imgix.net/salt-pepper-shaker-1.jpeg
+  - url: https://niche-museums.imgix.net/salt-pepper-shaker-2.jpeg
+  - url: https://niche-museums.imgix.net/salt-pepper-shaker-3.jpeg
+  - url: https://niche-museums.imgix.net/salt-pepper-shaker-4.jpeg
 -
   id: 16
   name: International Art Museum of America

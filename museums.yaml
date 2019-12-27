@@ -1533,3 +1533,37 @@
   - url: https://niche-museums.imgix.net/yolo-causeway-1.jpg
   - url: https://niche-museums.imgix.net/yolo-causeway-2.jpg
   - url: https://niche-museums.imgix.net/yolo-causeway-3.jpg
+-
+  id: 78
+  name: Horniman Museum and Gardens
+  url: https://www.horniman.ac.uk/
+  address: 100 London Road, Forest Hill, London SE23 3PQ, United Kingdom
+  description: |-
+    The Horniman museum in Forest Hill, south London was opened in 1901 by Frederick John Horniman, heir to the world's largest tea trading business.
+
+    Frederick was a lifelong collector, focusing on natural history, anthropology and musical instruments. His collection of 30,000 items formed the basis of the museum's collection, which has since grown to more than 350,000 items, continuing to focus on those three topics.
+
+    The most famous item in the Horniman is a stuffed walrus, first displayed at the Colonial and Indian Exhibition in South Kensington in 1886. The walrus originated in eastern Canada but was stuffed in England, apparently by a taxidermist who had never seen a walrus and assumed that it should be stuffed until the wrinkles smoothed out. Today you can follow [the walrus on Twitter](https://twitter.com/hornimanwalrus).
+  wikipedia_url: https://en.wikipedia.org/wiki/Horniman_Museum
+  photo_url: https://niche-museums.imgix.net/horniman.jpg
+  photo_alt: The majestic Horniman walrus.
+  latitude: 51.441
+  longitude: -0.0611
+  press:
+  - url: https://www.ft.com/content/7d1018b6-7927-11e8-8e67-1e1a0846c475
+    title: "London’s Horniman Museum: ‘Don’t mess with the walrus’"
+    publication: Financial Times
+    author: Neville Hawcock
+    date: 2018-06-26
+  - url: https://www.theguardian.com/science/blog/2013/sep/19/horniman-museum-walrus-london-margate
+    title: "The Horniman walrus returns from his summer holiday"
+    publication: The Guardian
+    author: Henry Nicholls
+    date: 2013-09-19
+  photos:
+  - url: https://niche-museums.imgix.net/horniman-1.jpg
+  - url: https://niche-museums.imgix.net/horniman-2.jpg
+  - url: https://niche-museums.imgix.net/horniman-3.jpg
+  - url: https://niche-museums.imgix.net/horniman-4.jpg
+  - url: https://niche-museums.imgix.net/horniman-5.jpg
+  - url: https://niche-museums.imgix.net/horniman-6.jpg

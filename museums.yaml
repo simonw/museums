@@ -1586,3 +1586,38 @@
   - url: https://niche-museums.imgix.net/horniman-4.jpg
   - url: https://niche-museums.imgix.net/horniman-5.jpg
   - url: https://niche-museums.imgix.net/horniman-6.jpg
+-
+  id: 79
+  name: Southern Food and Beverage Museum
+  url: https://natfab.org/southern-food-and-beverage
+  address: 1504 Oretha Castle Haley Boulevard, New Orleans, LA 70113
+  description: |-
+    New Orleans is *really* good at food. The Southern Food & Beverage Museum helps explain why.
+
+    Founded in 2004, and relocated a couple of times until it reached its current location in September 2014, the museum has exhibits covering food cultures from throughout the American south and detailed exhibits on the foods of Louisiana.
+
+    Popeyes Chicken founder Al Copeland has his own area, which includes his 1986 Scoville Unit chromatography device and an original Satisfryer device custom built for Al’s restaurants.
+
+    The museum includes a museum-within-a-museum: The Museum of the American Cocktail, which displays cocktail items dating all the way back to the 1750s. Also present is La Galerie de l'Absinthe, the largest collection of Absinthe artifacts in the USA.
+
+    SoFAB hosts frequent cooking demonstrations by local chefs, and shares space with Toups South, a highly rated brunch and dinner restaurant.
+  wikipedia_url: https://en.wikipedia.org/wiki/Southern_Food_and_Beverage_Museum
+  photo_url: https://niche-museums.imgix.net/nola-food-beverage.jpg
+  photo_alt: Inside the Southern Food and Beverage Museum.
+  latitude: 29.9409
+  longitude: -90.0792
+  press:
+  - url: https://www.nola.com/entertainment_life/eat-drink/article_d5a10316-d5b3-584b-ab7e-22e963d35e4f.html
+    title: "Southern Food and Beverage Museum cuts ribbon on new home"
+    publication: The Times-Picayune
+    author: NOLA.com
+    date: 2014-09-30
+  photos:
+  - url: https://niche-museums.imgix.net/nola-food-beverage.jpg
+  - url: https://niche-museums.imgix.net/nola-food-beverage-7.jpeg
+  - url: https://niche-museums.imgix.net/nola-food-beverage-6.jpeg
+  - url: https://niche-museums.imgix.net/nola-food-beverage-5.jpeg
+  - url: https://niche-museums.imgix.net/nola-food-beverage-4.jpeg
+  - url: https://niche-museums.imgix.net/nola-food-beverage-3.jpeg
+  - url: https://niche-museums.imgix.net/nola-food-beverage-2.jpeg
+  - url: https://niche-museums.imgix.net/nola-food-beverage-1.jpeg

@@ -1629,3 +1629,33 @@
   - url: https://niche-museums.imgix.net/nola-food-beverage-3.jpg
   - url: https://niche-museums.imgix.net/nola-food-beverage-2.jpg
   - url: https://niche-museums.imgix.net/nola-food-beverage-1.jpg
+-
+  id: 80
+  name: Oakley Court
+  url: https://www.oakleycourt.co.uk/
+  address: Windsor Road, Water Oakley, Windsor, Berkshire, SL4 5UR, United Kingdom
+  description: |-
+    A British Victorian country house built in 1859. Today it's a luxury hotel, but the fancy trimmings conceal a mischievous past: this mansion is Dr. Frank N. Furter's castle from the Rocky Horror Picture Show!
+
+    The house changed hands several times before the Second World War, but in 1949 it became home to Hammer Film Productions, notorious producer of British gothic horror films from the 1950s to the 1970s.
+
+    Hammer shot five films there before moving to a custom studio built next door. They continued to use Oakley Court for exteriors, including The Brides of Dracula in 1962 and The Plague of the Zombies in 1966.
+
+    In October through December of 1974 Oakley Court was used as a location for many scenes of the Rocky Horror Picture Show. The mansion was in very poor condition at the time, with no heat or bathrooms. Susan Sarandon (Janet) came down with pneumonia while filming there.
+
+    Today there is little evidence of the hotel's cinematic past - but if you head to the lounge bar room that borders the conservatory you will find yourself sitting in the room that hosted the time warp.
+  wikipedia_url: https://en.wikipedia.org/wiki/Oakley_Court
+  photo_url: https://niche-museums.imgix.net/timewarp-hotel.jpg
+  photo_alt: Outside of Oakley Court.
+  latitude: 51.4903
+  longitude: -0.6723
+  photos:
+  - url: https://niche-museums.imgix.net/timewarp-hotel-1.jpeg
+  - url: https://niche-museums.imgix.net/timewarp-hotel-2.jpeg
+  - url: https://niche-museums.imgix.net/timewarp-hotel-3.jpeg
+  - url: https://niche-museums.imgix.net/timewarp-hotel-4.jpeg
+  - url: https://niche-museums.imgix.net/timewarp-hotel-5.jpeg
+  - url: https://niche-museums.imgix.net/timewarp-hotel-6.jpeg
+  - url: https://niche-museums.imgix.net/timewarp-hotel-7.jpeg
+  - url: https://niche-museums.imgix.net/timewarp-hotel-8.jpeg
+  - url: https://niche-museums.imgix.net/timewarp-hotel-9.jpeg

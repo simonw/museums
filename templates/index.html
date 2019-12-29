@@ -95,7 +95,7 @@
     <script>
         {% if is_distance_page %}
         // Reverse geocode their lat/lon and show text on page
-        let geocodeUrl = `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat={{ latitude }}&lon={{ longitude }}&zoom=16`;
+        let geocodeUrl = `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat={{ latitude }}&lon={{ longitude }}&zoom=14`;
         fetch(geocodeUrl).then(r => r.json()).then(o => {
             let displayName = o.display_name;
             let section = document.getElementById("cards");

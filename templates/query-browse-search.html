@@ -51,6 +51,24 @@
         {% include "_museum_card.html" %}
         {% endfor %}
     </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let input = document.getElementsByName("q")[0];
+            let q = input.value;
+            if (q) {
+                let geocodeUrl = `https://nominatim.openstreetmap.org/search?format=jsonv2&q=${encodeURIComponent(q)}`;
+                fetch(geocodeUrl).then(r => r.json()).then(o => {
+                    let displayName = o[0].display_name;
+                    let latitude = parseFloat(o[0].lat);
+                    let longitude = parseFloat(o[0].lon);
+                    let p = document.createElement('p');
+                    p.style.marginTop = '1em';
+                    p.innerHTML = `Or <a href="/?latitude=${latitude.toFixed(3)}&longitude=${longitude.toFixed(3)}">view museums near ${displayName}</a>`;
+                    input.parentNode.parentNode.parentNode.appendChild(p);
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>

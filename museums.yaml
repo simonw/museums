@@ -1659,3 +1659,30 @@
   - url: https://niche-museums.imgix.net/timewarp-hotel-7.jpeg
   - url: https://niche-museums.imgix.net/timewarp-hotel-8.jpeg
   - url: https://niche-museums.imgix.net/timewarp-hotel-9.jpeg
+-
+  id: 81
+  name: Seaton Tramway
+  url: https://www.tram.co.uk/
+  address: Seaton Tramway, Harbour Road, Seaton, Devon EX12 2NQ, United Kingdom
+  description: |-
+    A unique narrow-gauge electric tramway, running between the East Devon coastal town of Seaton and the villages of Colyford and Colyton in the Axe Valley.
+
+    The fourteen trams that operate on the line are custom half-scale and two-thirds-scale electric vehicles, mostly built for the tramway by founder Claude Lane and his successor Allan Gardner.
+
+    Some of the trams are adapted from historic vehicles, the oldest of which is a red and white Ex Metropolitan Electric Tramways vehicle first constructed in 1904.
+
+    The tramway opened in 1970, reusing segments of the Seaton branch line that had been closed by the Beaching cuts in the 1960s. The tramway had previously spent the 1950s moving homes between St Leonard’s, Rhyl and Eastbourne.
+
+    The tram ride takes 25 minutes in each direction, and the Colyton end has a station cafeteria, a picnic area and an excellent antique thrift shop.
+  wikipedia_url: https://en.wikipedia.org/wiki/Seaton_Tramway
+  photo_url: https://niche-museums.imgix.net/seaton-tramway.jpeg
+  photo_alt: A beautiful pink tram.
+  latitude: 50.7051
+  longitude: -3.0679
+  photos:
+  - url: https://niche-museums.imgix.net/seaton-tramway-1.jpeg
+  - url: https://niche-museums.imgix.net/seaton-tramway-2.jpeg
+  - url: https://niche-museums.imgix.net/seaton-tramway-3.jpeg
+  - url: https://niche-museums.imgix.net/seaton-tramway-4.jpeg
+  - url: https://niche-museums.imgix.net/seaton-tramway-5.jpeg
+  - url: https://niche-museums.imgix.net/seaton-tramway-6.jpeg

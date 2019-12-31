@@ -17,7 +17,7 @@ jobs:
             python annotate_timestamps.py
             sqlite-utils add-column browse.db museums country || true
             sqlite3 browse.db < set-country.sql
-            sqlite-utils enable-fts browse.db museums name description country osm_city --create-triggers
+            sqlite-utils enable-fts browse.db museums name description country osm_city --create-triggers || true
             datasette publish now browse.db about.db --token=$NOW_TOKEN \
               --alias=www.niche-museums.com \
               --name=niche-museums \

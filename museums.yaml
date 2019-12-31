@@ -1686,3 +1686,42 @@
   - url: https://niche-museums.imgix.net/seaton-tramway-4.jpeg
   - url: https://niche-museums.imgix.net/seaton-tramway-5.jpeg
   - url: https://niche-museums.imgix.net/seaton-tramway-6.jpeg
+-
+  id: 82
+  name: The Donkey Sanctuary
+  url: https://www.thedonkeysanctuary.org.uk/
+  address: Slade House Farm, Sidmouth, EX10 0NU, United Kingdom
+  description: |-
+    The Donkey Sanctuary in Sidmouth, Devon is an extraordinarily successful charity. Frequently ranked in the top 50 UK charities by funds raised, in 2018 it spent £40M and pulled in £42.3M - more than half of which was from legacies in people’s wills. The sanctuary is responsible for more than 6,000 donkeys worldwide and the headquarters in Sidmouth usually hosts a population of several hundred. The British public really likes donkeys.
+
+    Founded by Elisabeth Svendsen in 1969, the sanctuary moved to its present location in 1974 when she was bequeathed a legacy of 204 donkeys by the estate of Violet Philpin - joining Elisabeth’s existing herd of 38. The charity continued to grow over the years, and today operates in 35 countries worldwide.
+
+    Visits to the sanctuary are free, and it opens 365 days a year.
+  wikipedia_url: https://en.wikipedia.org/wiki/The_Donkey_Sanctuary
+  photo_url: https://niche-museums.imgix.net/donkey-sanctuary.jpeg
+  photo_alt: Donkeys in the sanctuary.
+  latitude: 50.6973
+  longitude: -3.1905
+  press:
+  - url: https://www.devonlive.com/news/fact-checking-myth-donkey-sanctuary-1853052
+    title: "Fact checking the myth that The Donkey Sanctuary is the richest charity in the UK"
+    publication: Devon Live
+    author: Hannah Finch
+    date: 2018-08-02
+  - url: https://www.theguardian.com/world/2011/may/24/elisabeth-svendsen-obituary
+    title: "Elisabeth Svendsen obituary"
+    publication: The Guardian
+    author: Hester Lacey
+    date: 2011-05-24
+  - url: https://www.theguardian.com/society/2003/feb/18/animalrights.fundraising
+    title: "Pin the cheque on the donkey"
+    publication: The Guardian
+    author: Tim Dowling
+    date: 2003-02-18
+  photos:
+  - url: https://niche-museums.imgix.net/donkey-sanctuary-1.jpeg
+  - url: https://niche-museums.imgix.net/donkey-sanctuary-2.jpeg
+  - url: https://niche-museums.imgix.net/donkey-sanctuary-3.jpeg
+  - url: https://niche-museums.imgix.net/donkey-sanctuary-4.jpeg
+  - url: https://niche-museums.imgix.net/donkey-sanctuary-5.jpeg
+  - url: https://niche-museums.imgix.net/donkey-sanctuary-6.jpeg

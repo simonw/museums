@@ -8,7 +8,7 @@ API_URL = "https://nominatim.openstreetmap.org/reverse?format=jsonv2&extratags=1
 
 
 def annotate(db):
-    for row in tqdm.tqdm(list(db["museums"].rows)):
+    for row in tqdm.tqdm(list(db["museums"].rows_where("country is null"))):
         data = requests.get(API_URL.format(row["latitude"], row["longitude"])).json()
         update = {"osm_{}".format(key): value for key, value in data["address"].items()}
         update["extratags"] = json.dumps(data["extratags"])

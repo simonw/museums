@@ -10,14 +10,14 @@ jobs:
             sudo apt-get install sqlite3
             sudo npm install -g now
             sudo pip install datasette yaml-to-sqlite~=0.3 requests tqdm GitPython
-            wget https://www.niche-museums.com/browse.db
+            # wget https://www.niche-museums.com/browse.db
             yaml-to-sqlite browse.db museums museums.yaml --pk=id
             sqlite3 about.db ""
             python annotate_nominatum.py browse.db
             python annotate_timestamps.py
-            sqlite-utils add-column browse.db museums country
+            sqlite-utils add-column browse.db museums country || true
             sqlite3 browse.db < set-country.sql
-            sqlite-utils enable-fts browse.db museums name description country osm_city
+            sqlite-utils enable-fts browse.db museums name description country osm_city --create-triggers
             datasette publish now browse.db about.db --token=$NOW_TOKEN \
               --alias=www.niche-museums.com \
               --name=niche-museums \

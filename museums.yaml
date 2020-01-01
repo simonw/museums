@@ -1725,3 +1725,37 @@
   - url: https://niche-museums.imgix.net/donkey-sanctuary-4.jpeg
   - url: https://niche-museums.imgix.net/donkey-sanctuary-5.jpeg
   - url: https://niche-museums.imgix.net/donkey-sanctuary-6.jpeg
+-
+  id: 83
+  name: Jigokudani Monkey Park
+  url: http://en.jigokudani-yaenkoen.co.jp/
+  address: 〒381-0401 Nagano, Shimotakai District, Yamanochi, Hirao, ６８４５, Japan
+  description: |-
+    As ski resorts developed in the 1950s, Japanese macaques (often referred to as snow monkeys) were forced to migrate to the lower mountain regions including the human occupied areas of Yamanouchi.
+
+    A guesthouse there called Korakukan featured an outdoor onsen - a hot spring bath - and the monkeys imitated human bathers and started enjoying the hot baths themselves.
+
+    Since the human population didn't particularly want to share their baths with the monkeys, a compromise was reached: in 1964 a set of hot spring baths were constructed for the monkeys to enjoy by themselves.
+
+    Guides make food available to the monkeys, encouraging them to stay in the area all year round. They are still very much wild creatures though, and they return to the safety of the forests in the evenings.
+
+    We stayed at the nearby Kokuya ryokan - a 400 year old guesthouse with eight of its own private hot spring baths - and it was absolutely magical.
+  wikipedia_url: https://en.wikipedia.org/wiki/Jigokudani_Monkey_Park
+  photo_url: https://niche-museums.imgix.net/snow-monkeys.jpeg
+  photo_alt: Snow monkeys.
+  latitude: 36.7326
+  longitude: 138.462
+  press:
+  - url: https://www.cnn.com/travel/article/snow-monkeys-hot-springs-japan/index.html
+    title: "Japan's snow monkeys de-stress in hot springs"
+    publication: CNN
+    author: Joshua Mellin
+    date: 2019-12-09
+  photos:
+  - url: https://niche-museums.imgix.net/snow-monkeys-1.jpg
+  - url: https://niche-museums.imgix.net/snow-monkeys-2.jpg
+  - url: https://niche-museums.imgix.net/snow-monkeys-3.jpg
+  - url: https://niche-museums.imgix.net/snow-monkeys-4.jpg
+  - url: https://niche-museums.imgix.net/snow-monkeys-5.jpg
+  - url: https://niche-museums.imgix.net/snow-monkeys-6.jpg
+  - url: https://niche-museums.imgix.net/snow-monkeys-7.jpg

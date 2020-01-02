@@ -1759,3 +1759,36 @@
   - url: https://niche-museums.imgix.net/snow-monkeys-5.jpg
   - url: https://niche-museums.imgix.net/snow-monkeys-6.jpg
   - url: https://niche-museums.imgix.net/snow-monkeys-7.jpg
+-
+  id: 84
+  name: Hazel-Atlas Sand Mine
+  url: https://www.ebparks.org/parks/black_diamond/
+  address: Somersville Road, Antioch, CA 94509
+  description: |-
+    The Black Diamond Mines Regional Preserve in the East Bay is a 6,000 acre regional park incorporating 60 miles of trails, 3 deserted mining towns, a 19th century cemetery and a former sand mine, which today is open for guided tours.
+
+    The mine opened in the 1920s to produce silica sandstone for the glass industry. Their top customer was the Hazel-Atlas Glass Company plant in Oakland, who later purchased the mine and operated it until 1945.
+
+    Tours take 90 minutes and cover 1300 feet of the old sand mine. Reservations are recommended as they frequently sell out. The Greathouse Visitor Center is located underground in a large chamber excavated in the 1920s and features a small museum with displays about the history and geology of the area.
+  wikipedia_url: https://en.wikipedia.org/wiki/Black_Diamond_Mines_Regional_Preserve
+  photo_url: https://niche-museums.imgix.net/black-diamond-mines.jpg
+  photo_alt: Inside the sand mine.
+  latitude: 37.9835
+  longitude: -121.8559
+  press:
+  - url: https://www.eastbaytimes.com/2018/03/10/around-east-county-new-stairway-opens-up-more-at-black-diamond/
+    title: "New stairway opens up more at Black Diamond Mines"
+    publication: East Bay Times
+    author: Roni Gehlke
+    date: 2018-03-10
+  photos:
+  - url: https://niche-museums.imgix.net/hazel-atlas-1.jpeg
+  - url: https://niche-museums.imgix.net/hazel-atlas-2.jpeg
+  - url: https://niche-museums.imgix.net/hazel-atlas-3.jpeg
+  - url: https://niche-museums.imgix.net/hazel-atlas-4.jpeg
+  - url: https://niche-museums.imgix.net/hazel-atlas-5.jpeg
+  - url: https://niche-museums.imgix.net/hazel-atlas-6.jpeg
+  - url: https://niche-museums.imgix.net/hazel-atlas-7.jpeg
+  - url: https://niche-museums.imgix.net/hazel-atlas-8.jpeg
+  - url: https://niche-museums.imgix.net/hazel-atlas-9.jpeg
+  - url: https://niche-museums.imgix.net/hazel-atlas-10.jpeg

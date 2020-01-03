@@ -1792,3 +1792,26 @@
   - url: https://niche-museums.imgix.net/hazel-atlas-8.jpeg
   - url: https://niche-museums.imgix.net/hazel-atlas-9.jpeg
   - url: https://niche-museums.imgix.net/hazel-atlas-10.jpeg
+-
+  id: 85
+  name: Ilfracombe Tunnels Beaches
+  url: http://www.tunnelsbeaches.co.uk/
+  address: Bath Place, Ilfracombe, Devon, EX34 8AN, United Kingdom
+  description: |-
+    In the early 19th century North Devon started to establish itself as a destination for seaside resorts, with travelers arriving by ship and by railway. In the 1820s the Ilfracombe Sea Bathing Company formed, and a team of hundreds of Welsh miners were hired to spend two years carving six tunnels through the Ilfracombe hillside, providing access to the coastline by foot or by carriage. 
+
+    In 1836 a new bath-house was erected, offering hot and cold-water sea baths as an aid to health. Outdoor bathing pools were organized, segregated by gender to protect the modesty of the ladies. A bugler was positioned between the male and female pools who would blow an alarm if any man attempted to spy on the ladies, resulting in his arrest.
+
+    Today four of the six tunnels are still in operation, and the remains of the pools themselves are open to visitors.
+  wikipedia_url: https://en.wikipedia.org/wiki/History_of_Ilfracombe
+  photo_url: https://niche-museums.imgix.net/ilfracombe-tunnels.jpeg
+  photo_alt: A tunnel to the beach.
+  latitude: 51.2091
+  longitude: -4.1269
+  photos:
+  - url: https://niche-museums.imgix.net/ilfracombe-tunnels-1.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-tunnels-2.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-tunnels-3.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-tunnels-4.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-tunnels-5.jpeg
+  - url: https://niche-museums.imgix.net/ilfracombe-tunnels-6.jpeg

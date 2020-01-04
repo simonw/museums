@@ -1837,3 +1837,32 @@
   - url: https://niche-museums.imgix.net/ilfracombe-tunnels-4.jpeg
   - url: https://niche-museums.imgix.net/ilfracombe-tunnels-5.jpeg
   - url: https://niche-museums.imgix.net/ilfracombe-tunnels-6.jpeg
+-
+  id: 86
+  name: The Beat Museum
+  url: http://www.kerouac.com
+  address: 540 Broadway, San Francisco, CA 94133
+  description: |-
+    The Beat Museum was founded as an Airstream trailer in Monterey in 2003, and relocated to permanent premises in the North Beach neighborhood of San Francisco in 2006.
+
+    The museum collects memorabilia of the Beat Generation - a literary movement founded in the 1950s who rejected economic materialism and explored psychedelic drugs and sexual liberation.
+
+    Leading figures in the movement included Allen Ginsberg, William S. Burroughs and Jack Kerouac. The museum features typewriters, jackets, letters and other memorabilia for these artists and many others.
+  wikipedia_url: https://en.wikipedia.org/wiki/Beat_Museum
+  photo_url: https://niche-museums.imgix.net/beat-museum.jpg
+  photo_alt: Allen Ginsberg's organ.
+  latitude: 37.798
+  longitude: -122.4062
+  press:
+  - url: https://m.sfgate.com/entertainment/article/Beat-Museum-a-Howl-of-a-time-3291477.php
+    title: "Beat Museum a 'Howl' of a time"
+    publication: SF Gate
+    author: Kenneth Baker
+    date: 2009-07-22
+  photos:
+  - url: https://niche-museums.imgix.net/beat-museum-1.jpg
+  - url: https://niche-museums.imgix.net/beat-museum-2.jpg
+  - url: https://niche-museums.imgix.net/beat-museum-3.jpg
+  - url: https://niche-museums.imgix.net/beat-museum-4.jpg
+  - url: https://niche-museums.imgix.net/beat-museum-5.jpg
+  - url: https://niche-museums.imgix.net/beat-museum-6.jpg

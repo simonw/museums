@@ -1866,3 +1866,48 @@
   - url: https://niche-museums.imgix.net/beat-museum-4.jpg
   - url: https://niche-museums.imgix.net/beat-museum-5.jpg
   - url: https://niche-museums.imgix.net/beat-museum-6.jpg
+-
+  id: 87
+  name: Sea Lions at Pier 39
+  url: https://www.pier39.com/the-sea-lion-story/
+  address: Pier 39, The Embarcadero at Beach Street, San Francisco, CA 94133
+  description: |-
+    Shortly before the 1989 Loma Prieta earthquake, sea lions started to haul out onto K dock at Pier 39 in San Francisco. Their numbers steadily increased, and their protected status lead to a quandary for the pier’s management team. They decided to relinquish the dock to the pinnipeds, and thirty years later the sea lions have established themselves as a San Francisco fixture.
+
+    There are usually between 150 and 600 sea lions at the pier, mostly male and weighing up to 850lb (390kg). Their numbers drop in June and July when most of them head south to the Channel Islands for breeding season. The highest recorded count was 1,701 in November 2009.
+
+    The Aquarium of the Bay operates a Sea Lion Center upstairs from the sea lions themselves which has interactive displays and educational videos.
+  wikipedia_url: https://en.wikipedia.org/wiki/Pier_39#Sea_lions
+  photo_url: https://niche-museums.imgix.net/pier-39-sea-lions.jpg
+  photo_alt: Sea Lions at Pier 39.
+  latitude: 37.8108
+  longitude: -122.4115
+  press:
+  - url: https://sfist.com/2019/09/07/a-look-back-at-30-years-of-the-sealebrites/
+    title: "An Ode to 30 Years of Pier 39's Sea Lions"
+    publication: SFist
+    author: Matt Charnock
+    date: 2019-09-07
+    - url: https://www.sfgate.com/bayarea/article/Pier-39-harbor-master-sea-lions-marina-tourists-14411029.php
+    title: "She took a job at Pier 39 over 30 years ago. Then, the sea lions came."
+    publication: SF Gate
+    author: Madeline Wells
+    date: 2019-09-05
+  - url: https://www.sfgate.com/bayarea/article/Famed-sea-lions-vanish-from-Fisherman-s-Wharf-5585563.php
+    title: "The great 2014 Pier 39 sea lion disappearance"
+    publication: SF Gate
+    author: Kurtis Alexander
+    date: 2014-06-28
+  photos:
+  - url: https://niche-museums.imgix.net/pier-39-sea-lions-1.jpg
+  - url: https://niche-museums.imgix.net/pier-39-sea-lions-2.jpg
+  - url: https://niche-museums.imgix.net/pier-39-sea-lions-3.jpg
+  - url: https://niche-museums.imgix.net/pier-39-sea-lions-4.jpg
+  - url: https://niche-museums.imgix.net/pier-39-sea-lions-5.jpg
+  - url: https://niche-museums.imgix.net/pier-39-sea-lions-6.jpg
+  - url: https://niche-museums.imgix.net/pier-39-sea-lions-7.jpg
+  - url: https://niche-museums.imgix.net/pier-39-sea-lions-8.jpg
+  - url: https://niche-museums.imgix.net/pier-39-sea-lions-9.jpg
+  - url: https://niche-museums.imgix.net/pier-39-sea-lions-10.jpg
+  - url: https://niche-museums.imgix.net/pier-39-sea-lions-11.jpg
+  - url: https://niche-museums.imgix.net/pier-39-sea-lions-12.jpg

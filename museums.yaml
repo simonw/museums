@@ -1915,7 +1915,7 @@
   id: 88
   name: Griffith Observatory
   url: http://www.griffithobservatory.org/
-  address:  2800 East Observatory Road, Los Angeles, CA 90027
+  address: 2800 East Observatory Road, Los Angeles, CA 90027
   description: |-
     The Griffith Observatory opened in 1935 using funds bequeathed to the city of Los Angeles for the purpose of making astronomy accessible to the public.
 
@@ -1952,3 +1952,29 @@
   - url: https://niche-museums.imgix.net/griffith-observatory-4.jpeg
   - url: https://niche-museums.imgix.net/griffith-observatory-5.jpeg
   - url: https://niche-museums.imgix.net/griffith-observatory-6.jpeg
+-
+  id: 89
+  name: Cohen Bray House
+  url: https://www.cohenbrayhouse.org/
+  address: 1440 29th Ave, Oakland, CA 94601
+  description: |-
+    The Cohen Bray House in Oakland was built in 1882-1884 as a wedding present for Emma Bray and Alfred H. Cohen. The house is a relatively rare example of the Stick-Eastlake style of the late 19th century, but what really sets it apart is its interior, which maintains the aesthetic style popular when it was built. The house has remained in the same family for its entire history, and today that family preserve it as an Oakland Historical Landmark with the assistance of volunteers.
+
+    Tours are offered on the fourth Sunday of every month, and twice a year the house offers a tour with High Tea in the formal dining room. We did this in January 2020 and the tea was most excellent.
+  photo_url: https://niche-museums.imgix.net/cohen-bray-house.jpg
+  photo_alt: The Cohen Bray House.
+  latitude: 37.7798
+  longitude: -122.2283
+  photos:
+  - url: https://niche-museums.imgix.net/cohen-bray-house-1.jpeg
+  - url: https://niche-museums.imgix.net/cohen-bray-house-2.jpeg
+  - url: https://niche-museums.imgix.net/cohen-bray-house-3.jpeg
+  - url: https://niche-museums.imgix.net/cohen-bray-house-4.jpeg
+  - url: https://niche-museums.imgix.net/cohen-bray-house-5.jpeg
+  - url: https://niche-museums.imgix.net/cohen-bray-house-6.jpeg
+  - url: https://niche-museums.imgix.net/cohen-bray-house-7.jpeg
+  - url: https://niche-museums.imgix.net/cohen-bray-house-8.jpeg
+  - url: https://niche-museums.imgix.net/cohen-bray-house-9.jpeg
+  - url: https://niche-museums.imgix.net/cohen-bray-house-10.jpeg
+  - url: https://niche-museums.imgix.net/cohen-bray-house-11.jpeg
+  - url: https://niche-museums.imgix.net/cohen-bray-house-12.jpeg

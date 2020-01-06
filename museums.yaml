@@ -1911,3 +1911,44 @@
   - url: https://niche-museums.imgix.net/pier-39-sea-lions-10.jpg
   - url: https://niche-museums.imgix.net/pier-39-sea-lions-11.jpg
   - url: https://niche-museums.imgix.net/pier-39-sea-lions-12.jpg
+-
+  id: 88
+  name: Griffith Observatory
+  url: http://www.griffithobservatory.org/
+  address:  2800 East Observatory Road, Los Angeles, CA 90027
+  description: |-
+    The Griffith Observatory opened in 1935 using funds bequeathed to the city of Los Angeles for the purpose of making astronomy accessible to the public.
+
+    Griffith Jenkins Griffith was a Welsh-American who made money through mining syndicates during the California gold rush, trading on his expertise as a journalist covering mining for the Alta California newspaper.
+
+    After moving to Los Angeles in 1882 he married Tina Mesmer, the air to the quarter million dollar Briswalter fortune... but only after ensuring that the entire fortune would be transferred to his name.
+
+    He used his wife's money to climb the ranks of LA society, building a reputation as a philanthropist through the donation in 1896 of 3,015 acres of ranch land to the city for use as a public park - Griffith Park.
+
+    A teetotaler in public, Griffith was secretly a drunk. He grew increasingly paranoid and in 1903 forced his wife Tina at gunpoint to swear on a prayer book that she was faithful to the marriage and was not involved in a perceived attempt to poison him.
+
+    Despite her attestations, he shot her in the head. She survived but was blinded in her right eye. Griffith was arrested three days later and was sentenced to just two years in San Quentin. His lawyer had blamed the incident on “alcoholic insanity”.
+
+    In 1908, upon visiting Mount Wilson Observatory Griffith declared "If all mankind could look through that telescope, it would change the world." He offered the city money to build an observatory in 1912, but they refused, wary of further association with an attempted murderer.
+
+    Griffith died in 1919 and the city accepted the money he left in trust for both the observatory and the nearby Greek Theater. They have since become respected landmarks of Los Angeles.
+
+    Today the observatory hosts several exhibit areas, an astronomical telescope and a Tesla coil. Their Zeiss 12-inch refracting telescope has been looked through by 8 million people - more people than any other telescope on earth.
+  wikipedia_url: https://en.wikipedia.org/wiki/Griffith_Observatory
+  photo_url: https://niche-museums.imgix.net/Griffith-Observatory.jpg
+  photo_alt: Griffith Observatory.
+  latitude: 34.1182
+  longitude: -118.3005
+  press:
+  - url: https://www.kcet.org/shows/lost-la/the-complex-life-of-griffith-j-griffith
+    title: "The Complex Life of Griffith J. Griffith"
+    publication: KCET Lost LA
+    author: Hadley Meares
+    date: 2019-10-16
+  photos:
+  - url: https://niche-museums.imgix.net/griffith-observatory-1.jpeg
+  - url: https://niche-museums.imgix.net/griffith-observatory-2.jpeg
+  - url: https://niche-museums.imgix.net/griffith-observatory-3.jpeg
+  - url: https://niche-museums.imgix.net/griffith-observatory-4.jpeg
+  - url: https://niche-museums.imgix.net/griffith-observatory-5.jpeg
+  - url: https://niche-museums.imgix.net/griffith-observatory-6.jpeg

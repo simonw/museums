@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Niche Museums: Map</title>
+    <link rel="stylesheet" href="/css/museums.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="anonymous">
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" integrity="sha384-lPzjPsFQL6te2x+VxmV6q1DpRxpRk0tmnl2cpwAO5y04ESyc752tnEWPKDfl1olr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" integrity="sha384-5kMSQJ6S4Qj5i09mtMNrWpSi8iXw230pKU76xTmrpezGnNJQzj0NzXjQLLg+jE7k" crossorigin="anonymous">
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.js" integrity="sha384-N9K+COcUk7tr9O2uHZVp6jl7ueGhWsT+LUKUhd/VpA0svQrQMGArhY8r/u/Pkwih" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <strong>Niche Museums</strong>
+            </a>
+        </div>
+    </nav>
+    <section class="section box content">
+        <div id="themap"></div>
+    </section>
+<script>
+const themap = document.getElementById("themap");
+const museumsUrl = '/browse.json?sql=select+id%2C+name%2C+description%2C+latitude%2C+longitude+from+museums+order+by+id&_shape=array';
+
+document.addEventListener('DOMContentLoaded', () => {
+    fetch(museumsUrl).then(r => r.json()).then(museums => {
+        showMap(museums);
+    });
+});
+
+const showMap = (museums) => {
+    let markerList = [];
+    museums.forEach((museum) => {
+        let title = museum.name;
+        let url = '/browse/museums/' + museum.id;
+        let marker = L.marker(
+            L.latLng(
+                museum.latitude,
+                museum.longitude,
+            ),
+            {title: title}
+        );
+        let description = museum.description.slice(0, 150) + '...';
+        marker.bindPopup(`
+            <p style="font-weight: bold; font-size: 1.3em; margin-bottom: 0"><a href="${url}">${title}</a></p>
+            <p style="margin-top: 0.5em;">${description}</p>
+        `);
+        markerList.push(marker);
+    });
+
+    themap.style.width = '100%';
+    themap.style.height = '500px';
+    let tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        detectRetina: true,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    });
+    let map = L.map(themap, {
+        zoom: 13,
+        layers: [tiles]
+    });
+    let markerClusterGroup = L.markerClusterGroup({
+        chunkedLoading: true,
+        maxClusterRadius: 50
+    });
+    map.addLayer(markerClusterGroup);
+    markerClusterGroup.addLayers(markerList);
+    map.fitBounds(markerClusterGroup.getBounds());
+};
+
+</script>
+</body>
+
+</html>

@@ -1,6 +1,7 @@
 #!/bin/bash
 rm -f browse.db
 sqlite3 about.db ""
+sqlite3 map.db ""
 yaml-to-sqlite browse.db museums museums.yaml --pk=id
 python annotate_nominatum.py browse.db
 python annotate_timestamps.py

@@ -2018,3 +2018,31 @@
   - url: https://niche-museums.imgix.net/jelly-belly-13.jpeg
   - url: https://niche-museums.imgix.net/jelly-belly-14.jpeg
   - url: https://niche-museums.imgix.net/jelly-belly-1.jpeg
+-
+  id: 91
+  name: Bevolo Gas Light Museum
+  url: https://bevolo.com/
+  address: 521 Conti Street, New Orleans, LA 70130
+  description: |-
+    Bevolo is a family business founded in 1945 in the New Orleans French Quarter who today are the largest manufacturer of handmade copper lanterns in the United States.
+
+    Their lamps are hand-riveted (as opposed to soldered) which they claim gives them improved longevity.
+
+    Their workshop and museum offers the chance to watch the lamp makers in action, and see examples of historic street lamps from the French Quarter.
+  photo_url: https://niche-museums.imgix.net/bevolo-lights.jpeg
+  photo_alt: Gas lamps.
+  latitude: 29.955
+  longitude: -90.0674
+  press:
+  - url: https://gardenandgun.com/articles/bevolo-storied-family-business-lights-new-orleans/
+    title: "How a Storied Family Business Lights Up New Orleans"
+    publication: "Garden & Gun"
+    author: Monte Burke
+    date: 2018-10-23
+  photos:
+  - url: https://niche-museums.imgix.net/bevolo-lights-1.jpeg
+  - url: https://niche-museums.imgix.net/bevolo-lights-2.jpeg
+  - url: https://niche-museums.imgix.net/bevolo-lights-3.jpeg
+  - url: https://niche-museums.imgix.net/bevolo-lights-4.jpeg
+  - url: https://niche-museums.imgix.net/bevolo-lights-5.jpeg
+  - url: https://niche-museums.imgix.net/bevolo-lights-6.jpeg

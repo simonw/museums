@@ -2047,3 +2047,33 @@
   - url: https://niche-museums.imgix.net/bevolo-lights-4.jpeg
   - url: https://niche-museums.imgix.net/bevolo-lights-5.jpeg
   - url: https://niche-museums.imgix.net/bevolo-lights-6.jpeg
+-
+  id: 92
+  name: Museo de las Misiones de Baja California
+  address: Salvatierra 16, Centro, 23880 Loreto, Mexico
+  description: |-
+    The town of Loreto was founded in 1697 at the Monqui Native American settlement of Conchó. Jesuit missionaries founded the town as the first Spanish colonial settlement on the Baja California Peninsula.
+
+    The Mission of our Lady of Loreto that they built there formed the start of El Camino Real ("The Royal Road"), a historic chain of missions that stretched all the way up to Sonoma in California, 1069 miles to the North.
+
+    The Museo de las Misiones is a small museum that documents the history of the missions. It includes archeological remains, weapons, paintings and historic sacred documents. It also features a church bell that fell into the sea in 1875 and was retrieved by fishermen a hundred years later.
+
+    The museum mostly celebrates the history of the missionaries, but in places it does touche on their contribution to the demise of indigenous cultures.
+  wikipedia_url: https://es.wikipedia.org/wiki/Museo_de_las_Misiones_Jesu%C3%ADticas_de_Loreto
+  photo_url: https://niche-museums.imgix.net/museo-de-las-misones.jpeg
+  photo_alt: The entrance to the museum.
+  latitude: 26.0102
+  longitude: -111.3436
+  press:
+  - url: http://www.bbc.com/travel/story/20121212-driving-from-the-top-to-the-tip-of-baja-california
+    title: "Driving from the top to the tip of Baja California"
+    publication: BBC Travel
+    author: Amy Mulcair
+    date: 2012-12-20
+  photos:
+  - url: https://niche-museums.imgix.net/museo-de-las-misones-1.jpeg
+  - url: https://niche-museums.imgix.net/museo-de-las-misones-2.jpeg
+  - url: https://niche-museums.imgix.net/museo-de-las-misones-3.jpeg
+  - url: https://niche-museums.imgix.net/museo-de-las-misones-4.jpeg
+  - url: https://niche-museums.imgix.net/museo-de-las-misones-5.jpeg
+  - url: https://niche-museums.imgix.net/museo-de-las-misones-6.jpeg

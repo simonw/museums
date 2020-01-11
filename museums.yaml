@@ -2077,3 +2077,28 @@
   - url: https://niche-museums.imgix.net/museo-de-las-misones-4.jpeg
   - url: https://niche-museums.imgix.net/museo-de-las-misones-5.jpeg
   - url: https://niche-museums.imgix.net/museo-de-las-misones-6.jpeg
+-
+id: 93
+  name: Fort Point
+  address: Long Avenue & Marine Drive, San Francisco, CA 94129
+  description: |-
+    Constructed by the US Army Corp of Engineers between 1853 and 1861 at the height of the gold rush, Fort Point was designed to protect the San Francisco Bay from foreign attack.
+
+    Cannons were mounted close to the waterline so that cannonballs could ricochet off the water and hit enemy ships hear the waterline.
+
+    The fort has never seen battle, but is historically significant due to its military architecture. It is the only "Third System" fort to be constructed west of the Mississippi.
+
+    Following the civil war, the Fort's cannons became obsolete. It was used intermittently by the army, mainly as barracks, and then served as defense against potential submarine attacks during the Second World War.
+
+    A campaign in the 1930s saved the fort from demolition during the construction of the Golden Gate Bridge, which was redesigned to arch over the fort instead. It became a National Historic Site in 1970.
+  wikipedia_url: https://en.wikipedia.org/wiki/Fort_Point,_San_Francisco
+  photo_url: https://niche-museums.imgix.net/fort-point.jpg
+  photo_alt: Fort Point under the Golden Gate Bridge.
+  latitude: 37.8105
+  longitude: -122.4769
+  press:
+  - url: https://sfist.com/2019/08/23/guy-who-put-piano-on-bernal-hill-installs-new-piano-at-fort-point/
+    title: "Guy Who Put Piano On Bernal Hill Installs New Piano At Fort Point"
+    publication: SFist
+    author: Jay Barmann
+    date: 2019-08-23

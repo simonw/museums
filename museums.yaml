@@ -2103,3 +2103,38 @@
     publication: SFist
     author: Jay Barmann
     date: 2019-08-23
+-
+  id: 94
+  name: Donner Memorial State Park Visitor Center
+  url: http://www.parks.ca.gov/?page_id=503
+  address: 12593 Donner Pass Road, Truckee, CA 96161
+  wikipedia_url: https://en.wikipedia.org/wiki/Donner_Party
+  description: |-
+    The Donner Party is notorious as the single greatest tragedy to occur during the American westward migration of the early 19th century.
+
+    32 members of the Donner and Reed families, plus their employees, set out west from Independence Missouri  on the 12th of May 1846, in nine wagons at the rear of a train of almost 500.
+
+    On July 19, 1846 their group made the fateful decision to form the Donner Party under the leadership of George Donner, and split off to take the newly declared Hastings Cutoff. This new route promised to shave 350 miles off the journey to California.
+
+    Unexpected delays on the route caused them to miss the short window of time for an easy crossing of the Sierra mountains, and the party (now numbering 89) was trapped snowbound around Truckee Lake (now Donner Lake).
+
+    Most of the Californian military were involved in the  Mexican–American War at the time, which greatly hampered relief efforts.  Of several attempted rescues, the first arrived four months after the party had become trapped. It took three relief efforts to complete the rescue.
+
+    Of the 89 people trapped near Donner Lake, 41 died and 48 survived.
+
+    Did the survivors turn to cannibalism? Although some denied it, consensus among historians is that up to 19 of the party were indeed cannibalized.
+
+    The Donner Memorial State Park was established in 1928, around the original Pioneer Monument which was constructed between 1901 and 1918.
+
+    The visitor center has numerous well designed displays explaining the story of the Donner Party and the context of westbound migration in the 19th century.
+
+    The state park has some excellent hiking trails. We found something’s spine on one of them!
+  photo_url: https://niche-museums.imgix.net/donner-party.jpg
+  photo_alt: Donner Memorial State Park Visitor Center
+  latitude: 39.3241
+  longitude: -120.2322
+  photos:
+  - url: https://niche-museums.imgix.net/donner-party-1.heic
+  - url: https://niche-museums.imgix.net/donner-party-2.heic
+  - url: https://niche-museums.imgix.net/donner-party-3.heic
+  - url: https://niche-museums.imgix.net/donner-party-4.heic

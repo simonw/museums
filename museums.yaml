@@ -2138,3 +2138,43 @@
   - url: https://niche-museums.imgix.net/donner-party-2.heic
   - url: https://niche-museums.imgix.net/donner-party-3.heic
   - url: https://niche-museums.imgix.net/donner-party-4.heic
+-
+  id: 95
+  name: Anja Community Reserve
+  url: http://anjareserve.angelfire.com/
+  address: Manambolo, Madagascar
+  wikipedia_url: https://en.wikipedia.org/wiki/Anja_Community_Reserve
+  description: |-
+    Anja Community Reserve is home to the world's highest concentration of ring-tailed lemurs - roughly 350 individuals divided into troops that range in size up to 30 members.
+
+    Development of the reserve started in 1996 when the government enacted legislation to transfer responsibility for land management to local communities. A group of twenty youths from the Anja area worked to create a reserve, and the reserve received formal recognition in 1999.
+
+    In 2001 the Anja Miray Association was formed to manage the reserve and nearby land, and by 2011 the reserve had created more than 450 jobs and had become one of the most-visited community managed sites in all of Madagascar. Today it serves as a model for other community-based tourism projects throughout Madagascar and the world.
+
+    Visitors must be accompanied by a local guide. The lemurs are plentiful and extremely photogenic.
+  photo_url: https://niche-museums.imgix.net/anja.jpg
+  photo_alt: Ring-tailed lemurs sitting on a rock.
+  latitude: -21.855
+  longitude: 46.8549
+  press:
+  - url: https://news.mongabay.com/2019/10/what-makes-community-ecotourism-succeed-in-madagascar-location-location-location/
+    title: "What makes community ecotourism succeed? In Madagascar, location, location, location"
+    publication: Mongabay
+    author: Rowan Moore Gerety
+    date: 2019-10-25
+  - url: http://www.bbc.com/earth/story/20150226-what-hope-is-there-for-madagascars-threatened-lemurs
+    title: "The future of Madagascar's lemurs"
+    publication: BBC Earth
+    author: Michelle Douglass
+    date: 2015-02-27
+  photos:
+  - url: https://niche-museums.imgix.net/anja-1.jpg
+  - url: https://niche-museums.imgix.net/anja-2.jpg
+  - url: https://niche-museums.imgix.net/anja-3.jpg
+  - url: https://niche-museums.imgix.net/anja-4.jpg
+  - url: https://niche-museums.imgix.net/anja-5.jpg
+  - url: https://niche-museums.imgix.net/anja-6.jpg
+  - url: https://niche-museums.imgix.net/anja-7.jpg
+  - url: https://niche-museums.imgix.net/anja-8.jpg
+  - url: https://niche-museums.imgix.net/anja-9.jpg
+  - url: https://niche-museums.imgix.net/anja-10.jpg

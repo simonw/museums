@@ -2179,3 +2179,35 @@
   - url: https://niche-museums.imgix.net/anja-8.jpg
   - url: https://niche-museums.imgix.net/anja-9.jpg
   - url: https://niche-museums.imgix.net/anja-10.jpg
+-
+  id: 96
+  name: Palace of Fine Arts
+  url: https://palaceoffinearts.com/
+  address: 3601 Lyon St, San Francisco, CA 94123
+  wikipedia_url: https://en.wikipedia.org/wiki/Palace_of_Fine_Arts
+  description: |-
+    The Panama–Pacific International Exposition of 1915 was a world's fair that celebrated the completion of the Panama canal - but also served to showcase San Francisco's recovery from the 1906 earthquake.
+
+    Eleven palaces were built for the exposition. All but one of them were torn down afterwards when the exposition site became San Francisco's residental Marina District.
+
+    The Palace of Fine Arts was the survivor, thanks to a campaign by the Palace Preservation League founded by Phoebe Apperson Hearst (mother of William Randolph Hearst).
+
+    The palace was designed by Bernard Ralph Maybeck, who created it as a fictional Roman and Ancient Greek ruin constructed around a small artificial lagoon.
+
+    The weeping women who top the colonnade were sculpted by Ulric Ellerhusen, modeled after Audrey Munson. Audrey served as the model for an enormous number of sculptures, initially in New York and then across the United States. She earned the nickname "Panama–Pacific Girl" after posing for three-fifths of the sculptures created for the 1915 Expo.
+
+    The palace was not built to last, and the wood and plaster structure seriously degraded over time. In 1964 it was entirely replaced by a direct copy, built using steel beams and light-weight concrete. This was further seismically retrofitted in 2010.
+  photo_url: https://niche-museums.imgix.net/palace-of-fine-arts.jpeg
+  photo_alt: The Palace of Fine Arts, from across the lake.
+  latitude: 37.8029
+  longitude: -122.449
+  press:
+  - url: https://99percentinvisible.org/episode/miss-manhattan/
+    title: Miss Manhattan
+    publication: 99% Invisible
+    author: Avery Trufelman
+    date: 2016-02-15
+  photos:
+  - url: https://niche-museums.imgix.net/palace-of-fine-arts-1.jpeg
+  - url: https://niche-museums.imgix.net/palace-of-fine-arts-2.jpeg
+  - url: https://niche-museums.imgix.net/palace-of-fine-arts-3.jpeg

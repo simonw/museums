@@ -24,6 +24,7 @@
     </nav>
     <section class="section box content">
         <div id="themap"></div>
+        <br><button class="button is-link is-small" id="locate-button">Locate me</button>
     </section>
 <script>
 const themap = document.getElementById("themap");
@@ -72,8 +73,19 @@ const showMap = (museums) => {
     map.addLayer(markerClusterGroup);
     markerClusterGroup.addLayers(markerList);
     map.fitBounds(markerClusterGroup.getBounds());
-};
 
+    map.on('locationfound', (e) => {
+        L.circle(e.latlng, e.accuracy).addTo(map);
+    });
+
+    if (navigator.geolocation) {
+        let button = document.getElementById("locate-button");
+        button.style.display = "block";
+        button.onclick = () => {
+            map.locate({setView: true, maxZoom: 15});
+        }
+    }
+};
 </script>
 </body>
 

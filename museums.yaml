@@ -2211,3 +2211,49 @@
   - url: https://niche-museums.imgix.net/palace-of-fine-arts-1.jpeg
   - url: https://niche-museums.imgix.net/palace-of-fine-arts-2.jpeg
   - url: https://niche-museums.imgix.net/palace-of-fine-arts-3.jpeg
+-
+  id: 97
+  name: The ruins of Llano del Rio
+  address: Llano, CA 93544
+  wikipedia_url: https://en.wikipedia.org/wiki/Llano_del_Rio
+  description: |-
+    Job Harriman was the most prominent Californian socialist of the early 1900s. In 1900 he ran as the Vice President for the Socialist Party of America ticket. In 1911 and 1913 he made competitive runs on the Socialist ticket for Mayor of Los Angeles.
+
+    Following his second mayoral defeat he switched to a different path: he purchased a 2,000 acre patch of land in the Mojave Desert with the intention of building a self-sufficient commune that could embody socialist principles.
+
+    The colony officially opened in May 1914 with just five residents. By early 1915 it had grown to 150, and the population peaked at 1100 in summer 1917. The colony only admitted caucasians - a thoroughly racist policy that was excused as being “not due to race prejudice but because it is not deemed expedient to mix the races in these communities”.
+
+    Designs for the colony were prepared by Alice Constance Austin, a feminist architect and city planner who later wrote an influential book about city planning. She envisioned a community where the kitchens and laundry were centralized via a network of underground rail tunnels, freeing each household from maintaining their own kitchens and cooking their own means.
+
+    Alice’s designs were never implemented. By 1918 the colony had been abandoned - political dissent within the commune and California’s refusal to permit the construction of a water-providing dam led to a torrent of departures and the Llano Del Rio Company declared bankruptcy in 1918.
+
+    200 members relocated to Louisiana, where they established the town of New Llano and operated it as a socialist commune until 1937. That town still exists today.
+
+    100 years later the ruins of Llano del Rio can still be found along California Highway 138. A Google Maps review warned us that it's only home to rattlesnakes today, but sadly we were unable to find any.
+  photo_url: https://niche-museums.imgix.net/llano-del-rio.jpg
+  photo_alt: The ruins of Llano del Rio.
+  latitude: 34.5065
+  longitude: -117.8272
+  press:
+  - url: https://pioneeringwomen.bwaf.org/alice-constance-austin/
+    title: Alice Constance Austin
+    publication: Pioneering Women of American Architecture
+    author: Dolores Hayden
+    date: 2017-10-03
+  - url: https://la.curbed.com/2017/5/1/15465616/utopia-socialist-los-angeles-llano-del-rio
+    title: "Llano del Rio: The ruins of LA’s socialist colony"
+    publication: Curbed LA
+    author: Hadley Meares
+    date: 2017-05-01
+  - url: https://www.atlasobscura.com/articles/the-feminist-architect-who-tried-to-liberate-kitchens-from-houses
+    title: The Feminist Architect Who Tried to Liberate Kitchens From Houses
+    publication: Atlas Obscura
+    author: Manisha Aggarwal-Schifellite
+    date: 2016-09-12
+  photos:
+  - url: https://niche-museums.imgix.net/llano-del-rio-1.jpeg
+  - url: https://niche-museums.imgix.net/llano-del-rio-2.jpeg
+  - url: https://niche-museums.imgix.net/llano-del-rio-3.jpeg
+  - url: https://niche-museums.imgix.net/llano-del-rio-4.jpeg
+  - url: https://niche-museums.imgix.net/llano-del-rio-5.jpeg
+  - url: https://niche-museums.imgix.net/llano-del-rio-6.jpeg

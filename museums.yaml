@@ -2257,3 +2257,24 @@
   - url: https://niche-museums.imgix.net/llano-del-rio-4.jpeg
   - url: https://niche-museums.imgix.net/llano-del-rio-5.jpeg
   - url: https://niche-museums.imgix.net/llano-del-rio-6.jpeg
+-
+  id: 98
+  name: Cleveland Hungarian Museum
+  address: Galleria at Erieview, 1301 East 9th Street, Cleveland, OH 44114
+  wikipedia_url: https://en.wikipedia.org/wiki/Cleveland_Hungarian_Museum
+  description: |-
+    Cleveland Ohio is home to over 100,000 Hungarians, and has at times been the city with the second largest population of Hungarians after Budapest.
+
+    They arrived in three separate waves of immigrants: just before the First World War, directly after the Second World War and during the aftermath of the Hungarian revolution of 1956.
+
+    The Cleveland Hungarian Museum was founded in 1985 to present Hungarian culture and highlight the contributions of Cleveland Hungarians. It started life in St. Elizabeth Church, then moved to Richmond Mall in 1996, then Euclid Square Mall in 1999 and finally the Galleria at Erieview Mall in downtown Cleveland in 2003.
+
+    Today the museum acts as a center for Hungarian-American life in a Cleveland. It hosts regular events and has both permanent and temporary exhibits.
+  photo_url: https://niche-museums.imgix.net/cleveland-hungarian.jpeg
+  photo_alt: The outside of the museum, in the mall.
+  latitude: 41.5048
+  longitude: -81.6895
+  photos:
+  - url: https://niche-museums.imgix.net/cleveland-hungarian-1.jpeg
+  - url: https://niche-museums.imgix.net/cleveland-hungarian-2.jpeg
+  - url: https://niche-museums.imgix.net/cleveland-hungarian-3.jpeg

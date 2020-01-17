@@ -46,7 +46,7 @@
         <section class="section photos">
             <div class="masonry">
             {% for photo in json.loads(museum.photos) %}
-                <a href="{{ photo.url }}?w=1200&auto=compress"><img src="{{ photo.url }}?w=400&auto=compress"{% if photo.alt %} alt="{{ photo.alt }}"{% endif %}></a>
+                <a href="{{ photo.url }}?w=1200&auto=compress"><img class="gallery-photo" src="{{ photo.url }}?w=400&auto=compress"{% if photo.alt %} alt="{{ photo.alt }}"{% endif %}></a>
             {% endfor %}
             </div>
         </section>
@@ -100,6 +100,35 @@
             }).addTo(map);
             L.marker(latlng).addTo(map);
         });
+        // Set up photo gallery
+        document.body.addEventListener('click', function(e) {
+            /* Is this a click on a photo? */
+            var el = e.target;
+            if (el.className == 'gallery-photo') {
+                e.preventDefault();
+                var src = el.parentNode.href;
+                showGallery(src);
+            }
+            console.log(el);
+            window.el = el;
+        }, true);
+
+        function showGallery(src) {
+            // <figure><img><figcaption>caption</figcaption></figure>
+            var figure = document.createElement('figure');
+            figure.innerHTML = `
+                <img src="${src}" alt="${''}">
+                <figcaption>${'caption'}</figcaption>
+                <a href="#" class="gallery-prev">
+                    <span>&laquo;</span>
+                </a>
+                <a href="#" class="gallery-next">
+                    <span>&raquo;</span>
+                </a>
+            `;
+            document.body.classList.add('gallery-mode');
+            document.body.appendChild(figure);
+        }
     </script>
 </body>
 

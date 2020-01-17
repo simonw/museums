@@ -1623,3 +1623,48 @@ span.permanently-closed {
     column-count: 3;
   }
 }
+
+body.gallery-mode div,
+body.gallery-mode nav,
+body.gallery-mode section {
+  display: none;
+}
+
+body.gallery-mode figure {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+body.gallery-mode figure img {
+  width: 100%;
+}
+body.gallery-mode figcaption {
+  padding: 0.5em 1em;
+}
+
+
+a.gallery-prev,
+a.gallery-next {
+  display: flex;
+  color: white;
+  text-shadow: 2px 4px 2px #000;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 0.5em;
+}
+a.gallery-next {
+  right: 0;
+}
+a.gallery-prev:hover,
+a.gallery-next:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+a.gallery-prev span,
+a.gallery-next span {
+  margin: auto;
+}

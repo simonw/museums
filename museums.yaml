@@ -2284,3 +2284,27 @@
   - url: https://niche-museums.imgix.net/cleveland-hungarian-1.jpeg
   - url: https://niche-museums.imgix.net/cleveland-hungarian-2.jpeg
   - url: https://niche-museums.imgix.net/cleveland-hungarian-3.jpeg
+-
+  id: 99
+  name: New Orleans Historic Voodoo Museum
+  address: 724 Dumaine Street, New Orleans, LA 70116
+  url: https://voodoomuseum.com/
+  wikipedia_url: https://en.wikipedia.org/wiki/New_Orleans_Historic_Voodoo_Museum
+  description: |-
+    Voodoo first came to Louisiana with West African slaves in the early 1700s. It combined cultural practices and beliefs from multiple African groups, most prominently the Fon people from what is now Benin.
+
+    Louisiana Voodoo ended up syncretizing aspects of Catholicism. Themes that are distinctive to Louisiana Voodoo include gris-gris (protective amulets) and Voodoo queens, of which Marie Laveau is the most famous, active for much of the 19th century.
+
+    Local artist Charles Massicot Gandolfo created the New Orleans Historic Voodoo Museum museum in the French Quarter in 1972. He founded the museum along with his younger brother Jerry Gandolfo who still owns it today.
+
+    The museum’s collection is displayed in two small rooms connected by a cramped corridor. It includes antique voodoo dolls, talismans, taxidermy and multiple altars, some of which are used by Voodoo practitioners today. The museum also has a kneeling bench that belonged to Marie Laveau.
+  photo_url: https://niche-museums.imgix.net/historic-voodoo.jpeg
+  photo_alt: An altar in the voodoo museum.
+  latitude: 29.9599
+  longitude: -90.064
+  photos:
+  - url: https://niche-museums.imgix.net/historic-voodoo-1.jpeg
+  - url: https://niche-museums.imgix.net/historic-voodoo-2.jpeg
+  - url: https://niche-museums.imgix.net/historic-voodoo-3.jpeg
+  - url: https://niche-museums.imgix.net/historic-voodoo-4.jpeg
+  - url: https://niche-museums.imgix.net/historic-voodoo-5.jpeg

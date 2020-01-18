@@ -110,12 +110,12 @@
             L.marker(latlng).addTo(map);
         });
         // Set up photo gallery
-        var photos = Array.from(document.querySelectorAll(".photos a")).map((el) => el.href);
+        var photos = Array.from(document.querySelectorAll(".photos img"));
         var currentPhoto = null;
         function nextPhoto() {
             var currentIndex = photos.indexOf(currentPhoto);
-            var src = photos[(currentIndex + 1) % photos.length];
-            showGallery(src);
+            var photo = photos[(currentIndex + 1) % photos.length];
+            showGallery(photo);
         }
         function prevPhoto() {
             var currentIndex = photos.indexOf(currentPhoto);
@@ -125,16 +125,15 @@
             } else {
                 index = currentIndex - 1;
             }
-            var src = photos[index];
-            showGallery(src);
+            var photo = photos[index];
+            showGallery(photo);
         }
         document.body.addEventListener('click', function(e) {
             /* Is this a click on a photo? */
             var el = e.target;
             if (anyParentHasClass(el, 'gallery-photo')) {
                 e.preventDefault();
-                var src = el.parentNode.href;
-                showGallery(src);
+                showGallery(el);
             }
             /* Handle next/prev links */
             if (anyParentHasClass(el, 'gallery-next')) {
@@ -151,8 +150,9 @@
             }
         }, true);
 
-        function showGallery(src) {
-            currentPhoto = src;
+        function showGallery(el) {
+            currentPhoto = el;
+            var src = el.parentNode.href;
             var figure = document.querySelector('.figure-overlay') || document.createElement('figure');
             figure.className = 'figure-overlay';
             var caption = '';
@@ -168,9 +168,10 @@
                     <span>&raquo;</span>
                 </a>`;
             }
+            var height = (el.height / el.width) * 100;
             figure.innerHTML = `
                 <div>
-                    <img src="${src}" alt="${''}">
+                    <img src="${src}" alt="${''}" style="width: 100%; height: ${height}vh">
                     ${nextPrev}
                 </div>
                 <a href="#" class="gallery-close">Close gallery</a>

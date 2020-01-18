@@ -1639,6 +1639,7 @@ body.gallery-mode figure {
 body.gallery-mode figure img {
   width: 100%;
   display: block;
+  background-color: #aaa;
 }
 body.gallery-mode figcaption {
   padding: 0.5em 1em;

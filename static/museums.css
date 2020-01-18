@@ -1624,9 +1624,9 @@ span.permanently-closed {
   }
 }
 
-body.gallery-mode div,
-body.gallery-mode nav,
-body.gallery-mode section {
+body.gallery-mode > div,
+body.gallery-mode > nav,
+body.gallery-mode > section {
   display: none;
 }
 
@@ -1638,6 +1638,7 @@ body.gallery-mode figure {
 }
 body.gallery-mode figure img {
   width: 100%;
+  display: block;
 }
 body.gallery-mode figcaption {
   padding: 0.5em 1em;
@@ -1655,7 +1656,7 @@ a.gallery-next {
   height: 100%;
   font-weight: bold;
   font-size: 2em;
-  padding: 0.5em;
+  width: 10%;
 }
 a.gallery-next {
   right: 0;
@@ -1667,4 +1668,12 @@ a.gallery-next:hover {
 a.gallery-prev span,
 a.gallery-next span {
   margin: auto;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+}
+figure > div {
+  position: relative;
 }

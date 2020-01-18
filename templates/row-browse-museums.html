@@ -117,14 +117,16 @@
             // <figure><img><figcaption>caption</figcaption></figure>
             var figure = document.createElement('figure');
             figure.innerHTML = `
-                <img src="${src}" alt="${''}">
+                <div>
+                    <img src="${src}" alt="${''}">
+                    <a href="#" class="gallery-prev">
+                        <span>&laquo;</span>
+                    </a>
+                    <a href="#" class="gallery-next">
+                        <span>&raquo;</span>
+                    </a>
+                </div>
                 <figcaption>${'caption'}</figcaption>
-                <a href="#" class="gallery-prev">
-                    <span>&laquo;</span>
-                </a>
-                <a href="#" class="gallery-next">
-                    <span>&raquo;</span>
-                </a>
             `;
             document.body.classList.add('gallery-mode');
             document.body.appendChild(figure);

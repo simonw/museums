@@ -43,7 +43,7 @@
         {% include "_museum_card.html" %}
     </section>
     {% if museum.photos %}
-        <section class="section photos">
+        <section class="section photos" id="photos">
             <div class="masonry">
             {% for photo in json.loads(museum.photos) %}
                 <a href="{{ photo.url }}?w=1200&auto=compress" class="gallery-photo"><img src="{{ photo.url }}?w=400&auto=compress"{% if photo.alt %} alt="{{ photo.alt }}"{% endif %}></a>
@@ -52,7 +52,7 @@
         </section>
     {% endif %}
     {% if museum.press %}
-    <section class="section articles">
+    <section class="section articles" id="press">
         <div class="box content">
             {% for article in json.loads(museum.press) %}
             <h3 class="title is-5"><a href="{{ article.url }}">{{ article.title }}</a></h2>

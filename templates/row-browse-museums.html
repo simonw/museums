@@ -116,6 +116,10 @@
         function showGallery(src) {
             // <figure><img><figcaption>caption</figcaption></figure>
             var figure = document.createElement('figure');
+            var caption = '';
+            if (caption) {
+                caption = `<figcaption>${caption}</figcaption>`;
+            }
             figure.innerHTML = `
                 <div>
                     <img src="${src}" alt="${''}">
@@ -126,7 +130,7 @@
                         <span>&raquo;</span>
                     </a>
                 </div>
-                <figcaption>${'caption'}</figcaption>
+                ${caption}
             `;
             document.body.classList.add('gallery-mode');
             document.body.appendChild(figure);

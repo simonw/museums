@@ -1632,7 +1632,7 @@ body.gallery-mode > section {
 
 body.gallery-mode figure {
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
 }

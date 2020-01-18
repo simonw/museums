@@ -46,7 +46,7 @@
         <section class="section photos">
             <div class="masonry">
             {% for photo in json.loads(museum.photos) %}
-                <a href="{{ photo.url }}?w=1200&auto=compress"><img class="gallery-photo" src="{{ photo.url }}?w=400&auto=compress"{% if photo.alt %} alt="{{ photo.alt }}"{% endif %}></a>
+                <a href="{{ photo.url }}?w=1200&auto=compress" class="gallery-photo"><img src="{{ photo.url }}?w=400&auto=compress"{% if photo.alt %} alt="{{ photo.alt }}"{% endif %}></a>
             {% endfor %}
             </div>
         </section>
@@ -133,6 +133,10 @@
             var el = e.target;
             if (anyParentHasClass(el, 'gallery-photo')) {
                 e.preventDefault();
+                /* Make sure we are handling the image */
+                if (el.tagName == 'A') {
+                    el = el.getElementsByTagName('img')[0];
+                }
                 showGallery(el);
             }
             /* Handle next/prev links */

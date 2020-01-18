@@ -83,6 +83,15 @@
         {% endfor %}
     </section>
     <script>
+        function anyParentHasClass(el, className) {
+            while (el && el.classList) {
+                if (el.classList.contains(className)) {
+                    return true;
+                }
+                el = el.parentNode;
+            }
+            return false;
+        }
         const latitude = {{ museum.latitude }};
         const longitude = {{ museum.longitude }};
         document.addEventListener('DOMContentLoaded', () => {
@@ -101,40 +110,100 @@
             L.marker(latlng).addTo(map);
         });
         // Set up photo gallery
+        var photos = Array.from(document.querySelectorAll(".photos a")).map((el) => el.href);
+        var currentPhoto = null;
+        function nextPhoto() {
+            var currentIndex = photos.indexOf(currentPhoto);
+            var src = photos[(currentIndex + 1) % photos.length];
+            showGallery(src);
+        }
+        function prevPhoto() {
+            var currentIndex = photos.indexOf(currentPhoto);
+            var index;
+            if (currentIndex == 0) {
+                index = photos.length - 1;
+            } else {
+                index = currentIndex - 1;
+            }
+            var src = photos[index];
+            showGallery(src);
+        }
         document.body.addEventListener('click', function(e) {
             /* Is this a click on a photo? */
             var el = e.target;
-            if (el.className == 'gallery-photo') {
+            if (anyParentHasClass(el, 'gallery-photo')) {
                 e.preventDefault();
                 var src = el.parentNode.href;
                 showGallery(src);
+            }
+            /* Handle next/prev links */
+            if (anyParentHasClass(el, 'gallery-next')) {
+                e.preventDefault();
+                nextPhoto();
+            }
+            if (anyParentHasClass(el, 'gallery-prev')) {
+                e.preventDefault();
+                prevPhoto();
+            }
+            if (anyParentHasClass(el, 'gallery-close')) {
+                e.preventDefault();
+                closeGallery();
             }
             console.log(el);
             window.el = el;
         }, true);
 
         function showGallery(src) {
-            // <figure><img><figcaption>caption</figcaption></figure>
-            var figure = document.createElement('figure');
+            console.log('showGallery', src);
+            currentPhoto = src;
+            console.log('window.currentPhoto = ', window.currentPhoto);
+            var figure = document.querySelector('.figure-overlay') || document.createElement('figure');
+            figure.className = 'figure-overlay';
             var caption = '';
             if (caption) {
                 caption = `<figcaption>${caption}</figcaption>`;
             }
+            var nextPrev = '';
+            if (photos.length > 1) {
+                nextPrev = `<a href="#" class="gallery-prev">
+                    <span>&laquo;</span>
+                </a>
+                <a href="#" class="gallery-next">
+                    <span>&raquo;</span>
+                </a>`;
+            }
             figure.innerHTML = `
                 <div>
                     <img src="${src}" alt="${''}">
-                    <a href="#" class="gallery-prev">
-                        <span>&laquo;</span>
-                    </a>
-                    <a href="#" class="gallery-next">
-                        <span>&raquo;</span>
-                    </a>
+                    ${nextPrev}
                 </div>
+                <a href="#" class="gallery-close">Close gallery</a>
                 ${caption}
             `;
             document.body.classList.add('gallery-mode');
             document.body.appendChild(figure);
         }
+        function closeGallery() {
+            document.body.classList.remove('gallery-mode');
+            var figure = document.querySelector('.figure-overlay');
+            if (figure) {
+                figure.parentNode.removeChild(figure);
+            }
+        }
+        document.onkeydown = function(evt) {
+            // Escape key
+            if (evt.keyCode == 27) {
+                closeGallery();
+            }
+            // Left arrow key
+            if (evt.keyCode == 37) {
+                prevPhoto();
+            }
+            // Right arrow key
+            if (evt.keyCode == 39) {
+                nextPhoto();
+            }
+        };
     </script>
 </body>
 

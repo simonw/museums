@@ -1669,6 +1669,11 @@ a.gallery-prev span,
 a.gallery-next span {
   margin: auto;
 }
+a.gallery-close {
+  text-align: right;
+  padding: 1em 1.5em;
+  display: block;
+}
 
 figure {
   display: flex;

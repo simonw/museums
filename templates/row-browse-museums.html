@@ -149,14 +149,10 @@
                 e.preventDefault();
                 closeGallery();
             }
-            console.log(el);
-            window.el = el;
         }, true);
 
         function showGallery(src) {
-            console.log('showGallery', src);
             currentPhoto = src;
-            console.log('window.currentPhoto = ', window.currentPhoto);
             var figure = document.querySelector('.figure-overlay') || document.createElement('figure');
             figure.className = 'figure-overlay';
             var caption = '';

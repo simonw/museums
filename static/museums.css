@@ -1663,8 +1663,14 @@ a.gallery-next {
   right: 0;
 }
 a.gallery-prev:hover,
-a.gallery-next:hover {
+a.gallery-next:hover,
+a.gallery-prev:focus,
+a.gallery-next:focus {
   background-color: rgba(0, 0, 0, 0.2);
+}
+a.gallery-prev:active,
+a.gallery-next:active {
+  background-color: transparent;
 }
 a.gallery-prev span,
 a.gallery-next span {

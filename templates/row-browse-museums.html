@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="/css/museums.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="anonymous">
     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin="anonymous"></script>
+    <script src="/css/lazysizes.min.js" async></script>
 </head>
 
 <body>
@@ -46,7 +47,7 @@
         <section class="section photos" id="photos">
             <div class="masonry">
             {% for photo in json.loads(museum.photos) %}
-                <a href="{{ photo.url }}?w=1200&auto=compress" class="gallery-photo"><img src="{{ photo.url }}?w=400&auto=compress"{% if photo.alt %} alt="{{ photo.alt }}"{% endif %}></a>
+                <a href="{{ photo.url }}?w=1200&auto=compress" class="gallery-photo"><img class="lazyload" src="{{ photo.url }}?w=400&blur=200&px=16&auto=format" data-src="{{ photo.url }}?w=400&auto=compress"{% if photo.alt %} alt="{{ photo.alt }}"{% endif %}></a>
             {% endfor %}
             </div>
         </section>

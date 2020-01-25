@@ -2438,3 +2438,36 @@
   - url: https://niche-museums.imgix.net/ray-bandar-52.jpeg
   - url: https://niche-museums.imgix.net/ray-bandar-53.jpeg
   - url: https://niche-museums.imgix.net/ray-bandar-54.jpeg
+-
+  id: 101
+  name: The Marine Mammal Center
+  address: 2000 Bunker Road, Fort Cronkhite, Sausalito, CA 94965
+  wikipedia_url: https://en.wikipedia.org/wiki/The_Marine_Mammal_Center
+  description: |-
+    The Marine Mammal Center in Sausalito, CA is the largest hospital for marine mammals in the world. Established in 1973, today the center is responsible for rescues along 600 miles of California coastline, from the edge of Humboldt county in Northern California down to San Luis Obispo county in the south.
+
+    The center’s current headquarters opened in 1975 on the site of an old Nike missile site (see [Nike Missile Site SF-88](https://www.niche-museums.com/browse/museums/11) nearby). The underground silos now house the center’s water filtration system.
+
+    In 2018 the center treated 802 marine mammals with the help of more than 1,200 volunteers. Patients include elephant seals, California sea lions, Guadalupe and northern fur seals, harbor seals and the occasional sea otter.
+
+    Weekend guided tours are offered at 11am , 1pm and 3pm, and the animals tend to be fed between 1:30 and 2:30pm which makes that an excellent time to watch from the viewing deck.
+  photo_url: https://niche-museums.imgix.net/marine-mammal-center.jpeg
+  photo_alt: Some patients at the Marine Mammal Center.
+  latitude: 37.8351
+  longitude: -122.5316
+  press:
+  - url: https://www.mercurynews.com/2019/12/13/seal-that-took-a-wrong-turn-in-redwood-city-back-where-he-belongs/
+    title: "Seal that took a wrong turn in Redwood City back where he belongs"
+    publication: The Mercury News
+    author: Joan Morris
+    date: 2019-12-13
+  photos:
+  - url: https://niche-museums.imgix.net/marine-mammal-center-1.jpg
+  - url: https://niche-museums.imgix.net/marine-mammal-center-2.jpg
+  - url: https://niche-museums.imgix.net/marine-mammal-center-3.jpg
+  - url: https://niche-museums.imgix.net/marine-mammal-center-4.jpg
+  - url: https://niche-museums.imgix.net/marine-mammal-center-5.jpg
+  - url: https://niche-museums.imgix.net/marine-mammal-center-6.jpg
+  - url: https://niche-museums.imgix.net/marine-mammal-center-7.jpg
+  - url: https://niche-museums.imgix.net/marine-mammal-center-8.jpg
+  - url: https://niche-museums.imgix.net/marine-mammal-center-9.jpg

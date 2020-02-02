@@ -2471,3 +2471,50 @@
   - url: https://niche-museums.imgix.net/marine-mammal-center-7.jpg
   - url: https://niche-museums.imgix.net/marine-mammal-center-8.jpg
   - url: https://niche-museums.imgix.net/marine-mammal-center-9.jpg
+-
+  id: 102
+  name: Hearst Castle
+  address: 750 Hearst Castle Road, San Simeon, CA 93452
+  url: http://hearstcastle.org/
+  wikipedia_url: https://en.wikipedia.org/wiki/Hearst_Castle
+  description: |-
+    In 1919 press baron William Randolph Hearst commissioned architect Julia Morgan to design a modest bungalow for his estate in San Simeon on the Californian Central Coast. His ambitions for the project grew rapidly over time, and they would end up working together on the project for the next 28 years.
+
+    Although never completed, by 1947 Hearst Castle had 42 bedrooms, 61 bathrooms, 127 acres of gardens, its own airfield and both indoor and outdoor swimming pools.
+
+    William Randolph Hearst got his start in publishing in 1887 when his father George gave him control of the The San Francisco Examiner, which he had acquired as payment for a gambling debt in 1880. The newspaper formed the starting point of the largest media empire in the United States - at peak,  Hearst owned 18 magazines and 28 newspapers which reached an audience of 20 million Americans.
+
+    Julia Morgan was the first woman architect to be licensed in California, and the first to be admitted to l'École nationale supérieure des Beaux-Arts in Paris. She designed more than 700 buildings during her career, but Hearst Castle was her longest and most acclaimed project. She was an early proponent of reinforced concrete, used extensively in the construction of Hearst Castle.
+
+    During the roaring twenties and the thirties Hearst hosted a constant chain of guests at San Simeon - up to thirty guests a night - including actors, writers and politicians. Guests would gather for drinks and dinner every evening, and Hearst would seat the most influential new guests at his head of the table. As guests wore out their welcome they were seated further and further towards the fire at the other end - causing Harpo Marx to coin the term “on the hot seat” to signify being on the way out.
+
+    Hearst Castle was home to Hearst’s enormous collection of art, much of it purchased from cash-strapped Europeans in the interwar period. Entire medieval rooms were bought from historic buildings, shipped to California and installed in the castle. The collection of Spanish and Italian ceilings from the 14th to 18th centuries is particularly impressive.
+
+    Hearst died in 1951 and the estate was donated to the State of California by the Hearst family in 1957. Today it operates as a State Historical Monument and is open daily for tours. The tour of the upstairs is particularly worthwhile as it provides access to the Gothic Suite, Hearst’s study and private apartment.
+  photo_url: https://niche-museums.imgix.net/hearst-castle.jpeg
+  photo_alt: Hearst Castle.
+  latitude: 35.685
+  longitude: -121.1686
+  press:
+  - url: https://www.vcstar.com/story/life/2019/12/05/visit-hearst-castle-national-landmark-park-tours-california-vacation/2609799001/
+    title: "Hearst Castle well worth a visit, especially if it's been a while"
+    publication: Ventura County Star
+    author: David Loe
+    date: 2019-12-05
+  - url: https://www.nytimes.com/2019/03/06/obituaries/julia-morgan-overlooked.html
+    title: "Overlooked No More: Julia Morgan, Pioneering Female Architect"
+    publication: The New York Times
+    author: Alexandra Lange
+    date: 2019-03-06
+  - url: https://www.courthousenews.com/hearsts-hot-seat/
+    title: "Hearst’s Hot Seat"
+    publication: Courthouse News Service
+    author: Pat Pemberton
+    date: 2015-02-12
+  photos:
+  - url: https://niche-museums.imgix.net/hearst-castle-1.jpg
+  - url: https://niche-museums.imgix.net/hearst-castle-2.jpg
+  - url: https://niche-museums.imgix.net/hearst-castle-3.jpg
+  - url: https://niche-museums.imgix.net/hearst-castle-4.jpg
+  - url: https://niche-museums.imgix.net/hearst-castle-5.jpg
+  - url: https://niche-museums.imgix.net/hearst-castle-6.jpg

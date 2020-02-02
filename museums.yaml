@@ -485,6 +485,12 @@
   photo_alt: Laboratoire de Lavoisier.
   latitude: 48.866
   longitude: 2.3554
+  press:
+  - url: https://www.smithsonianmag.com/travel/best-little-museum-you-never-visited-180956025/
+    title: The Best Little Museum You Never Visited in Paris
+    publication: Smithsonian Magazine
+    author: Celestine Bohlen
+    date: 2015-07-27
 -
   id: 31
   name: International Women's Air & Space Museum

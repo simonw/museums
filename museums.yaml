@@ -2530,3 +2530,17 @@
   - url: https://niche-museums.imgix.net/hearst-castle-10.jpg
   - url: https://niche-museums.imgix.net/hearst-castle-11.jpg
   - url: https://niche-museums.imgix.net/hearst-castle-12.jpg
+-
+  id: 103
+  name: Pacific Pinball Museum
+  url: https://www.pacificpinball.org/
+  address: 1510 Webster St, Alameda, CA 94501
+  description: |-
+    The Pacific Pinball Museum is an interactive museum offering a chronological 
+    and historical display of rare bagatelles and early games, to over 90 
+    pinball machines from the 1940’s to present day available to play!
+  wikipedia_url: https://en.wikipedia.org/wiki/Pacific_Pinball_Museum
+  photo_url: https://en.wikipedia.org/wiki/Pacific_Pinball_Museum#/media/File:Pinball_3web.jpg
+  photo_alt: Pinball machines at the Pacific Pinball Museum
+  latitude: 37.773738
+  longitude: -122.276583

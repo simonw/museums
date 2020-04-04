@@ -58,4 +58,4 @@ jobs:
           --template-dir=templates \
           --plugins-dir=plugins \
           --static css:static/ \
-          --branch=master
+          --branch=286ed286b68793532c2a38436a08343b45cfbc91

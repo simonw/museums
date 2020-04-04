@@ -24,15 +24,15 @@ jobs:
           ${{ runner.os }}-pip-
     - name: Install Python dependencies
       run: |-
-        pip install -r museums/requirements.txt
+        pip install -r requirements.txt
     - name: Build browse.db database
       run: |-
         wget https://www.niche-museums.com/browse.db
         yaml-to-sqlite browse.db museums museums.yaml --pk=id
         sqlite3 about.db ""
         sqlite3 map.db ""
-        python museums/annotate_nominatum.py browse.db
-        python museums/annotate_timestamps.py
+        python annotate_nominatum.py browse.db
+        python annotate_timestamps.py
     - name: Set up Cloud Run
       uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
       with:
@@ -45,7 +45,7 @@ jobs:
         gcloud config set project datasette-222320
         datasette publish cloudrun browse.db about.db map.db \
           --service niche-museums \
-          --metadata museums/metadata.json \
+          --metadata metadata.json \
           --install=datasette-haversine \
           --install=datasette-pretty-json \
           --install=datasette-template-sql \
@@ -53,6 +53,6 @@ jobs:
           --install=datasette-render-markdown \
           --install=datasette-cluster-map \
           --install=datasette-atom \
-          --template-dir=museums/templates \
-          --plugins-dir=museums/plugins \
-          --static css:museums/static/
+          --template-dir=templates \
+          --plugins-dir=plugins \
+          --static css:static/

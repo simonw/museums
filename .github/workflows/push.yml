@@ -57,4 +57,5 @@ jobs:
           --install=datasette-atom \
           --template-dir=templates \
           --plugins-dir=plugins \
-          --static css:static/
+          --static css:static/ \
+          --branch=master

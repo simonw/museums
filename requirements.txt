@@ -1,0 +1,12 @@
+datasette
+datasette-haversine
+datasette-template-sql
+datasette-pretty-json
+datasette-json-html
+datasette-cluster-map
+datasette-render-markdown
+requests
+sqlite-utils
+tqdm
+yaml-to-sqlite
+GitPython

@@ -48,7 +48,4 @@ if __name__ == "__main__":
         previous = current
     db = sqlite_utils.Database("browse.db")
     for id, ts in created.items():
-        db["museums"].update(id, {
-            "created": ts,
-            "updated": updated[id]
-        }, alter=True)
+        db["museums"].update(id, {"created": ts, "updated": updated[id]}, alter=True)

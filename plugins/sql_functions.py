@@ -4,7 +4,7 @@ from datasette_render_markdown import render_markdown
 
 def escape_fts_query(query):
     bits = query.split()
-    return ' '.join('"{}"'.format(bit.replace('"', '')) for bit in bits)
+    return " ".join('"{}"'.format(bit.replace('"', "")) for bit in bits)
 
 
 @hookimpl

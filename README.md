@@ -1,7 +1,5 @@
 # niche-museums.com
 
-[![CircleCI](https://circleci.com/gh/simonw/museums.svg?style=svg)](https://circleci.com/gh/simonw/museums)
-
 https://www.niche-museums.com/about
 
 Read [niche-museums.com, powered by Datasette](https://simonwillison.net/2019/Nov/25/niche-museums/) for a detailed explanation of how this all works.

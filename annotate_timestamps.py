@@ -46,6 +46,10 @@ if __name__ == "__main__":
             for id in changed_ids:
                 updated[id] = when.isoformat()
         previous = current
+    print("Created:")
+    print(json.dumps(created, indent=4))
+    print("Updated:")
+    print(json.dumps(updated, indent=4))
     db = sqlite_utils.Database("browse.db")
     for id, ts in created.items():
         db["museums"].update(id, {"created": ts, "updated": updated[id]}, alter=True)

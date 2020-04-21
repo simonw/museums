@@ -1,6 +1,6 @@
 datasette
 datasette-haversine
-datasette-template-sql
+datasette-template-sql>=1.0
 datasette-pretty-json
 datasette-json-html
 datasette-cluster-map

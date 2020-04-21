@@ -66,12 +66,16 @@
         <div id="themap"></div>
     </section>
     <section class="section nearby-section">
-        {% for museum in sql(
-          "select *, haversine(latitude, longitude, " ~ museum["latitude"] ~
-          ", " ~ museum["longitude"] ~ ", 'mi') as distance_mi " ~
-          "from museums where id != " ~ museum["id"] ~
-          " and permanently_closed is null order by distance_mi limit 3"
-      ) %}
+        {% for museum in sql("""
+            select *, haversine(latitude, longitude, :latitude, :longitude, 'mi') as distance_mi
+            from museums
+            where id != :id
+            and permanently_closed is null order by distance_mi limit 3
+        """, {
+            "latitude": museum.latitude,
+            "longitude": museum.longitude,
+            "id": museum.id
+        }) %}
         <div class="card box">
             <div class="content">
                 {% if museum.photo_url %}

@@ -4,4 +4,4 @@ datasette browse.db about.db map.db -p 8211 \
     --template-dir=templates/ \
     --plugins-dir=plugins/ \
     --static css:static/ \
-    -m metadata.json
+    -m metadata.yaml

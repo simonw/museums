@@ -1,4 +1,4 @@
-datasette
+datasette~=0.40
 datasette-haversine
 datasette-template-sql>=1.0
 datasette-pretty-json

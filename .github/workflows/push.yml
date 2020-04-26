@@ -33,8 +33,6 @@ jobs:
       run: |-
         wget https://niche-museums-j7hipcg4aq-uc.a.run.app/browse.db
         yaml-to-sqlite browse.db museums museums.yaml --pk=id
-        sqlite3 about.db ""
-        sqlite3 map.db ""
         python annotate_nominatum.py browse.db
         python annotate_timestamps.py
     - name: Set up Cloud Run
@@ -50,6 +48,7 @@ jobs:
         datasette publish cloudrun browse.db about.db map.db \
           --service niche-museums \
           --metadata metadata.yaml \
+          --branch 1b7b66c465e44025ec73421bd69752e42f108321 \
           --install=datasette-haversine \
           --install=datasette-pretty-json \
           --install=datasette-template-sql \

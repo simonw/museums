@@ -45,7 +45,7 @@ jobs:
       run: |-
         gcloud config set run/region us-central1
         gcloud config set project datasette-222320
-        datasette publish cloudrun browse.db about.db map.db \
+        datasette publish cloudrun browse.db \
           --service niche-museums \
           --metadata metadata.yaml \
           --branch 1b7b66c465e44025ec73421bd69752e42f108321 \

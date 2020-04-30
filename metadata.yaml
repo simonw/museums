@@ -41,7 +41,9 @@ databases:
                 json_each(coalesce(m.photos, '[{}]')) as ph
             ),
             ''
-          ) as atom_content_html
+          ) as atom_content_html,
+          'Simon Willison' as atom_author_name,
+          'https://simonwillison.net/' as atom_author_uri
         FROM
           museums m
         order by

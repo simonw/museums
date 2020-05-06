@@ -48,7 +48,6 @@ jobs:
         datasette publish cloudrun browse.db \
           --service niche-museums \
           --metadata metadata.yaml \
-          --branch 1b7b66c465e44025ec73421bd69752e42f108321 \
           --install=datasette-haversine \
           --install=datasette-pretty-json \
           --install=datasette-template-sql \

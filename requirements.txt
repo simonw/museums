@@ -1,4 +1,4 @@
-datasette~=0.41
+https://github.com/simonw/datasette/archive/f2e0a558238a34dc482803762de2509474a178c6.zip
 datasette-haversine
 datasette-template-sql>=1.0
 datasette-pretty-json

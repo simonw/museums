@@ -5,51 +5,53 @@ databases:
       nearby: |-
         select *, haversine(latitude, longitude, cast(:latitude as real), cast(:longitude as real), 'mi') as distance_mi
         from museums order by distance_mi
-      feed: |-
-        SELECT
-          'tag:niche-museums.com,' || substr(m.created, 0, 11) || ':' || m.id as atom_id,
-          m.name as atom_title,
-          m.created as atom_updated,
-          'https://www.niche-museums.com/browse/museums/' || m.id as atom_link,
-          coalesce(
-            '<img src="' || m.photo_url || '?w=800&amp;h=400&amp;fit=crop&amp;auto=compress">',
-            ''
-          ) || render_markdown(
-            m.description || '
+      feed:
+        title: Niche Museums
+        sql: |-
+          SELECT
+            'tag:niche-museums.com,' || substr(m.created, 0, 11) || ':' || m.id as atom_id,
+            m.name as atom_title,
+            m.created as atom_updated,
+            'https://www.niche-museums.com/browse/museums/' || m.id as atom_link,
+            coalesce(
+              '<img src="' || m.photo_url || '?w=800&amp;h=400&amp;fit=crop&amp;auto=compress">',
+              ''
+            ) || render_markdown(
+              m.description || '
 
-        ' || coalesce(
+          ' || coalesce(
+                (
+                  select
+                    group_concat(
+                      '* [' || json_extract(p.value, '$.title') || '](' || json_extract(p.value, '$.url') || ') ' || json_extract(p.value, '$.author') || ', ' || json_extract(p.value, '$.publication') || ', ' || json_extract(p.value, '$.date'),
+                      '
+          '
+                    )
+                  from
+                    json_each(coalesce(m.press, '[{}]')) as p
+                ),
+                ''
+              )
+            ) || coalesce(
               (
                 select
                   group_concat(
-                    '* [' || json_extract(p.value, '$.title') || '](' || json_extract(p.value, '$.url') || ') ' || json_extract(p.value, '$.author') || ', ' || json_extract(p.value, '$.publication') || ', ' || json_extract(p.value, '$.date'),
-                    '
-        '
+                    '<p><img src="' || json_extract(ph.value, '$.url') || '?w=400&auto=compress"></p>',
+                    ''
                   )
                 from
-                  json_each(coalesce(m.press, '[{}]')) as p
+                  json_each(coalesce(m.photos, '[{}]')) as ph
               ),
               ''
-            )
-          ) || coalesce(
-            (
-              select
-                group_concat(
-                  '<p><img src="' || json_extract(ph.value, '$.url') || '?w=400&auto=compress"></p>',
-                  ''
-                )
-              from
-                json_each(coalesce(m.photos, '[{}]')) as ph
-            ),
-            ''
-          ) as atom_content_html,
-          'Simon Willison' as atom_author_name,
-          'https://simonwillison.net/' as atom_author_uri
-        FROM
-          museums m
-        order by
-          m.created desc
-        limit
-          15
+            ) as atom_content_html,
+            'Simon Willison' as atom_author_name,
+            'https://simonwillison.net/' as atom_author_uri
+          FROM
+            museums m
+          order by
+            m.created desc
+          limit
+            15
       search: |-
         select
           museums_fts.rank,

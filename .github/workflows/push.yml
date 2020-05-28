@@ -53,8 +53,8 @@ jobs:
           --install=datasette-template-sql \
           --install=datasette-json-html \
           --install=datasette-render-markdown \
-          --install=https://github.com/simonw/datasette-cluster-map/archive/06cf06f3d164be6223df2a37b783d01c32d1b3fa.zip \
-          --install=datasette-atom \
+          --install=datasette-cluster-map>=0.10 \
+          --install=datasette-atom>=0.6 \
           --template-dir=templates \
           --plugins-dir=plugins \
           --static css:static/

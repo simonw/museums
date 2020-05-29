@@ -15,7 +15,7 @@ def extra_template_vars(request, view_name):
         is_distance_page = False
 
         if request.args.get("latitude") and request.args.get("longitude"):
-            select = f"*, haversine(latitude, longitude, cast({request.args['latitude']} as real), cast({request.args['longitude']} as real), 'mi') as distance_mi"
+            select = f"*, haversine(latitude, longitude, cast({request.args.get('latitude')} as real), cast({request.args.get('longitude')} as real), 'mi') as distance_mi"
             order_by = f"distance_mi limit {PAGE_SIZE}"
             is_distance_page = True
             vars.update(

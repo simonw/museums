@@ -5,29 +5,28 @@ PAGE_SIZE = 15
 
 @hookimpl
 def extra_template_vars(request, view_name):
-    vars = {"q": request.raw_args.get("q") or ""}
+    vars = {"q": request.args.get("q") or ""}
     if view_name == "index":
         # Custom template variables for the homepage
-        args = request.raw_args
         select = "*"
         order_by = f"id desc limit {PAGE_SIZE}"
         where = ""
         next = None
         is_distance_page = False
 
-        if args.get("latitude") and args.get("longitude"):
-            select = f"*, haversine(latitude, longitude, cast({args['latitude']} as real), cast({args['longitude']} as real), 'mi') as distance_mi"
+        if request.args.get("latitude") and request.args.get("longitude"):
+            select = f"*, haversine(latitude, longitude, cast({request.args['latitude']} as real), cast({request.args['longitude']} as real), 'mi') as distance_mi"
             order_by = f"distance_mi limit {PAGE_SIZE}"
             is_distance_page = True
             vars.update(
                 {
-                    "latitude": float(args["latitude"]),
-                    "longitude": float(args["longitude"]),
+                    "latitude": float(request.args.get("latitude")),
+                    "longitude": float(request.args.get("longitude")),
                 }
             )
 
         # Handle ?next= link
-        next = args.get("next")
+        next = request.args.get("next")
         if next and next.isdigit():
             where = f" where id < {next} "
 

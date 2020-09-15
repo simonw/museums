@@ -12,7 +12,7 @@ databases:
             'tag:niche-museums.com,' || substr(m.created, 0, 11) || ':' || m.id as atom_id,
             m.name as atom_title,
             m.created as atom_updated,
-            'https://www.niche-museums.com/browse/museums/' || m.id as atom_link,
+            'https://www.niche-museums.com/' || m.id as atom_link,
             coalesce(
               '<img src="' || m.photo_url || '?w=800&amp;h=400&amp;fit=crop&amp;auto=compress">',
               ''

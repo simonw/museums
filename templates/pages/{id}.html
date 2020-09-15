@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
-
+{% set rows = sql("select * from museums where id = :id", {"id": id}) %}
+{% if not rows %}
+    {{ raise_404("Museum not found") }}
+{% endif %}
 <head>
     <meta charset="utf-8">
-    {% set museum = display_rows[0] %}
+    {% set museum = rows[0] %}
     {% set retina = 1 %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ museum.name }}</title>
@@ -14,7 +17,7 @@
     <meta name="twitter:description" content="{{ museum.description }}">
     <meta name="twitter:image" content="{{ museum.photo_url }}?w=1600&amp;h=800&amp;fit=crop&amp;auto=compress">
     <meta name="twitter:image:alt" content="{{ museum.photo_alt }}">
-    <meta property="og:url" content="https://www.niche-museums.com/browse/museums/{{ museum.id }}">
+    <meta property="og:url" content="https://www.niche-museums.com/{{ museum.id }}">
     <meta property="og:type" content="article">
     <meta property="og:title" content="{{ museum.name }}">
     <meta property="og:description" content="{{ museum.description }}">
@@ -23,7 +26,7 @@
     <meta property="og:image:width" content="800">
     <meta property="og:image:height" content="400">
 {% include "_analytics.html" %}
-    <link rel="stylesheet" href="/css/museums.css">
+    <link rel="stylesheet" href="/static/museums.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="anonymous">
     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin="anonymous"></script>
     <script src="/css/lazysizes.min.js" async></script>
@@ -79,9 +82,9 @@
         <div class="card box">
             <div class="content">
                 {% if museum.photo_url %}
-                <a href="/browse/museums/{{ museum.id }}"><img width="200" height="100" class="is-pulled-right" src="{{ museum.photo_url }}?w=400&amp;h=200&amp;fit=crop&amp;auto=compress" alt="{{ museum.photo_alt }}"></a>
+                <a href="/{{ museum.id }}"><img width="200" height="100" class="is-pulled-right" src="{{ museum.photo_url }}?w=400&amp;h=200&amp;fit=crop&amp;auto=compress" alt="{{ museum.photo_alt }}"></a>
                 {% endif %}
-                <h2><a href="/browse/museums/{{ museum.id }}">{{ museum.name }}</a></h2>
+                <h2><a href="/{{ museum.id }}">{{ museum.name }}</a></h2>
                 <p class="distance-away">{{ museum.distance_mi|round(2) }} miles away</p>
             </div>
         </div>

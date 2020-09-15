@@ -3,7 +3,7 @@
 <div class="card box">
     {% if museum.photo_url %}
     <div class="card-image">
-        <figure class="image is-4by2">{% if show_links %}<a href="/browse/museums/{{ museum.id }}">{% endif %}
+        <figure class="image is-4by2">{% if show_links %}<a href="/{{ museum.id }}">{% endif %}
                 <img src="{{ museum.photo_url }}?w={% if retina %}1600&amp;h=800{% else %}800&amp;h=400{% endif %}&amp;fit=crop&amp;auto=compress" alt="{{ museum.photo_alt }}">{% if show_links %}</a>{% endif %}
         </figure>
     </div>
@@ -11,7 +11,7 @@
     <div class="content">
         {% if museum.permanently_closed %}<span class="permanently-closed">Permanently closed</span>{% endif %}
         {% if show_links %}
-        <h2><a href="/browse/museums/{{ museum.id }}">{{ museum.name }}</a></h2>
+        <h2><a href="/{{ museum.id }}">{{ museum.name }}</a></h2>
         {% else %}
         <h2>{{ museum.name }}</h2>
         {% endif %}
@@ -21,7 +21,7 @@
             <p>{% if museum.url %}<a href="{{ museum.url }}">Website</a>{% endif %}{% if museum.url and museum.wikipedia_url %} | {% endif %}{% if museum.wikipedia_url %}<a href="{{ museum.wikipedia_url }}">Wikipedia</a>{% endif %}</p>
         {% endif %}
         {% if show_links and (press or photos) %}
-            <a><a href="/browse/museums/{{ museum.id }}{% if photos %}#photos{% else %}#press{% endif %}">{% if photos %}{{ photos|length }} photo{{ pluralize(photos|length) }}{% endif %}{% if photos and press %} and {% endif %}{% if press %}{{ press|length }} link{{ pluralize(press|length) }}{% endif %}</a></p>
+            <a><a href="/{{ museum.id }}{% if photos %}#photos{% else %}#press{% endif %}">{% if photos %}{{ photos|length }} photo{{ pluralize(photos|length) }}{% endif %}{% if photos and press %} and {% endif %}{% if press %}{{ press|length }} link{{ pluralize(press|length) }}{% endif %}</a></p>
         {% endif %}
         <address>{{ museum.address }} - <a href="https://www.google.com/maps/?q={{ museum.latitude }},{{ museum.longitude }}">Map</a></address>
         <p class="added-date">{{ nicer_date(museum.created) }}</p>

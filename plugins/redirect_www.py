@@ -1,5 +1,5 @@
 from datasette import hookimpl
-from datasette.utils.asgi import asgi_send
+from datasette.utils.asgi import asgi_send, Response
 from functools import wraps
 
 HOST_REDIRECTS = {
@@ -8,12 +8,23 @@ HOST_REDIRECTS = {
 }
 
 
+def redirect_museum(request):
+    return Response.redirect("/{}".format(request.url_vars["id"]), status=301)
+
+
+@hookimpl
+def register_routes():
+    return [
+        (r"^/browse/museums/(?P<id>\d+)$", redirect_museum),
+    ]
+
+
 @hookimpl
 def asgi_wrapper(datasette):
     def wrap_with_www_redirect(app):
         @wraps(app)
         async def www_redirect(scope, recieve, send):
-            if scope["method"] == "GET":
+            if scope.get("method") == "GET":
                 host = (dict(scope["headers"]).get(b"host") or b"").split(b":")[0]
                 host_no_port = host.split(b":")[0]
                 if host_no_port in HOST_REDIRECTS:

@@ -48,7 +48,6 @@ jobs:
         datasette publish cloudrun browse.db \
           --service niche-museums \
           --metadata metadata.yaml \
-          --branch 7bb30c1f11f7246baf7bb6a229f6b93572c4cbe3 \
           --install=datasette-haversine \
           --install=datasette-pretty-json \
           --install=datasette-template-sql \
@@ -58,5 +57,5 @@ jobs:
           --install=datasette-atom>=0.6 \
           --template-dir=templates \
           --plugins-dir=plugins \
-          --static css:static/ \
+          --static static:static/ \
           --extra-options "--config force_https_urls:1"

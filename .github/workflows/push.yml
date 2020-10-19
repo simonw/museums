@@ -53,7 +53,7 @@ jobs:
           --install=datasette-template-sql \
           --install=datasette-json-html \
           --install=datasette-render-markdown \
-          --install=datasette-cluster-map>=0.10 \
+          --install=datasette-cluster-map>=0.13 \
           --install=datasette-atom>=0.6 \
           --template-dir=templates \
           --plugins-dir=plugins \

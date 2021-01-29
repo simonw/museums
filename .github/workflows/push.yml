@@ -55,6 +55,7 @@ jobs:
           --install=datasette-render-markdown \
           --install=datasette-cluster-map>=0.13 \
           --install=datasette-atom>=0.6 \
+          --install=datasette-debug-asgi \
           --template-dir=templates \
           --plugins-dir=plugins \
           --static static:static/ \

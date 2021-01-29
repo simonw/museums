@@ -50,7 +50,7 @@ jobs:
           --metadata metadata.yaml \
           --install=datasette-haversine \
           --install=datasette-pretty-json \
-          --install=datasette-template-sql \
+          --install=datasette-template-sql>=1.0.2 \
           --install=datasette-json-html \
           --install=datasette-render-markdown \
           --install=datasette-cluster-map>=0.13 \

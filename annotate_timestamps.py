@@ -10,7 +10,7 @@ IGNORE_CHANGES_IN_COMMITS = {
 }
 
 
-def iterate_file_versions(repo_path, filepath, ref="master"):
+def iterate_file_versions(repo_path, filepath, ref="main"):
     repo = git.Repo(repo_path, odbt=git.GitDB)
     commits = reversed(list(repo.iter_commits(ref, paths=filepath)))
     for commit in commits:
@@ -19,7 +19,7 @@ def iterate_file_versions(repo_path, filepath, ref="master"):
 
 
 if __name__ == "__main__":
-    ref = "master"
+    ref = "main"
     it = iterate_file_versions(".", "museums.yaml", ref)
     previous = {}
     created = {}

@@ -279,6 +279,15 @@
   photo_alt: The microbreak holiday simulator.
   latitude: 51.5197
   longitude: -0.1169
+  photos:
+  - url: https://niche-museums.imgix.net/novelty-automation-1.jpeg
+  - url: https://niche-museums.imgix.net/novelty-automation-2.jpeg
+  - url: https://niche-museums.imgix.net/novelty-automation-3.jpeg
+  - url: https://niche-museums.imgix.net/novelty-automation-4.jpeg
+  - url: https://niche-museums.imgix.net/novelty-automation-5.jpeg
+  - url: https://niche-museums.imgix.net/novelty-automation-6.jpeg
+  - url: https://niche-museums.imgix.net/novelty-automation-7.jpeg
+  - url: https://niche-museums.imgix.net/novelty-automation-8.jpeg
 -
   id: 18
   name: Pirates Museum

@@ -3,5 +3,5 @@ datasette browse.db -p 8211 \
     --reload \
     --template-dir=templates/ \
     --plugins-dir=plugins/ \
-    --static css:static/ \
+    --static static:static/ \
     -m metadata.yaml

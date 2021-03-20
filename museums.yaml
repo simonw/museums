@@ -407,6 +407,27 @@
   photo_alt: The Spruce Goose.
   latitude: 45.2041
   longitude: -123.1453
+  photos:
+  - url: https://niche-museums.imgix.net/evergreen-aviation-1.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-2.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-3.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-4.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-5.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-6.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-7.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-8.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-9.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-10.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-11.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-12.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-13.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-14.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-15.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-16.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-17.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-18.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-19.jpeg
+  - url: https://niche-museums.imgix.net/evergreen-aviation-20.jpeg
 -
   id: 25
   name: Autoservicio Condorito

@@ -27,7 +27,7 @@ async def sitemap_xml(datasette):
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
     ]
     db = datasette.get_database("browse")
-    for row in await db.execute("select id from museums"):
+    for row in await db.execute("select id from museums order by id desc"):
         content.append(
             "<url><loc>https://www.niche-museums.com/{}</loc></url>".format(row["id"])
         )

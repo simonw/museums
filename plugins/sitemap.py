@@ -1,6 +1,13 @@
 from datasette import hookimpl
 from datasette.utils.asgi import Response
 
+ROBOTS_TXT = """
+Sitemap: https://www.niche-museums.com/sitemap.xml
+
+User-agent: *
+Disallow: /browse
+""".strip()
+
 
 @hookimpl
 def register_routes():
@@ -11,7 +18,7 @@ def register_routes():
 
 
 def robots_txt():
-    return Response.text("Sitemap: https://www.niche-museums.com/sitemap.xml")
+    return Response.text(ROBOTS_TXT)
 
 
 async def sitemap_xml(datasette):
@@ -22,9 +29,7 @@ async def sitemap_xml(datasette):
     db = datasette.get_database("browse")
     for row in await db.execute("select id from museums"):
         content.append(
-            "<url><loc>https://www.niche-museums.com/{}</loc></url>".format(
-                row["id"]
-            )
+            "<url><loc>https://www.niche-museums.com/{}</loc></url>".format(row["id"])
         )
     content.append("</urlset>")
     return Response("\n".join(content), 200, content_type="application/xml")

@@ -16,6 +16,6 @@ def extra_template_vars():
         "json": json,
         "nicer_date": lambda d: "{dt.day} {dt:%B} {dt.year}".format(
             dt=datetime.datetime.strptime(d.split("T")[0], "%Y-%m-%d")
-        ),
+        ) if d is not None else "",
         "pluralize": pluralize,
     }

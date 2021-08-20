@@ -80,19 +80,6 @@
   latitude: 37.7852
   longitude: -122.4409
 -
-  id: 6
-  name: Hiller Aviation Museum
-  url: https://www.hiller.org/
-  wikipedia_url: https://en.wikipedia.org/wiki/Hiller_Aviation_Museum
-  address: 601 Skyway Road, San Carlos, CA 94070
-  description: |-
-    Specializes in Northern California aircraft history and helicopter history. The collection
-    includes one of just two surviving prototypes of the 1955 Hiller Flying Platform, the front
-    45 feet of a Boeing 747 and a Grumman HU-16 Albatross that was the first of its kind to
-    circumnavigate the earth.
-  latitude: 37.5126
-  longitude: -122.253
--
   id: 7
   name: Santa Cruz Surfing Museum
   url: http://www.santacruzsurfingmuseum.org/
@@ -2586,3 +2573,42 @@
   - url: https://niche-museums.imgix.net/hearst-castle-10.jpg
   - url: https://niche-museums.imgix.net/hearst-castle-11.jpg
   - url: https://niche-museums.imgix.net/hearst-castle-12.jpg
+-
+  id: 103
+  name: Hiller Aviation Museum
+  url: https://www.hiller.org/
+  wikipedia_url: https://en.wikipedia.org/wiki/Hiller_Aviation_Museum
+  photo_url: https://niche-museums.imgix.net/hiller-aviation-7.jpeg
+  photo_alt: A red biplane in the museum.
+  address: 601 Skyway Road, San Carlos, CA 94070
+  description: |-
+    Stanley Hiller Jr. designed and produced a working model of the world's first successful coaxial helicopter at the age of 15. In 1944 at 17 he had established the first helicopter factory on the West Coast.
+
+    Hiller's career as a helicopter entrepreneur lasted until 1966, when Hiller Helicopters merged with Fairchild Industries and Hiller reinvented himself as a venture capitalist and company turnaround specialist.
+
+    The Hiller Aviation museum was founded in 1998, originally to house Hiller's own collection of helicopter prototypes and historic aircraft. It has since grown to specialize in Northern California aircraft and helicopter history.
+
+    The collection includes one of just two surviving prototypes of the 1955 Hiller Flying Platform, the front 45 feet of a Boeing 747 and a Grumman HU-16 Albatross that was the first of its kind to circumnavigate the earth.
+
+    The museum has its own workshop, which both restores existing aircraft exhibits and builds replicas of historic aircraft for display at the museum.
+  latitude: 37.5126
+  longitude: -122.253
+  photos:
+  - url: https://niche-museums.imgix.net/hiller-aviation-1.jpeg
+  - url: https://niche-museums.imgix.net/hiller-aviation-2.jpeg
+  - url: https://niche-museums.imgix.net/hiller-aviation-3.jpeg
+  - url: https://niche-museums.imgix.net/hiller-aviation-4.jpeg
+  - url: https://niche-museums.imgix.net/hiller-aviation-5.jpeg
+  - url: https://niche-museums.imgix.net/hiller-aviation-6.jpeg
+  - url: https://niche-museums.imgix.net/hiller-aviation-7.jpeg
+  - url: https://niche-museums.imgix.net/hiller-aviation-8.jpeg
+  - url: https://niche-museums.imgix.net/hiller-aviation-9.jpeg
+  - url: https://niche-museums.imgix.net/hiller-aviation-10.jpeg
+  - url: https://niche-museums.imgix.net/hiller-aviation-11.jpeg
+  - url: https://niche-museums.imgix.net/hiller-aviation-12.jpeg
+  - url: https://niche-museums.imgix.net/hiller-aviation-13.jpeg
+  - url: https://niche-museums.imgix.net/hiller-aviation-14.jpeg
+  - url: https://niche-museums.imgix.net/hiller-aviation-15.jpeg
+  - url: https://niche-museums.imgix.net/hiller-aviation-16.jpeg
+  - url: https://niche-museums.imgix.net/hiller-aviation-17.jpeg
+  - url: https://niche-museums.imgix.net/hiller-aviation-18.jpeg

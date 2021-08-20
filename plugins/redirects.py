@@ -15,6 +15,7 @@ def redirect_museum(request):
 @hookimpl
 def register_routes():
     return [
+        (r"^/6$", lambda: Response.redirect("/103", status=301)),
         (r"^/browse/museums/(?P<id>\d+)$", redirect_museum),
     ]
 

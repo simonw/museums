@@ -630,6 +630,17 @@
   photo_alt: Shiny knights on horses.
   latitude: 51.5173
   longitude: -0.153
+  photos:
+  - url: https://niche-museums.imgix.net/wallace-collection-1.jpeg
+  - url: https://niche-museums.imgix.net/wallace-collection-2.jpeg
+  - url: https://niche-museums.imgix.net/wallace-collection-3.jpeg
+  - url: https://niche-museums.imgix.net/wallace-collection-4.jpeg
+  - url: https://niche-museums.imgix.net/wallace-collection-5.jpeg
+  - url: https://niche-museums.imgix.net/wallace-collection-6.jpeg
+  - url: https://niche-museums.imgix.net/wallace-collection-7.jpeg
+  - url: https://niche-museums.imgix.net/wallace-collection-8.jpeg
+  - url: https://niche-museums.imgix.net/wallace-collection-9.jpeg
+  - url: https://niche-museums.imgix.net/wallace-collection-10.jpeg
 -
   id: 37
   name: Cookin'

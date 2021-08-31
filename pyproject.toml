@@ -6,7 +6,7 @@ authors = ["Simon Willison"]
 license = "CC BY-NC-SA 4.0"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.6"
 datasette = ">=0.57"
 datasette-haversine = "^0.2"
 datasette-template-sql = ">=1.0.2"

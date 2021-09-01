@@ -15,6 +15,11 @@ Installation steps for *Poetry* can be checked on their [website](https://python
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
 ```
 
+Install dependencies:
+```
+poetry install
+```
+
 Build the museum database:
 ```
 # On bash

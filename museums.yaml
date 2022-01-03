@@ -2626,3 +2626,46 @@
   - url: https://niche-museums.imgix.net/hiller-aviation-16.jpeg
   - url: https://niche-museums.imgix.net/hiller-aviation-17.jpeg
   - url: https://niche-museums.imgix.net/hiller-aviation-18.jpeg
+-
+  id: 104
+  name: Shakespeare Society of America
+  url: https://www.shakespearesocietyofamerica.org/
+  wikipedia_url: https://en.wikipedia.org/wiki/R._Thad_Taylor
+  photo_url: https://niche-museums.imgix.net/shakespeare-society-1.jpeg
+  photo_alt: A two story orange-pink-brown building with a sign that says Shakespeare Socity of America, New Shakespeare Sanctuary
+  address:  7981 Moss Landing Road, Moss Landing, CA 95039
+  description: |-
+    In 1972 R. Thad Taylor, Founding President of the Shakespeare Society of America, rented a warehouse in West Los Angeles and the society constructing a half-scale replica of the interior of Shakespeare's London Globe as it existed in 1599, building from an unused space drama set donated by Ray Bradbury.
+
+    They staged all 38 Shakespeare plays there, in order, from 1976 to 1979 and then again from 1981 to 1984.
+
+    After his passing in 2006 the society was forced to relocate. Terry Taylor, R. Thad Taylor,s nephew, moved their assets to this building in Moss Landing in 2008, designating it the New Shakespeare Sanctuary.
+
+    Their collection includes rare books, playbills, posters, photographs, slides, props, costumes and an eight-foot sculpture of Shakespeare that was commissioned for the 1984 Los Angeles Olympics.
+  latitude: 36.799
+  longitude: -121.786
+  photos:
+  - url: https://niche-museums.imgix.net/shakespeare-society-1.jpeg
+  - url: https://niche-museums.imgix.net/shakespeare-society-2.jpeg
+  - url: https://niche-museums.imgix.net/shakespeare-society-3.jpeg
+  - url: https://niche-museums.imgix.net/shakespeare-society-4.jpeg
+  - url: https://niche-museums.imgix.net/shakespeare-society-5.jpeg
+  - url: https://niche-museums.imgix.net/shakespeare-society-6.jpeg
+  - url: https://niche-museums.imgix.net/shakespeare-society-7.jpeg
+  - url: https://niche-museums.imgix.net/shakespeare-society-8.jpeg
+  press:
+  - url: https://www.sfgate.com/travel/article/The-very-peculiar-society-tucked-away-in-a-teeny-16285792.php
+    title: The very peculiar society tucked away in a teeny NorCal town
+    publication: SFGATE
+    author: Michelle Robertson
+    date: 2021-07-08
+  - url: https://goodtimes.sc/santa-cruz-news/moss-landing-shakespeare-society-of-america/
+    title: A Moss Landing Man’s Shakespeare Sanctuary
+    publication: Good Times
+    author: Mat Weir
+    date: 2017-09-05
+  - url: https://www.finebooksmagazine.com/issue/shakespeare-society-america-struggles-preserve-its-historic-collection
+    title: The Shakespeare Society of America struggles to preserve its historic collection
+    publication: "Fine Books & Collections"
+    author: Tom Bentley
+    date: 2020-09-23

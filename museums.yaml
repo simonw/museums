@@ -33,6 +33,12 @@
     publication: Explore Magazine
     author: Shoshi Parks
     date: 2019-06-30
+  photos:
+  - url: https://niche-museums.imgix.net/IMG_4921.jpeg
+  - url: https://niche-museums.imgix.net/bigfoot-discovery-1.heic
+  - url: https://niche-museums.imgix.net/bigfoot-discovery-2.heic
+  - url: https://niche-museums.imgix.net/bigfoot-discovery-3.heic
+  - url: https://niche-museums.imgix.net/bigfoot-discovery-4.heic
 -
   id: 3
   name: Burlingame Museum of PEZ Memorabilia

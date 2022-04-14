@@ -2650,7 +2650,7 @@
   wikipedia_url: https://en.wikipedia.org/wiki/R._Thad_Taylor
   photo_url: https://niche-museums.imgix.net/shakespeare-society-1.jpeg
   photo_alt: A two story orange-pink-brown building with a sign that says Shakespeare Socity of America, New Shakespeare Sanctuary
-  address:  7981 Moss Landing Road, Moss Landing, CA 95039
+  address: 7981 Moss Landing Road, Moss Landing, CA 95039
   description: |-
     In 1972 R. Thad Taylor, Founding President of the Shakespeare Society of America, rented a warehouse in West Los Angeles and the society constructed a half-scale replica of the interior of Shakespeare's London Globe as it existed in 1599, building from an unused space drama set donated by Ray Bradbury.
 
@@ -2686,3 +2686,58 @@
     publication: "Fine Books & Collections"
     author: Tom Bentley
     date: 2020-09-23
+-
+  id: 105
+  name: Moffett Field Historical Society
+  url: https://www.moffettfieldmuseum.org/
+  wikipedia_url: https://en.wikipedia.org/wiki/Moffett_Federal_Airfield
+  photo_url: https://niche-museums.imgix.net/moffett-field-5.jpeg
+  photo_alt: A diorama showing the scale of the USS Macon airship
+  address: Building 126, Severyns Ave, Moffett Field, CA 94035
+  description: |-
+    Moffett Field is a joint civil-military airfield in the San Francisco Bay Area, founded in 1930 as a base for the U.S. navy airship the USS Macon. Today it is operated by NASA Ames Research Center, with parts of the facility leased out to Google.
+
+    The Moffett Field Historical Society occupies Building 126 on the base, right next to Hangar One - one of the world's largest freestanding structures, built in 1933 to house the Macon airship.
+
+    The museum hosts a wide-ranging array of artifacts that help tell the story of the airfield, from its founding in the airship era of 1930s through the Second World War, the Cold War and its current association with NASA.
+
+    The museum is entirely volunteer-run, and the exhibits represent an abundance of love and passion. Display cabinets show off meticulous model aircraft custom made for the museum. A beautiful diorama illustrates the scale of the USS Macon airship, detailed down to the trapezes that were used to launch and recover the biplanes that travelled on board the airship. An extensive collection of uniforms dates back to the Second World War.
+
+    Also on display is a Link Trainer - a model of mechanical flight simulator that was used to train pilots from the 1930s to the 1950s.
+
+    Don’t miss the opportunity to talk to the docents. Our guide had flown a variety of aircraft out of the base, and provided a thrilling description of what it felt like to land on an aircraft carrier and be caught by the aircraft arresting gear now on display in the museum.
+
+    A small room in the back of the museum hosts a model railway that is several sizes too big for the room that contains it. This actually predates the museum: it was built when the building served as a recreation room for the Navy in the 1980s, and is now cared for as part of the museum’s collection.
+
+    Note that you’ll be asked to show state photo ID at the entrance to the base if you want to visit the museum. International passports are accepted too.
+  latitude: 37.411
+  longitude: -122.054
+  photos:
+  - url: https://niche-museums.imgix.net/moffett-field-1.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-2.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-3.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-4.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-5.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-6.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-7.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-8.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-9.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-10.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-11.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-12.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-13.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-14.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-15.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-16.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-17.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-18.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-19.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-20.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-21.jpeg
+  - url: https://niche-museums.imgix.net/moffett-field-22.jpeg
+  press:
+  - url: https://www.kqed.org/news/11738379/that-giant-structure-off-101-once-housed-a-flying-aircraft-carrier
+    title: That Giant Structure Off 101 Once Housed a Flying Aircraft Carrier
+    publication: Bay Curious, KQED
+    author: Rachael Myrow
+    date: 2019-04-11

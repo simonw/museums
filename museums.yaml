@@ -446,6 +446,17 @@
   photo_alt: Dodgems at Dingles
   latitude: 50.6558
   longitude: -4.251
+  photos:
+  - url: https://niche-museums.imgix.net/dingles-1.jpeg
+  - url: https://niche-museums.imgix.net/dingles-2.jpeg
+  - url: https://niche-museums.imgix.net/dingles-3.jpeg
+  - url: https://niche-museums.imgix.net/dingles-4.jpeg
+  - url: https://niche-museums.imgix.net/dingles-5.jpeg
+  - url: https://niche-museums.imgix.net/dingles-6.jpeg
+  - url: https://niche-museums.imgix.net/dingles-7.jpeg
+  - url: https://niche-museums.imgix.net/dingles-8.jpeg
+  - url: https://niche-museums.imgix.net/dingles-9.jpeg
+  - url: https://niche-museums.imgix.net/dodgems.heic
 -
   id: 27
   name: Ilfracombe Museum

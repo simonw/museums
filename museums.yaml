@@ -570,6 +570,21 @@
   photo_alt: An old truck and some historic oil equipment.
   latitude: 35.1325
   longitude: -119.4476
+  photos:
+  - url: https://niche-museums.imgix.net/west-kern-oil-1.jpeg
+  - url: https://niche-museums.imgix.net/west-kern-oil-2.jpeg
+  - url: https://niche-museums.imgix.net/west-kern-oil-3.jpeg
+  - url: https://niche-museums.imgix.net/west-kern-oil-4.jpeg
+  - url: https://niche-museums.imgix.net/west-kern-oil-5.jpeg
+  - url: https://niche-museums.imgix.net/west-kern-oil-6.jpeg
+  - url: https://niche-museums.imgix.net/west-kern-oil-7.jpeg
+  - url: https://niche-museums.imgix.net/west-kern-oil-8.jpeg
+  - url: https://niche-museums.imgix.net/west-kern-oil-9.jpeg
+  - url: https://niche-museums.imgix.net/west-kern-oil-10.jpeg
+  - url: https://niche-museums.imgix.net/west-kern-oil-11.jpeg
+  - url: https://niche-museums.imgix.net/west-kern-oil-12.jpeg
+  - url: https://niche-museums.imgix.net/west-kern-oil-13.jpeg
+  - url: https://niche-museums.imgix.net/west-kern-oil-14.jpeg
   press:
   - url: https://www.bakersfield.com/entertainment/west-kern-oil-museum-a-shining-example-of-how-to/article_8298d243-ab94-5014-99eb-4f34903d10a7.html
     title: West Kern Oil Museum a shining example of how to preserve our history

@@ -2797,3 +2797,65 @@
     publication: San Luis Obispo Tribune
     author: David Middlecamp
     date: 2018-03-09
+-
+  id: 107
+  name: Mendenhall's Museum of Gasoline Pumps & Petroliana
+  url: https://www.mendenhallmuseum.com/
+  photo_url: https://niche-museums.imgix.net/mendenhalls.jpeg
+  photo_alt: A beautiful collection of old gasoline pumps
+  address:  24 Zaca St, Buellton CA, 93427 
+  description: |-
+    Tucked away in the tiny town of Buellton, California is this absolute treat of a museum.
+
+    Jack Mendenhall sold his service station in 1978 and took to the road as a traveling salesman. He began collecting memorabilia relating to the auto and gasoline industries, and continued collecting right up until his passing in 2005. His son Mark and daughter-in-law Vickie took responsibility for the collection and continue to expand it, living in an apartment above the museum.
+
+    Today, Mendenhall’s Museum of Gasoline Pumps and Petroliana displays dozens of gas pumps, over 200 oil cans, more than 400 porcelain gas pump globes, thousands of license plates and gas station signs, over 40 neon signs and several classic and historic racing cars. 
+
+    Jack was also a keen dry lakes racer, becoming a member of the exclusive 200mph club in 1991. His son Mark achieved that goal in 1996, in the same 1932 Ford Roadster (nicknamed “Sally the Salt Dancer”) now displayed in the museum.
+
+    The museum is home to the Dry Lakes Racing Hall of Fame and hosts its annual induction ceremony every April.
+
+    Mendenhall's museum can only be visited on a guided tour, which needs to be booked in advance.
+  latitude: 34.612
+  longitude: -120.195
+  photos:
+  - url: https://niche-museums.imgix.net/mendenhalls-1.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-2.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-3.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-4.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-5.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-6.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-7.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-8.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-9.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-10.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-11.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-12.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-13.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-14.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-15.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-16.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-17.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-18.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-19.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-20.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-21.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-22.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-23.jpeg
+  - url: https://niche-museums.imgix.net/mendenhalls-24.jpeg
+  press:
+  - url: https://santamariatimes.com/lifestyles/auto-world-comes-to-buellton-for-dry-lakes-racing-hall-of-fame-ceremony/article_545a0344-2f58-5d89-a2f6-8fdcde49ba9a.html
+    title: Auto world comes to Buellton for Dry Lakes Racing Hall of Fame ceremony
+    publication: Santa Maria Times
+    author: Mary Ann Norbom
+    date: 2015-04-14
+  - url: https://thecoastnews.com/hit-the-road-mendenhalls-museum-in-buellton-fuels-midcentury-nostalgia/
+    title: Hit the Road: Mendenhall’s Museum in Buellton fuels midcentury nostalgia
+    publication: The Coast News
+    author: E'Louise Ondash
+    date: 2021-05-18
+  - url: https://santamariatimes.com/news/local/pumped-up-on-history/article_abdd1a04-9df2-11df-a9ff-001cc4c002e0.html
+    title: "Pumped up on history: Couple lives in and runs Mendenhall Museum in Buellton"
+    publication: Santa Maria Times
+    author: Raiza Canelon
+    date: 2010-08-02

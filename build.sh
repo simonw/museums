@@ -1,4 +1,6 @@
 #!/bin/bash
+set -euo pipefail
+
 yaml-to-sqlite browse.db museums museums.yaml --pk=id
 python annotate_nominatum.py browse.db
 python annotate_timestamps.py

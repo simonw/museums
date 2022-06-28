@@ -32,9 +32,7 @@ jobs:
     - name: Build browse.db database
       run: |-
         wget https://niche-museums-j7hipcg4aq-uc.a.run.app/browse.db
-        yaml-to-sqlite browse.db museums museums.yaml --pk=id
-        python annotate_nominatum.py browse.db
-        python annotate_timestamps.py
+        ./build.sh
     - name: Set up Cloud Run
       uses: google-github-actions/setup-gcloud@v0
       with:

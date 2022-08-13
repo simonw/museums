@@ -2874,3 +2874,47 @@
     publication: Santa Maria Times
     author: Raiza Canelon
     date: 2010-08-02
+-
+  id: 108
+  name: Golden State Model Railroad Museum
+  url: https://www.gsmrm.org/
+  photo_url: https://niche-museums.imgix.net/golden-state-model-railroad.jpeg
+  photo_alt: A multi-level model railway layout in a well lit warehouse, with a huge model mountain on the left hand side
+  address:  900-A Dornan Drive, Point Richmond, CA 94801
+  description: |-
+    This warehouse in the Miller/Knox Regional Shoreline park in Richmond, CA has been home to the Golden State Model Railroad Museum since 1985.
+
+    The museum is run by the East Bay Model Engineers Society, one of the world’s oldest model railway groups, who split from the Golden Gate Model Engineers Guild in 1933.
+
+    The museum features 10,000 square feet of railway layouts, separated into three areas -  O scale (1:48), HO scale (1:87) and N scale (1:160).
+
+    The overall theme for the layouts is the scenery of Northern and Central California, with features that include the Niles Canyon, the Altamont Pass and the Tehachapi Loop.
+
+    Around 70 club members work on maintaining and improving the railway and scenery.
+
+    The static layouts can be viewed for free most Saturdays between noon and 5pm. On Sundays an admission fee is charged but the trains are running!
+  latitude: 37.915
+  longitude: -122.383
+  photos:
+  - url: https://niche-museums.imgix.net/golden-state-model-railroad-1.jpeg
+  - url: https://niche-museums.imgix.net/golden-state-model-railroad-2.jpeg
+  - url: https://niche-museums.imgix.net/golden-state-model-railroad-3.jpeg
+  - url: https://niche-museums.imgix.net/golden-state-model-railroad-4.jpeg
+  - url: https://niche-museums.imgix.net/golden-state-model-railroad-5.jpeg
+  - url: https://niche-museums.imgix.net/golden-state-model-railroad-6.jpeg
+  - url: https://niche-museums.imgix.net/golden-state-model-railroad-7.jpeg
+  - url: https://niche-museums.imgix.net/golden-state-model-railroad-8.jpeg
+  - url: https://niche-museums.imgix.net/golden-state-model-railroad-9.jpeg
+  - url: https://niche-museums.imgix.net/golden-state-model-railroad-10.jpeg
+  - url: https://niche-museums.imgix.net/golden-state-model-railroad-11.jpeg
+  - url: https://niche-museums.imgix.net/golden-state-model-railroad-12.jpeg
+  - url: https://niche-museums.imgix.net/golden-state-model-railroad-13.jpeg
+  - url: https://niche-museums.imgix.net/golden-state-model-railroad-14.jpeg
+  - url: https://niche-museums.imgix.net/golden-state-model-railroad-15.jpeg
+  - url: https://niche-museums.imgix.net/golden-state-model-railroad-16.jpeg
+  press:
+  - url: https://www.kqed.org/news/10524326/my-spot-golden-state-model-railroad-museum
+    title: My Spot: Golden State Model Railroad Museum
+    publication: KQED
+    author: Nancy DeVille
+    date: 2015-05-31

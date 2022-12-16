@@ -500,6 +500,7 @@
   name: Barometer World
   url: http://www.barometerworld.co.uk/
   address: Quicksilver Barn, Merton, Okehampton, Devon EX20 3DS
+  permanently_closed: true
   description: |-
     Everything you could want to learn about barometers. They even have one that is powered by a leach! Opening times are restricted due to pending retirement so make an appointment for your visit soon.
   wikipedia_url: https://en.m.wikipedia.org/wiki/Barometer_World

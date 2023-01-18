@@ -2919,3 +2919,18 @@
     publication: KQED
     author: Nancy DeVille
     date: 2015-05-31
+-
+  id: 109
+  name: Mmuseumm
+  url: https://www.mmuseumm.com/
+  address: 4 Cortlandt Alley, New York, NY 10013
+  description: |-
+    A place to look 
+    and think
+    and look 
+    and not think
+  wikipedia_url:   wikipedia_url: https://en.wikipedia.org/wiki/Mmuseumm
+  photo_url: https://images.squarespace-cdn.com/content/v1/56e7191f7da24f4d24cb328a/cf0ae677-2a5c-46ea-b393-f2cbae026264/MM_SCALE.png?format=750w
+  photo_alt: The Mmuseumm, with doors open.
+  latitude: 40.7174747,
+  longitude: -74.0027129

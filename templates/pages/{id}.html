@@ -46,15 +46,6 @@
     <section class="section" id="cards">
         {% include "_museum_card.html" %}
     </section>
-    {% if museum.photos %}
-        <section class="section photos" id="photos">
-            <div class="masonry">
-            {% for photo in json.loads(museum.photos) %}
-                <a href="{{ photo.url }}?w=1200&auto=compress" class="gallery-photo"><img class="lazyload" src="{{ photo.url }}?w=400&blur=200&px=16&auto=format" data-src="{{ photo.url }}?w=400&auto=compress"{% if photo.alt %} alt="{{ photo.alt }}"{% endif %}></a>
-            {% endfor %}
-            </div>
-        </section>
-    {% endif %}
     {% if museum.press %}
     <section class="section articles" id="press">
         <div class="box content">
@@ -64,6 +55,15 @@
                 {% endfor %}
         </div>
     </section>
+    {% endif %}
+    {% if museum.photos %}
+        <section class="section photos" id="photos">
+            <div class="masonry">
+            {% for photo in json.loads(museum.photos) %}
+                <a href="{{ photo.url }}?w=1200&auto=compress" class="gallery-photo"><img class="lazyload" src="{{ photo.url }}?w=400&blur=200&px=16&auto=format" data-src="{{ photo.url }}?w=400&auto=compress"{% if photo.alt %} alt="{{ photo.alt }}"{% endif %}></a>
+            {% endfor %}
+            </div>
+        </section>
     {% endif %}
     <section class="section map-section">
         <div id="themap"></div>

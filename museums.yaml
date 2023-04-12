@@ -2919,3 +2919,55 @@
     publication: KQED
     author: Nancy DeVille
     date: 2015-05-31
+-
+  id: 109
+  name: Mattie Leeds Sculpture Garden
+  url: https://mattieleeds.com/
+  photo_url: https://niche-museums.imgix.net/mattie-leeds.jpeg
+  photo_alt: Pots, pots - so many beautiful pots. They are enormous, and brightly coloured, and jumbled together in an outdoor space.
+  address: 7258 Empire Grade, Santa Cruz, CA 95060
+  description: |-
+    Mattie Leeds is a ceramic artist who has worked out of the same studio in the Santa Cruz mountains for more than 40 years. Over that time he has built up an astonishing sculpture garden displaying his work - hundreds of pots, many more than five feet tall, showcasing a delightful range of artistic styles and techniques.
+
+    Mattie's garden also features the Great Wall of Chop Suey - an elaborate wall constructed out of concrete, pottery, found objects and other materials. “Chop Suey” translates to “assorted pieces”, and features in several of Mattie's other works. The wall is overlooked by a beautiful Chop Suey neon sign, rescued from Santa Cruz in the 1970s.
+
+    The garden is open to visitors on an ad-hoc schedule, often on weekends. It's best to contact Mattie directly to be sure.
+  latitude: 37.0573
+  longitude: -122.1213
+  photos:
+  - url: https://niche-museums.imgix.net/mattie-leeds-1.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-2.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-3.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-4.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-5.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-6.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-7.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-8.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-9.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-10.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-11.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-12.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-13.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-14.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-15.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-16.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-17.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-18.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-19.jpeg
+  - url: https://niche-museums.imgix.net/mattie-leeds-20.jpeg
+  press:
+  - url: https://lookout.co/santacruz/city-life/story/2022-07-29/the-home-as-artistic-masterpiece-a-visit-to-the-uniquely-enchanting-home-of-santa-cruz-artist-michael-leeds
+    title: "The home as artistic masterpiece: A visit to the uniquely enchanting home of Santa Cruz artist Michael Leeds"
+    publication: Lookout Santa Cruz
+    author: Wallace Baine
+    date: 2022-07-29
+  - url: https://lookout.co/santacruz/wallace-baine/the-here-now/story/2021-07-28/welcome-to-his-world-of-wonders-classic-bonny-doon-artist-mattie-leeds-has-kept-creative-juices-flowing
+    title: "Welcome to his world of wonders: Classic Bonny Doon artist Mattie Leeds has kept creative juices flowing"
+    publication: Lookout Santa Cruz
+    author: Wallace Baine
+    date: 2021-07-28
+  - url: https://mattieleeds.com/media/mattie-article.pdf
+    title: The Many Lives of Mattie Leeds (PDF)
+    publication: Ceramics Art and Perception
+    author: Maureen Davidson
+    date: 2011-12-06

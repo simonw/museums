@@ -4,6 +4,16 @@
 {% if not rows %}
     {{ raise_404("Museum not found") }}
 {% endif %}
+{% set photos = sql("""
+with urls as (select
+  json_extract(j.value, '$.url') as url
+from
+  museums,
+  json_each(photos) j
+where
+  museums.id = :id)
+select url, width, height from photos where url in (select url from urls)
+""", {"id": id}) %}
 <head>
     <meta charset="utf-8">
     {% set museum = rows[0] %}
@@ -27,9 +37,19 @@
     <meta property="og:image:height" content="400">
 {% include "_analytics.html" %}
     <link rel="stylesheet" href="/static/museums.css">
+    <link rel="stylesheet" href="/static/photoswipe.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="anonymous">
     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin="anonymous"></script>
     <script src="/static/lazysizes.min.js" async></script>
+    <script type="module">
+    import PhotoSwipeLightbox from '/static/photoswipe-lightbox.esm.js';
+    const lightbox = new PhotoSwipeLightbox({
+        gallery: '#photos',
+        children: '.gallery-photo',
+        pswpModule: '/static/photoswipe.esm.js'
+    });
+    lightbox.init();
+    </script>
 </head>
 
 <body>
@@ -59,8 +79,8 @@
     {% if museum.photos %}
         <section class="section photos" id="photos">
             <div class="masonry">
-            {% for photo in json.loads(museum.photos) %}
-                <a href="{{ photo.url }}?w=1200&auto=compress" class="gallery-photo"><img class="lazyload" src="{{ photo.url }}?w=400&blur=200&px=16&auto=format" data-src="{{ photo.url }}?w=400&auto=compress"{% if photo.alt %} alt="{{ photo.alt }}"{% endif %}></a>
+            {% for photo in photos %}
+                <a data-pswp-height="{{ photo.height }}" data-pswp-width="{{ photo.width }}" href="{{ photo.url }}?w=1200&auto=compress" class="gallery-photo"><img class="lazyload" src="{{ photo.url }}?w=400&blur=200&px=16&auto=format" data-src="{{ photo.url }}?w=400&auto=compress"{% if photo.alt %} alt="{{ photo.alt }}"{% endif %}></a>
             {% endfor %}
             </div>
         </section>
@@ -91,15 +111,6 @@
         {% endfor %}
     </section>
     <script>
-        function anyParentHasClass(el, className) {
-            while (el && el.classList) {
-                if (el.classList.contains(className)) {
-                    return true;
-                }
-                el = el.parentNode;
-            }
-            return false;
-        }
         const latitude = {{ museum.latitude }};
         const longitude = {{ museum.longitude }};
         document.addEventListener('DOMContentLoaded', () => {
@@ -117,102 +128,6 @@
             }).addTo(map);
             L.marker(latlng).addTo(map);
         });
-        // Set up photo gallery
-        var photos = Array.from(document.querySelectorAll(".photos img"));
-        var currentPhoto = null;
-        function nextPhoto() {
-            var currentIndex = photos.indexOf(currentPhoto);
-            var photo = photos[(currentIndex + 1) % photos.length];
-            showGallery(photo);
-        }
-        function prevPhoto() {
-            var currentIndex = photos.indexOf(currentPhoto);
-            var index;
-            if (currentIndex == 0) {
-                index = photos.length - 1;
-            } else {
-                index = currentIndex - 1;
-            }
-            var photo = photos[index];
-            showGallery(photo);
-        }
-        document.body.addEventListener('click', function(e) {
-            /* Is this a click on a photo? */
-            var el = e.target;
-            if (anyParentHasClass(el, 'gallery-photo')) {
-                e.preventDefault();
-                /* Make sure we are handling the image */
-                if (el.tagName == 'A') {
-                    el = el.getElementsByTagName('img')[0];
-                }
-                showGallery(el);
-            }
-            /* Handle next/prev links */
-            if (anyParentHasClass(el, 'gallery-next')) {
-                e.preventDefault();
-                nextPhoto();
-            }
-            if (anyParentHasClass(el, 'gallery-prev')) {
-                e.preventDefault();
-                prevPhoto();
-            }
-            if (anyParentHasClass(el, 'gallery-close')) {
-                e.preventDefault();
-                closeGallery();
-            }
-        }, true);
-
-        function showGallery(el) {
-            currentPhoto = el;
-            var src = el.parentNode.href;
-            var figure = document.querySelector('.figure-overlay') || document.createElement('figure');
-            figure.className = 'figure-overlay';
-            var caption = '';
-            if (caption) {
-                caption = `<figcaption>${caption}</figcaption>`;
-            }
-            var nextPrev = '';
-            if (photos.length > 1) {
-                nextPrev = `<a href="#" class="gallery-prev">
-                    <span>&laquo;</span>
-                </a>
-                <a href="#" class="gallery-next">
-                    <span>&raquo;</span>
-                </a>`;
-            }
-            var height = (el.height / el.width) * 100;
-            figure.innerHTML = `
-                <div>
-                    <img src="${src}" alt="${''}" style="width: 100%; height: ${height}vw">
-                    ${nextPrev}
-                </div>
-                <a href="#" class="gallery-close">Close gallery</a>
-                ${caption}
-            `;
-            document.body.classList.add('gallery-mode');
-            document.body.appendChild(figure);
-        }
-        function closeGallery() {
-            document.body.classList.remove('gallery-mode');
-            var figure = document.querySelector('.figure-overlay');
-            if (figure) {
-                figure.parentNode.removeChild(figure);
-            }
-        }
-        document.onkeydown = function(evt) {
-            // Escape key
-            if (evt.keyCode == 27) {
-                closeGallery();
-            }
-            // Left arrow key
-            if (evt.keyCode == 37) {
-                prevPhoto();
-            }
-            // Right arrow key
-            if (evt.keyCode == 39) {
-                nextPhoto();
-            }
-        };
     </script>
 </body>
 

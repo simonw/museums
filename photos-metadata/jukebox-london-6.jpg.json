@@ -1,0 +1,91 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone 5s back camera 4.12mm f/2.2",
+    "FocalLenIn35mmFilm": 30,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      1631,
+      1223,
+      1795,
+      1077
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "MeteringMode": 5,
+    "SubsecTimeOriginal": "794",
+    "BrightnessValue": 3.53917,
+    "FNumber": 2.2,
+    "DateTimeDigitized": "2013:11:24 14:30:45",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 1,
+    "SubsecTimeDigitized": "794",
+    "DateTimeOriginal": "2013:11:24 14:30:45",
+    "FocalLength": 4.12,
+    "ExposureTime": 0.0333333,
+    "SceneCaptureType": 0,
+    "ExposureProgram": 2,
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 3264,
+    "ISOSpeedRatings": [
+      40
+    ],
+    "Flash": 0,
+    "ShutterSpeedValue": 4.90712,
+    "PixelYDimension": 2448,
+    "WhiteBalance": 0,
+    "ApertureValue": 2.27501,
+    "LensSpecification": [
+      4.12,
+      4.12,
+      2.2,
+      2.2
+    ]
+  },
+  "Orientation": 1,
+  "ColorModel": "RGB",
+  "Content-Type": "image/jpeg",
+  "Output": {},
+  "DPIWidth": 72,
+  "Content-Length": "1650678",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 2448,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2013:11:24 14:30:45",
+    "Orientation": 1,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "7.0.4",
+    "Model": "iPhone 5s",
+    "XResolution": 72
+  },
+  "PixelWidth": 3264,
+  "GPS": {
+    "Longitude": 0.103153,
+    "Latitude": 51.5328,
+    "DateStamp": "2013:11:24",
+    "ImgDirection": 107.472,
+    "Altitude": 29.5427,
+    "AltitudeRef": 0,
+    "LatitudeRef": "N",
+    "TimeStamp": "14:30:42",
+    "LongitudeRef": "W",
+    "ImgDirectionRef": "T"
+  },
+  "ProfileName": "sRGB IEC61966-2.1"
+}

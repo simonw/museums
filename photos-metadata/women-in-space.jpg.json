@@ -1,0 +1,197 @@
+{
+  "Exif": {
+    "Regions": {
+      "HeightAppliedTo": 3168,
+      "RegionList": [
+        {
+          "AngleInfoRoll": 180,
+          "Type": "Face",
+          "FaceID": 44,
+          "Timestamp": 2147480000.0,
+          "X": 0.38581,
+          "Width": 0.0272381,
+          "ConfidenceLevel": 700,
+          "Y": 0.539286,
+          "Height": 0.0366667,
+          "AngleInfoYaw": 0
+        },
+        {
+          "AngleInfoRoll": 180,
+          "Type": "Face",
+          "FaceID": 39,
+          "Timestamp": 2147480000.0,
+          "X": 0.854095,
+          "Width": 0.0251429,
+          "ConfidenceLevel": 779,
+          "Y": 0.536667,
+          "Height": 0.0335238,
+          "AngleInfoYaw": 0
+        },
+        {
+          "AngleInfoRoll": 180,
+          "Type": "Face",
+          "FaceID": 38,
+          "Timestamp": 2147480000.0,
+          "X": 0.266905,
+          "Width": 0.030381,
+          "ConfidenceLevel": 18,
+          "Y": 0.544524,
+          "Height": 0.0408571,
+          "AngleInfoYaw": 0
+        },
+        {
+          "AngleInfoRoll": 180,
+          "Type": "Face",
+          "FaceID": 36,
+          "Timestamp": 2147480000.0,
+          "X": 0.629381,
+          "Width": 0.0282857,
+          "ConfidenceLevel": 790,
+          "Y": 0.304095,
+          "Height": 0.0377143,
+          "AngleInfoYaw": 0
+        },
+        {
+          "AngleInfoRoll": 180,
+          "Type": "Face",
+          "FaceID": 32,
+          "Timestamp": 2147480000.0,
+          "X": 0.845714,
+          "Width": 0.0251429,
+          "ConfidenceLevel": 668,
+          "Y": 0.301476,
+          "Height": 0.0345714,
+          "AngleInfoYaw": 0
+        },
+        {
+          "AngleInfoRoll": 180,
+          "Type": "Face",
+          "FaceID": 16,
+          "Timestamp": 2147480000.0,
+          "X": 0.145905,
+          "Width": 0.0481905,
+          "ConfidenceLevel": 981,
+          "Y": 0.532476,
+          "Height": 0.0649524,
+          "AngleInfoYaw": 0
+        },
+        {
+          "AngleInfoRoll": 180,
+          "Type": "Face",
+          "FaceID": 5,
+          "Timestamp": 2147480000.0,
+          "X": 0.855143,
+          "Width": 0.0460952,
+          "ConfidenceLevel": 997,
+          "Y": 0.763476,
+          "Height": 0.0618095,
+          "AngleInfoYaw": 0
+        },
+        {
+          "AngleInfoRoll": 180,
+          "Type": "Face",
+          "FaceID": 6,
+          "Timestamp": 2147480000.0,
+          "X": 0.381095,
+          "Width": 0.0492381,
+          "ConfidenceLevel": 998,
+          "Y": 0.760333,
+          "Height": 0.066,
+          "AngleInfoYaw": 0
+        }
+      ],
+      "WidthAppliedTo": 4224
+    },
+    "FocalLenIn35mmFilm": 26,
+    "LensModel": "iPhone XS back dual camera 4.25mm f/1.8",
+    "WhiteBalance": 0,
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      1533,
+      2296,
+      194,
+      193
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "LensSpecification": [
+      4.25,
+      6,
+      1.8,
+      2.4
+    ],
+    "PixelYDimension": 3024,
+    "BrightnessValue": 3.02967,
+    "FNumber": 1.8,
+    "ExposureProgram": 2,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 65535,
+    "Flash": 16,
+    "DateTimeOriginal": "2018:10:12 13:49:50",
+    "FocalLength": 4.25,
+    "ExposureTime": 0.0166667,
+    "SubsecTimeOriginal": "410",
+    "ISOSpeedRatings": [
+      100
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "SceneCaptureType": 0,
+    "ExposureBiasValue": 0,
+    "ShutterSpeedValue": 5.90773,
+    "DateTimeDigitized": "2018:10:12 13:49:50",
+    "SubsecTimeDigitized": "410",
+    "ApertureValue": 1.69599,
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  "Orientation": 3,
+  "ColorModel": "RGB",
+  "DPIHeight": 72,
+  "Content-Type": "image/jpeg",
+  "Output": {},
+  "DPIWidth": 72,
+  "Content-Length": "2657261",
+  "Depth": 8,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2018:10:12 13:49:50",
+    "Orientation": 3,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "12.0.1",
+    "Model": "iPhone XS",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 65,
+    "Longitude": 81.6899,
+    "Latitude": 41.5116,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirection": 187.355,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 180.901,
+    "DestBearingRef": "T",
+    "DestBearing": 187.355
+  },
+  "ProfileName": "Display P3"
+}

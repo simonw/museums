@@ -1,0 +1,91 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "ExposureBiasValue": 0,
+    "LensModel": "iPhone 7 Plus back iSight Duo camera 3.99mm f/1.8",
+    "SubsecTimeOriginal": "255",
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2015,
+      1511,
+      2217,
+      1330
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "WhiteBalance": 0,
+    "SubsecTimeDigitized": "255",
+    "BrightnessValue": 5.85764,
+    "FNumber": 1.8,
+    "ExposureTime": 0.00833333,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 1,
+    "ExposureProgram": 2,
+    "DateTimeOriginal": "2016:11:05 13:47:12",
+    "FocalLength": 3.99,
+    "CustomRendered": 3,
+    "SceneCaptureType": 0,
+    "ISOSpeedRatings": [
+      25
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "DateTimeDigitized": "2016:11:05 13:47:12",
+    "Flash": 16,
+    "ShutterSpeedValue": 6.90799,
+    "PixelYDimension": 3024,
+    "LensSpecification": [
+      3.99,
+      6.6,
+      1.8,
+      2.8
+    ],
+    "ApertureValue": 1.69599,
+    "FocalLenIn35mmFilm": 28
+  },
+  "Orientation": 1,
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "1539322",
+  "Depth": 8,
+  "ColorModel": "RGB",
+  "DPIHeight": 72,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2016:11:05 13:47:12",
+    "Orientation": 1,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "Photos 4.0",
+    "Model": "iPhone 7 Plus",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "PixelHeight": 3024,
+  "ProfileName": "sRGB IEC61966-2.1"
+}

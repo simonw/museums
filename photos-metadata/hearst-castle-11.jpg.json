@@ -1,0 +1,96 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone 6 back camera 4.15mm f/2.2",
+    "ExposureBiasValue": 0,
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      1631,
+      1223,
+      1795,
+      1077
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "SubsecTimeOriginal": "707",
+    "WhiteBalance": 0,
+    "BrightnessValue": 9.10088,
+    "FNumber": 2.2,
+    "SubsecTimeDigitized": "707",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 1,
+    "ExposureTime": 0.00103734,
+    "DateTimeOriginal": "2014:11:17 13:04:36",
+    "FocalLength": 4.15,
+    "ExposureProgram": 2,
+    "SceneCaptureType": 0,
+    "ISOSpeedRatings": [
+      32
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 3264,
+    "DateTimeDigitized": "2014:11:17 13:04:36",
+    "Flash": 16,
+    "ShutterSpeedValue": 9.91337,
+    "PixelYDimension": 2448,
+    "LensSpecification": [
+      4.15,
+      4.15,
+      2.2,
+      2.2
+    ],
+    "ApertureValue": 2.27501,
+    "FocalLenIn35mmFilm": 29
+  },
+  "Orientation": 1,
+  "ColorModel": "RGB",
+  "Content-Type": "image/jpeg",
+  "Output": {},
+  "DPIWidth": 72,
+  "Content-Length": "3258423",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 2448,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2014:11:17 13:04:36",
+    "Orientation": 1,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "8.1",
+    "Model": "iPhone 6",
+    "XResolution": 72
+  },
+  "PixelWidth": 3264,
+  "GPS": {
+    "Longitude": 121.168,
+    "Latitude": 35.6853,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirectionRef": "T",
+    "ImgDirection": 135.307,
+    "LongitudeRef": "W",
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "DateStamp": "2014:11:17",
+    "Altitude": 487.916,
+    "TimeStamp": "21:04:29",
+    "DestBearingRef": "T",
+    "DestBearing": 315.307
+  },
+  "ProfileName": "sRGB IEC61966-2.1"
+}

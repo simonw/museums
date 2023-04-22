@@ -1,0 +1,117 @@
+{
+  "ColorModel": "RGB",
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "MeteringMode": 5,
+    "SubjectArea": [
+      265,
+      1562,
+      227,
+      229
+    ],
+    "OffsetTime": "-07:00",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "SubsecTimeDigitized": "196",
+    "ExposureTime": 0.0166667,
+    "DateTimeOriginal": "2021:07:24 10:48:15",
+    "FocalLength": 5.1,
+    "SubsecTimeOriginal": "196",
+    "OffsetTimeDigitized": "-07:00",
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "OffsetTimeOriginal": "-07:00",
+    "ExposureBiasValue": 0,
+    "DateTimeDigitized": "2021:07:24 10:48:15",
+    "Regions": {
+      "HeightAppliedTo": 3024,
+      "RegionList": [
+        {
+          "AngleInfoRoll": -90,
+          "Type": "Face",
+          "FaceID": 4,
+          "AngleInfoYaw": 0,
+          "X": 0.082,
+          "Width": 0.0586667,
+          "ConfidenceLevel": 1,
+          "Y": 0.517,
+          "Height": 0.078
+        }
+      ],
+      "WidthAppliedTo": 4224
+    },
+    "LensModel": "iPhone 12 Pro Max back triple camera 5.1mm f/1.6",
+    "SensingMethod": 2,
+    "ExposureMode": 0,
+    "ExifVersion": [
+      2,
+      3,
+      2
+    ],
+    "BrightnessValue": 0.818663,
+    "FNumber": 1.6,
+    "LensMake": "Apple",
+    "ColorSpace": 65535,
+    "CompositeImage": 2,
+    "SceneCaptureType": 0,
+    "LensSpecification": [
+      1.54,
+      7.5,
+      1.6,
+      2.4
+    ],
+    "WhiteBalance": 0,
+    "ISOSpeedRatings": [
+      400
+    ],
+    "Flash": 16,
+    "ShutterSpeedValue": 5.90703,
+    "PixelYDimension": 3024,
+    "ExposureProgram": 2,
+    "ApertureValue": 1.35614,
+    "FocalLenIn35mmFilm": 26
+  },
+  "Orientation": 6,
+  "PrimaryImage": true,
+  "DPIHeight": 72,
+  "Content-Type": "image/jpeg",
+  "Output": {},
+  "DPIWidth": 72,
+  "Content-Length": "3111555",
+  "Depth": 8,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2021:07:24 10:48:15",
+    "Orientation": 6,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "14.6",
+    "Model": "iPhone 12 Pro Max",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 65,
+    "Longitude": 122.253,
+    "Latitude": 37.5126,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirection": 314.833,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 3.64087,
+    "DestBearingRef": "T",
+    "DestBearing": 314.833
+  },
+  "ProfileName": "Display P3"
+}

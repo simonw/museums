@@ -1,0 +1,96 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "ExposureBiasValue": 0,
+    "LensModel": "iPhone 8 Plus back dual camera 6.6mm f/2.8",
+    "SubsecTimeOriginal": "435",
+    "MeteringMode": 3,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      3099,
+      1675,
+      726,
+      752
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "LensSpecification": [
+      3.99,
+      6.6,
+      1.8,
+      2.8
+    ],
+    "SubsecTimeDigitized": "435",
+    "BrightnessValue": 9.60494,
+    "FNumber": 2.8,
+    "ExposureTime": 0.0023753,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 65535,
+    "ExposureProgram": 2,
+    "DateTimeOriginal": "2018:05:02 12:08:00",
+    "FocalLength": 6.6,
+    "DateTimeDigitized": "2018:05:02 12:08:00",
+    "SceneCaptureType": 0,
+    "ExposureMode": 0,
+    "ISOSpeedRatings": [
+      20
+    ],
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "WhiteBalance": 0,
+    "Flash": 16,
+    "ShutterSpeedValue": 8.71725,
+    "PixelYDimension": 3024,
+    "ApertureValue": 2.97085,
+    "DigitalZoomRatio": 4.29545,
+    "FocalLenIn35mmFilm": 244
+  },
+  "Orientation": 3,
+  "ColorModel": "RGB",
+  "Content-Type": "image/jpeg",
+  "Output": {},
+  "DPIWidth": 72,
+  "Content-Length": "1516150",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2018:05:02 12:08:00",
+    "Orientation": 3,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "11.3",
+    "Model": "iPhone 8 Plus",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 8,
+    "Longitude": 79.5489,
+    "Latitude": 8.95925,
+    "Speed": 0.0255113,
+    "SpeedRef": "K",
+    "ImgDirection": 30.9661,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 163.145,
+    "DestBearingRef": "T",
+    "DestBearing": 30.9661
+  },
+  "ProfileName": "Display P3"
+}

@@ -1,0 +1,110 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "ExposureBiasValue": 0,
+    "LensModel": "iPhone 6s back camera 4.15mm f/2.2",
+    "SubsecTimeOriginal": "335",
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2015,
+      1511,
+      2217,
+      1330
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "WhiteBalance": 0,
+    "SubsecTimeDigitized": "335",
+    "BrightnessValue": 8.00362,
+    "FNumber": 2.2,
+    "ExposureTime": 0.00235294,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 1,
+    "ExposureProgram": 2,
+    "DateTimeOriginal": "2016:05:19 14:56:21",
+    "FocalLength": 4.15,
+    "CustomRendered": 4,
+    "SceneCaptureType": 0,
+    "ISOSpeedRatings": [
+      25
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "DateTimeDigitized": "2016:05:19 14:56:21",
+    "Flash": 16,
+    "ShutterSpeedValue": 8.73067,
+    "PixelYDimension": 2016,
+    "LensSpecification": [
+      4.15,
+      4.15,
+      2.2,
+      2.2
+    ],
+    "ApertureValue": 2.27501,
+    "FocalLenIn35mmFilm": 29
+  },
+  "ColorModel": "RGB",
+  "Depth": 8,
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "2338811",
+  "IPTC": {
+    "DigitalCreationTime": "145621",
+    "DigitalCreationDate": "20160519",
+    "TimeCreated": "145621",
+    "DateCreated": "20160519"
+  },
+  "DPIHeight": 72,
+  "PixelHeight": 2016,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2016:05:19 14:56:21",
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "Photos 4.0",
+    "Model": "iPhone 6s",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 5,
+    "Longitude": 2.25085,
+    "Latitude": 50.7176,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirection": 210.879,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 76,
+    "DestBearingRef": "T",
+    "DestBearing": 210.879
+  },
+  "ProfileName": "sRGB IEC61966-2.1"
+}

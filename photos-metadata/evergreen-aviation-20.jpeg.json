@@ -1,0 +1,123 @@
+{
+  "ColorModel": "RGB",
+  "Exif": {
+    "Regions": {
+      "HeightAppliedTo": 3168,
+      "RegionList": [
+        {
+          "AngleInfoRoll": 150,
+          "Type": "Face",
+          "FaceID": 9,
+          "Timestamp": 2147480000.0,
+          "X": 0.595333,
+          "Width": 0.0419048,
+          "ConfidenceLevel": 921,
+          "Y": 0.502095,
+          "Height": 0.0565714,
+          "AngleInfoYaw": 0
+        }
+      ],
+      "WidthAppliedTo": 4224
+    },
+    "FocalLenIn35mmFilm": 26,
+    "LensModel": "iPhone XS back dual camera 4.25mm f/1.8",
+    "WhiteBalance": 0,
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2397,
+      1514,
+      164,
+      164
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "LensSpecification": [
+      4.25,
+      6,
+      1.8,
+      2.4
+    ],
+    "PixelYDimension": 3024,
+    "BrightnessValue": 3.7002,
+    "FNumber": 1.8,
+    "ExposureProgram": 2,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 65535,
+    "Flash": 16,
+    "DateTimeOriginal": "2018:12:24 12:57:35",
+    "FocalLength": 4.25,
+    "ExposureTime": 0.0121951,
+    "SubsecTimeOriginal": "489",
+    "ISOSpeedRatings": [
+      100
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "SceneCaptureType": 0,
+    "ExposureBiasValue": 0,
+    "ShutterSpeedValue": 6.35709,
+    "DateTimeDigitized": "2018:12:24 12:57:35",
+    "SubsecTimeDigitized": "489",
+    "ApertureValue": 1.69599,
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  "Orientation": 3,
+  "DPIHeight": 72,
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 1,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      2
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "2448979",
+  "Depth": 8,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2018:12:24 12:57:35",
+    "Orientation": 3,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "12.1.2",
+    "Model": "iPhone XS",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 65,
+    "Longitude": 123.142,
+    "Latitude": 45.2043,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirection": 80.0207,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 46.2099,
+    "DestBearingRef": "T",
+    "DestBearing": 80.0207
+  },
+  "ProfileName": "Display P3"
+}

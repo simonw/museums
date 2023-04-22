@@ -1,0 +1,108 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "ExposureBiasValue": 0,
+    "LensModel": "iPhone 11 Pro Max back triple camera 4.25mm f/1.8",
+    "SubsecTimeOriginal": "050",
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2010,
+      1500,
+      2311,
+      1383
+    ],
+    "ExifVersion": [
+      2,
+      3,
+      1
+    ],
+    "LensSpecification": [
+      1.54,
+      6,
+      1.8,
+      2.4
+    ],
+    "SubsecTimeDigitized": "050",
+    "BrightnessValue": 6.17015,
+    "FNumber": 1.8,
+    "ExposureTime": 0.00694444,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 1,
+    "ExposureProgram": 2,
+    "DateTimeOriginal": "2019:12:28 10:34:35",
+    "FocalLength": 4.25,
+    "DateTimeDigitized": "2019:12:28 10:34:35",
+    "SceneCaptureType": 0,
+    "ExposureMode": 0,
+    "ISOSpeedRatings": [
+      32
+    ],
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "WhiteBalance": 0,
+    "Flash": 16,
+    "ShutterSpeedValue": 7.16794,
+    "PixelYDimension": 3024,
+    "ApertureValue": 1.69599,
+    "DigitalZoomRatio": 1.97647,
+    "FocalLenIn35mmFilm": 52
+  },
+  "Orientation": 1,
+  "ColorModel": "RGB",
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "2257630",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "TileWidth": 512,
+    "Software": "Photos 4.0",
+    "YResolution": 72,
+    "DateTime": "2019:12:28 10:34:35",
+    "TileLength": 512,
+    "Make": "Apple",
+    "Orientation": 1,
+    "Model": "iPhone 11 Pro Max",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 8.19016,
+    "Longitude": 3.1895,
+    "Latitude": 50.6971,
+    "Speed": 0.120967,
+    "SpeedRef": "K",
+    "ImgDirection": 124.846,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 154,
+    "DestBearingRef": "T",
+    "DestBearing": 124.846
+  },
+  "ProfileName": "sRGB IEC61966-2.1"
+}

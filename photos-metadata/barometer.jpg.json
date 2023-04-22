@@ -1,0 +1,104 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone 8 Plus back dual camera 3.99mm f/1.8",
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2015,
+      1511,
+      2217,
+      1330
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "ExposureBiasValue": 0,
+    "SubsecTimeOriginal": "148",
+    "BrightnessValue": 2.65855,
+    "FNumber": 1.8,
+    "WhiteBalance": 0,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ExposureTime": 0.0588235,
+    "SubsecTimeDigitized": "148",
+    "DateTimeOriginal": "2017:12:21 14:24:33",
+    "FocalLength": 3.99,
+    "ExposureProgram": 2,
+    "SceneCaptureType": 0,
+    "ISOSpeedRatings": [
+      40
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 3900,
+    "DateTimeDigitized": "2017:12:21 14:24:33",
+    "Flash": 24,
+    "ShutterSpeedValue": 4.05935,
+    "PixelYDimension": 2925,
+    "LensSpecification": [
+      3.99,
+      6.6,
+      1.8,
+      2.8
+    ],
+    "ApertureValue": 1.69599,
+    "FocalLenIn35mmFilm": 28
+  },
+  "ColorModel": "RGB",
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "1696393",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 2925,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "TileWidth": 512,
+    "Software": "11.1.2",
+    "YResolution": 72,
+    "DateTime": "2017:12:21 14:24:33",
+    "TileLength": 512,
+    "Make": "Apple",
+    "Model": "iPhone 8 Plus",
+    "XResolution": 72
+  },
+  "PixelWidth": 3900,
+  "GPS": {
+    "HPositioningError": 165,
+    "Longitude": 4.09232,
+    "Latitude": 50.8911,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirection": 26.255,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 100,
+    "DestBearingRef": "T",
+    "DestBearing": 26.255
+  },
+  "ProfileName": "Display P3"
+}

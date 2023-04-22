@@ -1,0 +1,123 @@
+{
+  "ColorModel": "RGB",
+  "Exif": {
+    "Regions": {
+      "HeightAppliedTo": 3024,
+      "RegionList": [
+        {
+          "AngleInfoRoll": 180,
+          "Type": "Face",
+          "FaceID": 16,
+          "Timestamp": 2147480000.0,
+          "X": 0.6115,
+          "Width": 0.055,
+          "ConfidenceLevel": 99,
+          "Y": 0.772,
+          "Height": 0.074,
+          "AngleInfoYaw": 315
+        }
+      ],
+      "WidthAppliedTo": 4032
+    },
+    "FocalLenIn35mmFilm": 28,
+    "LensModel": "iPhone 8 Plus back dual camera 3.99mm f/1.8",
+    "WhiteBalance": 0,
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2476,
+      2333,
+      221,
+      223
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "LensSpecification": [
+      3.99,
+      6.6,
+      1.8,
+      2.8
+    ],
+    "PixelYDimension": 3024,
+    "BrightnessValue": 2.00432,
+    "FNumber": 1.8,
+    "ExposureProgram": 2,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 65535,
+    "Flash": 16,
+    "DateTimeOriginal": "2018:09:04 16:44:18",
+    "FocalLength": 3.99,
+    "ExposureTime": 0.0588235,
+    "SubsecTimeOriginal": "948",
+    "ISOSpeedRatings": [
+      64
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "SceneCaptureType": 0,
+    "ExposureBiasValue": 0,
+    "ShutterSpeedValue": 4.05935,
+    "DateTimeDigitized": "2018:09:04 16:44:18",
+    "SubsecTimeDigitized": "948",
+    "ApertureValue": 1.69599,
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  "Orientation": 3,
+  "DPIHeight": 72,
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 1,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      2
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "2713541",
+  "Depth": 8,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2018:09:04 16:44:18",
+    "Orientation": 3,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "11.4.1",
+    "Model": "iPhone 8 Plus",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 16,
+    "Longitude": 4.25185,
+    "Latitude": 50.6569,
+    "Speed": 0.384327,
+    "SpeedRef": "K",
+    "ImgDirection": 243.557,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 122.564,
+    "DestBearingRef": "T",
+    "DestBearing": 243.557
+  },
+  "ProfileName": "Display P3"
+}

@@ -1,0 +1,78 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "MeteringMode": 5,
+    "ExposureMode": 0,
+    "LightSource": 0,
+    "ExposureBiasValue": 0,
+    "FNumber": 2,
+    "SubsecTimeOriginal": "294560",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "SubsecTimeDigitized": "294560",
+    "ColorSpace": 1,
+    "SubsecTime": "294560",
+    "DateTimeOriginal": "2015:10:05 09:55:32",
+    "FocalLength": 4.6,
+    "ISOSpeedRatings": [
+      400
+    ],
+    "SceneCaptureType": 0,
+    "ExposureTime": 0.01,
+    "SubjectDistRange": 0,
+    "CustomRendered": 0,
+    "PixelXDimension": 3840,
+    "ExifVersion": [
+      2,
+      2
+    ],
+    "Flash": 16,
+    "ShutterSpeedValue": 6.64,
+    "PixelYDimension": 2160,
+    "DateTimeDigitized": "2015:10:05 09:55:32",
+    "DigitalZoomRatio": 1,
+    "WhiteBalance": 0
+  },
+  "Depth": 8,
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "1596357",
+  "IPTC": {
+    "DigitalCreationTime": "095532",
+    "DigitalCreationDate": "20151005",
+    "TimeCreated": "095532",
+    "DateCreated": "20151005"
+  },
+  "ColorModel": "RGB",
+  "DPIHeight": 72,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2015:10:05 09:55:32",
+    "Make": "Sony",
+    "YResolution": 72,
+    "Software": "Photos 4.0",
+    "Model": "D5803",
+    "XResolution": 72
+  },
+  "PixelWidth": 3840,
+  "PixelHeight": 2160,
+  "ProfileName": "sRGB IEC61966-2.1"
+}

@@ -1,0 +1,67 @@
+{
+  "Exif": {
+    "FocalPlaneXResolution": 4433.3,
+    "MeteringMode": 5,
+    "ExposureMode": 0,
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "FNumber": 4,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "ExposureBiasValue": 0,
+    "ColorSpace": 1,
+    "WhiteBalance": 0,
+    "DateTimeOriginal": "2008:10:12 04:08:24",
+    "FocalLength": 17,
+    "ExposureTime": 0.0769231,
+    "SceneCaptureType": 0,
+    "FocalPlaneResolutionUnit": 2,
+    "ISOSpeedRatings": [
+      400
+    ],
+    "ExposureProgram": 0,
+    "PixelXDimension": 3888,
+    "CustomRendered": 0,
+    "Flash": 16,
+    "ShutterSpeedValue": 3.70044,
+    "PixelYDimension": 2592,
+    "DateTimeDigitized": "2008:10:12 04:08:24",
+    "ApertureValue": 4,
+    "FocalPlaneYResolution": 4453.61
+  },
+  "Orientation": 1,
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 1,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "2842517",
+  "Depth": 8,
+  "ColorModel": "RGB",
+  "DPIHeight": 72,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2008:10:12 04:08:24",
+    "Orientation": 1,
+    "YResolution": 72,
+    "XResolution": 72,
+    "Model": "Canon EOS 400D DIGITAL",
+    "Make": "Canon"
+  },
+  "PixelWidth": 3888,
+  "PixelHeight": 2592,
+  "ProfileName": "sRGB Profile"
+}

@@ -1,0 +1,90 @@
+{
+  "Exif": {
+    "SerialNumber": "F651108290236",
+    "MeteringMode": 5,
+    "CustomRendered": 1,
+    "GainControl": 2,
+    "ExposureProgram": 2,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "ExposureTime": 0.0166667,
+    "DateTimeOriginal": "2014:09:18 12:17:02",
+    "FocalLength": 7.8,
+    "MaxApertureValue": 4.21094,
+    "SceneType": 1,
+    "PixelXDimension": 4000,
+    "ExposureBiasValue": 0,
+    "DateTimeDigitized": "2014:09:18 12:17:02",
+    "Contrast": 0,
+    "ExposureMode": 0,
+    "ExifVersion": [
+      2,
+      3
+    ],
+    "ISOSpeedRatings": [
+      250
+    ],
+    "ColorSpace": 1,
+    "FileSource": 3,
+    "LightSource": 0,
+    "DigitalZoomRatio": 0,
+    "SceneCaptureType": 0,
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "FocalLenIn35mmFilm": 44,
+    "FNumber": 4.3,
+    "CompressedBitsPerPixel": 4,
+    "WhiteBalance": 0,
+    "Flash": 16,
+    "Saturation": 2,
+    "PixelYDimension": 2000,
+    "Sharpness": 2,
+    "SensitivityType": 1,
+    "SensingMethod": 2
+  },
+  "ColorModel": "RGB",
+  "Depth": 8,
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "2436190",
+  "IPTC": {
+    "Byline": [
+      ""
+    ],
+    "DigitalCreationTime": "121702",
+    "DigitalCreationDate": "20140918",
+    "TimeCreated": "121702",
+    "DateCreated": "20140918"
+  },
+  "DPIHeight": 72,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2014:09:18 12:17:02",
+    "Make": "Panasonic",
+    "Artist": "",
+    "YResolution": 72,
+    "Software": "Photos 4.0",
+    "Model": "DMC-FT3",
+    "XResolution": 72
+  },
+  "PixelWidth": 4000,
+  "PixelHeight": 2000,
+  "ProfileName": "sRGB IEC61966-2.1"
+}

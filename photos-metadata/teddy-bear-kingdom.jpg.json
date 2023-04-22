@@ -1,0 +1,190 @@
+{
+  "Orientation": 1,
+  "Output": {},
+  "Content-Length": "1662389",
+  "IPTC": {
+    "Byline": [
+      ""
+    ],
+    "StarRating": 0,
+    "CopyrightNotice": ""
+  },
+  "PixelWidth": 4898,
+  "ProfileName": "sRGB IEC61966-2.1",
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "FocalPlaneXResolution": 5798.66,
+    "WhiteBalance": 0,
+    "AFInfo": [
+      0.478492,
+      0.467737,
+      0.043017,
+      0.0645255,
+      "f",
+      0.482542,
+      0.69401,
+      0.0349151,
+      0.0344329,
+      "f",
+      0.482542,
+      0.271557,
+      0.0349151,
+      0.0344329,
+      "f",
+      0.329282,
+      0.587384,
+      0.0246914,
+      0.0497685,
+      "f",
+      0.646026,
+      0.587384,
+      0.0246914,
+      0.0497685,
+      "f",
+      0.329282,
+      0.362847,
+      0.0246914,
+      0.0497685,
+      "n",
+      0.646026,
+      0.362847,
+      0.0246914,
+      0.0497685,
+      "f",
+      0.22338,
+      0.475116,
+      0.0246914,
+      0.0497685,
+      "f",
+      0.751929,
+      0.475116,
+      0.0246914,
+      0.0497685,
+      "n"
+    ],
+    "ExposureProgram": 2,
+    "FlashCompensation": 0,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "SubsecTimeDigitized": "00",
+    "ExposureTime": 0.0166667,
+    "DateTimeOriginal": "2014:09:25 10:44:40",
+    "BodySerialNumber": "121073002419",
+    "SubsecTimeOriginal": "00",
+    "FocusMode": 1,
+    "MaxApertureValue": 4,
+    "PixelXDimension": 4898,
+    "ExposureBiasValue": 0,
+    "DateTimeDigitized": "2014:09:25 10:44:40",
+    "ImageUniqueID": "072989bfc3fb0bf00000000000000000",
+    "LensModel": "EF-S17-85mm f/4-5.6 IS USM",
+    "LensID": 234,
+    "ExposureMode": 0,
+    "ExifVersion": [
+      2,
+      3
+    ],
+    "FNumber": 4.5,
+    "FocalLength": 17,
+    "ApertureValue": 4.375,
+    "ISOSpeedRatings": [
+      1600
+    ],
+    "ColorSpace": 1,
+    "LensSerialNumber": "0000111fcd",
+    "CustomRendered": 0,
+    "ShutterSpeedValue": 6,
+    "MeteringMode": 5,
+    "RecommendedExposureIndex": 1600,
+    "FocalPlaneResolutionUnit": 2,
+    "SceneCaptureType": 0,
+    "LensSpecification": [
+      17,
+      85,
+      0,
+      0
+    ],
+    "SubsecTime": "00",
+    "Firmware": "Firmware Version 1.0.0",
+    "Flash": 9,
+    "LensInfo": [
+      17,
+      85,
+      0,
+      0
+    ],
+    "PixelYDimension": 3265,
+    "ImageStabilization": 3,
+    "SensitivityType": 2,
+    "FocalPlaneYResolution": 5788.94
+  },
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 1,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 1
+  },
+  "ColorModel": "RGB",
+  "DPIHeight": 72,
+  "MakerCanon": {
+    "WhiteBalanceIndex": 0,
+    "MaxAperture": 4,
+    "ContinuousDrive": 0,
+    "MinAperture": 22.6274,
+    "UniqueModelID": 2147480000.0
+  },
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "Orientation": 1,
+    "Copyright": "",
+    "Software": "Picasa",
+    "YResolution": 72,
+    "DateTime": "2014:09:25 10:44:40",
+    "Artist": "",
+    "Make": "Canon",
+    "Model": "Canon EOS Kiss X7",
+    "XResolution": 72
+  },
+  "PixelHeight": 3265,
+  "DPIWidth": 72,
+  "Depth": 8,
+  "PictureStyle": {
+    "Monochrome": [
+      "0",
+      0,
+      0
+    ],
+    "ColorTone": [
+      "0",
+      0,
+      0
+    ],
+    "SharpnessFreq": [
+      "0",
+      0,
+      0
+    ],
+    "PictureStyle": [
+      "4095",
+      4095,
+      4095
+    ],
+    "PictStyleColorSpace": [
+      "sRGB",
+      1,
+      1
+    ]
+  }
+}

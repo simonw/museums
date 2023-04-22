@@ -1,0 +1,109 @@
+{
+  "ColorModel": "RGB",
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "FocalPlaneXResolution": 5798.66,
+    "MeteringMode": 5,
+    "CustomRendered": 0,
+    "ExposureProgram": 2,
+    "FlashCompensation": 0,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "SubsecTimeDigitized": "990",
+    "ExposureTime": 0.003125,
+    "SubsecTime": "99",
+    "FocalLength": 70,
+    "LensSpecification": [
+      70,
+      200,
+      0,
+      0
+    ],
+    "MaxApertureValue": 4.1771,
+    "PixelXDimension": 5184,
+    "ExposureBiasValue": 0,
+    "DateTimeDigitized": "2019:08:11 03:33:09",
+    "LensModel": "EF70-200mm f/4L IS II USM",
+    "LensID": 754,
+    "ExposureMode": 0,
+    "ExifVersion": [
+      2,
+      3
+    ],
+    "FNumber": 7.1,
+    "WhiteBalance": 0,
+    "ColorSpace": 1,
+    "LensSerialNumber": "7013000755",
+    "ApertureValue": 5.625,
+    "ISOSpeedRatings": [
+      100
+    ],
+    "BodySerialNumber": "121073002419",
+    "Firmware": "Firmware Version 1.0.0",
+    "FocalPlaneResolutionUnit": 2,
+    "ShutterSpeedValue": 8.375,
+    "SubsecTimeOriginal": "990",
+    "SceneCaptureType": 0,
+    "RecommendedExposureIndex": 100,
+    "Flash": 16,
+    "LensInfo": [
+      70,
+      200,
+      0,
+      0
+    ],
+    "PixelYDimension": 3456,
+    "DateTimeOriginal": "2019:08:11 03:33:09",
+    "SensitivityType": 2,
+    "FocalPlaneYResolution": 5788.94
+  },
+  "Orientation": 1,
+  "Depth": 8,
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "6300677",
+  "IPTC": {
+    "Byline": [
+      ""
+    ],
+    "StarRating": 0,
+    "CopyrightNotice": "",
+    "DigitalCreationDate": "20190811",
+    "DigitalCreationTime": "033309",
+    "TimeCreated": "033309",
+    "DateCreated": "20190811"
+  },
+  "DPIHeight": 72,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "Orientation": 1,
+    "Copyright": "",
+    "XResolution": 72,
+    "YResolution": 72,
+    "DateTime": "2019:08:11 03:33:09",
+    "Artist": "",
+    "Model": "Canon EOS Kiss X7",
+    "Make": "Canon"
+  },
+  "PixelWidth": 5184,
+  "PixelHeight": 3456,
+  "ProfileName": "sRGB IEC61966-2.1"
+}

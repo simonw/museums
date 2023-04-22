@@ -1,0 +1,97 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone 7 Plus back dual camera 3.99mm f/1.8",
+    "ExposureBiasValue": 0,
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2015,
+      1511,
+      2217,
+      1330
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "SubsecTimeOriginal": "731",
+    "WhiteBalance": 0,
+    "BrightnessValue": 8.19743,
+    "FNumber": 1.8,
+    "SubsecTimeDigitized": "731",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 65535,
+    "ExposureTime": 0.0017331,
+    "DateTimeOriginal": "2017:06:15 18:28:19",
+    "FocalLength": 3.99,
+    "ExposureProgram": 2,
+    "SceneCaptureType": 0,
+    "ISOSpeedRatings": [
+      20
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "DateTimeDigitized": "2017:06:15 18:28:19",
+    "Flash": 16,
+    "ShutterSpeedValue": 9.17168,
+    "PixelYDimension": 3024,
+    "LensSpecification": [
+      3.99,
+      6.6,
+      1.8,
+      2.8
+    ],
+    "ApertureValue": 1.69599,
+    "FocalLenIn35mmFilm": 28
+  },
+  "Orientation": 3,
+  "ColorModel": "RGB",
+  "Content-Type": "image/jpeg",
+  "Output": {},
+  "DPIWidth": 72,
+  "Content-Length": "4286630",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2017:06:15 18:28:19",
+    "Orientation": 3,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "10.3.2",
+    "Model": "iPhone 7 Plus",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 8,
+    "Longitude": 122.46,
+    "Latitude": 37.7726,
+    "Speed": 0.0925285,
+    "SpeedRef": "K",
+    "ImgDirectionRef": "T",
+    "ImgDirection": 51.2755,
+    "LongitudeRef": "W",
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "DateStamp": "2017:06:16",
+    "Altitude": 71.9559,
+    "TimeStamp": "01:28:19",
+    "DestBearingRef": "T",
+    "DestBearing": 51.2755
+  },
+  "ProfileName": "Display P3"
+}

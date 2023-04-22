@@ -1,0 +1,108 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "ExposureBiasValue": 0,
+    "LensModel": "iPhone 8 Plus back dual camera 3.99mm f/1.8",
+    "SubsecTimeOriginal": "814",
+    "MeteringMode": 3,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2200,
+      2096,
+      748,
+      756
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "LensSpecification": [
+      3.99,
+      6.6,
+      1.8,
+      2.8
+    ],
+    "SubsecTimeDigitized": "814",
+    "BrightnessValue": 5.50351,
+    "FNumber": 1.8,
+    "ExposureTime": 0.01,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 65535,
+    "ExposureProgram": 2,
+    "DateTimeOriginal": "2018:09:10 11:43:54",
+    "FocalLength": 3.99,
+    "DateTimeDigitized": "2018:09:10 11:43:54",
+    "SceneCaptureType": 0,
+    "ExposureMode": 0,
+    "ISOSpeedRatings": [
+      25
+    ],
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "WhiteBalance": 0,
+    "Flash": 16,
+    "ShutterSpeedValue": 6.64588,
+    "PixelYDimension": 3024,
+    "ApertureValue": 1.69599,
+    "DigitalZoomRatio": 2,
+    "FocalLenIn35mmFilm": 62
+  },
+  "Orientation": 1,
+  "ColorModel": "RGB",
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 1,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      2
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "1583295",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2018:09:10 11:43:54",
+    "Orientation": 1,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "Photos 4.0",
+    "Model": "iPhone 8 Plus",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 24,
+    "Longitude": 4.12793,
+    "Latitude": 51.2097,
+    "Speed": 0.328613,
+    "SpeedRef": "K",
+    "ImgDirectionRef": "T",
+    "ImgDirection": 5.24829,
+    "LongitudeRef": "W",
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "DateStamp": "2018:09:10",
+    "Altitude": 28,
+    "TimeStamp": "10:43:53",
+    "DestBearingRef": "T",
+    "DestBearing": 5.24829
+  },
+  "ProfileName": "Display P3"
+}

@@ -1,0 +1,111 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone 8 Plus back dual camera 3.99mm f/1.8",
+    "ExposureBiasValue": 0,
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2015,
+      1511,
+      2217,
+      1330
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "SubsecTimeOriginal": "174",
+    "WhiteBalance": 0,
+    "BrightnessValue": 11.2119,
+    "FNumber": 1.8,
+    "SubsecTimeDigitized": "174",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 65535,
+    "ExposureTime": 0.000291036,
+    "DateTimeOriginal": "2018:02:09 10:48:46",
+    "FocalLength": 3.99,
+    "ExposureProgram": 2,
+    "SceneCaptureType": 0,
+    "ISOSpeedRatings": [
+      20
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 3793,
+    "DateTimeDigitized": "2018:02:09 10:48:46",
+    "Flash": 16,
+    "ShutterSpeedValue": 11.7467,
+    "PixelYDimension": 1896,
+    "LensSpecification": [
+      3.99,
+      6.6,
+      1.8,
+      2.8
+    ],
+    "ApertureValue": 1.69599,
+    "FocalLenIn35mmFilm": 28
+  },
+  "ColorModel": "RGB",
+  "Depth": 8,
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "1566437",
+  "IPTC": {
+    "DigitalCreationTime": "104846",
+    "DigitalCreationDate": "20180209",
+    "TimeCreated": "104846",
+    "DateCreated": "20180209"
+  },
+  "DPIHeight": 72,
+  "PixelHeight": 1896,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "TileWidth": 512,
+    "Software": "Photos 4.0",
+    "YResolution": 72,
+    "DateTime": "2018:02:09 10:48:46",
+    "TileLength": 512,
+    "Make": "Apple",
+    "Model": "iPhone 8 Plus",
+    "XResolution": 72
+  },
+  "PixelWidth": 3793,
+  "GPS": {
+    "HPositioningError": 16,
+    "Longitude": 111.343,
+    "Latitude": 26.0101,
+    "Speed": 0.19158,
+    "SpeedRef": "K",
+    "ImgDirection": 327.16,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 4,
+    "DestBearingRef": "T",
+    "DestBearing": 327.16
+  },
+  "ProfileName": "Apple Wide Color Sharing Profile"
+}

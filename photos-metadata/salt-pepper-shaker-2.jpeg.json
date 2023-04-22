@@ -1,0 +1,93 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "MeteringMode": 5,
+    "ExposureMode": 0,
+    "LightSource": 0,
+    "ExposureBiasValue": 0,
+    "FNumber": 2,
+    "SubsecTimeOriginal": "897646",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "SubsecTimeDigitized": "897646",
+    "ColorSpace": 1,
+    "SubsecTime": "897646",
+    "DateTimeOriginal": "2015:10:05 10:01:36",
+    "FocalLength": 4.6,
+    "ISOSpeedRatings": [
+      100
+    ],
+    "SceneCaptureType": 0,
+    "ExposureTime": 0.015625,
+    "SubjectDistRange": 0,
+    "CustomRendered": 0,
+    "PixelXDimension": 3840,
+    "ExifVersion": [
+      2,
+      2
+    ],
+    "Flash": 16,
+    "ShutterSpeedValue": 6,
+    "PixelYDimension": 2160,
+    "DateTimeDigitized": "2015:10:05 10:01:36",
+    "DigitalZoomRatio": 1,
+    "WhiteBalance": 0
+  },
+  "ColorModel": "RGB",
+  "Depth": 8,
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "2074821",
+  "IPTC": {
+    "DigitalCreationTime": "100136",
+    "DigitalCreationDate": "20151005",
+    "TimeCreated": "100136",
+    "DateCreated": "20151005"
+  },
+  "DPIHeight": 72,
+  "PixelHeight": 2160,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2015:10:05 10:01:36",
+    "Make": "Sony",
+    "YResolution": 72,
+    "Software": "Photos 4.0",
+    "Model": "D5803",
+    "XResolution": 72
+  },
+  "PixelWidth": 3840,
+  "GPS": {
+    "Longitude": 83.5029,
+    "Altitude": 0,
+    "Latitude": 35.7165,
+    "LatitudeRef": "N",
+    "Status": "A",
+    "LongitudeRef": "W",
+    "MapDatum": "WGS-84",
+    "GPSVersion": [
+      2,
+      2,
+      0,
+      0
+    ]
+  },
+  "ProfileName": "sRGB IEC61966-2.1"
+}

@@ -1,0 +1,83 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "WhiteBalance": 0,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      1631,
+      1223,
+      881,
+      881
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "BrightnessValue": 1.74902,
+    "FNumber": 2.4,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "ExposureTime": 0.05,
+    "DateTimeOriginal": "2013:06:09 15:47:05",
+    "FocalLength": 4.13,
+    "SceneCaptureType": 0,
+    "MeteringMode": 5,
+    "FocalLenIn35mmFilm": 33,
+    "ExposureMode": 0,
+    "PixelXDimension": 1533,
+    "ExposureProgram": 2,
+    "Flash": 16,
+    "ShutterSpeedValue": 4.32196,
+    "PixelYDimension": 862,
+    "ISOSpeedRatings": [
+      125
+    ],
+    "ApertureValue": 2.52607,
+    "DateTimeDigitized": "2013:06:09 15:47:05"
+  },
+  "ColorModel": "RGB",
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "464175",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "GPS": {
+    "Longitude": 8.25017,
+    "Latitude": 48.7643,
+    "LongitudeRef": "E",
+    "LatitudeRef": "N",
+    "Altitude": 174.403,
+    "AltitudeRef": 0
+  },
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2013:06:09 15:47:05",
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "Google+ iOS 4.4.0.18176",
+    "Model": "iPhone 5",
+    "XResolution": 72
+  },
+  "PixelWidth": 1533,
+  "PixelHeight": 862,
+  "ProfileName": "Display P3"
+}

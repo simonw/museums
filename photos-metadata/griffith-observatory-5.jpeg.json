@@ -1,0 +1,123 @@
+{
+  "ColorModel": "RGB",
+  "Exif": {
+    "Regions": {
+      "HeightAppliedTo": 3168,
+      "RegionList": [
+        {
+          "AngleInfoRoll": 90,
+          "Type": "Face",
+          "FaceID": 47,
+          "AngleInfoYaw": 270,
+          "X": 0.521476,
+          "Width": 0.0324762,
+          "ConfidenceLevel": 451,
+          "Y": 0.553429,
+          "Height": 0.044
+        }
+      ],
+      "WidthAppliedTo": 4224
+    },
+    "LensModel": "iPhone 11 Pro Max back triple camera 4.25mm f/1.8",
+    "FocalLenIn35mmFilm": 26,
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2100,
+      1669,
+      126,
+      126
+    ],
+    "ExifVersion": [
+      2,
+      3,
+      1
+    ],
+    "WhiteBalance": 0,
+    "LensSpecification": [
+      1.54,
+      6,
+      1.8,
+      2.4
+    ],
+    "BrightnessValue": 0.430617,
+    "FNumber": 1.8,
+    "PixelYDimension": 3024,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "SubsecTimeDigitized": "234",
+    "ExposureTime": 0.025,
+    "SceneCaptureType": 0,
+    "DateTimeOriginal": "2019:12:13 15:38:50",
+    "FocalLength": 4.25,
+    "Flash": 16,
+    "SubsecTimeOriginal": "234",
+    "ExposureProgram": 2,
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "ISOSpeedRatings": [
+      400
+    ],
+    "ExposureBiasValue": 0,
+    "ShutterSpeedValue": 5.32227,
+    "DateTimeDigitized": "2019:12:13 15:38:50",
+    "LensMake": "Apple",
+    "ApertureValue": 1.69599,
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  "Orientation": 1,
+  "DPIHeight": 72,
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "3518176",
+  "Depth": 8,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "TileWidth": 512,
+    "Software": "Photos 4.0",
+    "YResolution": 72,
+    "DateTime": "2019:12:13 15:38:50",
+    "TileLength": 512,
+    "Make": "Apple",
+    "Orientation": 1,
+    "Model": "iPhone 11 Pro Max",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 65,
+    "Longitude": 118.3,
+    "Latitude": 34.1185,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirection": 252.809,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 338,
+    "DestBearingRef": "T",
+    "DestBearing": 252.809
+  },
+  "ProfileName": "Apple Wide Color Sharing Profile"
+}

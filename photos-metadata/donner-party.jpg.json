@@ -1,0 +1,99 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "MeteringMode": 5,
+    "SubjectArea": [
+      2009,
+      1509,
+      2318,
+      1390
+    ],
+    "OffsetTime": "-08:00",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "SubsecTimeDigitized": "861",
+    "ExposureTime": 0.000784929,
+    "DateTimeOriginal": "2020:01:11 13:34:13",
+    "FocalLength": 4.25,
+    "SubsecTimeOriginal": "861",
+    "OffsetTimeDigitized": "-08:00",
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "OffsetTimeOriginal": "-08:00",
+    "ExposureBiasValue": 0,
+    "DateTimeDigitized": "2020:01:11 13:34:13",
+    "LensModel": "iPhone 11 Pro Max back triple camera 4.25mm f/1.8",
+    "SensingMethod": 2,
+    "ExposureMode": 0,
+    "ExifVersion": [
+      2,
+      3,
+      1
+    ],
+    "BrightnessValue": 9.06141,
+    "FNumber": 1.8,
+    "LensMake": "Apple",
+    "ColorSpace": 65535,
+    "CompositeImage": 2,
+    "SceneCaptureType": 0,
+    "ExposureProgram": 2,
+    "WhiteBalance": 0,
+    "FocalLenIn35mmFilm": 26,
+    "Flash": 24,
+    "ShutterSpeedValue": 10.315,
+    "PixelYDimension": 3024,
+    "ISOSpeedRatings": [
+      32
+    ],
+    "ApertureValue": 1.69599,
+    "LensSpecification": [
+      1.54,
+      6,
+      1.8,
+      2.4
+    ]
+  },
+  "Orientation": 3,
+  "ColorModel": "RGB",
+  "Content-Type": "image/jpeg",
+  "Output": {},
+  "DPIWidth": 72,
+  "Content-Length": "3447810",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2020:01:11 13:34:13",
+    "Orientation": 3,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "13.3",
+    "Model": "iPhone 11 Pro Max",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 4.94272,
+    "Longitude": 120.233,
+    "Latitude": 39.3238,
+    "Speed": 1.21679,
+    "SpeedRef": "K",
+    "ImgDirection": 40.2533,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 1812.28,
+    "DestBearingRef": "T",
+    "DestBearing": 40.2533
+  },
+  "ProfileName": "Display P3"
+}

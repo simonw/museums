@@ -1,0 +1,178 @@
+{
+  "DPIWidth": 72,
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "FocalPlaneXResolution": 5798.66,
+    "WhiteBalance": 0,
+    "AFInfo": [
+      0.478492,
+      0.467737,
+      0.043017,
+      0.0645255,
+      "f",
+      0.482542,
+      0.69401,
+      0.0349151,
+      0.0344329,
+      "n",
+      0.482542,
+      0.271557,
+      0.0349151,
+      0.0344329,
+      "f",
+      0.329282,
+      0.587384,
+      0.0246914,
+      0.0497685,
+      "f",
+      0.646026,
+      0.587384,
+      0.0246914,
+      0.0497685,
+      "f",
+      0.329282,
+      0.362847,
+      0.0246914,
+      0.0497685,
+      "f",
+      0.646026,
+      0.362847,
+      0.0246914,
+      0.0497685,
+      "n",
+      0.22338,
+      0.475116,
+      0.0246914,
+      0.0497685,
+      "n",
+      0.751929,
+      0.475116,
+      0.0246914,
+      0.0497685,
+      "f"
+    ],
+    "ExposureProgram": 0,
+    "FlashCompensation": 0,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "SubsecTimeDigitized": "70",
+    "ExposureTime": 0.0025,
+    "DateTimeOriginal": "2019:05:12 15:36:45",
+    "BodySerialNumber": "121073002419",
+    "SubsecTimeOriginal": "70",
+    "FocusMode": 1,
+    "MaxApertureValue": 4.1771,
+    "PixelXDimension": 5184,
+    "ExposureBiasValue": 0,
+    "DateTimeDigitized": "2019:05:12 15:36:45",
+    "LensModel": "EF70-200mm f/4L IS II USM",
+    "LensID": 754,
+    "ExposureMode": 0,
+    "ExifVersion": [
+      2,
+      3
+    ],
+    "FNumber": 8,
+    "FocalLength": 70,
+    "ApertureValue": 6,
+    "ISOSpeedRatings": [
+      100
+    ],
+    "ColorSpace": 1,
+    "LensSerialNumber": "7013000755",
+    "CustomRendered": 0,
+    "ShutterSpeedValue": 8.625,
+    "MeteringMode": 5,
+    "RecommendedExposureIndex": 100,
+    "FocalPlaneResolutionUnit": 2,
+    "SceneCaptureType": 0,
+    "LensSpecification": [
+      70,
+      200,
+      0,
+      0
+    ],
+    "SubsecTime": "70",
+    "Firmware": "Firmware Version 1.0.0",
+    "Flash": 16,
+    "LensInfo": [
+      70,
+      200,
+      0,
+      0
+    ],
+    "PixelYDimension": 3456,
+    "ImageStabilization": 3,
+    "SensitivityType": 2,
+    "FocalPlaneYResolution": 5788.94
+  },
+  "Orientation": 1,
+  "ProfileName": "sRGB IEC61966-2.1",
+  "IPTC": {
+    "Byline": [
+      ""
+    ],
+    "StarRating": 0,
+    "CopyrightNotice": ""
+  },
+  "Content-Type": "image/jpeg",
+  "Output": {},
+  "ColorModel": "RGB",
+  "Content-Length": "7268432",
+  "Depth": 8,
+  "MakerCanon": {
+    "WhiteBalanceIndex": 0,
+    "MaxAperture": 4.1771,
+    "ContinuousDrive": 0,
+    "MinAperture": 32,
+    "UniqueModelID": 2147480000.0
+  },
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "Orientation": 1,
+    "Copyright": "",
+    "XResolution": 72,
+    "YResolution": 72,
+    "DateTime": "2019:05:12 15:36:45",
+    "Artist": "",
+    "Model": "Canon EOS Kiss X7",
+    "Make": "Canon"
+  },
+  "PixelHeight": 3456,
+  "PixelWidth": 5184,
+  "PictureStyle": {
+    "Monochrome": [
+      "0",
+      0,
+      0
+    ],
+    "ColorTone": [
+      "0",
+      0,
+      0
+    ],
+    "SharpnessFreq": [
+      "0",
+      0,
+      0
+    ],
+    "PictureStyle": [
+      "4095",
+      4095,
+      4095
+    ],
+    "PictStyleColorSpace": [
+      "sRGB",
+      1,
+      1
+    ]
+  },
+  "DPIHeight": 72
+}

@@ -1,0 +1,113 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "ExposureBiasValue": 0,
+    "LensModel": "iPhone 6 back camera 4.15mm f/2.2",
+    "SubsecTimeOriginal": "621",
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      1631,
+      1223,
+      1795,
+      1077
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "LensSpecification": [
+      4.15,
+      4.15,
+      2.2,
+      2.2
+    ],
+    "SubsecTimeDigitized": "621",
+    "BrightnessValue": -0.223436,
+    "FNumber": 2.2,
+    "ExposureTime": 0.0666667,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 1,
+    "ExposureProgram": 2,
+    "DateTimeOriginal": "2014:11:02 14:40:57",
+    "FocalLength": 4.15,
+    "DateTimeDigitized": "2014:11:02 14:40:57",
+    "SceneCaptureType": 0,
+    "ExposureMode": 0,
+    "ISOSpeedRatings": [
+      400
+    ],
+    "SceneType": 1,
+    "PixelXDimension": 3264,
+    "WhiteBalance": 0,
+    "Flash": 24,
+    "ShutterSpeedValue": 3.90706,
+    "PixelYDimension": 2448,
+    "ImageUniqueID": "7335313093e184610000000000000000",
+    "ApertureValue": 2.27501,
+    "FocalLenIn35mmFilm": 29
+  },
+  "Orientation": 1,
+  "ColorModel": "RGB",
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 1,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 1
+  },
+  "DPIWidth": 72,
+  "Content-Length": "1642321",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 2448,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2014:11:02 14:40:57",
+    "Orientation": 1,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "8.1",
+    "Model": "iPhone 6",
+    "XResolution": 72
+  },
+  "PixelWidth": 3264,
+  "GPS": {
+    "Longitude": 122.411,
+    "Latitude": 37.7949,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "ImgDirection": 74.6052,
+    "DateStamp": "2014:11:02",
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "Altitude": 57.8645,
+    "GPSVersion": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "TimeStamp": "22:40:52",
+    "DestBearingRef": "T",
+    "DestBearing": 254.605
+  },
+  "ProfileName": "sRGB IEC61966-2.1"
+}

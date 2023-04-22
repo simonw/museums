@@ -1,0 +1,111 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone 11 Pro Max back triple camera 6mm f/2",
+    "ExposureBiasValue": 0,
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2011,
+      1502,
+      2314,
+      1387
+    ],
+    "ExifVersion": [
+      2,
+      3,
+      1
+    ],
+    "SubsecTimeOriginal": "250",
+    "WhiteBalance": 0,
+    "BrightnessValue": 5.40977,
+    "FNumber": 2,
+    "SubsecTimeDigitized": "250",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 65535,
+    "ExposureTime": 0.00367647,
+    "DateTimeOriginal": "2019:12:28 10:55:13",
+    "FocalLength": 6,
+    "ExposureProgram": 2,
+    "SceneCaptureType": 0,
+    "ISOSpeedRatings": [
+      20
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 3291,
+    "DateTimeDigitized": "2019:12:28 10:55:13",
+    "Flash": 16,
+    "ShutterSpeedValue": 8.09,
+    "PixelYDimension": 1646,
+    "LensSpecification": [
+      1.54,
+      6,
+      1.8,
+      2.4
+    ],
+    "ApertureValue": 2,
+    "FocalLenIn35mmFilm": 52
+  },
+  "ColorModel": "RGB",
+  "Depth": 8,
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "1820685",
+  "IPTC": {
+    "DigitalCreationTime": "105513",
+    "DigitalCreationDate": "20191228",
+    "TimeCreated": "105513",
+    "DateCreated": "20191228"
+  },
+  "DPIHeight": 72,
+  "PixelHeight": 1646,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "TileWidth": 512,
+    "Software": "Photos 4.0",
+    "YResolution": 72,
+    "DateTime": "2019:12:28 10:55:13",
+    "TileLength": 512,
+    "Make": "Apple",
+    "Model": "iPhone 11 Pro Max",
+    "XResolution": 72
+  },
+  "PixelWidth": 3291,
+  "GPS": {
+    "HPositioningError": 8.37258,
+    "Longitude": 3.19187,
+    "Latitude": 50.6972,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirection": 327.402,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 160,
+    "DestBearingRef": "T",
+    "DestBearing": 327.402
+  },
+  "ProfileName": "Apple Wide Color Sharing Profile"
+}

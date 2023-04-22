@@ -4,6 +4,7 @@ import requests
 import tqdm
 import yaml
 
+
 def fetch_image_metadata(museums):
     root = pathlib.Path("photos-metadata")
     if not root.exists():

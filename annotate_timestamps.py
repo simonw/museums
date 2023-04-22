@@ -50,6 +50,8 @@ if __name__ == "__main__":
     db = sqlite_utils.Database("browse.db")
     for id, ts in created.items():
         try:
-            db["museums"].update(id, {"created": ts, "updated": updated[id]}, alter=True)
+            db["museums"].update(
+                id, {"created": ts, "updated": updated[id]}, alter=True
+            )
         except NotFoundError:
             pass

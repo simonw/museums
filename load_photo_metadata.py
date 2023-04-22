@@ -13,16 +13,19 @@ def load_image_metadata():
             to_insert.append(data)
 
     db = sqlite_utils.Database("browse.db")
-    db["raw_photos"].insert_all(
-        to_insert, pk="filename", alter=True, replace=True
-    )
+    db["raw_photos"].insert_all(to_insert, pk="filename", alter=True, replace=True)
 
-    db.create_view("photos", """
+    db.create_view(
+        "photos",
+        """
         select 'https://niche-museums.imgix.net/' || filename as url,
             PixelWidth as width,
             PixelHeight as height
         from raw_photos
-    """, replace=True)
+    """,
+        replace=True,
+    )
+
 
 if __name__ == "__main__":
     load_image_metadata()

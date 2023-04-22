@@ -18,9 +18,16 @@ def load_image_metadata():
     db.create_view(
         "photos",
         """
-        select 'https://niche-museums.imgix.net/' || filename as url,
-            PixelWidth as width,
-            PixelHeight as height
+        select
+            'https://niche-museums.imgix.net/' || filename as url,
+            case
+                when Orientation in (6, 8) then PixelHeight
+                else PixelWidth
+            end as width,
+            case
+                when Orientation in (6, 8) then PixelWidth
+                else PixelHeight
+            end as height
         from raw_photos
     """,
         replace=True,

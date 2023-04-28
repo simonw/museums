@@ -3074,3 +3074,31 @@
     publication: FOX 13
     author: FOX 13 News
     date: 2022-07-24
+-
+  id: 112
+  name: Museum of Clean
+  url: https://museumofclean.com/
+  wikipedia_url: https://en.wikipedia.org/wiki/Don_Aslett#Museum_of_Clean
+  address: 711 S 2nd Ave, Pocatello, ID 83201
+  latitude: 42.8596
+  longitude: -112.4417
+  description: |-
+    The Museum of Clean houses exhibits on historic cleaning techniques & tools. Its collection includes
+    over 6,000 artifacts related to cleaning such as brooms, mops, early washing machines, and a
+    horse-drawn vacuum cleaner. The museum was opened by cleaning expert and entrepreneur, Don Aslett.
+  press:
+  - url: https://www.cbsnews.com/news/a-museum-devoted-to-cleaning/
+    title: A museum devoted to ... cleaning
+    publication: CBS News
+    author: Steve Hartman
+    date: 2012-03-09
+  - url: https://www.idahostatejournal.com/news/local/museum-of-clean-acquires-19th-century-dog-powered-washing-machine/article_c8f3e5e8-54db-5b97-92e9-2a48b8dee84c.html
+    title: Museum of Clean acquires 19th-century dog-powered washing machine
+    publication: Idaho State Journal
+    author: Candice Spector
+    date: 2021-12-14
+  - url: https://www.onlyinyourstate.com/idaho/immersive-museum-experience-id/
+    title: Enjoy An Immersive Experience At The One-Of-A-Kind Museum Of Clean In Idaho
+    publication: Only In Your State
+    author: Courtnie Erickson
+    date: 2022-07-07

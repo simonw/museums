@@ -1476,7 +1476,7 @@ span.permanently-closed {
 }
 .articles {
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 1.5rem;
 }
 .articles .title {
     margin-bottom: 0.5rem;

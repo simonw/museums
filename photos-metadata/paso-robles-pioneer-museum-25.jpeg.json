@@ -1,0 +1,105 @@
+{
+  "ColorModel": "RGB",
+  "Exif": {
+    "ExposureBiasValue": 0,
+    "LensModel": "iPhone 11 Pro back triple camera 4.25mm f/1.8",
+    "SubsecTimeOriginal": "065",
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2002,
+      1505,
+      2213,
+      1324
+    ],
+    "ExifVersion": [
+      2,
+      3,
+      2
+    ],
+    "DateTimeDigitized": "2022:05:05 14:47:21",
+    "SubsecTimeDigitized": "065",
+    "BrightnessValue": 3.64974,
+    "FNumber": 1.8,
+    "OffsetTime": "-07:00",
+    "ExposureProgram": 2,
+    "LensMake": "Apple",
+    "ExposureTime": 0.0166667,
+    "CompositeImage": 2,
+    "DateTimeOriginal": "2022:05:05 14:47:21",
+    "FocalLength": 4.25,
+    "ISOSpeedRatings": [
+      80
+    ],
+    "LensSpecification": [
+      1.54,
+      6,
+      1.8,
+      2.4
+    ],
+    "OffsetTimeDigitized": "-07:00",
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "OffsetTimeOriginal": "-07:00",
+    "Flash": 16,
+    "ShutterSpeedValue": 5.90738,
+    "PixelYDimension": 3024,
+    "WhiteBalance": 0,
+    "ApertureValue": 1.69599,
+    "FocalLenIn35mmFilm": 26
+  },
+  "Orientation": 1,
+  "Depth": 8,
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "3744790",
+  "IPTC": {
+    "DigitalCreationTime": "144721",
+    "DigitalCreationDate": "20220505",
+    "TimeCreated": "144721",
+    "DateCreated": "20220505"
+  },
+  "DPIHeight": 72,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "TileWidth": 512,
+    "Software": "15.4.1",
+    "YResolution": 72,
+    "DateTime": "2022:05:05 14:47:21",
+    "TileLength": 512,
+    "Make": "Apple",
+    "Orientation": 1,
+    "Model": "iPhone 11 Pro",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 44,
+    "Longitude": 120.688,
+    "Latitude": 35.6354,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirection": 77.3844,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 241.47,
+    "DestBearingRef": "T",
+    "DestBearing": 77.3844
+  },
+  "ProfileName": "Display P3"
+}

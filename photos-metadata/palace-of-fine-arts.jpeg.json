@@ -1,0 +1,111 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone XS back dual camera 4.25mm f/1.8",
+    "ExposureBiasValue": 0,
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2013,
+      1511,
+      2217,
+      1330
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "SubsecTimeOriginal": "358",
+    "WhiteBalance": 0,
+    "BrightnessValue": 10.8503,
+    "FNumber": 1.8,
+    "SubsecTimeDigitized": "358",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 1,
+    "ExposureTime": 0.000343053,
+    "DateTimeOriginal": "2019:04:28 12:13:30",
+    "FocalLength": 4.25,
+    "ExposureProgram": 2,
+    "SceneCaptureType": 0,
+    "ISOSpeedRatings": [
+      25
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 3944,
+    "DateTimeDigitized": "2019:04:28 12:13:30",
+    "Flash": 16,
+    "ShutterSpeedValue": 11.5095,
+    "PixelYDimension": 1971,
+    "LensSpecification": [
+      4.25,
+      6,
+      1.8,
+      2.4
+    ],
+    "ApertureValue": 1.69599,
+    "FocalLenIn35mmFilm": 26
+  },
+  "ColorModel": "RGB",
+  "Depth": 8,
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "1721658",
+  "IPTC": {
+    "DigitalCreationTime": "121330",
+    "DigitalCreationDate": "20190428",
+    "TimeCreated": "121330",
+    "DateCreated": "20190428"
+  },
+  "DPIHeight": 72,
+  "PixelHeight": 1971,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "TileWidth": 512,
+    "Software": "Photos 4.0",
+    "YResolution": 72,
+    "DateTime": "2019:04:28 12:13:30",
+    "TileLength": 512,
+    "Make": "Apple",
+    "Model": "iPhone XS",
+    "XResolution": 72
+  },
+  "PixelWidth": 3944,
+  "GPS": {
+    "HPositioningError": 7.80205,
+    "Longitude": 122.447,
+    "Latitude": 37.8035,
+    "Speed": 0.166992,
+    "SpeedRef": "K",
+    "ImgDirection": 224.831,
+    "LatitudeRef": "N",
+    "AltitudeRef": 1,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 0,
+    "DestBearingRef": "T",
+    "DestBearing": 224.831
+  },
+  "ProfileName": "sRGB IEC61966-2.1"
+}

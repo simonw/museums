@@ -1,0 +1,110 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "ExposureBiasValue": 0,
+    "LensModel": "iPhone 8 Plus back dual camera 3.99mm f/1.8",
+    "SubsecTimeOriginal": "870",
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2015,
+      1511,
+      2217,
+      1330
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "WhiteBalance": 0,
+    "SubsecTimeDigitized": "870",
+    "BrightnessValue": 8.20991,
+    "FNumber": 1.8,
+    "ExposureTime": 0.00212766,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 1,
+    "ExposureProgram": 2,
+    "DateTimeOriginal": "2018:09:13 11:40:41",
+    "FocalLength": 3.99,
+    "CustomRendered": 2,
+    "SceneCaptureType": 0,
+    "ISOSpeedRatings": [
+      20
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 3024,
+    "DateTimeDigitized": "2018:09:13 11:40:41",
+    "Flash": 16,
+    "ShutterSpeedValue": 8.87764,
+    "PixelYDimension": 4032,
+    "LensSpecification": [
+      3.99,
+      6.6,
+      1.8,
+      2.8
+    ],
+    "ApertureValue": 1.69599,
+    "FocalLenIn35mmFilm": 28
+  },
+  "Orientation": 1,
+  "ColorModel": "RGB",
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "4082195",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 4032,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "TileWidth": 512,
+    "Software": "Photos 4.0",
+    "YResolution": 72,
+    "DateTime": "2018:09:13 11:40:41",
+    "TileLength": 512,
+    "Make": "Apple",
+    "Orientation": 1,
+    "Model": "iPhone 8 Plus",
+    "XResolution": 72
+  },
+  "PixelWidth": 3024,
+  "GPS": {
+    "HPositioningError": 6,
+    "Longitude": 4.67591,
+    "Latitude": 51.2007,
+    "Speed": 0.0302909,
+    "SpeedRef": "K",
+    "ImgDirectionRef": "T",
+    "ImgDirection": 115.197,
+    "LongitudeRef": "W",
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "DateStamp": "2018:09:13",
+    "Altitude": 62,
+    "TimeStamp": "10:40:40",
+    "DestBearingRef": "T",
+    "DestBearing": 115.197
+  },
+  "ProfileName": "sRGB IEC61966-2.1"
+}

@@ -1,0 +1,165 @@
+{
+  "ColorModel": "RGB",
+  "Exif": {
+    "SerialNumber": "1080389978",
+    "FocalPlaneXResolution": 4865.6,
+    "WhiteBalance": 1,
+    "AFInfo": [
+      0.222729,
+      0.473139,
+      0.0269195,
+      0.0537219,
+      "s",
+      0.328769,
+      0.58585,
+      0.0269195,
+      0.0537219,
+      "s",
+      0.328769,
+      0.360428,
+      0.0269195,
+      0.0537219,
+      "s",
+      0.481039,
+      0.693294,
+      0.0379213,
+      0.036868,
+      "F",
+      0.476592,
+      0.465063,
+      0.0468165,
+      0.0698736,
+      "s",
+      0.481039,
+      0.269838,
+      0.0379213,
+      0.036868,
+      "s",
+      0.644312,
+      0.58585,
+      0.0269195,
+      0.0537219,
+      "s",
+      0.644312,
+      0.360428,
+      0.0269195,
+      0.0537219,
+      "s",
+      0.750351,
+      0.473139,
+      0.0269195,
+      0.0537219,
+      "s"
+    ],
+    "ExposureProgram": 2,
+    "FlashCompensation": 0,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "SubsecTimeDigitized": "75",
+    "ExposureTime": 0.00625,
+    "DateTimeOriginal": "2014:09:18 03:07:38",
+    "FocalLength": 100,
+    "SubsecTimeOriginal": "75",
+    "FocusMode": 1,
+    "MaxApertureValue": 2.82843,
+    "PixelXDimension": 4272,
+    "ImageStabilization": 3,
+    "DateTimeDigitized": "2014:09:18 03:07:38",
+    "LensModel": "Canon EF 100mm f/2.8 Macro",
+    "LensID": 190,
+    "ExposureMode": 0,
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "ISOSpeedRatings": [
+      400
+    ],
+    "ColorSpace": 1,
+    "CustomRendered": 0,
+    "FNumber": 3.5,
+    "SceneCaptureType": 0,
+    "Firmware": "Firmware Version 1.0.9",
+    "FocalPlaneResolutionUnit": 2,
+    "ShutterSpeedValue": 7.375,
+    "ExposureBiasValue": -0.666667,
+    "MeteringMode": 3,
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "Flash": 16,
+    "LensInfo": [
+      100,
+      100,
+      0,
+      0
+    ],
+    "PixelYDimension": 2848,
+    "SubsecTime": "75",
+    "ApertureValue": 3.625,
+    "FocalPlaneYResolution": 4876.71
+  },
+  "Orientation": 1,
+  "Content-Type": "image/jpeg",
+  "DPIWidth": 72,
+  "PictureStyle": {
+    "Monochrome": [
+      "0",
+      0,
+      0
+    ],
+    "ColorTone": [
+      "0",
+      0,
+      0
+    ],
+    "SharpnessFreq": [
+      "0",
+      0,
+      0
+    ],
+    "PictureStyle": [
+      "4095",
+      4095,
+      4095
+    ],
+    "PictStyleColorSpace": [
+      "sRGB",
+      1,
+      1
+    ]
+  },
+  "Output": {},
+  "Content-Length": "4384160",
+  "Depth": 8,
+  "MakerCanon": {
+    "LensModel": "EF100mm f/2.8 Macro USM",
+    "FocusDistanceLower": 1.8,
+    "FocusDistanceUpper": 2.31,
+    "CameraTemperatur": 26,
+    "MaxAperture": 2.82843,
+    "MinAperture": 32,
+    "WhiteBalanceIndex": 2,
+    "ContinuousDrive": 0,
+    "UniqueModelID": 2147480000.0
+  },
+  "DPIHeight": 72,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2014:09:18 03:07:38",
+    "Orientation": 1,
+    "YResolution": 72,
+    "XResolution": 72,
+    "Model": "Canon EOS 450D",
+    "Make": "Canon"
+  },
+  "PixelWidth": 4272,
+  "PixelHeight": 2848,
+  "ProfileName": "sRGB IEC61966-2.1"
+}

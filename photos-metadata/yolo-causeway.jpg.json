@@ -1,0 +1,95 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone 8 Plus back dual camera 6.6mm f/2.8",
+    "ExposureBiasValue": 0,
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2011,
+      1511,
+      2217,
+      1330
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "SubsecTimeOriginal": "984",
+    "WhiteBalance": 0,
+    "BrightnessValue": 8.1933,
+    "FNumber": 2.8,
+    "SubsecTimeDigitized": "984",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 65535,
+    "ExposureTime": 0.00609756,
+    "DateTimeOriginal": "2018:07:21 20:17:16",
+    "FocalLength": 6.6,
+    "ExposureProgram": 2,
+    "SceneCaptureType": 0,
+    "ISOSpeedRatings": [
+      20
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "DateTimeDigitized": "2018:07:21 20:17:16",
+    "Flash": 16,
+    "ShutterSpeedValue": 7.35508,
+    "PixelYDimension": 3024,
+    "LensSpecification": [
+      3.99,
+      6.6,
+      1.8,
+      2.8
+    ],
+    "ApertureValue": 2.97085,
+    "FocalLenIn35mmFilm": 57
+  },
+  "Orientation": 3,
+  "ColorModel": "RGB",
+  "Content-Type": "image/jpeg",
+  "Output": {},
+  "DPIWidth": 72,
+  "Content-Length": "1923609",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2018:07:21 20:17:16",
+    "Orientation": 3,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "11.4.1",
+    "Model": "iPhone 8 Plus",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 4,
+    "Longitude": 121.587,
+    "Latitude": 38.5722,
+    "Speed": 0.0404415,
+    "SpeedRef": "K",
+    "ImgDirection": 274.542,
+    "LatitudeRef": "N",
+    "AltitudeRef": 1,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 1.19222,
+    "DestBearingRef": "T",
+    "DestBearing": 274.542
+  },
+  "ProfileName": "Display P3"
+}

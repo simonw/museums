@@ -1,0 +1,113 @@
+{
+  "Exif": {
+    "Regions": {
+      "HeightAppliedTo": 3024,
+      "RegionList": [
+        {
+          "AngleInfoRoll": 180,
+          "Type": "Face",
+          "FaceID": 2,
+          "Timestamp": 2147480000.0,
+          "X": 0.486,
+          "Width": 0.142,
+          "ConfidenceLevel": 271,
+          "Y": 0.487,
+          "Height": 0.19,
+          "AngleInfoYaw": 0
+        }
+      ],
+      "WidthAppliedTo": 4032
+    },
+    "FocalLenIn35mmFilm": 57,
+    "LensModel": "iPhone 8 Plus back dual camera 6.6mm f/2.8",
+    "WhiteBalance": 0,
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      1871,
+      1434,
+      745,
+      746
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "LensSpecification": [
+      3.99,
+      6.6,
+      1.8,
+      2.8
+    ],
+    "PixelYDimension": 3024,
+    "BrightnessValue": 1.69404,
+    "FNumber": 2.8,
+    "ExposureProgram": 2,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 65535,
+    "Flash": 16,
+    "DateTimeOriginal": "2018:05:30 10:36:59",
+    "FocalLength": 6.6,
+    "ExposureTime": 0.0166667,
+    "SubsecTimeOriginal": "961",
+    "ISOSpeedRatings": [
+      640
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "SceneCaptureType": 0,
+    "ExposureBiasValue": 0,
+    "ShutterSpeedValue": 5.90712,
+    "DateTimeDigitized": "2018:05:30 10:36:59",
+    "SubsecTimeDigitized": "961",
+    "ApertureValue": 2.97085,
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  "Orientation": 3,
+  "ColorModel": "RGB",
+  "DPIHeight": 72,
+  "Content-Type": "image/jpeg",
+  "Output": {},
+  "DPIWidth": 72,
+  "Content-Length": "2923128",
+  "Depth": 8,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2018:05:30 10:36:59",
+    "Orientation": 3,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "11.3.1",
+    "Model": "iPhone 8 Plus",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 65,
+    "Longitude": 122.078,
+    "Latitude": 38.2386,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirection": 163.098,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 6.20089,
+    "DestBearingRef": "T",
+    "DestBearing": 163.098
+  },
+  "ProfileName": "Display P3"
+}

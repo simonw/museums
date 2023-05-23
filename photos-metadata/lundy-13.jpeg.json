@@ -1,0 +1,108 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone 8 Plus back dual camera 6.6mm f/2.8",
+    "MeteringMode": 3,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      5849,
+      1572,
+      1507,
+      1512
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "ExposureBiasValue": 0,
+    "SubsecTimeOriginal": "420",
+    "BrightnessValue": 8.82056,
+    "FNumber": 2.8,
+    "WhiteBalance": 0,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ExposureTime": 0.00377358,
+    "SubsecTimeDigitized": "420",
+    "DateTimeOriginal": "2018:09:12 18:19:53",
+    "FocalLength": 6.6,
+    "ExposureProgram": 2,
+    "SceneCaptureType": 0,
+    "ISOSpeedRatings": [
+      20
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "DateTimeDigitized": "2018:09:12 18:19:53",
+    "Flash": 16,
+    "ShutterSpeedValue": 8.05007,
+    "PixelYDimension": 3024,
+    "LensSpecification": [
+      3.99,
+      6.6,
+      1.8,
+      2.8
+    ],
+    "ApertureValue": 2.97085,
+    "FocalLenIn35mmFilm": 57
+  },
+  "Orientation": 1,
+  "ColorModel": "RGB",
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "4619315",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "TileWidth": 512,
+    "Software": "Photos 4.0",
+    "YResolution": 72,
+    "DateTime": "2018:09:12 18:19:53",
+    "TileLength": 512,
+    "Make": "Apple",
+    "Orientation": 1,
+    "Model": "iPhone 8 Plus",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 16,
+    "Longitude": 4.67311,
+    "Latitude": 51.1792,
+    "Speed": 0.00162844,
+    "SpeedRef": "K",
+    "ImgDirectionRef": "T",
+    "ImgDirection": 338.989,
+    "LongitudeRef": "W",
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "DateStamp": "2018:09:12",
+    "Altitude": 103,
+    "TimeStamp": "17:19:53",
+    "DestBearingRef": "T",
+    "DestBearing": 338.989
+  },
+  "ProfileName": "Apple Wide Color Sharing Profile"
+}

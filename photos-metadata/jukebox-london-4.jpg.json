@@ -1,0 +1,101 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone 5s back camera 4.12mm f/2.2",
+    "FocalLenIn35mmFilm": 30,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      1631,
+      1223,
+      1795,
+      1077
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "MeteringMode": 5,
+    "SubsecTimeOriginal": "622",
+    "BrightnessValue": 1.40064,
+    "FNumber": 2.2,
+    "DateTimeDigitized": "2013:11:24 14:20:02",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 1,
+    "SubsecTimeDigitized": "622",
+    "DateTimeOriginal": "2013:11:24 14:20:02",
+    "FocalLength": 4.12,
+    "ExposureTime": 0.0333333,
+    "SceneCaptureType": 0,
+    "ExposureProgram": 2,
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 2448,
+    "ISOSpeedRatings": [
+      200
+    ],
+    "Flash": 0,
+    "ShutterSpeedValue": 4.90712,
+    "PixelYDimension": 3264,
+    "WhiteBalance": 0,
+    "ApertureValue": 2.27501,
+    "LensSpecification": [
+      4.12,
+      4.12,
+      2.2,
+      2.2
+    ]
+  },
+  "Orientation": 1,
+  "ColorModel": "RGB",
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 1,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 1
+  },
+  "DPIWidth": 72,
+  "Content-Length": "2112183",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 3264,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2013:11:24 14:20:02",
+    "Orientation": 1,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "7.0.4",
+    "Model": "iPhone 5s",
+    "XResolution": 72
+  },
+  "PixelWidth": 2448,
+  "GPS": {
+    "Longitude": 0.102961,
+    "Latitude": 51.5326,
+    "DateStamp": "2013:11:24",
+    "ImgDirection": 71.4703,
+    "Altitude": 28.2736,
+    "AltitudeRef": 0,
+    "LatitudeRef": "N",
+    "TimeStamp": "14:20:02",
+    "LongitudeRef": "W",
+    "ImgDirectionRef": "T"
+  },
+  "ProfileName": "sRGB IEC61966-2.1"
+}

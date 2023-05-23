@@ -1,0 +1,68 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "WhiteBalance": 0,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      693,
+      680,
+      610,
+      612
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "BrightnessValue": 0.366338,
+    "FNumber": 2.4,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "ColorSpace": 1,
+    "DateTimeOriginal": "2013:11:10 16:33:08",
+    "FocalLength": 4.28,
+    "MeteringMode": 3,
+    "SceneCaptureType": 0,
+    "FocalLenIn35mmFilm": 35,
+    "ExposureMode": 0,
+    "ExposureTime": 0.05,
+    "PixelXDimension": 3264,
+    "ExposureProgram": 2,
+    "Flash": 16,
+    "ShutterSpeedValue": 4.32193,
+    "PixelYDimension": 2448,
+    "ISOSpeedRatings": [
+      320
+    ],
+    "ApertureValue": 2.52607,
+    "DateTimeDigitized": "2013:11:10 16:33:08"
+  },
+  "Orientation": 1,
+  "Content-Type": "image/jpeg",
+  "Output": {},
+  "DPIWidth": 72,
+  "Content-Length": "2560786",
+  "Depth": 8,
+  "ColorModel": "RGB",
+  "PixelHeight": 2448,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2013:11:10 16:33:08",
+    "Orientation": 1,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "6.1.3",
+    "Model": "iPhone 4S",
+    "XResolution": 72
+  },
+  "PixelWidth": 3264,
+  "DPIHeight": 72,
+  "ProfileName": "sRGB IEC61966-2.1"
+}

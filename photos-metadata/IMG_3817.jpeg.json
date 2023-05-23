@@ -1,0 +1,91 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone 8 Plus back dual camera 3.99mm f/1.8",
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2015,
+      1511,
+      2217,
+      1330
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "ExposureBiasValue": 0,
+    "SubsecTimeOriginal": "179",
+    "BrightnessValue": -1.0046,
+    "FNumber": 1.8,
+    "WhiteBalance": 0,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ExposureTime": 0.25,
+    "SubsecTimeDigitized": "179",
+    "DateTimeOriginal": "2018:03:25 16:58:04",
+    "FocalLength": 3.99,
+    "ExposureProgram": 2,
+    "SceneCaptureType": 0,
+    "ISOSpeedRatings": [
+      100
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "DateTimeDigitized": "2018:03:25 16:58:04",
+    "Flash": 16,
+    "ShutterSpeedValue": 2.00043,
+    "PixelYDimension": 3024,
+    "LensSpecification": [
+      3.99,
+      6.6,
+      1.8,
+      2.8
+    ],
+    "ApertureValue": 1.69599,
+    "FocalLenIn35mmFilm": 28
+  },
+  "Orientation": 1,
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "2596489",
+  "Depth": 8,
+  "ColorModel": "RGB",
+  "DPIHeight": 72,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "TileWidth": 512,
+    "Software": "Photos 4.0",
+    "YResolution": 72,
+    "DateTime": "2018:03:25 16:58:04",
+    "TileLength": 512,
+    "Make": "Apple",
+    "Orientation": 1,
+    "Model": "iPhone 8 Plus",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "PixelHeight": 3024,
+  "ProfileName": "Apple Wide Color Sharing Profile"
+}

@@ -1,0 +1,102 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone 6s Plus back camera 4.15mm f/2.2",
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2015,
+      1511,
+      2217,
+      1330
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "ExposureBiasValue": 0,
+    "SubsecTimeOriginal": "431",
+    "BrightnessValue": -0.24031,
+    "FNumber": 2.2,
+    "WhiteBalance": 0,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ExposureTime": 0.25,
+    "SubsecTimeDigitized": "431",
+    "DateTimeOriginal": "2016:09:13 13:02:16",
+    "FocalLength": 4.15,
+    "ExposureProgram": 2,
+    "SceneCaptureType": 0,
+    "ISOSpeedRatings": [
+      50
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 3454,
+    "DateTimeDigitized": "2016:09:13 13:02:16",
+    "Flash": 16,
+    "ShutterSpeedValue": 2.00006,
+    "PixelYDimension": 2902,
+    "LensSpecification": [
+      4.15,
+      4.15,
+      2.2,
+      2.2
+    ],
+    "ApertureValue": 2.27501,
+    "FocalLenIn35mmFilm": 29
+  },
+  "ColorModel": "RGB",
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "2138740",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 2902,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2016:09:13 13:02:16",
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "9.3.5",
+    "Model": "iPhone 6s Plus",
+    "XResolution": 72
+  },
+  "PixelWidth": 3454,
+  "GPS": {
+    "HPositioningError": 65,
+    "Longitude": 122.438,
+    "Latitude": 37.7727,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirection": 61.3538,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 52.5573,
+    "DestBearingRef": "T",
+    "DestBearing": 61.3538
+  },
+  "ProfileName": "Display P3"
+}

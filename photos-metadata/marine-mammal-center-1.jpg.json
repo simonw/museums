@@ -1,0 +1,108 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone XS back dual camera 6mm f/2.4",
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2011,
+      1511,
+      2323,
+      1393
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "ExposureBiasValue": 0,
+    "SubsecTimeOriginal": "174",
+    "BrightnessValue": 2.21124,
+    "FNumber": 2.4,
+    "WhiteBalance": 0,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ExposureTime": 0.0166667,
+    "SubsecTimeDigitized": "174",
+    "DateTimeOriginal": "2019:04:20 12:16:15",
+    "FocalLength": 6,
+    "ExposureProgram": 2,
+    "SceneCaptureType": 0,
+    "ISOSpeedRatings": [
+      250
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "DateTimeDigitized": "2019:04:20 12:16:15",
+    "Flash": 16,
+    "ShutterSpeedValue": 5.91668,
+    "PixelYDimension": 3024,
+    "LensSpecification": [
+      4.25,
+      6,
+      1.8,
+      2.4
+    ],
+    "ApertureValue": 2.52607,
+    "FocalLenIn35mmFilm": 52
+  },
+  "Orientation": 1,
+  "ColorModel": "RGB",
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "2619747",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "TileWidth": 512,
+    "Software": "Photos 4.0",
+    "YResolution": 72,
+    "DateTime": "2019:04:20 12:16:15",
+    "TileLength": 512,
+    "Make": "Apple",
+    "Orientation": 1,
+    "Model": "iPhone XS",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 65,
+    "Longitude": 122.532,
+    "Latitude": 37.8349,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirectionRef": "T",
+    "ImgDirection": 159.754,
+    "LongitudeRef": "W",
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "DateStamp": "2019:04:20",
+    "Altitude": 50,
+    "TimeStamp": "19:16:12",
+    "DestBearingRef": "T",
+    "DestBearing": 159.754
+  },
+  "ProfileName": "Apple Wide Color Sharing Profile"
+}

@@ -1,0 +1,104 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone XS back dual camera 4.25mm f/1.8",
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      585,
+      1623,
+      375,
+      376
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "ExposureBiasValue": 0,
+    "SubsecTimeOriginal": "562",
+    "BrightnessValue": 2.38637,
+    "FNumber": 1.8,
+    "WhiteBalance": 0,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ExposureTime": 0.0166667,
+    "SubsecTimeDigitized": "562",
+    "DateTimeOriginal": "2018:09:28 14:51:49",
+    "FocalLength": 4.25,
+    "ExposureProgram": 2,
+    "SceneCaptureType": 0,
+    "ISOSpeedRatings": [
+      200
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "DateTimeDigitized": "2018:09:28 14:51:49",
+    "Flash": 16,
+    "ShutterSpeedValue": 5.90773,
+    "PixelYDimension": 2151,
+    "LensSpecification": [
+      4.25,
+      6,
+      1.8,
+      2.4
+    ],
+    "ApertureValue": 1.69599,
+    "FocalLenIn35mmFilm": 26
+  },
+  "ColorModel": "RGB",
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "2303316",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 2151,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "TileWidth": 512,
+    "Software": "12.0",
+    "YResolution": 72,
+    "DateTime": "2018:09:28 14:51:49",
+    "TileLength": 512,
+    "Make": "Apple",
+    "Model": "iPhone XS",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 65,
+    "Longitude": 122.423,
+    "Latitude": 37.776,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirection": 230.268,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 23.731,
+    "DestBearingRef": "T",
+    "DestBearing": 230.268
+  },
+  "ProfileName": "Display P3"
+}

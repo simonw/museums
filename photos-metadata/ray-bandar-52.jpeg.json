@@ -1,0 +1,100 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone 8 Plus back camera 3.99mm f/1.8",
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "ExposureBiasValue": 0,
+    "FocalLenIn35mmFilm": 28,
+    "BrightnessValue": 0.100747,
+    "FNumber": 1.8,
+    "SubsecTimeOriginal": "909",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 65535,
+    "SubsecTimeDigitized": "909",
+    "DateTimeOriginal": "2018:02:20 15:18:32",
+    "FocalLength": 3.99,
+    "DateTimeDigitized": "2018:02:20 15:18:32",
+    "SceneCaptureType": 0,
+    "ExposureTime": 0.00833333,
+    "CustomRendered": 6,
+    "SceneType": 1,
+    "PixelXDimension": 7474,
+    "ISOSpeedRatings": [
+      640
+    ],
+    "Flash": 0,
+    "ShutterSpeedValue": 6.90903,
+    "PixelYDimension": 3936,
+    "WhiteBalance": 0,
+    "ApertureValue": 1.69599,
+    "LensSpecification": [
+      3.99,
+      3.99,
+      1.8,
+      1.8
+    ]
+  },
+  "Orientation": 1,
+  "ColorModel": "RGB",
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 1,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      2
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "7471223",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 3936,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2018:02:20 15:18:32",
+    "Orientation": 1,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "Photos 4.0",
+    "Model": "iPhone 8 Plus",
+    "XResolution": 72
+  },
+  "PixelWidth": 7474,
+  "GPS": {
+    "HPositioningError": 65,
+    "Longitude": 122.449,
+    "Latitude": 37.7423,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirectionRef": "T",
+    "ImgDirection": 0.206055,
+    "LongitudeRef": "W",
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "DateStamp": "2018:02:20",
+    "Altitude": 165,
+    "TimeStamp": "23:18:23",
+    "DestBearingRef": "T",
+    "DestBearing": 0.206055
+  },
+  "ProfileName": "Display P3"
+}

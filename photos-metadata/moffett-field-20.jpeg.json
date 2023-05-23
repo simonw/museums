@@ -1,0 +1,141 @@
+{
+  "ColorModel": "RGB",
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "MeteringMode": 5,
+    "SubjectArea": [
+      3132,
+      2515,
+      181,
+      181
+    ],
+    "OffsetTime": "-07:00",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "SubsecTimeDigitized": "341",
+    "ExposureTime": 0.025,
+    "DateTimeOriginal": "2022:04:06 13:19:58",
+    "FocalLength": 5.7,
+    "SubsecTimeOriginal": "341",
+    "OffsetTimeDigitized": "-07:00",
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "OffsetTimeOriginal": "-07:00",
+    "ExposureBiasValue": 0,
+    "DateTimeDigitized": "2022:04:06 13:19:58",
+    "Regions": {
+      "HeightAppliedTo": 3024,
+      "RegionList": [
+        {
+          "AngleInfoRoll": 177,
+          "Type": "Face",
+          "FaceID": 20,
+          "AngleInfoYaw": 30,
+          "X": 0.775524,
+          "Width": 0.0419048,
+          "ConfidenceLevel": 1,
+          "Y": 0.844,
+          "Height": 0.056
+        },
+        {
+          "AngleInfoRoll": 141,
+          "Type": "Face",
+          "FaceID": 5,
+          "AngleInfoYaw": 336,
+          "X": 0.148524,
+          "Width": 0.030381,
+          "ConfidenceLevel": 1,
+          "Y": 0.85,
+          "Height": 0.04
+        },
+        {
+          "AngleInfoRoll": 180,
+          "Type": "Face",
+          "FaceID": 2,
+          "AngleInfoYaw": 34,
+          "X": 0.645619,
+          "Width": 0.0377143,
+          "ConfidenceLevel": 328,
+          "Y": 0.904,
+          "Height": 0.05
+        }
+      ],
+      "WidthAppliedTo": 4224
+    },
+    "LensModel": "iPhone 13 Pro Max back triple camera 5.7mm f/1.5",
+    "SensingMethod": 2,
+    "ExposureMode": 0,
+    "ExifVersion": [
+      2,
+      3,
+      2
+    ],
+    "BrightnessValue": -0.133167,
+    "FNumber": 1.5,
+    "LensMake": "Apple",
+    "ColorSpace": 65535,
+    "CompositeImage": 2,
+    "SceneCaptureType": 0,
+    "LensSpecification": [
+      1.57,
+      9,
+      1.5,
+      2.8
+    ],
+    "WhiteBalance": 0,
+    "ISOSpeedRatings": [
+      500
+    ],
+    "Flash": 16,
+    "ShutterSpeedValue": 5.32175,
+    "PixelYDimension": 3024,
+    "ExposureProgram": 2,
+    "ApertureValue": 1.16993,
+    "FocalLenIn35mmFilm": 26
+  },
+  "Orientation": 3,
+  "PrimaryImage": true,
+  "DPIHeight": 72,
+  "Content-Type": "image/jpeg",
+  "Output": {},
+  "DPIWidth": 72,
+  "Content-Length": "3733575",
+  "Depth": 8,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "TileWidth": 512,
+    "Software": "15.3.1",
+    "YResolution": 72,
+    "DateTime": "2022:04:06 13:19:58",
+    "TileLength": 512,
+    "Make": "Apple",
+    "Orientation": 3,
+    "Model": "iPhone 13 Pro Max",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 46,
+    "Longitude": 122.054,
+    "Latitude": 37.4113,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirection": 293.42,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 9.25206,
+    "DestBearingRef": "T",
+    "DestBearing": 293.42
+  },
+  "ProfileName": "Display P3"
+}

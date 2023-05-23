@@ -1,0 +1,138 @@
+{
+  "ColorModel": "RGB",
+  "Exif": {
+    "Regions": {
+      "HeightAppliedTo": 3168,
+      "RegionList": [
+        {
+          "AngleInfoRoll": 150,
+          "Type": "Face",
+          "FaceID": 2,
+          "Timestamp": 2147480000.0,
+          "X": 0.155333,
+          "Width": 0.121524,
+          "ConfidenceLevel": 829,
+          "Y": 0.490048,
+          "Height": 0.162381,
+          "AngleInfoYaw": 270
+        },
+        {
+          "AngleInfoRoll": 180,
+          "Type": "Face",
+          "FaceID": 1,
+          "Timestamp": 2147480000.0,
+          "X": 0.445524,
+          "Width": 0.0921905,
+          "ConfidenceLevel": 844,
+          "Y": 0.690143,
+          "Height": 0.122571,
+          "AngleInfoYaw": 45
+        }
+      ],
+      "WidthAppliedTo": 4224
+    },
+    "LensModel": "iPhone XS back dual camera 4.25mm f/1.8",
+    "FocalLenIn35mmFilm": 26,
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      621,
+      1477,
+      481,
+      484
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "WhiteBalance": 0,
+    "LensSpecification": [
+      4.25,
+      6,
+      1.8,
+      2.4
+    ],
+    "BrightnessValue": 1.36088,
+    "FNumber": 1.8,
+    "PixelYDimension": 3024,
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "SubsecTimeDigitized": "329",
+    "ExposureTime": 0.0166667,
+    "SceneCaptureType": 0,
+    "DateTimeOriginal": "2019:09:15 13:34:29",
+    "FocalLength": 4.25,
+    "Flash": 16,
+    "SubsecTimeOriginal": "329",
+    "ExposureProgram": 2,
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "ISOSpeedRatings": [
+      400
+    ],
+    "ExposureBiasValue": 0,
+    "ShutterSpeedValue": 5.90773,
+    "DateTimeDigitized": "2019:09:15 13:34:29",
+    "LensMake": "Apple",
+    "ApertureValue": 1.69599,
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  "Orientation": 1,
+  "DPIHeight": 72,
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "2863917",
+  "Depth": 8,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "TileWidth": 512,
+    "Software": "Photos 4.0",
+    "YResolution": 72,
+    "DateTime": "2019:09:15 13:34:29",
+    "TileLength": 512,
+    "Make": "Apple",
+    "Orientation": 1,
+    "Model": "iPhone XS",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 65,
+    "Longitude": 90.067,
+    "Latitude": 29.9548,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirectionRef": "T",
+    "ImgDirection": 45.5416,
+    "LongitudeRef": "W",
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "DateStamp": "2019:09:15",
+    "Altitude": 0,
+    "TimeStamp": "18:34:29",
+    "DestBearingRef": "T",
+    "DestBearing": 45.5416
+  },
+  "ProfileName": "Apple Wide Color Sharing Profile"
+}

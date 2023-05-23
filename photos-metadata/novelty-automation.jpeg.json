@@ -1,0 +1,97 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone 6s back camera 4.15mm f/2.2",
+    "ExposureBiasValue": 0,
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2015,
+      1511,
+      2217,
+      1330
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "SubsecTimeOriginal": "792",
+    "WhiteBalance": 0,
+    "BrightnessValue": 1.21868,
+    "FNumber": 2.2,
+    "SubsecTimeDigitized": "792",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 1,
+    "ExposureTime": 0.05,
+    "DateTimeOriginal": "2015:12:18 13:39:58",
+    "FocalLength": 4.15,
+    "ExposureProgram": 2,
+    "SceneCaptureType": 0,
+    "ISOSpeedRatings": [
+      200
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "DateTimeDigitized": "2015:12:18 13:39:58",
+    "Flash": 16,
+    "ShutterSpeedValue": 4.32201,
+    "PixelYDimension": 3024,
+    "LensSpecification": [
+      4.15,
+      4.15,
+      2.2,
+      2.2
+    ],
+    "ApertureValue": 2.27501,
+    "FocalLenIn35mmFilm": 29
+  },
+  "Orientation": 3,
+  "ColorModel": "RGB",
+  "Content-Type": "image/jpeg",
+  "Output": {},
+  "DPIWidth": 72,
+  "Content-Length": "2073560",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2015:12:18 13:39:58",
+    "Orientation": 3,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "9.2",
+    "Model": "iPhone 6s",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 65,
+    "Longitude": 0.116892,
+    "Latitude": 51.52,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirectionRef": "T",
+    "ImgDirection": 261.507,
+    "LongitudeRef": "W",
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "DateStamp": "2015:12:18",
+    "Altitude": 24.0975,
+    "TimeStamp": "13:39:54",
+    "DestBearingRef": "T",
+    "DestBearing": 261.507
+  },
+  "ProfileName": "sRGB IEC61966-2.1"
+}

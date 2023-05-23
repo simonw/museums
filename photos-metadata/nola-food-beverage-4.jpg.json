@@ -1,0 +1,109 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone XS back dual camera 6mm f/2.4",
+    "ExposureBiasValue": 0,
+    "MeteringMode": 3,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      498,
+      2641,
+      751,
+      753
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "SubsecTimeOriginal": "992",
+    "WhiteBalance": 0,
+    "BrightnessValue": 1.47975,
+    "FNumber": 2.4,
+    "SubsecTimeDigitized": "992",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 1,
+    "ExposureTime": 0.025,
+    "DateTimeOriginal": "2019:09:14 11:36:00",
+    "FocalLength": 6,
+    "ExposureProgram": 2,
+    "SceneCaptureType": 0,
+    "ISOSpeedRatings": [
+      400
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "DateTimeDigitized": "2019:09:14 11:36:00",
+    "Flash": 16,
+    "ShutterSpeedValue": 5.32204,
+    "PixelYDimension": 3024,
+    "LensSpecification": [
+      4.25,
+      6,
+      1.8,
+      2.4
+    ],
+    "ApertureValue": 2.52607,
+    "FocalLenIn35mmFilm": 52
+  },
+  "Orientation": 1,
+  "ColorModel": "RGB",
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "2451891",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "TileWidth": 512,
+    "Software": "Photos 4.0",
+    "YResolution": 72,
+    "DateTime": "2019:09:14 11:36:00",
+    "TileLength": 512,
+    "Make": "Apple",
+    "Orientation": 1,
+    "Model": "iPhone XS",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 49.2108,
+    "Longitude": 90.0793,
+    "Latitude": 29.9412,
+    "Speed": 0.556157,
+    "SpeedRef": "K",
+    "ImgDirectionRef": "T",
+    "ImgDirection": 27.027,
+    "LongitudeRef": "W",
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "DateStamp": "2019:09:14",
+    "Altitude": 0,
+    "TimeStamp": "16:35:59",
+    "DestBearingRef": "T",
+    "DestBearing": 27.027
+  },
+  "ProfileName": "sRGB IEC61966-2.1"
+}

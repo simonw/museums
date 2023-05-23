@@ -1,0 +1,111 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone 8 Plus back dual camera 3.99mm f/1.8",
+    "ExposureBiasValue": 0,
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "SubjectArea": [
+      2015,
+      1511,
+      2217,
+      1330
+    ],
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "SubsecTimeOriginal": "129",
+    "WhiteBalance": 0,
+    "BrightnessValue": 1.37507,
+    "FNumber": 1.8,
+    "SubsecTimeDigitized": "129",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 1,
+    "ExposureTime": 0.0588235,
+    "DateTimeOriginal": "2018:09:10 10:45:27",
+    "FocalLength": 3.99,
+    "ExposureProgram": 2,
+    "SceneCaptureType": 0,
+    "ISOSpeedRatings": [
+      80
+    ],
+    "ExposureMode": 0,
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "DateTimeDigitized": "2018:09:10 10:45:27",
+    "Flash": 16,
+    "ShutterSpeedValue": 4.05935,
+    "PixelYDimension": 3024,
+    "LensSpecification": [
+      3.99,
+      6.6,
+      1.8,
+      2.8
+    ],
+    "ApertureValue": 1.69599,
+    "FocalLenIn35mmFilm": 28
+  },
+  "ColorModel": "RGB",
+  "Depth": 8,
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "2595923",
+  "IPTC": {
+    "DigitalCreationTime": "104527",
+    "DigitalCreationDate": "20180910",
+    "TimeCreated": "104527",
+    "DateCreated": "20180910"
+  },
+  "DPIHeight": 72,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "TileWidth": 512,
+    "Software": "Photos 4.0",
+    "YResolution": 72,
+    "DateTime": "2018:09:10 10:45:27",
+    "TileLength": 512,
+    "Make": "Apple",
+    "Model": "iPhone 8 Plus",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 121.796,
+    "Longitude": 4.12359,
+    "Latitude": 51.2102,
+    "Speed": 0,
+    "SpeedRef": "K",
+    "ImgDirection": 60.9577,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 12,
+    "DestBearingRef": "T",
+    "DestBearing": 60.9577
+  },
+  "ProfileName": "sRGB IEC61966-2.1"
+}

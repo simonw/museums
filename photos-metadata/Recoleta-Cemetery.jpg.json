@@ -1,0 +1,104 @@
+{
+  "ColorModel": "RGB",
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "LensModel": "iPhone 8 Plus back camera 3.99mm f/1.8",
+    "MeteringMode": 5,
+    "SensingMethod": 2,
+    "ExifVersion": [
+      2,
+      2,
+      1
+    ],
+    "ExposureBiasValue": 0,
+    "FocalLenIn35mmFilm": 28,
+    "BrightnessValue": 6.8516,
+    "FNumber": 1.8,
+    "SubsecTimeOriginal": "880",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "LensMake": "Apple",
+    "ColorSpace": 65535,
+    "SubsecTimeDigitized": "880",
+    "DateTimeOriginal": "2018:05:13 12:40:35",
+    "FocalLength": 3.99,
+    "DateTimeDigitized": "2018:05:13 12:40:35",
+    "SceneCaptureType": 0,
+    "ExposureTime": 0.00144092,
+    "CustomRendered": 6,
+    "SceneType": 1,
+    "PixelXDimension": 8272,
+    "ISOSpeedRatings": [
+      80
+    ],
+    "Flash": 0,
+    "ShutterSpeedValue": 9.43871,
+    "PixelYDimension": 3744,
+    "WhiteBalance": 0,
+    "ApertureValue": 1.69599,
+    "LensSpecification": [
+      3.99,
+      3.99,
+      1.8,
+      1.8
+    ]
+  },
+  "Orientation": 1,
+  "IPTC": {
+    "DigitalCreationTime": "124035",
+    "DigitalCreationDate": "20180513",
+    "TimeCreated": "124035",
+    "DateCreated": "20180513"
+  },
+  "Output": {},
+  "Content-Type": "image/jpeg",
+  "JFIF": {
+    "DensityUnit": 0,
+    "YDensity": 72,
+    "JFIFVersion": [
+      1,
+      0,
+      1
+    ],
+    "XDensity": 72
+  },
+  "DPIWidth": 72,
+  "Content-Length": "7204386",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "GPS": {
+    "HPositioningError": 6,
+    "Longitude": 58.3922,
+    "Latitude": 34.587,
+    "Speed": 0.196479,
+    "SpeedRef": "K",
+    "ImgDirection": 308.22,
+    "LatitudeRef": "S",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 28.768,
+    "DestBearingRef": "T",
+    "DestBearing": 308.22
+  },
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "DateTime": "2018:05:13 12:40:35",
+    "Orientation": 1,
+    "Make": "Apple",
+    "YResolution": 72,
+    "Software": "11.3",
+    "Model": "iPhone 8 Plus",
+    "XResolution": 72
+  },
+  "PixelWidth": 8272,
+  "PixelHeight": 3744,
+  "ProfileName": "Display P3"
+}

@@ -1,0 +1,104 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "MeteringMode": 5,
+    "SubjectArea": [
+      3666,
+      2908,
+      194,
+      193
+    ],
+    "OffsetTime": "-06:00",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "SubsecTimeDigitized": "041",
+    "ExposureTime": 0.0181818,
+    "DateTimeOriginal": "2023:04:20 14:13:06",
+    "FocalLength": 6.86,
+    "SubsecTimeOriginal": "041",
+    "OffsetTimeDigitized": "-06:00",
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "OffsetTimeOriginal": "-06:00",
+    "ExposureBiasValue": 0,
+    "DateTimeDigitized": "2023:04:20 14:13:06",
+    "Regions": {
+      "HeightAppliedTo": 3024,
+      "RegionList": [
+        {
+          "AngleInfoRoll": 137,
+          "Type": "Face",
+          "FaceID": 186,
+          "AngleInfoYaw": 11,
+          "X": 0.912238,
+          "Width": 0.0492381,
+          "ConfidenceLevel": 1,
+          "Y": 0.963,
+          "Height": 0.066
+        }
+      ],
+      "WidthAppliedTo": 4032
+    },
+    "LensModel": "iPhone 14 Pro Max back triple camera 6.86mm f/1.78",
+    "SensingMethod": 2,
+    "ExposureMode": 0,
+    "ExifVersion": [
+      2,
+      3,
+      2
+    ],
+    "BrightnessValue": 2.52963,
+    "FNumber": 1.78,
+    "LensMake": "Apple",
+    "ColorSpace": 65535,
+    "CompositeImage": 2,
+    "SceneCaptureType": 0,
+    "LensSpecification": [
+      2.22,
+      9,
+      1.78,
+      2.8
+    ],
+    "WhiteBalance": 0,
+    "ISOSpeedRatings": [
+      125
+    ],
+    "Flash": 16,
+    "ShutterSpeedValue": 5.77012,
+    "PixelYDimension": 3024,
+    "ExposureProgram": 2,
+    "ApertureValue": 1.66375,
+    "FocalLenIn35mmFilm": 24
+  },
+  "Orientation": 3,
+  "PrimaryImage": true,
+  "ColorModel": "RGB",
+  "Content-Type": "image/jpeg",
+  "Output": {},
+  "DPIWidth": 72,
+  "Content-Length": "3558635",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "TileWidth": 512,
+    "Software": "16.4.1",
+    "YResolution": 72,
+    "DateTime": "2023:04:20 14:13:06",
+    "TileLength": 512,
+    "Make": "Apple",
+    "Orientation": 3,
+    "Model": "iPhone 14 Pro Max",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "PixelHeight": 3024,
+  "ProfileName": "Display P3"
+}

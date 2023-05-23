@@ -1,0 +1,102 @@
+{
+  "Exif": {
+    "ComponentsConfiguration": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "MeteringMode": 5,
+    "SubjectArea": [
+      2015,
+      1506,
+      2323,
+      1327
+    ],
+    "OffsetTime": "-07:00",
+    "FlashPixVersion": [
+      1,
+      0
+    ],
+    "SubsecTimeDigitized": "153",
+    "ExposureTime": 0.0166667,
+    "DateTimeOriginal": "2022:05:05 14:41:55",
+    "FocalLength": 5.7,
+    "SubsecTimeOriginal": "153",
+    "OffsetTimeDigitized": "-07:00",
+    "SceneType": 1,
+    "PixelXDimension": 4032,
+    "OffsetTimeOriginal": "-07:00",
+    "ExposureBiasValue": 0,
+    "DateTimeDigitized": "2022:05:05 14:41:55",
+    "LensModel": "iPhone 13 Pro Max back triple camera 5.7mm f/1.5",
+    "SensingMethod": 2,
+    "ExposureMode": 0,
+    "ExifVersion": [
+      2,
+      3,
+      2
+    ],
+    "BrightnessValue": 3.22983,
+    "FNumber": 1.5,
+    "LensMake": "Apple",
+    "ColorSpace": 65535,
+    "CompositeImage": 2,
+    "SceneCaptureType": 0,
+    "ExposureProgram": 2,
+    "WhiteBalance": 0,
+    "FocalLenIn35mmFilm": 26,
+    "Flash": 16,
+    "ShutterSpeedValue": 5.90652,
+    "PixelYDimension": 3024,
+    "ISOSpeedRatings": [
+      80
+    ],
+    "ApertureValue": 1.16993,
+    "LensSpecification": [
+      1.57,
+      9,
+      1.5,
+      2.8
+    ]
+  },
+  "Orientation": 6,
+  "PrimaryImage": true,
+  "ColorModel": "RGB",
+  "Content-Type": "image/jpeg",
+  "Output": {},
+  "DPIWidth": 72,
+  "Content-Length": "4111359",
+  "Depth": 8,
+  "DPIHeight": 72,
+  "PixelHeight": 3024,
+  "TIFF": {
+    "ResolutionUnit": 2,
+    "TileWidth": 512,
+    "Software": "15.4.1",
+    "YResolution": 72,
+    "DateTime": "2022:05:05 14:41:55",
+    "TileLength": 512,
+    "Make": "Apple",
+    "Orientation": 6,
+    "Model": "iPhone 13 Pro Max",
+    "XResolution": 72
+  },
+  "PixelWidth": 4032,
+  "GPS": {
+    "HPositioningError": 9.57498,
+    "Longitude": 120.687,
+    "Latitude": 35.6354,
+    "Speed": 0.2,
+    "SpeedRef": "K",
+    "ImgDirection": 101.507,
+    "LatitudeRef": "N",
+    "AltitudeRef": 0,
+    "ImgDirectionRef": "T",
+    "LongitudeRef": "W",
+    "Altitude": 208.028,
+    "DestBearingRef": "T",
+    "DestBearing": 101.507
+  },
+  "ProfileName": "Display P3"
+}

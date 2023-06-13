@@ -1,0 +1,24 @@
+id: 36
+name: Wallace Collection
+url: http://www.wallacecollection.org/
+address: Hertford House, Manchester Square, London, W1U 3BN, UK
+description: Bequeathed to the nation by the widow of the illegitimate son of the 4th Marquess of Hertford in 1897 on the
+  condition that no object should ever leave the collection, even for loan exhibitions. The collection includes a vast array
+  of French 18th century decorative arts purchased during the revolutionary sales following the French revolution. This includes
+  the Laughing Cavalier and a lot of very shiny decorative weapons and armour.
+wikipedia_url: https://en.wikipedia.org/wiki/Wallace_Collection
+photo_url: https://niche-museums.imgix.net/wallace.jpg
+photo_alt: Shiny knights on horses.
+latitude: 51.5173
+longitude: -0.153
+photos:
+  - url: https://niche-museums.imgix.net/wallace-collection-1.jpeg
+  - url: https://niche-museums.imgix.net/wallace-collection-2.jpeg
+  - url: https://niche-museums.imgix.net/wallace-collection-3.jpeg
+  - url: https://niche-museums.imgix.net/wallace-collection-4.jpeg
+  - url: https://niche-museums.imgix.net/wallace-collection-5.jpeg
+  - url: https://niche-museums.imgix.net/wallace-collection-6.jpeg
+  - url: https://niche-museums.imgix.net/wallace-collection-7.jpeg
+  - url: https://niche-museums.imgix.net/wallace-collection-8.jpeg
+  - url: https://niche-museums.imgix.net/wallace-collection-9.jpeg
+  - url: https://niche-museums.imgix.net/wallace-collection-10.jpeg

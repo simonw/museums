@@ -1,0 +1,32 @@
+id: 10
+name: Rosicrucian Egyptian Museum
+url: https://egyptianmuseum.org/
+address: 1660 Park Avenue, San Jose, CA 95126
+wikipedia_url: https://en.wikipedia.org/wiki/Rosicrucian_Egyptian_Museum
+description: 'The Rosicrucians are "a community of mystics who study and practice the metaphysical
+
+  laws governing the universe." Their Egyptian museum hosts the largest collection of
+
+  ancient Egyptian antiquities in the Western United States, mostly collected from
+
+  Egypt in the 1920s.'
+photo_url: https://niche-museums.imgix.net/IMG_0859.jpeg
+photo_alt: The architecture of the museum has an ancient Egyptian flavor
+latitude: 37.3334
+longitude: -121.9231
+hours:
+  Wednesday:
+    - 900
+    - 1700
+  Thursday:
+    - 900
+    - 1700
+  Friday:
+    - 900
+    - 1700
+  Saturday:
+    - 1000
+    - 1800
+  Sunday:
+    - 1000
+    - 1800

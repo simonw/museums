@@ -1,0 +1,17 @@
+id: 8
+name: Jehning Lock Museum
+url: http://www.jehninglockmuseum.com/
+description: Locks, keys, locksmithing tools, safes and more.
+address: 175 Castro Street, Mountain View, CA 94041
+latitude: 37.394
+longitude: -122.0786
+hours:
+  Wednesday:
+    - 1200
+    - 1700
+  Thursday:
+    - 1800
+    - 2000
+  Sunday:
+    - 1000
+    - 1500

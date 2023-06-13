@@ -1,0 +1,20 @@
+id: 3
+name: Burlingame Museum of PEZ Memorabilia
+url: http://www.burlingamepezmuseum.com/
+address: 214 California Drive, Burlingame, CA 94010
+wikipedia_url: https://en.wikipedia.org/wiki/Burlingame_Museum_of_Pez_Memorabilia
+description: 'One of every Pez dispenser ever sold - over 1000 unique dispensers. Also home to a classic toy museum and a
+  banned
+
+  toy museum, including the Atomic Energy Laboratory and Lawn Darts.'
+photo_url: https://niche-museums.imgix.net/IMG_4248.jpeg
+photo_alt: Six antique Pez dispensers on display
+latitude: 37.5793
+longitude: -122.3442
+permanently_closed: true
+press:
+  - url: https://www.sfchronicle.com/bayarea/article/Bay-Area-museum-has-every-Pez-dispenser-model-12181246.php
+    title: 'A paradise of Pez: It’s all in the dispenser at unique museum'
+    publication: San Francisco Chronicle
+    author: Steve Rubenstein
+    date: 2017-09-07

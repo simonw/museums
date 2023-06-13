@@ -1,0 +1,35 @@
+id: 33
+name: California State Capitol Dioramas
+url: http://www.capitolmuseum.ca.gov/
+address: State Capitol, Room B-27, 1315 10th Street, Sacramento, CA 95814
+description: The California State Capitol proudly displays a diorama for every one of California's 58 counties. The dioramas
+  are of varying quality. The process by which they are created and updated over the years is entirely uncoordinated, and
+  appears to be driven by occasional outcries of shame from local county media.
+wikipedia_url: https://en.m.wikipedia.org/wiki/California_State_Capitol_Museum
+photo_url: https://niche-museums.imgix.net/shasta-county-diorama.jpg
+photo_alt: Shasta County diorama
+latitude: 38.5769
+longitude: -121.4931
+press:
+  - url: https://www.montereycountyweekly.com/blogs/arts_culture_blog/every-california-county-is-represented-by-dioramas-in-the-basement/article_0bdace76-9081-11e4-8d80-b7a992357c73.html
+    title: Every California county is represented by dioramas in the basement of the State Capitol building. But how well?
+    publication: Monterey County Weekly
+    author: Walter Ryce
+    date: 2014-12-30
+  - url: https://napavalleyregister.com/news/local/feeling-outclassed-napa-to-upgrade-its-capitol-diorama/article_c7aceb7f-c0d1-58c7-a76b-da55ef95cc7b.html
+    title: Feeling outclassed, Napa to upgrade its Capitol diorama
+    publication: Napa Valley Register
+    author: Barry Eberling
+    date: 2015-12-07
+  - url: https://www.sanluisobispo.com/news/local/news-columns-blogs/joetopia/article39446553.html
+    title: 'The answer to my prayers: a new county diorama in Sacramento'
+    publication: San Luis Obispo Tribune
+    author: Joe Tarica
+    date: 2013-06-08
+photos:
+  - url: https://niche-museums.imgix.net/ca-capitol-dioramas-6.jpeg
+  - url: https://niche-museums.imgix.net/ca-capitol-dioramas-1.jpeg
+  - url: https://niche-museums.imgix.net/ca-capitol-dioramas-2.jpeg
+  - url: https://niche-museums.imgix.net/ca-capitol-dioramas-3.jpeg
+  - url: https://niche-museums.imgix.net/ca-capitol-dioramas-4.jpeg
+  - url: https://niche-museums.imgix.net/ca-capitol-dioramas-5.jpeg

@@ -1,0 +1,23 @@
+id: 42
+name: Arizona Cactus Garden
+url: https://lbre.stanford.edu/bgm/what-we-do/grounds-services/horticulture-and-landscape/points-interest/arizona-garden
+address: Stanford, CA 94305
+description: First planted between 1880 and 1883 for Jane and Leland Stanford, then restored from 1997 onwards. The 30,000
+  square foot garden now features over 500 cacti and succulents, 10-15% of which are historical plants still in their original
+  locations.
+wikipedia_url: https://en.m.wikipedia.org/wiki/Arizona_Cactus_Garden
+photo_url: https://niche-museums.imgix.net/arizona-cactus-garden.jpg
+photo_alt: The cactus garden.
+latitude: 37.4359
+longitude: -122.1711
+press:
+  - url: https://www.paloaltoonline.com/news/2016/06/03/the-secret-garden
+    title: The secret garden
+    publication: Palo Alto Weekly
+    author: Avi Salem
+    date: 2016-06-03
+  - url: https://www.stanforddaily.com/2018/08/22/volunteers-maintain-historic-cactus-garden/
+    title: Volunteers maintain historic cactus garden
+    publication: The Stanford Daily
+    author: Gianella Ordonez
+    date: 2018-08-23

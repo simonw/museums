@@ -1,0 +1,32 @@
+id: 9
+name: The Bay Model
+url: https://www.spn.usace.army.mil/Missions/Recreation/Bay-Model-Visitor-Center/
+description: 'A working hydraulic model of the San Francisco Bay and Sacramento to San Joaquin
+
+  River Delta System, approximately the size of two football fields. Built by the
+
+  U.S. Army Corps of Engineers in the 1950s to study the impact of proposed changes
+
+  to the delta.'
+address: 2100 Bridgeway, Sausalito, CA 94965
+wikipedia_url: https://en.wikipedia.org/wiki/U.S._Army_Corps_of_Engineers_Bay_Model
+photo_url: https://niche-museums.imgix.net/IMG_1799.jpeg
+photo_alt: A portion of the Bay Model
+latitude: 37.8635
+longitude: -122.4948
+hours:
+  Tuesday:
+    - 900
+    - 1600
+  Wednesday:
+    - 900
+    - 1600
+  Thursday:
+    - 900
+    - 1600
+  Friday:
+    - 900
+    - 1600
+  Saturday:
+    - 900
+    - 1600

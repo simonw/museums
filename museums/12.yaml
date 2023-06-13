@@ -1,0 +1,28 @@
+id: 12
+name: The American Bookbinders Museum
+url: https://bookbindersmuseum.org/
+address: 355 Clementina Street, San Francisco, CA 94103
+wikipedia_url: https://en.wikipedia.org/wiki/American_Bookbinders_Museum
+description: 'Showcasing the artistry, history, and craft of bookbinding. The New York Times
+
+  described it as "a small, obsessive collection of machinery and ephemera."'
+photo_url: https://niche-museums.imgix.net/bookbinders.heic
+photo_alt: The outside of the bookbinders museum.
+latitude: 37.7813
+longitude: -122.403
+hours:
+  Tuesday:
+    - 1000
+    - 1600
+  Wednesday:
+    - 1000
+    - 1600
+  Thursday:
+    - 1000
+    - 1600
+  Friday:
+    - 1000
+    - 1600
+  Saturday:
+    - 1000
+    - 1600

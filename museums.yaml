@@ -3087,3 +3087,66 @@
     publication: FOX 13
     author: FOX 13 News
     date: 2022-07-24
+-
+  id: 112
+  name: The Vincent and Ethel Simonetti Historic Tuba Collection
+  url: https://simonettitubacollection.com/
+  photo_url: https://niche-museums.imgix.net/tuba-collection-card.jpeg
+  photo_alt: Over a dozen varied tubas in excellent condition, each with a neat label.
+  address: 1825 Chapel Hill Road, Durham, NC 27707
+  description: |-
+    Vincent Simonetti collected his first historic tuba - a ~1910 Cerveny BB-flat Helicon - in Boston in 1965, while playing tuba on tour with the Moyseev Ballet Company.
+
+    Today the collection has grown to more than 350 tubas, and is now the largest private collection in the world that is dedicated exclusively to members of the tuba family.
+
+    The collection entirely fills five rooms of a bright yellow house in Durham, North Carolina. Tours take around an hour and a half, and Vincent will go deep into the history and mechanics of the tuba family, plus the many stories behind the instruments in the collection.
+
+    The tuba family is defined by its conical shape, as opposed to the cylindrical form of the trumpet and trombone.
+
+    The first tuba to be called a tuba was patented in 1835, and a model still exists in a museum in Berlin. The V & E collection's oldest tuba is from 1845 and is almost identical to that 1835 model.
+
+    The oldest instrument in collection is a serpent from 1830 - still a member of the tuba family, but this one pre-dates the first airtight valve “tuba” by five years. Serpents date back to at least 1563 in France.
+
+    Other collection highlights include representatives from many influential tuba manufacturers such as C.G. Conn, York, and H.N. White, many sousaphones, a [9-keyed ophicleide (keyed serpent) from 1865](https://simonettitubacollection.com/instruments-listed-by-manufacturer/manufacturer-f-k/gautrot/basancon-b-flat-ophicleide/), two double tubas (single instruments with two horns) and [one of only five double-belled alto horns](https://simonettitubacollection.com/instruments-listed-by-manufacturer/manufacturer-a-e/conn/conn-euphoniums/conn-double-belled-e-flat-alto-horn-4-piston-1891/) left in the world.
+
+    The museum can be visited by appointment only (with 24 hours notice) every Tuesday and Thursday from 3pm – 6pm.
+  latitude: 35.989
+  longitude: -78.924
+  photos:
+  - url: https://niche-museums.imgix.net/tuba-collection-1.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-2.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-3.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-4.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-5.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-6.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-7.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-8.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-9.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-10.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-11.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-12.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-13.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-14.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-15.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-16.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-17.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-18.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-19.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-20.jpeg
+  - url: https://niche-museums.imgix.net/tuba-collection-21.jpeg
+  press:
+  - url: https://abc11.com/localish-my-go-to-museum-tubas/5932497/
+    title: "Have You Ever Heard of a Tuba Museum?"
+    publication: ABC11 Localish
+    author: Josh Chapin
+    date: 2020-02-26
+  - url: https://www.wearestorydriven.com/tuba-museum/
+    title: "Timeless Treasure: A Tale of 300 Tubas"
+    publication: StoryDriven
+    author: Marin Herold
+    date: 2018-02-14
+  - url: https://www.charlotteobserver.com/living/article61315977.html
+    title: "Shaffer: Fabulous tuba museum opens in Durham. Womp!"
+    publication: The Charlotte Observer
+    author: Josh Shaffer
+    date: 2016-02-19

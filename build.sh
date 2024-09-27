@@ -2,7 +2,7 @@
 set -euo pipefail
 
 yaml-to-sqlite browse.db museums museums.yaml --pk=id
-python annotate_nominatum.py browse.db
+# python annotate_nominatum.py browse.db
 python annotate_timestamps.py
 python load_photo_metadata.py
 # Ignore errors in following block until set -e:

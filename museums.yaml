@@ -1326,6 +1326,22 @@
   photo_alt: Street lights in the museum.
   latitude: 34.0386
   longitude: -118.2603
+  phptos:
+  - url: https://niche-museums.imgix.net/la-bureau-1.jpeg
+  - url: https://niche-museums.imgix.net/la-bureau-2.jpeg
+  - url: https://niche-museums.imgix.net/la-bureau-3.jpeg
+  - url: https://niche-museums.imgix.net/la-bureau-4.jpeg
+  - url: https://niche-museums.imgix.net/la-bureau-5.jpeg
+  - url: https://niche-museums.imgix.net/la-bureau-6.jpeg
+  - url: https://niche-museums.imgix.net/la-bureau-7.jpeg
+  - url: https://niche-museums.imgix.net/la-bureau-8.jpeg
+  - url: https://niche-museums.imgix.net/la-bureau-9.jpeg
+  - url: https://niche-museums.imgix.net/la-bureau-10.jpeg
+  - url: https://niche-museums.imgix.net/la-bureau-11.jpeg
+  - url: https://niche-museums.imgix.net/la-bureau-12.jpeg
+  - url: https://niche-museums.imgix.net/la-bureau-13.jpeg
+  - url: https://niche-museums.imgix.net/la-bureau-14.jpeg
+  - url: https://niche-museums.imgix.net/la-bureau-15.jpeg
 -
   id: 65
   name: Aye-Aye Island

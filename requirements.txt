@@ -6,6 +6,7 @@ datasette-json-html
 datasette-cluster-map
 datasette-render-markdown
 datasette-atom
+datasette-publish-fly
 requests
 sqlite-utils
 tqdm

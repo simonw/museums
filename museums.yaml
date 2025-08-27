@@ -3172,7 +3172,7 @@
   url: https://www.vam.ac.uk/east/storehouse/visit
   photo_url: https://niche-museums.imgix.net/va-east-storehouse.jpeg
   photo_alt: Three levels of glass walkways through the storehouse, museum exhibits everywhere, the facade of a brutalist residential estate hangs near the middle of the photo.
-  address:
+  address: Parkes Street, Queen Elizabeth Olympic Park, Hackney Wick, London, E20 3AX
   description: |-
     Opened in 2025 as an extension of London's Victoria and Albert museum, the East Storehouse solves dual purpose as both a storage and restoration facility and a space that is open to the public and free to visit.
 
@@ -3223,3 +3223,19 @@
   - url: https://niche-museums.imgix.net/va-east-storehouse-33.jpeg
   - url: https://niche-museums.imgix.net/va-east-storehouse-34.jpeg
   - url: https://niche-museums.imgix.net/va-east-storehouse-35.jpeg
+  press:
+  - url: https://monocle.com/culture/va-london-new-storehouse-photographs/
+    title: "Every object has a story to tell – and V&A London’s new storage facility is designed to serve as a museum"
+    publication: Monocle
+    author: Sophie Monaghan-Coombs
+    date: 2025-05-22
+  - url: https://www.bloomberg.com/news/articles/2025-05-31/london-s-victoria-and-albert-museum-offers-close-encounters-with-history
+    title: "At London's New Design Museum, Visitors Get Hands-On Access"
+    publication: Bloomberg CityLab
+    author: Feargus O'Sullivan
+    date: 2025-05-31
+  - url: https://news.artnet.com/art-world/inside-va-east-storehouse-2651021
+    title: "Inside the V&A East Storehouse, Where the Museum Is the Exhibit"
+    publication: Artnet News
+    author: Vivienne Chow
+    date: 2025-05-30

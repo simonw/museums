@@ -3166,3 +3166,35 @@
     publication: The Charlotte Observer
     author: Josh Shaffer
     date: 2016-02-19
+-
+  id: 113
+  name: V&E East Storehouse
+  url: https://www.vam.ac.uk/east/storehouse/visit
+  photo_url: https://niche-museums.imgix.net/va-east-storehouse.jpeg
+  photo_alt: Three levels of glass walkways through the storehouse, museum exhibits everywhere, the facade of a brutalist residential estate hangs near the middle of the photo.
+  address:
+  description: |-
+    V&A East Storehouse
+
+    Opened in 2025 as an extension of London's Victoria and Albert museum, the East Storehouse solves dual purpose as both a storage and restoration facility and a space that is open to the public and free to visit.
+
+    It's home to over 250,000 items, thousands of which can be seen from the public walkways.
+
+    Entrance to the climate-controlled warehouse is via an airlock-style corridor, after which you are free to explore three floors of stairs and walkways between a bewildering array of different objects - furniture and ceramics and costumes and musical instruments and glassware and so much more.
+
+    The warehouse also feature some show-stopping permanent installations: a two storey façade from   the recently demolished brutalist [Robin Hood Gardens](https://en.wikipedia.org/wiki/Robin_Hood_Gardens) residential estate, an interior office designed in Cleveland by Frank Lloyd Wright, a gorgeous ceiling from 15th century Spain (the Torrijos Ceiling), the Frankfurt Kitchen, the first example of a modern fitted kitchen designed for social housing in Frankfurt by Margarete Schütte-Liho in 1927 and the Agra Colonnade from 17th century India, visible through a glass floor and on display to the public for the first time since the 1950s.
+
+    The Storehouse is very much a working museum building: at various points you can look down on museum staff and preservationists at work and you can catch tantalizing glimpses of more of the collection from the walkways, including an impressive collection of grandfather clocks.
+
+    They plan to rotate most of the publicly visible items every 9-12 months, so this is a museum that will reward further visits.
+  latitude: 51.5462
+  longitude: -0.0211
+  photos:
+  - url: https://niche-museums.imgix.net/va-east-storehouse-1.jpeg
+  - url: https://niche-museums.imgix.net/va-east-storehouse-2.jpeg
+  - url: https://niche-museums.imgix.net/va-east-storehouse-3.jpeg
+  - url: https://niche-museums.imgix.net/va-east-storehouse-4.jpeg
+  - url: https://niche-museums.imgix.net/va-east-storehouse-5.jpeg
+  - url: https://niche-museums.imgix.net/va-east-storehouse-6.jpeg
+  - url: https://niche-museums.imgix.net/va-east-storehouse-7.jpeg
+  - url: https://niche-museums.imgix.net/va-east-storehouse-8.jpeg

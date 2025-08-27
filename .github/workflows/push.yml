@@ -51,12 +51,11 @@ jobs:
     - name: Install Fly
       run: |
         curl -L https://fly.io/install.sh | sh
-    - name: Setup tmate session
-      uses: mxschmitt/action-tmate@v3
     - name: Deploy to Fly
       env:
         FLY_ACCESS_TOKEN: ${{ secrets.FLY_TOKEN }}
       run: |-
+        export PATH=$PATH:/home/runner/.fly/bin
         datasette publish fly browse.db \
           --app niche-museums \
           --metadata metadata.yaml \

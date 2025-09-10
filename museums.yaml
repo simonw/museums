@@ -519,6 +519,10 @@
   photo_alt: Stacks of old magazines
   latitude: 48.8609
   longitude: 2.3428
+  photos:
+  - url: https://niche-museums.imgix.net/la-galcante-1.jpg
+  - url: https://niche-museums.imgix.net/la-galcante-2.jpg
+  - url: https://niche-museums.imgix.net/la-galcante.jpg
   press:
   - url: https://www.christies.com/features/Interview-with-La-Galcante-Documentaliste-Pierre-Aribaud-8035-1.aspx
     title: "Interview: La Galcante’s Documentaliste, Pierre Aribaud - The great paper trail"

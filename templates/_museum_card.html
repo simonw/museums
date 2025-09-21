@@ -21,7 +21,7 @@
             <p>{% if museum.url %}<a href="{{ museum.url }}">Website</a>{% endif %}{% if museum.url and museum.wikipedia_url %} | {% endif %}{% if museum.wikipedia_url %}<a href="{{ museum.wikipedia_url }}">Wikipedia</a>{% endif %}</p>
         {% endif %}
         {% if show_links and (press or photos) %}
-            <a><a href="/{{ museum.id }}{% if photos %}#photos{% else %}#press{% endif %}">{% if photos %}{{ photos|length }} photo{{ pluralize(photos|length) }}{% endif %}{% if photos and press %} and {% endif %}{% if press %}{{ press|length }} link{{ pluralize(press|length) }}{% endif %}</a></p>
+            <p><a href="/{{ museum.id }}{% if photos %}#photos{% else %}#press{% endif %}">{% if photos %}{{ photos|length }} photo{{ pluralize(photos|length) }}{% endif %}{% if photos and press %} and {% endif %}{% if press %}{{ press|length }} link{{ pluralize(press|length) }}{% endif %}</a></p>
         {% endif %}
         <address>{{ museum.address }} - <a href="https://www.google.com/maps/?q={{ museum.latitude }},{{ museum.longitude }}">Map</a></address>
         <p class="added-date">{{ nicer_date(museum.created) }}</p>

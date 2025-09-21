@@ -3285,3 +3285,72 @@
     publication: Radio Vassivière
     author: Nini Villegas
     date: 2025-03-23
+-
+  id: 115
+  name: The Musical Museum
+  url: https://www.musicalmuseum.co.uk/
+  photo_url: https://niche-museums.imgix.net/musical-museum-3.jpeg
+  photo_alt: Two wooden cabinet orchestrions side by side, one has a lot of pipes, one has two visible drums. A green gramophone horn sits between them.
+  address: 399 High St, Brentford TW8 0DU, United Kingdom
+  wikipedia_url: https://en.wikipedia.org/wiki/Musical_Museum,_Brentford
+  description: |-
+    The Musical Museum in Brentford, London was founded by Frank Holland in 1963, initially as the British Piano Museum. Frank was fascinated by self-playing instruments - player pianos, self-playing violins, and [orchestrions](https://en.wikipedia.org/wiki/Orchestrion) which combine multiple instruments in the same cabinet.
+
+    Barrel operated orchestrions were popular from ~1860 to ~1900, and piano orchestrions from ~1900 to ~1930. The museum has several, including an Imhof & Mukle orchestrion from 1899, still running on its original 110V motor.
+
+    The collection started out in the former St George's Church, initially under a two year agreement. 40 years later a developer acquired the church to convert it into residential homes and agreed as part of the planning permission to help construct a new dedicated building for the museum, partly funded by a Heritage Lottery Grant and opened in 2008.
+
+    Today the museum hosts a vibrant collection of music boxes, reproducing pianos, orchestrions, gramophones, phonographs, self-playing violins, pipe organs and more. Many of the exhibits are in working order thanks to a dedicated crew of restoration volunteers. Visitors can join a guide who will run dozens of different working machines during the tour.
+
+    The museum holds over 20,000 paper music rolls, including rolls that were mechanically recorded from live performances by Rachmaninov, Stravinsky and Grieg.
+
+    Upstairs is the concert hall, a dedicated 245 seat performance venue constructed around the museum's "Mighty Wurlitzer" theater pipe organ. This incredible instrument was built in 1928, shipped from New York to London in 1932 to work in a movie theater in Kingston, used on BBC transmissions in the 40s and 50s and then later rescued by Frank in 1960. The organ is mounted on a stage lift and connected up to dozens of instruments including 890 hidden pipes, percussion, sound effects and a piano that can be remotely controlled by the organ.
+
+    In 2024 the museum opened a new [Korg exhibit](https://musical-museum.odoo.com/korg-gallery), in collaboration with the Japanese synthesizer company. This room features dozens of Korg sythesizers from the 1970s onwards, including a rare wall-mounted educational synthesizer and a 1995 [Korg Prophecy](https://en.wikipedia.org/wiki/Korg_Prophecy), the model that was used by the Prodigy for [The Fat of the Land](https://en.wikipedia.org/wiki/The_Fat_of_the_Land).
+  latitude: 51.488
+  longitude: -0.293
+  photos:
+  - url: https://niche-museums.imgix.net/musical-museum-1.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-2.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-3.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-4.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-5.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-6.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-7.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-8.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-9.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-10.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-11.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-12.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-13.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-14.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-15.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-16.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-17.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-18.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-19.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-20.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-21.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-22.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-23.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-24.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-25.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-26.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-27.jpeg
+  - url: https://niche-museums.imgix.net/musical-museum-28.jpeg
+  press:
+  - url: https://www.musicradar.com/music-tech/synths/the-history-of-korg-in-21-synths-inside-korgs-new-london-museum
+    title: "The history of Korg in 21 synths: Inside Korg's new London museum"
+    publication: MusicRadar
+    author: Si Truss
+    date: 2024-11-15
+  - url: https://londonist.com/london/museums-and-galleries/musical-museum-brentford-save
+    title: "Brentford's Enchanting Musical Museum Is Under Threat - And You Can Help Save It"
+    publication: Londonist
+    author: Will Noble
+    date: 2024-02-06
+  - url: https://www.telegraph.co.uk/music/news/musical-museum-brentford/
+    title: "‘We’ve got a 1910 orchestrion from Leipzig’: the brilliantly odd museum that’s fighting to survive"
+    publication: The Telegraph
+    author: Ivan Hewett
+    date: 2024-02-28

@@ -3257,6 +3257,8 @@
 
     The museum includes a delightful collection of miniature knives, previously a speciality of the craftsmen in Nontron. The smallest of these is just 5mm and fits inside a hazelnut shell!
 
+    They hold a Guinness World Record (1989) for the smallest folding knife, 10mm long made for the July 1987 Festival of Aubigny in Vendée. The knife is displayed in the museum along with a copy of the world record certificate.
+
     Coutellerie Nontronnaise is one of 1,277 companies with [Entreprise du patrimoine vivant](https://fr.wikipedia.org/wiki/Entreprise_du_patrimoine_vivant) "Living heritage company" status (and one of [just 9](https://lite.datasette.io/?csv=https://gist.github.com/simonw/eef8f14394dfc21d82be0535f4b09036#/data/raw?_sort=rowid&_facet=Libell%C3%A9+NAF&_facet_size=max&Libell%C3%A9+NAF=Fabrication+de+coutellerie+%2825.71Z%29&_facet=R%C3%A9gion) that are categorized as "Fabrication de coutellerie" or "Cutlery manufacturing"), which they received in 2010. They also have [a blog](https://couteau-nontron-france.fr/).
   latitude: 45.5256
   longitude: 0.6608
@@ -3285,6 +3287,11 @@
     publication: Radio Vassivière
     author: Nini Villegas
     date: 2025-03-23
+  - url: https://archive.org/details/lelivreguinnessd0000na/mode/2up?q=nontronnaise
+    title: Insolite et exploits: Couteau (page 250)
+    publication: Le livre guinness des records, 1989
+    author: Guinness Superlatives Ltd, Londres
+    date: 1989-08-21
 -
   id: 115
   name: The Musical Museum

@@ -3359,3 +3359,32 @@
     publication: The Telegraph
     author: Ivan Hewett
     date: 2024-02-28
+-
+  id: 116
+  name: The Museum of Jurassic Technology
+  url: https://www.mjt.org/
+  photo_url: https://niche-museums.imgix.net/jurassic-technology-01.jpg
+  address: 9341 Venice Blvd., Culver City, CA 90232
+  wikipedia_url: https://en.wikipedia.org/wiki/Museum_of_Jurassic_Technology
+  description: |-
+    Opened by David Hildebrand Wilson and Diana Drake Wilson in Culver City, Los Angeles in 1988, the Museum of Jurassic Technology somewhat defies explanation.
+
+    It *looks* like a museum at the surface level, but the veracity of many of the exhibits is difficult to determine. Part of the challenge of exploring the museum is determining what's true and what's a fabrication, especially given the strict ban on mobile phone use inside the building.
+
+    There are more than thirty exhibits and the museum continues to evolve. I visited in December 2025 and they had just extended their Ricky Jay exhibit - previously anchored by his [collection of decaying dice](https://www.mjt.org/exhibits/rickyjay/rjay.html) - with a new displayed case full of memorabilia from his collection.
+
+    Despite occupying just 12,000 square feet it took me over an hour to explore and I'm not convinced I didn't miss entire exhibits, so labyrinthine is the museum's layout.
+
+    I partially enjoyed the bestiary, a glorious double story circular room full of murals illustrating beasts from an imagine - or real, it's hard to be sure - medieval [compendium of beasts](https://en.wikipedia.org/wiki/Bestiary). And the gallery of oil paintings of Soviet space-faring dogs. And the dioramas and collection of items from Los Angeles Area Trailer Parks. And the micromosaics, visible through a set of microscopes.
+
+    The museum requires a reservation online for a timed entry slot. I was able to get a same day reservation on a Sunday.
+  latitude: 34.026
+  longitude: -118.395
+  photos:
+  - url: https://niche-museums.imgix.net/jurassic-technology-01.jpg
+  press:
+  - url: https://www.smithsonianmag.com/travel/inside-las-strangest-museum-180954803/
+    title: "Inside Los Angeles's Strangest Museum"
+    publication: Smithsonian Magazine
+    author: Matt Blitz
+    date: 2015-03-31

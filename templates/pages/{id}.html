@@ -110,9 +110,37 @@ select url, width, height from photos where url in (select url from urls)
         </div>
         {% endfor %}
     </section>
+    <style>
+        .museum-label {
+            background: white;
+            border: 1px solid #666;
+            border-radius: 3px;
+            padding: 2px 6px;
+            font-size: 12px;
+            white-space: nowrap;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        }
+        .museum-label a {
+            color: #333;
+            text-decoration: none;
+        }
+        .museum-label a:hover {
+            text-decoration: underline;
+        }
+        .current-museum-label {
+            background: #3273dc;
+            color: white;
+            font-weight: bold;
+        }
+        .current-museum-label a {
+            color: white;
+        }
+    </style>
     <script>
         const latitude = {{ museum.latitude }};
         const longitude = {{ museum.longitude }};
+        const currentMuseumId = {{ museum.id }};
+
         document.addEventListener('DOMContentLoaded', () => {
             let el = document.querySelector('#themap');
             el.className = 'box';
@@ -126,7 +154,92 @@ select url, width, height from photos where url in (select url from urls)
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors"
             }).addTo(map);
-            L.marker(latlng).addTo(map);
+
+            // Store markers so we can update them
+            let markers = new Map();
+
+            // Create a custom icon for the current museum
+            const currentIcon = L.divIcon({
+                className: 'current-museum-marker',
+                html: '',
+                iconSize: [25, 41],
+                iconAnchor: [12, 41]
+            });
+
+            // Function to create a label marker
+            function createLabelMarker(museum) {
+                const isCurrentMuseum = museum.id === currentMuseumId;
+                const labelClass = isCurrentMuseum ? 'museum-label current-museum-label' : 'museum-label';
+
+                // Create the marker
+                const marker = L.marker([museum.latitude, museum.longitude]);
+
+                // Bind popup with museum name as link
+                marker.bindPopup(`<a href="/${museum.id}"><strong>${museum.name}</strong></a>`);
+
+                // Create a tooltip that shows the label
+                marker.bindTooltip(
+                    `<a href="/${museum.id}">${museum.name}</a>`,
+                    {
+                        permanent: true,
+                        direction: 'right',
+                        offset: [10, 0],
+                        className: labelClass,
+                        interactive: true
+                    }
+                );
+
+                // Navigate on marker click
+                marker.on('click', () => {
+                    window.location.href = '/' + museum.id;
+                });
+
+                return marker;
+            }
+
+            // Function to fetch and display museums in the current bounds
+            async function updateMarkers() {
+                const bounds = map.getBounds();
+                const params = new URLSearchParams({
+                    south: bounds.getSouth(),
+                    west: bounds.getWest(),
+                    north: bounds.getNorth(),
+                    east: bounds.getEast()
+                });
+
+                try {
+                    const response = await fetch(`/bbox.json?${params}`);
+                    const museums = await response.json();
+
+                    // Track which museum IDs are in the new data
+                    const newMuseumIds = new Set(museums.map(m => m.id));
+
+                    // Remove markers that are no longer in bounds
+                    for (const [id, marker] of markers) {
+                        if (!newMuseumIds.has(id)) {
+                            map.removeLayer(marker);
+                            markers.delete(id);
+                        }
+                    }
+
+                    // Add new markers
+                    for (const museum of museums) {
+                        if (!markers.has(museum.id)) {
+                            const marker = createLabelMarker(museum);
+                            marker.addTo(map);
+                            markers.set(museum.id, marker);
+                        }
+                    }
+                } catch (error) {
+                    console.error('Error fetching museums:', error);
+                }
+            }
+
+            // Initial load of markers
+            updateMarkers();
+
+            // Update markers when map moves or zooms
+            map.on('moveend', updateMarkers);
         });
     </script>
 </body>

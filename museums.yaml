@@ -27,6 +27,7 @@
     of it and answer any of your Sasquatch questions.
   latitude: 37.0414
   longitude: -122.0725
+  permanently_closed: true
   press:
   - url: https://roadtrippers.com/magazine/bigfoot-discovery-museum-santa-cruz/
     title: "Searching for Bigfoot: If the elusive creature exists, he’s probably hiding deep in the Santa Cruz Mountains"

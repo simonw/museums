@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "niche-museums.com"
+version = "0.1.0"
+description = "A Datasette powered website that allow to explore tiny and niche museums."
+authors = ["Simon Willison"]
+license = "CC BY-NC-SA 4.0"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+datasette = ">=0.57"
+datasette-haversine = "^0.2"
+datasette-template-sql = ">=1.0.2"
+datasette-pretty-json = "^0.2.1"
+datasette-json-html = "^1.0.1"
+datasette-cluster-map = "^0.17.1"
+datasette-render-markdown = "^1.2"
+datasette-atom = "^0.8.1"
+requests = "^2.26.0"
+sqlite-utils = "^3.17"
+tqdm = "^4.62.2"
+yaml-to-sqlite = "^1.0"
+GitPython = "^3.1.20"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

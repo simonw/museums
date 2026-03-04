@@ -3389,3 +3389,43 @@
     publication: Smithsonian Magazine
     author: Matt Blitz
     date: 2015-03-31
+-
+  id: 117
+  name: The New York Earth Room
+  url: https://www.diaart.org/visit/visit-our-locations-sites/walter-de-maria-the-new-york-earth-room-new-york-united-states
+  address: 141 Wooster Street, New York, NY 10012
+  description: |-
+    On the second floor of 141 Wooster Street in New York's SoHo district there is a 3,600 square foot room filled with earth - 280,000 pounds of it, first installed in 1977 and maintained there ever since.
+
+    This is the New York Earth Room, a piece of installation art by Walter De Maria, originally planned as a three month exhibition which has now stretched into its sixth decade.
+
+    This is actually the third instance of the Earth Room, a sequel to the 1968 Earth Room in Galerie Heiner Friedrich in Munich and a second in 1974 at Hessisches Landesmuseum in Darmstadt. Only this edition survives.
+
+    The exhibit is owned and maintained by the Dia Art Foundation, who also own the entire 2nd floor. The foundation was founded in 1974 by Philippa de Menil, an heiress to the Schlumberger oil exploration fortune, her husband art dealer Heiner Friedrich, and Houston art historian Helen Winkler.
+
+    The [foundation's mission](https://www.diaart.org/about/about-dia) includes "to help artists achieve visionary projects that might not otherwise be realized because of scale or scope." The Earth Room is a prominent example.
+
+    The earth itself is a mixture of peat and bark, most of which is the original earth from the 1970s. The curators till the soil twice a year and occasionally wet it to avoid it turning into dust. They topped it up with fresh soil in 2022 to compensate for it compacting down over the years.
+
+    The Earth Room is free to visit but guests are asked not to take any photographs to respect the wishes of the artist. It has a curator who will answer questions about the artwork - painter Bill Dilworth staffed the desk from 1989 until his retirement in 2024.
+  wikipedia_url: https://en.wikipedia.org/wiki/The_New_York_Earth_Room
+  photo_url: https://niche-museums.imgix.net/nyc-earth-room.jpeg
+  photo_alt: Photo of a flyer showing a photograph of the Earth Room - a glass wall about two feet high holds back a large file of dirt in a white room.
+  latitude: 40.7259
+  longitude: -73.9997
+  press:
+  - url: https://www.nytimes.com/2016/10/09/nyregion/a-keeper-of-earth-and-time.html
+    title: "A 'Keeper of Earth and Time'"
+    publication: The New York Times
+    author: Corey Kilgannon
+    date: 2016-10-07
+  - url: https://www.diaart.blog/home/earthroomreopening
+    title: "Walter De Maria's The New York Earth Room (1977) Reopens"
+    publication: Dia Art Foundation
+    author: Hannah Gompertz
+    date: 2020-10-10
+  photos:
+  - url: https://niche-museums.imgix.net/nyc-earth-room-1.jpeg
+  - url: https://niche-museums.imgix.net/nyc-earth-room-2.jpeg
+  - url: https://niche-museums.imgix.net/nyc-earth-room-3.jpeg
+  - url: https://niche-museums.imgix.net/nyc-earth-room-4.jpeg

@@ -1,57 +1,36 @@
 import git
-import yaml
-import json
 import sqlite_utils
+from pathlib import Path
 from sqlite_utils.db import NotFoundError
 
 
-IGNORE_CHANGES_IN_COMMITS = {
-    # This commit updated all existing press dates to a new format
-    "78fa0ac54dcaa9c52e8962a44b574b082bc726d3"
-}
-
-
-def iterate_file_versions(repo_path, filepath, ref="main"):
+def get_file_timestamps(repo_path, filepath, ref="main"):
+    """Return (created, updated) datetimes for a file based on git history."""
     repo = git.Repo(repo_path, odbt=git.GitDB)
-    commits = reversed(list(repo.iter_commits(ref, paths=filepath)))
-    for commit in commits:
-        blob = [b for b in commit.tree.blobs if b.name == filepath][0]
-        yield commit.committed_datetime, commit.hexsha, blob.data_stream.read()
+    commits = list(repo.iter_commits(ref, paths=filepath))
+    if not commits:
+        return None, None
+    # commits are newest-first
+    created = commits[-1].committed_datetime
+    updated = commits[0].committed_datetime
+    return created, updated
 
 
 if __name__ == "__main__":
-    ref = "main"
-    it = iterate_file_versions(".", "museums.yaml", ref)
-    previous = {}
-    created = {}
-    updated = {}
-    for when, hash, content in it:
-        try:
-            current = {m["id"]: m for m in yaml.safe_load(content)}
-        except (yaml.scanner.ScannerError, yaml.parser.ParserError):
-            # This must have been invalid YAML - skip
-            continue
-        # First detect the new museums
-        added_ids = [id for id in current if id not in previous]
-        for id in added_ids:
-            created[id] = when.isoformat()
-            updated[id] = when.isoformat()
-        # Now detect those that have changed since prev
-        if hash not in IGNORE_CHANGES_IN_COMMITS:
-            changed_ids = [
-                id
-                for id in current
-                if json.dumps(current[id], sort_keys=True, default=str)
-                != json.dumps(previous.get(id, {}), sort_keys=True, default=str)
-            ]
-            for id in changed_ids:
-                updated[id] = when.isoformat()
-        previous = current
+    ref = "HEAD"
+    museums_dir = Path("museums")
     db = sqlite_utils.Database("browse.db")
-    for id, ts in created.items():
+
+    for path in sorted(museums_dir.glob("*.yaml"), key=lambda p: int(p.stem)):
+        museum_id = int(path.stem)
+        created, updated = get_file_timestamps(".", str(path), ref)
+        if created is None:
+            continue
         try:
             db["museums"].update(
-                id, {"created": ts, "updated": updated[id]}, alter=True
+                museum_id,
+                {"created": created.isoformat(), "updated": updated.isoformat()},
+                alter=True,
             )
         except NotFoundError:
             pass

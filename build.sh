@@ -1,7 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
-yaml-to-sqlite browse.db museums museums.yaml --pk=id
+python combine_museums.py > /tmp/museums_combined.yaml
+yaml-to-sqlite browse.db museums /tmp/museums_combined.yaml --pk=id
 # python annotate_nominatum.py browse.db
 python annotate_timestamps.py
 python load_photo_metadata.py

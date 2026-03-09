@@ -29,6 +29,7 @@ def fetch_image_metadata(museums):
 
 
 if __name__ == "__main__":
-    with open("museums.yaml") as fp:
-        museums = yaml.safe_load(fp)
+    from combine_museums import combine_museums
+
+    museums = combine_museums()
     fetch_image_metadata(museums)

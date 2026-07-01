@@ -3506,3 +3506,61 @@
   - url: https://niche-museums.imgix.net/mossman-lock-collection-30.jpeg
   - url: https://niche-museums.imgix.net/mossman-lock-collection-31.jpeg
   - url: https://niche-museums.imgix.net/mossman-lock-collection-32.jpeg
+-
+  id: 119
+  name: The Gecko Gallery NYC
+  url: https://www.thegeckogallerynyc.com/
+  address: 255 McKibbin St, Studio 0019, Brooklyn, NY 11206
+  description: |-
+    The Gecko Gallery NYC is a public reptile gallery in Bushwick's McKibbin Lofts, founded by Richie Laleh and Joseph Migirov. It describes itself as the largest public display of reptiles in the Northeast, with a focus on rare and endangered reptiles and conservation education.
+
+    The collection includes geckos alongside skinks, agamids and chameleons, housed in custom enclosures with information about the animals and their ecology. Most of the animals are captive bred or sourced from zoos and reputable breeders, with some wild-caught animals maintained to support genetic diversity in captive populations.
+  latitude: 40.7058
+  longitude: -73.9378
+  hours:
+    Wednesday: [1200, 1900]
+    Thursday: [1200, 1900]
+    Friday: [1200, 1900]
+    Saturday: [1200, 1900]
+    Sunday: [1200, 1900]
+-
+  id: 120
+  name: The Bone Museum
+  url: https://www.thebonemuseum.org/
+  address: 255 McKibbin Street, Studio 0014, Brooklyn, NY 11206
+  wikipedia_url: https://en.wikipedia.org/wiki/McKibbin_Street_Lofts#The_Bone_Museum
+  description: |-
+    The Bone Museum is a public osteology museum in the basement of Bushwick's McKibbin Lofts, founded by Jon Pichaya Ferry of JonsBones. Its mission is to make osteology more accessible to people outside academia and medicine, while explaining the history and ethics of the medical bone trade.
+
+    The museum houses the largest collection of human osteology on public display in the United States. Exhibits cover X-ray phantoms, pediatric skeletal development, the history of the medical bone trade, Beauchene skulls, skeletal pathologies and trauma, more than 200 human skulls and a "Spine Wall" with over 150 spinal columns.
+
+    Its provenance materials describe the collection as retired medical specimens from the late 19th and 20th centuries, a period when real human bones were commonly used in medical education. The museum presents those remains as historical and anatomical teaching materials, not as Halloween props or sideshow curiosities.
+  latitude: 40.7058
+  longitude: -73.9378
+  hours:
+    Wednesday: [1100, 1900]
+    Thursday: [1100, 1900]
+    Friday: [1100, 1900]
+    Saturday: [1100, 1900]
+    Sunday: [1100, 1900]
+  press:
+  - url: https://epicenter-nyc.com/bringing-bones-to-the-mainstream/
+    title: Bringing bones to the mainstream
+    publication: Epicenter NYC
+    author: Hari Adivarekar
+    date: 2024-01-09
+  - url: https://secretnyc.co/this-museum-in-brooklyn-has-one-of-the-largest-human-bone-collections-in-the-country/
+    title: This Museum In Brooklyn Has One Of The Largest Human Bone Collections In The Country
+    publication: Secret NYC
+    author: Danielle Valente
+    date: 2024-10-22
+  - url: https://bushwickdaily.com/bushwick/jon-pichaya-ferry-jonsbones-museum-tiktok/
+    title: "There's Bones In Bushwick, And He's Got Them"
+    publication: Bushwick Daily
+    author: Andrew Karpan
+    date: 2024-10-29
+  - url: https://nygroove.nyc/nyc-bone-museum/
+    title: Skeletons are not so spooky scary at the Bone Museum
+    publication: The New York Groove
+    author: Jess Joseph
+    date: 2024-10-31

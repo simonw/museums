@@ -3506,3 +3506,62 @@
   - url: https://niche-museums.imgix.net/mossman-lock-collection-30.jpeg
   - url: https://niche-museums.imgix.net/mossman-lock-collection-31.jpeg
   - url: https://niche-museums.imgix.net/mossman-lock-collection-32.jpeg
+-
+  id: 119
+  name: Rex's Dino Store
+  url: https://rexs.nyc
+  address: Grand Army Plaza subway station, Brooklyn, NY
+  description: |-
+    Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur.
+
+    Rex stands proudly behind the counter, advertising NEWS • ROCKS • EGGS • LEAVES • STICKS • NEST GOODS • LOTTO.
+
+    Every inch of his newsstand is occupied by dinosaur puns. There are Clawmond Joy bars, Alka-saurus tablets, Ultra Ribbed dur-rex cloaca dams, Meteor Millions scratch cards, and Meteor particle filter disposable snout masks.
+
+    Publications include Dinopolitan, Eater's Digest, The Pangaea Times, and the Maul Street Journal - headline: "Embattled Mayor Vows to End Pangaea Separation".
+
+    There's even a poster advertising Steg Yun.
+
+    Rex’s NYC Dino Store is a public art project led by Akiva Leffert and Sarah Cassidy, made possible by the MTA's [Vacant Unit Activation Program](https://www.mta.info/agency/mta-real-estate/vacant-unit-activation-program).
+  photo_url: https://niche-museums.imgix.net/rexs-dino-1.jpg
+  photo_alt: "Green Rex's Dino Store sign with yellow lettering advertising NEWS • ROCKS • EGGS • LEAVES • STICKS • NEST GOODS • LOTTO, beneath a window displaying dinosaur-themed newspapers and candy bars, framed by white subway tiles."
+  latitude: 40.6751875
+  longitude: -73.9710625
+  press:
+  - url: https://www.nytimes.com/2025/10/28/arts/design/bringing-new-life-to-empty-subway-shops.html
+    title: Bringing New Life to Empty Subway Shops
+    publication: The New York Times
+    author: Lyna Bentahar
+    date: 2025-10-28
+  - url: https://nypost.com/2025/06/06/lifestyle/dino-store-the-latest-in-mtas-underground-art-movement/
+    title: MTA gives subway Rex-treme makeover with dino store and other ‘whimsical’ art installations
+    publication: New York Post
+    author: Ben Cost
+    date: 2025-06-06
+  - url: https://brooklyn.news12.com/brooklyn-artists-transform-old-subway-stand-into-dinosaur-bodega
+    title: Brooklyn artists transform old subway stand into dinosaur bodega
+    publication: News 12 Brooklyn
+    author: News 12 Staff
+    date: 2025-05-02
+  - url: https://www.atlasobscura.com/articles/dinosaur-bodega-subway-jurassic-park-slope
+    title: We Visited the Dino Bodega in (Jurassic) Park Slope
+    publication: Atlas Obscura
+    author: Allegra Rosenberg
+    date: 2025-05-09
+  photos:
+  - url: https://niche-museums.imgix.net/rexs-dino-1.jpg
+  - url: https://niche-museums.imgix.net/rexs-dino-2.jpg
+  - url: https://niche-museums.imgix.net/rexs-dino-4.jpg
+  - url: https://niche-museums.imgix.net/rexs-dino-5.jpg
+  - url: https://niche-museums.imgix.net/rexs-dino-6.jpg
+  - url: https://niche-museums.imgix.net/rexs-dino-7.jpg
+  - url: https://niche-museums.imgix.net/rexs-dino-8.jpg
+  - url: https://niche-museums.imgix.net/rexs-dino-9.jpg
+  - url: https://niche-museums.imgix.net/rexs-dino-10.jpg
+  - url: https://niche-museums.imgix.net/rexs-dino-11.jpg
+  - url: https://niche-museums.imgix.net/rexs-dino-12.jpg
+  - url: https://niche-museums.imgix.net/rexs-dino-13.jpg
+  - url: https://niche-museums.imgix.net/rexs-dino-14.jpg
+  - url: https://niche-museums.imgix.net/rexs-dino-15.jpg
+  - url: https://niche-museums.imgix.net/rexs-dino-16.jpg
+  - url: https://niche-museums.imgix.net/rexs-dino-17.jpg

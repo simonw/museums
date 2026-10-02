@@ -15,15 +15,16 @@ def extra_template_vars(request, view_name):
         is_distance_page = False
 
         if request.args.get("latitude") and request.args.get("longitude"):
-            select = f"*, haversine(latitude, longitude, cast({request.args.get('latitude')} as real), cast({request.args.get('longitude')} as real), 'mi') as distance_mi"
-            order_by = f"distance_mi limit {PAGE_SIZE}"
-            is_distance_page = True
-            vars.update(
-                {
-                    "latitude": float(request.args.get("latitude")),
-                    "longitude": float(request.args.get("longitude")),
-                }
-            )
+            try:
+                latitude = float(request.args.get("latitude"))
+                longitude = float(request.args.get("longitude"))
+            except ValueError:
+                latitude = longitude = None
+            if latitude is not None and longitude is not None:
+                select = f"*, haversine(latitude, longitude, cast({latitude!r} as real), cast({longitude!r} as real), 'mi') as distance_mi"
+                order_by = f"distance_mi limit {PAGE_SIZE}"
+                is_distance_page = True
+                vars.update({"latitude": latitude, "longitude": longitude})
 
         # Handle ?next= link
         next = request.args.get("next")
